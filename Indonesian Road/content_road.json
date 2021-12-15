@@ -1,0 +1,556 @@
+[
+
+	{
+
+		"id": "$K012_Road00",
+
+		"type": "template",
+
+		"active": true,
+
+		"category": "$K012_Cat_Road",
+
+		"author": "Kiki012",
+
+		"level": 1,
+
+		"pile distant": 3,
+
+		"requirement": {
+
+			"requirements": [
+
+				{
+
+					"type": "RANK",
+
+					"data": {
+
+						"lvl": 3
+
+					}
+
+				}
+
+			]
+
+		},
+
+		"price": 50,
+
+		"monthly price": 3,
+
+		"bridge frames": [
+
+			{
+				"x": 512,
+				"y": 96,
+				"w": 32,
+				"h": 48,
+				"count": 12
+			},
+
+			{
+				"x": 896,
+				"y": 214,
+				"w": 32,
+				"h": 26,
+				"count": 4
+			},
+
+			{
+				"x": 512,
+				"y": 96,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 896,
+				"y": 96,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 768,
+				"y": 96,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 896,
+				"y": 214,
+				"w": 32,
+				"h": 26,
+				"count": 4
+			},
+
+			{
+				"x": 512,
+				"y": 144,
+				"w": 32,
+				"h": 48,
+				"count": 12
+			},
+
+			{
+				"x": 896,
+				"y": 214,
+				"w": 32,
+				"h": 26,
+				"count": 4
+			},
+
+			{
+				"x": 512,
+				"y": 144,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 896,
+				"y": 144,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 768,
+				"y": 144,
+				"w": 32,
+				"h": 48,
+				"count": 4
+			},
+
+			{
+				"x": 896,
+				"y": 214,
+				"w": 32,
+				"h": 26,
+				"count": 4
+			},
+
+			{
+				"x": 512,
+				"y": 192,
+				"w": 32,
+				"h": 48,
+				"count": 12
+			},
+
+			{
+				"x": 896,
+				"y": 214,
+				"w": 32,
+				"h": 26,
+				"count": 4
+			}
+
+		],
+
+		"frames per bridge": 16,
+
+		"tunnel frames": [
+
+			{
+
+				"x": 896,
+
+				"y": 192,
+
+				"w": 16,
+
+				"h": 19,
+
+				"handle y": 7
+
+			},
+
+			{
+
+				"x": 912,
+
+				"y": 192,
+
+				"w": 16,
+
+				"h": 19,
+
+				"handle x": -16,
+
+				"handle y": 7
+
+			},
+
+			{
+
+				"x": 928,
+
+				"y": 192,
+
+				"w": 16,
+
+				"h": 19,
+
+				"handle y": 7
+
+			},
+
+			{
+
+				"x": 944,
+
+				"y": 192,
+
+				"w": 16,
+
+				"h": 19,
+
+				"handle x": -16,
+
+				"handle y": 7
+
+			}
+
+		],
+
+		"green phase": 3000,
+
+		"yellow phase": 500,
+
+		"draw ground": true
+
+	},
+
+	{
+
+		"id": "$K012_IRP_Road00",
+
+		"type": "template",
+
+		"active": true,
+
+		"category": "$K012_Cat_Road",
+
+		"level": 1,
+
+		"traffic lights": [{
+			"bmp": "tf.png",
+			"count": 4,
+			"h": 32,
+			"w": 32
+		}],
+
+		"monthly price": 3,
+
+		"green phase": 3000,
+
+		"yellow phase": 500,
+
+		"tunnel frames": [
+
+			{
+				"x": 896,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+
+			{
+				"x": 912,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle x": -16,
+				"handle y": 7
+			},
+
+			{
+				"x": 928,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+
+			{
+				"x": 944,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle x": -16,
+				"handle y": 7
+			}
+
+		],
+
+		"draw ground": true
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD_PED1",
+		"type": "road",
+		"author": "Kiki012",
+
+		"flag normal": false,
+		"flag bus": false,
+		"flag pedestrian": true,
+		"flag user5": true,
+
+		"x flags": {
+			"flag normal": false,
+			"flag bus": false,
+			"flag pedestrian": true,
+			"flag user5": true
+		},
+
+		"level": 1,
+		"speed": 2,
+		"price": 50,
+
+		"title": "draft_ROD_Ped1_title",
+		"text": "draft_ROD_Ped1_text",
+
+		"frames": [{
+			"bmp": "Jalan/sidewalk 1.png",
+			"count": 16,
+			"w": 32
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD_PED2",
+		"type": "road",
+		"author": "Kiki012",
+
+		"flag normal": false,
+		"flag bus": false,
+		"flag pedestrian": true,
+		"flag user5": true,
+
+		"x flags": {
+			"flag normal": false,
+			"flag bus": false,
+			"flag pedestrian": true,
+			"flag user5": true
+		},
+
+		"height": 1,
+		"speed": 2,
+		"price": 50,
+
+		"title": "draft_ROD_Ped1_title",
+		"text": "draft_ROD_Ped1_text",
+
+		"frames": [{
+			"bmp": "Jalan/sidewalk 2.png",
+			"count": 16,
+			"w": 32
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD00",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 1,
+		"speed": 2,
+		"price": 50,
+
+		"title": "Road[in]Jalan",
+		"text": "YNTKTS",
+
+		"frames": [{
+			"bmp": "Jalan/Roadwhite.png",
+			"count": 16,
+			"w": 32
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD01",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 1,
+		"speed": 2,
+		"price": 50,
+
+		"title": "Road[in]Jalan",
+		"text": "YNTKTS",
+
+		"frames": [{
+			"bmp": "Jalan/Roadyellow.png",
+			"count": 16,
+			"w": 32
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD02",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 1,
+		"speed": 2,
+		"price": 50,
+		"one way": true,
+
+		"title": "OJalanay Road[in]Jalan Satu Arah",
+		"text": "YNTKTS",
+
+		"frames": [{
+			"bmp": "Jalan/Roadwhite.png",
+			"count": 16,
+			"w": 32,
+			"copies": 4
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD03",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 1,
+		"speed": 2,
+		"price": 50,
+		"one way": true,
+
+		"title": "OJalanay Road[in]Jalan Satu Arah",
+		"text": "YNTKTS",
+
+		"frames": [{
+			"bmp": "Jalan/Roadyellow.png",
+			"count": 16,
+			"w": 32,
+			"copies": 3
+		}]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD04",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 2,
+		"speed": 2,
+		"price": 50,
+		"one way": true,
+
+		"title": "Road[in]Jalan",
+		"text": "YNTKTS",
+
+		"frames": [
+
+			{
+				"bmp": "Jalan/Roadwhitedouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":0
+			}, {
+				"bmp": "Jalan/Roadwhitedouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":16
+			},
+
+			{
+				"bmp": "Jalan/Roadwhitedouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":16
+			}, {
+				"bmp": "Jalan/Roadwhitedouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":0
+			}
+
+		]
+
+	},
+
+	{
+
+		"id": "$IRP_ROAD05",
+		"type": "road",
+		"author": "Kiki012",
+		"template": "$K012_IRP_Road00",
+
+		"width": 2,
+		"speed": 2,
+		"price": 50,
+		"one way": true,
+
+		"title": "Road[in]Jalan",
+		"text": "YNTKTS",
+
+		"frames": [
+
+			{
+				"bmp": "Jalan/Roadyellowdouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":0
+			}, {
+				"bmp": "Jalan/Roadyellowdouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":16
+			},
+
+			{
+				"bmp": "Jalan/Roadyellowdouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":16
+			}, {
+				"bmp": "Jalan/Roadyellowdouble.png",
+				"count": 16,
+				"w": 32,
+				"h":16,
+				"y":0
+			}
+
+		]
+
+	}
+
+]
