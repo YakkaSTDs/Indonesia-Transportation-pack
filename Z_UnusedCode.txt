@@ -1,0 +1,27 @@
+JSON
+==Impor==
+        "requirement":{"requirements":[{"type":"BUILDING", "data":{"id":"$K012_Rumahdinas01"}},{"type":"BUILDING", "data":{"id":"$K012_Pelabuhan_Khusus01"}}]},
+==MII==
+        "requirement":{"requirements":[{"type":"BUILDING", "data":{"id":"$K012_Rumahdinas01"}},{"type":"BUILDING", "data":{"id":"$K012_Pabrik_Kereta01"}}]},
+==Infrastruktur==
+        "requirement":{"requirements":[{"type":"BUILDING", "data":{"id":"$K012_Rumahdinas01"}}]},
+
+id
+$K012_Rumahdinas01
+$K012_Pelabuhan_Khusus01
+$K012_Pabrik_Kereta01
+
+Rencana
+deko jembatan&variasinya (tunda)
+rambu rel (tunda)
+rumah Sinyal
+gudang st.cepu
+st duduk
+st.surabayan
+st.mangkang
+wc&mussola st.mangkang (semarang)
+st.arjawinagung
+
+Old requirements
+
+        "requirement":{"requirements":[{"type":"BUILDING","text":"Require station master house!", "data":{"id":"$K012_RD1"}},{"type":"HABITANT_COUNT","data": {"count": 900}}]},
