@@ -1,0 +1,97 @@
+[
+  {
+    "id":"$K012_ITP_SPW02",
+    "type":"template",
+    "price factor":0,
+    "category":"$K012_Cat_Spawner",
+    "requirement":{
+      "requirements":[
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Rumahdinas01"
+          }
+        },
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Pelabuhan_Khusus01"
+          }
+        }
+      ]
+    },
+    "draw ground":true,
+    "needs road":false,
+    "allocate flag":"CapeTR",
+    "flag normal":false,
+    "influence passenger train":100,
+    "flag CapeTR":true,
+    "capacity":100,
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_FrameTMP00",
+    "type":"railway station",
+    "category":"$K012_Cat_Spawner",
+    "width":1,
+    "height":1,
+    "hidden":true,
+    "frames":[
+      {
+        "bmp":"5DepoLoko.png",
+        "count":8,
+        "w":32
+      }
+    ],
+    "title":"Depo template",
+    "text ":"How TF you see this"
+  },
+  {
+    "id":"$K012_WAGP",
+    "type":"template",
+    "allocate flag":"CapeTR",
+    "flag normal":false,
+    "flag CapeTR":true,
+    "capacity":40,
+    "v2":true
+  },
+  {
+    "id":"$IRPNULL",
+    "type":"car",
+    "template":"$K012_WAGP",
+    "frames":[
+      {
+        "bmp":"Blank.png",
+        "count":4,
+        "h":18,
+        "w":1
+      }
+    ],
+    "capacity":0
+  },
+  {
+    "id":"$K012_ITP_NOTAVB",
+    "type":"template",
+      "requirements": [{
+        "type":"CONDITION",
+         "text":" Not Available[in]Tidak Tersedia.",
+    
+         "condition": {"type": "or", "inner": [
+          {"type": "value", "code": "gameMode", "z": 0},
+          {"type": "value", "code": "gameMode", "z": 4}
+        ]}
+    }
+    ]
+  },
+  {
+    "id":"$K012_ITP_LOK",
+    "type":"template",
+    "allocate flag":"CapeTR",
+    "flag normal":false,
+    "flag CapeTR":true,
+    "moveable":false,
+    "chargeable":false,
+    "capacity":10,
+    "v2":true
+  }
+]

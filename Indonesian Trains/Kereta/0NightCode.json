@@ -1,0 +1,142 @@
+[
+  {
+    "id":"$ITP_ANI_BB200",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4BB200N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_BB202",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4BB202N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_BB300",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4BB300N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_BB302",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4BB302N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_BB304",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4BB304N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_CC201",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4CC201N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_CC203",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4CC203N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_CC206",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4CC206N.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_PWAG",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"5GerbongPenumpangN.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_PARWAG",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"6Gerbong_BagasiN.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  }
+]
