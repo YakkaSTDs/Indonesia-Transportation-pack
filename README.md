@@ -39,5 +39,5 @@ Is a theotown plugin that adds transportation-themed content in Indonesia.</p>
 </div><hr>
 <h3 align="center">License</h3>
 This is open source version of <b>Indonesia Transportation pack</b> please distribute it without any modification,if you have so you need my permision,unless is small amout of people.<br>
-<div align="center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="CreativeCommonsLicenseIcon.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+<div align="center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
 <p align="center" class="lead"><a href="#top">back to top</a>
