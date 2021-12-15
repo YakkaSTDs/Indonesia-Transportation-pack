@@ -2,7 +2,7 @@
   "id":"$ITP_K012",
   "type":"tool",
   "category":"$K012_Cat",
-  "preview frames":[{"bmp":"20211213_185552.png"}],
+  "preview frames":[{"bmp":"Content_icon/icon.png"}],
   "strict lua":true,
   "title":"Manual",
   "text":"This is Manual.",
