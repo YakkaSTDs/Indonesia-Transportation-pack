@@ -1,0 +1,244 @@
+[
+  {
+    "id":"$K012_IRR_Rail00",
+    "type":"template",
+    "allocate flag":"CapeTR",
+    "category":"$K012_Cat_Rail",
+    "flag normal":false,
+    "flag CapeTR":true,
+    "allow transfer":true,
+    "allow bus":false,
+    "connectable":true,
+    "auto join":false,
+    "monthly price":30,
+    "bridge price":100,
+    "draw ground":true,
+    "level":20,
+    "pile distant":3,
+    "bridge height":10,
+    "x flags":{
+      "flag normal":false,
+      "flag CapeTR":true
+    },
+    "bridge frames":[
+      {
+        "bmp":"7JembatanRel1.png",
+        "count":12,
+        "h":48,
+        "w":32
+      },
+      {
+        "bmp":"7JembatanRel2.png",
+        "count":12,
+        "h":48,
+        "w":32
+      },
+      {
+        "bmp":"7JembatanRel3.png",
+        "count":12,
+        "h":48,
+        "w":32
+      },
+      {
+        "bmp":"7JembatanRel4.png",
+        "count":12,
+        "h":48,
+        "w":32
+      }
+    ],
+    "tunnel frames":[
+      {
+        "bmp":"7Terowongan.png",
+        "h":19,
+        "handle y":7,
+        "w":16,
+        "x":0
+      },
+      {
+        "bmp":"7Terowongan.png",
+        "h":19,
+        "handle y":7,
+        "w":16,
+        "x":0
+      },
+      {
+        "bmp":"7Terowongan.png",
+        "h":19,
+        "handle y":7,
+        "w":16,
+        "x":0
+      },
+      {
+        "bmp":"7Terowongan.png",
+        "h":19,
+        "handle y":7,
+        "w":16,
+        "x":0
+      }
+    ],
+    "requirement":{
+      "requirements":[
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Rumahdinas01"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id":"$K012_IRP_RAILM",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Rail[in]Rel",
+    "text":"A Rail For Your Network.[in]Sebuah Rel Untuk Kereta anda",
+    "frames":[
+      {
+        "bmp":"6Relkecepatansedang.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00"
+  },
+  {
+    "id":"$K012_IRP_RAIL_CUS",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Custom Rail[in]Rel Kustom",
+    "text":"Build Your Own Rail Style[in] Buat rel dengan gayamu!",
+    "frames":[
+      {
+        "bmp":"6RelKustom.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00"
+  },
+  {
+    "id":"$K012_IRP_RAILM_ONE",
+    "type":"road",
+    "title":"Oneway Rail[in]Rel Satu Arah",
+    "text id":"draft_TRA_RAILM_ONE_text",
+    "frames":[
+      {
+        "bmp":"6Relkecepatansedang.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "one way":true
+  },
+  {
+    "id":"$K012_IRP_RAILHS",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Modern Rail[in]Rel Modern",
+    "text":"Modern rail for your network[in]Rel Modern Untuk Kereta Anda",
+    "frames":[
+      {
+        "bmp":"6Relkecepatantinggi.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "speed":3.5
+  },
+  {
+    "id":"$K012_IRP_RAILHS_ONE",
+    "type":"road",
+    "title":"Modern Oneway Rail[in]Rel Modern Satu Arah",
+    "text":"Modern rail for your network[in]Rel Modern Untuk Kereta Anda",
+    "frames":[
+      {
+        "bmp":"6Relkecepatantinggi.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "one way":true,
+    "speed":4
+  },
+  {
+    "id":"$K012_IRP_RAILSL",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Old Rail[in]Rel Lama",
+    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
+    "frames":[
+      {
+        "bmp":"6Relkecepatanrendah.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "speed":1.2
+  },
+  {
+    "id":"$K012_IRP_RAILSL_ONE",
+    "type":"road",
+    "title":"Oneway Old Rail[in]Rel Lama Satu Arah",
+    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
+    "frames":[
+      {
+        "bmp":"6Relkecepatanrendah.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "one way":true,
+    "speed":1.2
+  },
+  {
+    "id":"$K012_IRP_RAILV21",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Old Rail[in]Rel Lama",
+    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
+    "frames":[
+      {
+        "bmp":"6RelLama.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "speed":1.2
+  },
+  {
+    "id":"$K012_IRP_RAILV21_ONE",
+    "type":"road",
+    "title":"Oneway Old Rail[in]Rel Lama Satu Arah",
+    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
+    "frames":[
+      {
+        "bmp":"6RelLama.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "one way":true,
+    "speed":1.2
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id":"$ITP_DEPO_CTB00",
+    "type":"railway station",
+    "script":"7CTB.lua",
+    "strict lua":true,
+    "width":1,
+    "height":1,
+    "max count":8,
+    "price factor":0,
+    "category":"$K012_Cat_Spawner",
+    "requirement":{
+      "requirements":[
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Rumahdinas01"
+          }
+        },
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Pelabuhan_Khusus01"
+          }
+        }
+      ]
+    },
+    "draw ground":true,
+    "needs road":false,
+    "allocate flag":"CapeTR",
+    "flag normal":false,
+    "influence passenger train":100,
+    "flag CapeTR":true,
+    "capacity":100,
+    "rotation aware":true,
+    "frames":[
+      {
+        "bmp":"5Bangunanstasiun1.png",
+        "count":4,
+        "w":32
+      }
+    ],
+    "title":"Custom Train Builder",
+    "text ":"Make Your own Custom Train"
+  }
+]

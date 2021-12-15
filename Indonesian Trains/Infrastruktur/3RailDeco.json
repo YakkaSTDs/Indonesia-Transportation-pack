@@ -1,0 +1,1178 @@
+[
+  {
+    "id":"$raildeco_012_SYEG",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "template":"$K012_IRR_DECO00",
+    "title":"Electric signal",
+    "text":"An decoration for your railway",
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":1,
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_SYER"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_SYG1"
+      },
+      {
+        "id":"$railani_K012_SYG3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_SYG2"
+      },
+      {
+        "id":"$railani_K012_SYG4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_SYER",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "template":"$K012_IRR_DECO00",
+    "hidden":true,
+    "speed":0,
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":"8",
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_SYEG"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_SYR1"
+      },
+      {
+        "id":"$railani_K012_SYR3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_SYR2"
+      },
+      {
+        "id":"$railani_K012_SYR4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_SYMG",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "template":"$K012_IRR_DECO00",
+    "title":"Classic signal",
+    "text":"An Typical Indonesian signal",
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":1,
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_SYMR"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_SYMG1"
+      },
+      {
+        "id":"$railani_K012_SYMG3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_SYMG2"
+      },
+      {
+        "id":"$railani_K012_SYMG4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_SYMR",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "template":"$K012_IRR_DECO00",
+    "hidden":true,
+    "speed":0,
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":"8",
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_SYMG"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_SYMR1"
+      },
+      {
+        "id":"$railani_K012_SYMR3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_SYMR2"
+      },
+      {
+        "id":"$railani_K012_SYMR4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_RCO",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "min dirs":4,
+    "max dirs":4,
+    "template":"$K012_IRR_DECO00",
+    "title":"Railroad crossing",
+    "text":"An Railroad crossing",
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":1,
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_RCC"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_RCO2"
+      },
+      {
+        "id":"$railani_K012_RCO4"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        "0"
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_RCC",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "min dirs":4,
+    "max dirs":4,
+    "template":"$K012_IRR_DECO00",
+    "hidden":true,
+    "speed":0,
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":"8",
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_RCO"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_RCC2"
+      },
+      {
+        "id":"$railani_K012_RCC4"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        "0"
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_RCO_B",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "min dirs":4,
+    "max dirs":4,
+    "template":"$K012_IRR_DECO00",
+    "title id":"Railroad crossing",
+    "text":"An Typical Indonesian Railroad crossing",
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":1,
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_RCC_B"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_RCO4"
+      },
+      {
+        "id":"$railani_K012_RCO2"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        "0"
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_RCC_B",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "min dirs":4,
+    "max dirs":4,
+    "template":"$K012_IRR_DECO00",
+    "title id":"draft_TRA_DPPKA_title",
+    "text id":"draft_TRA_DPPKA_text",
+    "hidden":true,
+    "speed":0,
+    "on click fun":[
+      {
+        "condition":{
+          "type":"date",
+          "z":"8",
+          "frame":10
+        },
+        "actions":[
+          {
+            "type":"build",
+            "id":"$raildeco_012_RCO_B"
+          }
+        ]
+      }
+    ],
+    "animation":[
+      {
+        "id":"$railani_K012_RCC4"
+      },
+      {
+        "id":"$railani_K012_RCC2"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        "0"
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_CAT",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "title id":"draft_TRA_DKATB_title",
+    "text id":"draft_TRA_DKATB_text",
+    "template":"$K012_IRR_DECO00",
+    "line tool":true,
+    "animation":[
+      {
+        "id":"$railani_K012_CatB1"
+      },
+      {
+        "id":"$railani_K012_CatB3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_CatB2"
+      },
+      {
+        "id":"$railani_K012_CatB4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  },
+  {
+    "id":"$raildeco_012_DEP",
+    "type":"road decoration",
+    "category":"$K012_Cat_RailDeco",
+    "title":"Train Depo[in]Depo Kereta",
+    "text":"Train Depo[in]Depo Kereta",
+    "template":"$K012_IRR_DECO00",
+    "line tool":true,
+    "animation":[
+      {
+        "id":"$railani_K012_DEP1"
+      },
+      {
+        "id":"$railani_K012_DEP3"
+      }
+    ],
+    "frame animation indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        
+      ]
+    ],
+    "animation fg":[
+      {
+        "id":"$railani_K012_DEP2"
+      },
+      {
+        "id":"$railani_K012_DEP4"
+      }
+    ],
+    "frame animation fg indices":[
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        
+      ],
+      [
+        1
+      ],
+      [
+        
+      ]
+    ]
+  }
+]
