@@ -36,6 +36,6 @@ Is a theotown plugin that adds transportation-themed content in Indonesia.</p>
   <a href="https://kiki012184.github.io/K012-Theotown.com/index.html">Kiki012 Website</a>
 <hr>
 <h3 align="center">License</h3>
-you get open source version of `Indonesia Transportation pack` please <u> Do not distribute it without my permision</u><br>
+you get open source version of Indonesia Transportation pack please <u> Do not distribute it without my permision</u><br>
 <div align="center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="CreativeCommonsLicenseIcon.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
 <p align="center" class="lead"><a href="#top">back to top</a>
