@@ -32,10 +32,12 @@ Is a theotown plugin that adds transportation-themed content in Indonesia.</p>
 <li>Andythenorth (discord)</li>
 <li>Alan (FTTI)</li>
   </ul><hr>
-<h3 align="center"> Contacts </h3>
-  <a href="https://kiki012184.github.io/K012-Theotown.com/index.html">Kiki012 Website</a>
-<hr>
+<div align="center"><h3 align="center"> Contacts </h3>
+  <a href="https://kiki012184.github.io/K012-Theotown.com/index.html"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+  <a href="https://chat.whatsapp.com/Bv4EIv7Jvjb8ViXeSJK0WS"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="https://github.com/Kiki012184/Indonesia-Transportation-pack"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+</div><hr>
 <h3 align="center">License</h3>
-open source version of Indonesia Transportation pack please <u> Do not distribute it without my permision</u><br>
+This is open source version of <b>Indonesia Transportation pack</b> please distribute it without any modification,if you have so you need my permision,unless is small amout of people.<br>
 <div align="center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="CreativeCommonsLicenseIcon.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
 <p align="center" class="lead"><a href="#top">back to top</a>
