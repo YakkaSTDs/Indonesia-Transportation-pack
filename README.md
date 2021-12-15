@@ -13,23 +13,23 @@ Is a theotown plugin that adds transportation-themed content in Indonesia.</p>
 <hr>
 <h3 align="center">Credits</h3>
   <b>Author:</b>
-  <ul><li>Kiki012</li></ul>
+  <ul><li><a href="https://github.com/Kiki012184"> Kiki012</a></li></ul>
   <b>Texture Credits</b>
   <ul>
-<li>Kingtut101</li>
-<li>Matthew Filbert</li>
-<li>Akunbaru123</li>
-<li>Pederont</li>
-<li>mdk_813</li>
-<li>theotheorich</li>
-<li>lobbydivinus</li>
-<li>justanyone</li>
-<li>Hadestia</li>
+<li><a href="https://sites.google.com/view/retrocitycenter/home?authuser=0">Kingtut101</a></li>
+<li><a href="https://forum.theotown.com/memberlist.php?mode=viewprofile&un=matthewfilbert15">Matthew Filbert</a></li>
+<li><a href="https://forum.theotown.com/memberlist.php?mode=viewprofile&u=18596">Akunbaru123</a></li>
+<li><a href="https://forum.theotown.com/memberlist.php?mode=viewprofile&u=9125">Pederont</a></li>
+<li><a href="https://forum.theotown.com/memberlist.php?mode=viewprofile&u=922">mdk_813</a></li>
+<li><a href="https://github.com/theotheoderich">theotheorich</a></li>
+<li><a href="https://github.com/LobbyDivinus">lobbydivinus</a></li>
+<li><a href="https://github.com/JustAnyones">justanyone</a></li>
+<li><a href="https://forum.theotown.com/memberlist.php?mode=viewprofile&u=1853">Hadestia</a></li>
   </ul>
   <b>Non forum member & Contributor</b>
   <ul>
-<li>Chris (Discord)</li>
-<li>Andythenorth (discord)</li>
+<li><a href="https://www.tt-forums.net/memberlist.php?mode=viewprofile&u=94284&sid=df0bb8693f500762656ad1620f1eafd1">Erato</a></li>
+<li><a href="https://github.com/andythenorth">Andythenorth</a></li>
 <li>Alan (FTTI)</li>
   </ul><hr>
 <div align="center"><h3 align="center"> Contacts </h3>
