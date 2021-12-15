@@ -11,6 +11,9 @@ Is a theotown plugin that adds transportation-themed content in Indonesia.</p>
 
 `Indonesia Transportation pack` is theotown plugin that add Indonesia transportation-themed content,such as trains with its infrastructure,and pack of roads.<br />
 <hr>
+<h3 align="center">Contribute</h3>
+<b>Indonesia Transportation Pack</b>Are Open to Contributor read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>
+<hr>
 <h3 align="center">Credits</h3>
   <b>Author:</b>
   <ul><li><a href="https://github.com/Kiki012184"> Kiki012</a></li></ul>
