@@ -133,6 +133,39 @@
     "text":"Required Building to unlock Locomotive By importing it.[in]Banggunan yang diperlukan untuk membuka Lokomotif Sesuai Pembuatnya"
   },
   {
+    "id":"$K012_Toko_Kereta_Premium01",
+    "type":"railway station",
+    "category":"$K012_Cat_Train",
+    "width":2,
+    "height":2,
+    "needs water":false,
+    "needs land":true,
+    "max count":1,
+    "frames":[
+      {
+        "bmp":"5DepoKereta.png",
+        "count":4,
+        "w":64
+      },
+      {
+        "bmp":"6blank.png",
+        "count":4,
+        "w":32
+      }
+    ],
+    "template":[
+      "$K012_ITP_MAIN",
+      "$template_diamondbuilding00"
+    ],
+    "rotation aware":true,
+    "draw ground":true,
+    "needs road":false,
+    "diamond price":20,
+    "price":60000,
+    "title":"Premium Train Shop[in]Toko Kereta Premium",
+    "text":"Required Building to unlock Locomotive By importing it.[in]Banggunan yang diperlukan untuk membuka Lokomotif Sesuai Pembuatnya"
+  },
+  {
     "id":"$K012_Pabrik_Kereta01",
     "type":"building",
     "category":"$K012_Cat_Train",
