@@ -2,8 +2,7 @@
   {
     "id":"$K012_ITP_SPW02",
     "type":"template",
-    "price factor":0,
-    "category":"$K012_Cat_Spawner",
+    "category":"$K012_ITPCAT_SPW01",
     "requirement":{
       "requirements":[
         {
@@ -20,11 +19,12 @@
         }
       ]
     },
-    "price":100,
-    "bulldoze price": 20,
-    "build time": 5,
-    "power": 0,
-    "final": true,
+    "price":120,
+    "price factor":0,
+    "bulldoze price":20,
+    "build time":5,
+    "power":0,
+    "final":true,
     "draw ground":true,
     "needs road":false,
     "allocate flag":"CapeTR",
@@ -40,7 +40,8 @@
     "id":"$K012_ITP_SPWPR01",
     "type":"template",
     "price factor":0,
-    "category":"$K012_Cat_Spawner",
+    "category":"$K012_ITPCAT_SPW01",
+    "allocate flag":"CapeTR",
     "requirement":{
       "requirements":[
         {
@@ -52,25 +53,24 @@
       ]
     },
     "price":100,
-    "bulldoze price": 20,
-    "build time": 5,
-    "power": 0,
+    "bulldoze price":0,
+    "build time":5,
+    "power":0,
     "influence culture":25,
-    "influence passenger train":15,
-    "influence management":15,
-    "final": true,
+    "influence passenger train":25,
+    "influence management":25,
+    "final":true,
     "draw ground":true,
     "needs road":false,
-    "allocate flag":"CapeTR",
     "flag normal":false,
     "flag CapeTR":true,
-    "capacity":100,
+    "capacity":150,
     "rotation aware":true
   },
   {
     "id":"$ITP_FrameTMP00",
     "type":"railway station",
-    "category":"$K012_Cat_Spawner",
+    "category":"$K012_ITPCAT_SPW01",
     "width":1,
     "height":1,
     "hidden":true,
@@ -85,18 +85,19 @@
     "text ":"How TF you see this"
   },
   {
-    "id":"$K012_WAGP",
+    "id":"$K012_ITPTEMP_TRN01",
     "type":"template",
     "allocate flag":"CapeTR",
     "flag normal":false,
     "flag CapeTR":true,
     "capacity":40,
     "v2":true
-  },
+  }, 
   {
     "id":"$IRPNULL",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01", 
+    "capacity":0, 
     "frames":[
       {
         "bmp":"Blank.png",
@@ -104,32 +105,6 @@
         "h":18,
         "w":1
       }
-    ],
-    "capacity":0
-  },
-  {
-    "id":"$K012_ITP_NOTAVB",
-    "type":"template",
-      "requirements": [{
-        "type":"CONDITION",
-         "text":" Not Available[in]Tidak Tersedia.",
-    
-         "condition": {"type": "or", "inner": [
-          {"type": "value", "code": "gameMode", "z": 0},
-          {"type": "value", "code": "gameMode", "z": 4}
-        ]}
-    }
     ]
-  },
-  {
-    "id":"$K012_ITP_LOK",
-    "type":"template",
-    "allocate flag":"CapeTR",
-    "flag normal":false,
-    "flag CapeTR":true,
-    "moveable":false,
-    "chargeable":false,
-    "capacity":10,
-    "v2":true
   }
 ]
