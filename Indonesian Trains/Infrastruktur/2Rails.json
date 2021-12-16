@@ -6,16 +6,18 @@
     "category":"$K012_Cat_Rail",
     "flag normal":false,
     "flag CapeTR":true,
-    "allow transfer":true,
+    "allow transfer":false,
     "allow bus":false,
     "connectable":true,
     "auto join":false,
+    "draw ground":true,
     "monthly price":30,
     "bridge price":100,
-    "draw ground":true,
+    "price":100,
     "level":20,
     "pile distant":3,
     "bridge height":10,
+    "map color":{"r":255,"g":121,"b":59},
     "x flags":{
       "flag normal":false,
       "flag CapeTR":true
@@ -88,22 +90,6 @@
     }
   },
   {
-    "id":"$K012_IRP_RAILM",
-    "type":"road",
-    "author":"Kiki012",
-    "title":"Rail[in]Rel",
-    "text":"A Rail For Your Network.[in]Sebuah Rel Untuk Kereta anda",
-    "frames":[
-      {
-        "bmp":"6Relkecepatansedang.png",
-        "count":16,
-        "h":17,
-        "w":32
-      }
-    ],
-    "template":"$K012_IRR_Rail00"
-  },
-  {
     "id":"$K012_IRP_RAIL_CUS",
     "type":"road",
     "author":"Kiki012",
@@ -117,7 +103,66 @@
         "w":32
       }
     ],
-    "template":"$K012_IRR_Rail00"
+    "template":"$K012_IRR_Rail00",
+    "speed":1.5
+  },
+  {
+    "id":"$K012_IRP_RAILMDIA",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Rail[in]Rel",
+    "text":"A Rail For Your Network.[in]Sebuah Rel Untuk Kereta anda",
+    "frames":[
+      {
+        "bmp":"6RelkecepatansedangDIA.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "allow diagonal":true,
+    "hidden":true,
+    "speed":2.2
+  },
+  {
+    "id":"$K012_IRP_RAILM",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Rail[in]Rel",
+    "text":"A Rail For Your Network.[in]Sebuah Rel Untuk Kereta anda",
+    "frames":[
+      {
+        "bmp":"6Relkecepatansedang.png",
+        "count":16,
+        "h":17,
+        "w":32
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "diagonal road":"$K012_IRP_RAILMDIA",
+    "speed":2.2
+  },
+  {
+    "id":"$K012_IRP_RAILMDIA_ONE",
+    "type":"road",
+    "author":"Kiki012",
+    "title":"Rail[in]Rel",
+    "text":"A Rail For Your Network.[in]Sebuah Rel Untuk Kereta anda",
+    "frames":[
+      {
+        "bmp":"6RelkecepatansedangDIA.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "allow diagonal":true,
+    "hidden":true,
+    "one way":true,
+    "speed":2.2
   },
   {
     "id":"$K012_IRP_RAILM_ONE",
@@ -134,77 +179,28 @@
       }
     ],
     "template":"$K012_IRR_Rail00",
+    "diagonal road":"$K012_IRP_RAILMDIA_ONE",
+    "speed":2.2,
     "one way":true
   },
   {
-    "id":"$K012_IRP_RAILHS",
-    "type":"road",
-    "author":"Kiki012",
-    "title":"Modern Rail[in]Rel Modern",
-    "text":"Modern rail for your network[in]Rel Modern Untuk Kereta Anda",
-    "frames":[
-      {
-        "bmp":"6Relkecepatantinggi.png",
-        "count":16,
-        "h":17,
-        "w":32
-      }
-    ],
-    "template":"$K012_IRR_Rail00",
-    "speed":3.5
-  },
-  {
-    "id":"$K012_IRP_RAILHS_ONE",
-    "type":"road",
-    "title":"Modern Oneway Rail[in]Rel Modern Satu Arah",
-    "text":"Modern rail for your network[in]Rel Modern Untuk Kereta Anda",
-    "frames":[
-      {
-        "bmp":"6Relkecepatantinggi.png",
-        "count":16,
-        "h":17,
-        "w":32,
-        "copies":3
-      }
-    ],
-    "template":"$K012_IRR_Rail00",
-    "one way":true,
-    "speed":4
-  },
-  {
-    "id":"$K012_IRP_RAILSL",
+    "id":"$K012_IRP_RAILV21DIA",
     "type":"road",
     "author":"Kiki012",
     "title":"Old Rail[in]Rel Lama",
     "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
     "frames":[
       {
-        "bmp":"6Relkecepatanrendah.png",
+        "bmp":"6RelLamaDIA.png",
         "count":16,
         "h":17,
         "w":32
       }
     ],
     "template":"$K012_IRR_Rail00",
-    "speed":1.2
-  },
-  {
-    "id":"$K012_IRP_RAILSL_ONE",
-    "type":"road",
-    "title":"Oneway Old Rail[in]Rel Lama Satu Arah",
-    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
-    "frames":[
-      {
-        "bmp":"6Relkecepatanrendah.png",
-        "count":16,
-        "h":17,
-        "w":32,
-        "copies":3
-      }
-    ],
-    "template":"$K012_IRR_Rail00",
-    "one way":true,
-    "speed":1.2
+    "allow diagonal":true,
+    "hidden":true,
+    "speed":1.6
   },
   {
     "id":"$K012_IRP_RAILV21",
@@ -221,7 +217,28 @@
       }
     ],
     "template":"$K012_IRR_Rail00",
-    "speed":1.2
+    "diagonal road":"$K012_IRP_RAILV21DIA",
+    "speed":1.6
+  },
+  {
+    "id":"$K012_IRP_RAILV21DIA_ONE",
+    "type":"road",
+    "title":"Oneway Old Rail[in]Rel Lama Satu Arah",
+    "text":"Old Rail For your network[in]Rel Lama Untuk Kereta anda!",
+    "frames":[
+      {
+        "bmp":"6RelLamaDIA.png",
+        "count":16,
+        "h":17,
+        "w":32,
+        "copies":3
+      }
+    ],
+    "template":"$K012_IRR_Rail00",
+    "speed":1.6,
+    "allow diagonal":true,
+    "hidden":true,
+    "one way":true
   },
   {
     "id":"$K012_IRP_RAILV21_ONE",
@@ -238,7 +255,8 @@
       }
     ],
     "template":"$K012_IRR_Rail00",
-    "one way":true,
-    "speed":1.2
+    "diagonal road":"$K012_IRP_RAILV21DIA_ONE",
+    "speed":1.6,
+    "one way":true
   }
 ]
