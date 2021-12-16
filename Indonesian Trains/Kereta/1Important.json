@@ -30,6 +30,30 @@
     "rotation aware":true
   },
   {
+    "id":"$K012_ITP_SPWPR01",
+    "type":"template",
+    "price factor":0,
+    "category":"$K012_Cat_Spawner",
+    "requirement":{
+      "requirements":[
+        {
+          "type":"BUILDING",
+          "data":{
+            "id":"$K012_Toko_Kereta_Premium01"
+          }
+        }
+      ]
+    },
+    "draw ground":true,
+    "needs road":false,
+    "allocate flag":"CapeTR",
+    "flag normal":false,
+    "influence passenger train":100,
+    "flag CapeTR":true,
+    "capacity":100,
+    "rotation aware":true
+  },
+  {
     "id":"$ITP_FrameTMP00",
     "type":"railway station",
     "category":"$K012_Cat_Spawner",
