@@ -4,30 +4,30 @@ KA = Kereta Api
 KLB = Kereta Luar Biasa
 
 Primary
-BB200 Livery Perumka + KA Semen 
-BB201 Livery PJKA + KA Bima Th.1960
-BB202 Livery Perumka + KA Batubara
-BB203 Livery KAI + KA Minyak
-BB204 Livery PJKA + KA Batubara
-BB300 Livery PJKA + Langsir KA Minyak
-BB301 Livery KAI + KA Batubara
-BB302 Livery KAI + KA Srilelawangsa
-BB303 Livery KAI + KA Sibinuang
-BB304 Livery PJKA + KA Pandanwangi Th.2010
-BB305 JR Livery Perumka + KA Kertas
-BB306 Livery PJKA + Langsir Gerbong Penumpang
-CC200 Livery PJKA + KA Bima Th.1965
-CC201 Livery KAI + KA Malabar
-CC202 Livery Perumka ×2 + KA Batubara
-CC203 Livery KAI + KA Serayu
-CC203 PT TEL ×2 + KA Kertas
-CC204 Livery PTKA ×3 + KA Batubara
-CC205 Livery Perumka ×2 + KA Babaranjang
-CC206 Livery KAI + KA Bima Th.2018
-CC300 Livery KAI + KA Maharani
+BB200 Livery Perumka + KA Semen ✅
+BB201 Livery PJKA + KA Bima Th.1960✅
+BB202 Livery Perumka + KA Batubara✅
+BB203 Livery KAI + KA Minyak✅
+BB204 Livery PJKA + KA Batubara✅
+BB300 Livery PJKA + Langsir KA Minyak✅
+BB301 Livery KAI + KA Batubara✅
+BB302 Livery KAI + KA Srilelawangsa✅
+BB303 Livery KAI + KA Sibinuang✅
+BB304 Livery PJKA + KA Pandanwangi Th.2010✅
+BB305 JR Livery Perumka + KA Kertas✅
+BB306 Livery PJKA + Langsir Gerbong Penumpang✅
+CC200 Livery PJKA + KA Bima Th.1965✅
+CC201 Livery KAI + KA Malabar✅
+CC202 Livery Perumka ×2 + KA Batubara✅
+CC203 Livery KAI + KA Serayu✅
+CC203 PT TEL ×2 + KA Kertas✅
+CC204 Livery PTKA ×3 + KA Batubara✅
+CC205 Livery Perumka ×2 + KA Babaranjang✅
+CC206 Livery KAI + KA Bima Th.2018✅
+CC300 Livery KAI + KA Maharani✅
 Tambahan
 CC206 Livery KAI + KA Kontainer
-CC206 Livery KAI + KA Ketel Minyak
+CC206 Livery KAI + KA Ketel Minyak✅ 
 BB203 Livery Perumka + KA Sindang Marga
 CC204 Livery PTKA + KA Kertas
 KA KCIC

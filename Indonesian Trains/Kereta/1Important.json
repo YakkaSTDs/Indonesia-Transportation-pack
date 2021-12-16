@@ -20,11 +20,18 @@
         }
       ]
     },
+    "price":100,
+    "bulldoze price": 20,
+    "build time": 5,
+    "power": 0,
+    "final": true,
     "draw ground":true,
     "needs road":false,
     "allocate flag":"CapeTR",
     "flag normal":false,
-    "influence passenger train":100,
+    "influence culture":25,
+    "influence passenger train":15,
+    "influence management":15,
     "flag CapeTR":true,
     "capacity":100,
     "rotation aware":true
@@ -44,11 +51,18 @@
         }
       ]
     },
+    "price":100,
+    "bulldoze price": 20,
+    "build time": 5,
+    "power": 0,
+    "influence culture":25,
+    "influence passenger train":15,
+    "influence management":15,
+    "final": true,
     "draw ground":true,
     "needs road":false,
     "allocate flag":"CapeTR",
     "flag normal":false,
-    "influence passenger train":100,
     "flag CapeTR":true,
     "capacity":100,
     "rotation aware":true

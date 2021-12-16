@@ -89,18 +89,22 @@
     "template":"$K012_WAGP",
     "frames":[
       {
-        "bmp":"5KRL_E205.png",
+        "bmp":"5E205KRLT.png",
         "count":4,
-        "y":40,
-        "h":20,
+        "h":18,
         "w":20
       },
       {
-        "bmp":"5KRL_E205_NewLivery.png",
+        "bmp":"5E205NKRLT.png",
         "count":4,
-        "y":40,
         "h":18,
         "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLT",
+        "x":-15
       }
     ],
     "frames per car":4,
@@ -112,18 +116,22 @@
     "template":"$K012_WAGP",
     "frames":[
       {
-        "bmp":"5KRL_E235.png",
+        "bmp":"5E235KRLT.png",
         "count":4,
-        "y":40,
         "h":18,
         "w":20
       },
       {
-        "bmp":"5KRL_E235_NewLivery.png",
+        "bmp":"5E235NKRLT.png",
         "count":4,
-        "y":40,
         "h":18,
         "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLT",
+        "x":-15
       }
     ],
     "frames per car":4,
@@ -135,18 +143,22 @@
     "template":"$K012_WAGP",
     "frames":[
       {
-        "bmp":"5KRL_E205.png",
+        "bmp":"5E205KRLM.png",
         "count":4,
-        "y":20,
-        "h":20,
+        "h":18,
         "w":20
       },
       {
-        "bmp":"5KRL_E205_NewLivery.png",
+        "bmp":"5E205NKRLM.png",
         "count":4,
-        "y":20,
         "h":18,
         "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLM",
+        "x":-15
       }
     ],
     "frames per car":4,
@@ -158,18 +170,22 @@
     "template":"$K012_WAGP",
     "frames":[
       {
-        "bmp":"5KRL_E235.png",
+        "bmp":"5E235KRLM.png",
         "count":4,
-        "y":20,
         "h":18,
         "w":20
       },
       {
-        "bmp":"5KRL_E235_NewLivery.png",
+        "bmp":"5E235NKRLM.png",
         "count":4,
-        "y":20,
         "h":18,
         "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLM",
+        "x":-15
       }
     ],
     "frames per car":4,

@@ -138,5 +138,47 @@
       }
     ],
     "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_KRLH",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"5EKRLHN.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_KRLM",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"5EKRLMN.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_KRLT",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"5EKRLTN.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
   }
 ]
