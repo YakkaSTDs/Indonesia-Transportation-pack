@@ -25,7 +25,7 @@
     ],
     "frames per car":4,
     "speed":1.8,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$car_null00",
@@ -45,7 +45,6 @@
   {
     "id":"$IRP_E205",
     "type":"railway station",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -66,6 +65,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":20}], 
     "template":"$K012_ITP_SPWPR01",
     "title id":"draft_SPW_E205_PAS_title",
     "text id":"draft_SPW_E205_PAS_text"
@@ -96,7 +96,7 @@
     ],
     "frames per car":4,
     "speed":1.8,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$car_null00",
@@ -116,7 +116,7 @@
   {
     "id":"$IRP_E235",
     "type":"railway station",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -137,6 +137,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":20}], 
     "template":"$K012_ITP_SPWPR01",
     "capacity":2,
     "title id":"draft_SPW_E235_PAS_title",
@@ -162,7 +163,7 @@
     ],
     "frames per car":4,
     "speed":0.8,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -204,6 +205,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":21}], 
     "title id":"draft_Plat_LOR_title",
     "text id":"draft_Plat_LOR_text"
   },
@@ -211,7 +213,7 @@
   {
     "id":"$K012_TR_CC206_KONT",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2.2,
     "frames":[
@@ -247,7 +249,7 @@
     "id":"$ITP_CC206_KONT",
     "type":"railway station",
     "template":"$K012_ITP_SPWPR01",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -268,6 +270,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":19}], 
     "title":"Container train[in]KA Peti Kemas",
     "text":"An intermodal container, often called a shipping container, is a large standardized shipping container, designed and built for intermodal freight transport, meaning these containers can be used across different modes of transport – from ship to rail to truck – without unloading and reloading their cargo.[in]Peti kemas (Inggris: ISO container) adalah peti atau kotak yang memenuhi persyaratan teknis sesuai dengan International Organization for Standardization (ISO) sebagai alat atau perangkat pengangkutan barang yang bisa digunakan diberbagai moda, mulai dari moda jalan dengan truk peti kemas, kereta api dan kapal peti kemas laut. "
   },
@@ -275,7 +278,7 @@
   {
     "id":"$K012_TR_CC206_KETL",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2.2,
     "frames":[
@@ -311,7 +314,6 @@
     "id":"$ITP_CC206_KETL",
     "type":"railway station",
     "template":"$K012_ITP_SPWPR01",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -332,6 +334,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":18}], 
     "title":"CC206 Fuel train[in]KA Ketel CC206",
     "text":".[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
   }

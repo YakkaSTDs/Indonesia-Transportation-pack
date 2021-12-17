@@ -1,0 +1,13 @@
+[
+  {
+    "id":"$ITP_ANI_ICONDEPO1",
+    "type":"animation",
+    "frames":[
+      {
+        "bmp":"4AICONDEPO.png",
+        "count":22,
+        "w":36
+      }
+    ]
+  }
+]

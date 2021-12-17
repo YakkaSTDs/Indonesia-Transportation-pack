@@ -3,7 +3,7 @@
   {
     "id":"$K012_TR_BB200_BaturajaCement",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "speed":2,
     "frames per car":4,
     "frames":[
@@ -39,7 +39,6 @@
     "id":"$ITP_BB200_BaturajaCement",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -60,6 +59,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":1}],
     "title":"Baturaja Train[in]KA Semen Baturaja",
     "text":"The Semen Baturaja transportation train or the Semen Baturaja train is a freight train that transports bulk cement (clinker) and finished cement in tarpaulins (hereinafter referred to as tarpaulin only) produced by PT Semen Baturaja which serves connections from Tigagajah station to Kertapati station and Pidada station.  .[in]Kereta api angkutan Semen Baturaja atau Kereta api Semen Baturaja adalah kereta api angkutan barang yang mengangkut semen curah (klinker) maupun semen jadi dalam terpal (selanjutnya disebut semen terpal saja) produksi PT Semen Baturaja yang melayani relasi dari stasiun Tigagajah menuju stasiun Kertapati dan stasiun Pidada. "
   },
@@ -67,7 +67,7 @@
   {
     "id":"$K012_TR_BB201_BIMA1956",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "speed":2,
     "frames per car":4,
     "frames":[
@@ -103,7 +103,6 @@
     "id":"$ITP_BB201_BIMA",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -124,6 +123,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":2}],
     "title":"Bima train[in]KA Bima 1965",
     "text":"The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). "
   },
@@ -159,7 +159,7 @@
     ],
     "frames per car":4,
     "speed":1.8,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -180,7 +180,6 @@
     "id":"$ITP_BB202_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -201,6 +200,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":3}],
     "title":"BB202 Coal Train[in]KA Batubara BB202",
     "text":"The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
   },
@@ -208,7 +208,7 @@
   {
     "id":"$K012_TR_BB203_Minyak",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":1.7,
     "frames":[
@@ -244,7 +244,7 @@
     "id":"$ITP_BB203_Minyak",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -265,6 +265,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":4}], 
     "title":"BB203 Tanker Train[in]KA Ketel BB203",
     "text":"Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
   },
@@ -300,7 +301,7 @@
     ],
     "frames per car":4,
     "speed":1.4,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -321,7 +322,7 @@
     "id":"$ITP_BB204_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -342,6 +343,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":5}], 
     "title":"BB204 Coal Train[in]KA Batubara BB204",
     "text":"The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
   },
@@ -349,7 +351,7 @@
   {
     "id":"$K012_TR_BB300_Minyak",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":1.7,
     "frames":[
@@ -379,7 +381,6 @@
     "id":"$ITP_BB300_Minyak",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -400,6 +401,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":6}], 
     "title":"Shunt BB300 Train[in]KA Langsir BB300",
     "text":"Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
   },
@@ -435,7 +437,7 @@
     ],
     "frames per car":4,
     "speed":2,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -456,7 +458,6 @@
     "id":"$ITP_BB301_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -477,6 +478,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":7}], 
     "title":"BB301 Gravel Train[in]KLB Kricak BB301",
     "text":"The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
   },
@@ -484,7 +486,7 @@
   {
     "id":"$K012_TR_BB302_Srilelawangsa",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":1.8,
     "frames":[
@@ -520,7 +522,6 @@
     "id":"$ITP_BB302_Srilelawangsa",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -541,6 +542,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":8}], 
     "title":"Srilelawangsa train[in]KA Srilelawangsa",
     "text":".[in]Kereta api Sri Lelawangsa, juga disebut KRD Sri Lelawangsa, adalah layanan kereta api komuter yang dioperasikan oleh PT Kereta Api Indonesia (Persero) untuk melayani lintas Medan–Binjai dan sebaliknya. Kereta api ini pertama kali beroperasi pada 6 Maret 2010 menggunakan rangkaian Kereta Rel Diesel Indonesia (KRDI) buatan PT INKA,[1] akan tetapi saat ini rangkaian kereta api Sri Lelawangsa telah berubah menjadi kereta bisnis yang ditarik lokomotif BB302 atau BB303."
   },
@@ -548,7 +550,7 @@
   {
     "id":"$K012_TR_BB303_Sibinuang",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":1.7,
     "frames":[
@@ -584,7 +586,6 @@
     "id":"$ITP_BB303_Sibinuang",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -605,6 +606,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":8}], 
     "title":"Sibinuang train[in]KA Sibinuang",
     "text":".[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai."
   },
@@ -612,7 +614,7 @@
   {
     "id":"$K012_TR_BB304_Pandanwangi",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2,
     "frames":[
@@ -648,7 +650,6 @@
     "id":"$ITP_BB304_Pandanwangi",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -669,6 +670,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":9}], 
     "title":"Pandanwangi train[in]KA Pandanwangi",
     "text":".[in]Kereta api Pandanwangi adalah layanan kereta api ekonomi lokal yang menghubungkan Stasiun Ketapang yang terletak di Banyuwangi dengan Stasiun Jember, dan dioperasikan oleh Daerah Operasi IX Jember. Kereta api yang sering membawa enam kereta penumpang kelas ekonomi ini menempuh jarak sejauh 112 km dalam waktu sekitar 2,5 jam. Mulai 1 Juni 2014, jumlah perjalanan kereta api ini ditambah menjadi dua kali dalam sehari."
   },
@@ -704,7 +706,7 @@
     ],
     "frames per car":4,
     "speed":1.3,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -725,7 +727,6 @@
     "id":"$ITP_BB305_Kertas",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -746,6 +747,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":10}], 
     "title":"PT Kertas Leces Train[in]KA PT Kertas Leces",
     "text":"Paper Leces is the oldest paper mill in Indonesia, which has been around since 1939. Paper Leces products use cellulose bagasse and straw as raw materials, unlike other paper mills that use tree trunks for paper.  To support production, the factory built routes for lorries to transport bagasse and straw from Leces station to the factory.[in]Kertas Leces adalah pabrik kertas tertua di Indonesia yang sudah ada sejak 1939. Produk-produk Kertas Leces menggunakan selulosa ampas tebu dan jerami sebagai bahan bakunya, tidak seperti pabrik kertas lainnya yang menggunakan batang pohon untuk bahan kertas. Untuk menunjang produksi, di pabrik tersebut dibangun jalur-jalur untuk lori pengangkut ampas tebu dan jerami dari stasiun Leces menuju pabrik."
   },
@@ -753,7 +755,7 @@
   {
     "id":"$K012_TR_BB306_Sibinuang",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":1.5,
     "frames":[
@@ -783,7 +785,7 @@
     "id":"$ITP_BB306_Sibinuang",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -804,6 +806,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":8}], 
     "title":"Shunt BB306 Train[in]KA Langsir BB306",
     "text":".[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai."
   },
@@ -811,7 +814,7 @@
   {
     "id":"$K012_TR_CC201_Malabar",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2,
     "frames":[
@@ -847,7 +850,7 @@
     "id":"$ITP_CC201_Malabar",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -868,6 +871,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":11}], 
     "title":"Malabar train[in]KA Malabar",
     "text":".[in]Kereta api Malabar merupakan layanan kereta api penumpang kelas eksekutif, bisnis, dan ekonomi yang dioperasikan oleh Kereta Api Indonesia untuk melayani rute Malang–Bandung melalui Blitar–Yogyakarta dan sebaliknya. Kereta api Malabar merupakan kereta api penumpang pertama dan satu-satunya yang memiliki semua layanan kelas dalam satu rangkaian kereta. Nama Malabar diambil dari salah satu nama gunung berapi di Jawa Barat, Gunung Malabar."
   },
@@ -903,7 +907,7 @@
     ],
     "frames per car":4,
     "speed":1.6,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -924,7 +928,6 @@
     "id":"$ITP_CC202_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -945,6 +948,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":12}], 
     "title":"CC202 Coal Train[in]KA Batubara CC202",
     "text":"The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
   },
@@ -952,7 +956,7 @@
   {
     "id":"$K012_TR_CC203_Serayu",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2,
     "frames":[
@@ -988,7 +992,6 @@
     "id":"$ITP_CC203_Serayu",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -1009,6 +1012,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":13}], 
     "title":"Serayu train[in]KA Serayu",
     "text":".[in]Kereta api Serayu merupakan layanan kereta api penumpang kelas ekonomi yang dioperasikan oleh Kereta Api Indonesia, melayani lintas Pasar Senen–Purwokerto melalui Bandung dan sebaliknya. Nama Serayu berasal dari nama salah satu sungai besar di Jawa Tengah, Kali Serayu."
   },
@@ -1044,7 +1048,7 @@
     ],
     "frames per car":4,
     "speed":2,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -1065,7 +1069,6 @@
     "id":"$ITP_CC203_Kertas",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -1086,6 +1089,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":14}], 
     "title":"Pulp Railway TEL (Nitahan)[in]Kereta api pulp TEL (Nitahan)",
     "text":"In Sumatra, the only pulp train operating is the TEL pulp train, which is operated in cooperation between PT KAI and PT TEL.PT TEL is engaged in the production of pulp as a raw material for making paper and tissue, which is located in South Sumatra. It has its own warehouse and dock at Tarahan Station.  For smooth delivery of pulp from its factory located in Niru Station, Muaraenim to Tarahan for export and domestic marketing, transportation by train is much more efficient.[in]Di Sumatra, kereta api pulp yang beroperasi hanyalah kereta api pulp TEL yang dioperasikan kerja sama antara PT KAI dengan PT TEL.PT TEL bergerak di bidang produksi bubur kertas sebagai bahan baku pembuatan kertas dan tissue yang berlokasi di Sumatra Selatan ini memiliki gudang dan dermaga sendiri di Stasiun Tarahan. Untuk kelancaran pengiriman pulp dari pabriknya yang berada di Stasiun Niru, Muaraenim ke Tarahan untuk ekspor dan pemasaran di dalam negeri, maka pengangkutan dengan kereta api jauh lebih efisiensi."
   },
@@ -1115,13 +1119,13 @@
     ],
     "animation":[
       {
-        "id":"$ITP_ANI_CC201",
+        "id":"$ITP_ANI_CC203",
         "x":-15
       }
     ],
     "frames per car":4,
     "speed":2,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -1142,7 +1146,6 @@
     "id":"$ITP_CC204_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
     "width":1,
     "height":1,
     "frames":[
@@ -1163,6 +1166,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":15}], 
     "title":"CC204 Coal Train[in]KA Batubara CC204",
     "text":"The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
   },
@@ -1198,7 +1202,7 @@
     ],
     "frames per car":4,
     "speed":2.2,
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
     "tail":[
       "$IRPNULL",
@@ -1219,7 +1223,7 @@
     "id":"$ITP_CC205_Batubara",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -1240,6 +1244,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":16}], 
     "title":"Babaranjang Train[in]KA Babaranjang",
     "text":"The long chain coal train (Babaranjang) or Baratarahan is a freight train that transports coal owned by PT Tambang Batubara Bukit Asam, as a form of cooperation between Bukit Asam and PT Kereta Api Indonesia.[in]Kereta api batu bara rangkaian panjang (Babaranjang) atau Baratarahan adalah kereta api jenis barang yang mengangkut batu bara milik PT Tambang Batubara Bukit Asam, sebagai wujud kerja sama antara Bukit Asam dengan PT Kereta Api Indonesia."
   },
@@ -1247,7 +1252,7 @@
   {
     "id":"$K012_TR_CC206_BIMA",
     "type":"car",
-    "template":"$K012_ITP_LOK",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames per car":4,
     "speed":2.2,
     "frames":[
@@ -1283,7 +1288,7 @@
     "id":"$ITP_CC206_BIMA",
     "type":"railway station",
     "template":"$K012_ITP_SPW02",
-    "category":"$K012_Cat_Spawner",
+
     "width":1,
     "height":1,
     "frames":[
@@ -1304,6 +1309,7 @@
         "radius":512
       }
     ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":17}], 
     "title":"Bima train[in]KA Bima",
     "text":"The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). "
   }
