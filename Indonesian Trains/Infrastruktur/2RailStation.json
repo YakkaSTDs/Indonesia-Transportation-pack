@@ -11,7 +11,7 @@
         "w":32
       }
     ],
-    "template":"$K012_IRR_REQ00",
+    "template":"$K012_ITPTEMP_PART00",
     "title":"Station Building[in]Bangunan Stasiun",
     "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -27,7 +27,7 @@
         "w":32
       }
     ],
-    "template":"$K012_IRR_REQ00",
+    "template":"$K012_ITPTEMP_PART00",
     "title":"Station Building[in]Bangunan Stasiun",
     "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -43,7 +43,7 @@
         "w":32
       }
     ],
-    "template":"$K012_IRR_REQ00",
+    "template":"$K012_ITPTEMP_PART00",
     "title":"Station Building[in]Bangunan Stasiun",
     "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -59,8 +59,45 @@
         "w":32
       }
     ],
-    "template":"$K012_IRR_REQ00",
+    "template":"$K012_ITPTEMP_PART00",
     "title":"Container Depot[in]Depo Kontainer",
+    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id":"$K012_OLDSB1",
+    "type":"railway station",
+    "width":1,
+    "height":1,
+    "frames":[
+      {
+        "bmp":"6Bangunanstasiun1.png",
+        "count":4,
+        "w":32
+      },
+      {
+        "bmp":"6Bangunanstasiun2.png",
+        "count":4,
+        "w":32
+      },
+      {
+        "bmp":"6Bangunanstasiun3.png",
+        "count":4,
+        "w":32
+      },
+      {
+        "bmp":"6Bangunanstasiun4.png",
+        "count":4,
+        "w":32
+      },
+      {
+        "bmp":"6Bangunanstasiun5.png",
+        "count":4,
+        "w":32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_OLD01",
+    "title":"Station Building[in]Bangunan Stasiun",
     "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
   }
 ]
