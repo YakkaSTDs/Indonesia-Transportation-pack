@@ -1,10 +1,16 @@
-[{
-  "id":"$ITP_K012",
-  "type":"tool",
-  "category":"$K012_Cat",
-  "preview frames":[{"bmp":"Content_icon/icon.png"}],
-  "strict lua":true,
-  "title":"Manual",
-  "text":"This is Manual.",
-  "script":"z_dialog.lua"
-}]
+[
+  {
+    "id":"$ITP_K012",
+    "type":"tool",
+    "category":"$K012_ITPCAT_ROOT01",
+    "preview frames":[
+      {
+        "bmp":"Content_icon/ITPMANUAL.png"
+      }
+    ],
+    "strict lua":true,
+    "title":"Manual",
+    "text":"This is Manual.",
+    "script":"z_dialog.lua"
+  }
+]
