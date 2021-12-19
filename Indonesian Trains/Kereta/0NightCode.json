@@ -180,5 +180,19 @@
       }
     ],
     "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_LORI14",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"4LokoLori14KedawungN.png",
+        "count":4,
+        "w":18
+      }
+    ],
+    "rotation aware":true
   }
 ]

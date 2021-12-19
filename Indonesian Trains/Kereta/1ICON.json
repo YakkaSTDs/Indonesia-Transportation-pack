@@ -31,5 +31,27 @@
         "w":36
       }
     ]
+  },
+  {
+    "id":"$ITP_ANI_ICONDEPO3",
+    "type":"animation",
+    "frames":[
+      {
+        "bmp":"4AICONDEPO3.png",
+        "count":1,
+        "w":36
+      }
+    ]
+  },
+  {
+    "id":"$ITP_ANI_ICONDEPO4",
+    "type":"animation",
+    "frames":[
+      {
+        "bmp":"4AICONDEPO4.png",
+        "count":1,
+        "w":36
+      }
+    ]
   }
 ]
