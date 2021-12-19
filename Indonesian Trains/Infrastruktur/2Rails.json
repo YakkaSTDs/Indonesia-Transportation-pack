@@ -2,10 +2,8 @@
   {
     "id":"$K012_ITPTEMP_Rail00",
     "type":"template",
-    "allocate flag":"CapeTR",
     "category":"$K012_ITPCAT_RAIL01",
-    "flag normal":false,
-    "flag CapeTR":true,
+    "template":"$K012ITP_TEMP_GAUGE",
     "allow transfer":false,
     "allow bus":false,
     "connectable":true,
@@ -16,38 +14,29 @@
     "price":120,
     "level":20,
     "pile distant":3,
-    "bridge height":10,
     "map color":{"r":255,"g":121,"b":59},
-    "x flags":{
-      "flag normal":false,
-      "flag CapeTR":true
-    },
     "bridge frames":[
       {
-        "bmp":"7JembatanRel1.png",
-        "count":12,
-        "h":48,
-        "w":32
-      },
-      {
-        "bmp":"7JembatanRel2.png",
-        "count":12,
-        "h":48,
-        "w":32
-      },
-      {
         "bmp":"7JembatanRel3.png",
-        "count":12,
+        "count":16,
+        "h":48,
+        "w":32
+      },
+      {
+        "bmp":"7JembatanRel1.png",
+        "count":16,
         "h":48,
         "w":32
       },
       {
         "bmp":"7JembatanRel4.png",
-        "count":12,
+        "count":16,
         "h":48,
         "w":32
       }
     ],
+    "bridge height":12,
+    "frames per bridge":16,
     "tunnel frames":[
       {
         "bmp":"7Terowongan.png",

@@ -1,21 +1,16 @@
 [
   {
-    "id":"$K012_ITP_MAIN",
+    "id":"$K012_ITPTEMP_MAIN",
     "type":"template",
-    "category":"$K012_Cat_RailDeco",
-    "price factor":0,
+    "category":"$K012_ITPCAT_BDL01",
+    "power":0,
+    "water":0,
     "influence culture":25,
     "influence passenger train":15,
     "influence management":15,
     "draw ground":true,
     "needs road":false,
-    "allocate flag":"CapeTR",
-    "flag normal":false,
-    "flag CapeTR":true,
     "rotation aware":true,
-    "final": true,
-    "frames per variant":4,
-    "water":0,
     "requirement":{
       "requirements":[
         {
@@ -25,50 +20,23 @@
           }
         }
       ]
-    },
-    "power":0
+    }
   },
   {
-    "id":"$K012_IRR_REQ00",
+    "id":"$K012_ITPTEMP_PART00",
     "type":"template",
-    "category":"$K012_Cat_RailDeco",
+    "category":"$K012_ITPCAT_RWDC01",
+    "template":"$K012ITP_TEMP_GAUGE",
     "price factor":0,
+    "power":0, 
     "influence culture":25,
     "influence passenger train":15,
-    "draw ground":true,
-    "needs road":false,
-    "allocate flag":"CapeTR",
-    "flag normal":false,
     "bulldoze price": 20,
-    "final": true,
-    "flag CapeTR":true,
-    "rotation aware":true,
     "frames per variant":4,
     "water":0,
-    "requirement":{
-      "requirements":[
-        {
-          "type":"BUILDING",
-          "data":{
-            "id":"$K012_Rumahdinas01"
-          }
-        }
-      ]
-    },
-    "power":0
-  },
-  {
-    "id":"$K012_IRR_DECO00",
-    "type":"template",
-    "price factor":0,
-    "allocate flag":"CapeTR",
-    "preview road":"$K012_IRP_RAILM",
-    "draw ground":true,
     "rotation aware":true,
-    "build time": 5,
-    "power": 0,
-    "water":0,
-    "final": true,
+    "draw ground":true,
+    "needs road":false,
     "requirement":{
       "requirements":[
         {
@@ -83,7 +51,7 @@
   {
     "id":"$K012_Rumahdinas01",
     "type":"railway station",
-    "category":"$K012_Cat_Train",
+    
     "width":1,
     "height":1,
     "max count":1,
@@ -100,7 +68,7 @@
       }
     ],
     "template":[
-      "$K012_ITP_MAIN",
+      "$K012_ITPTEMP_MAIN",
       "$template_diamondbuilding00"
     ],
     "rotation aware":true,
@@ -112,7 +80,7 @@
   {
     "id":"$K012_Pelabuhan_Khusus01",
     "type":"railway station",
-    "category":"$K012_Cat_Train",
+    
     "width":2,
     "height":2,
     "needs water":false,
@@ -131,7 +99,7 @@
       }
     ],
     "template":[
-      "$K012_ITP_MAIN",
+      "$K012_ITPTEMP_MAIN",
       "$template_diamondbuilding00"
     ],
     "rotation aware":true,
@@ -143,7 +111,7 @@
   {
     "id":"$K012_Toko_Kereta_Premium01",
     "type":"railway station",
-    "category":"$K012_Cat_Train",
+    
     "width":2,
     "height":2,
     "needs water":false,
@@ -162,7 +130,7 @@
       }
     ],
     "template":[
-      "$K012_ITP_MAIN",
+      "$K012_ITPTEMP_MAIN",
       "$template_diamondbuilding00"
     ],
     "rotation aware":true,
@@ -176,7 +144,7 @@
   {
     "id":"$K012_Pabrik_Kereta01",
     "type":"railway station",
-    "category":"$K012_Cat_Train",
+    
     "width":2,
     "height":2,
     "max count":1,
@@ -193,7 +161,7 @@
       }
     ],
     "template":[
-      "$K012_ITP_MAIN",
+      "$K012_ITPTEMP_MAIN",
       "$template_diamondbuilding00"
     ],
     "rotation aware":true,
