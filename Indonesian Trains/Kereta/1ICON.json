@@ -1,11 +1,33 @@
 [
   {
+    "id":"$ITP_ANI_ICONDEPO0",
+    "type":"animation",
+    "frames":[
+      {
+        "bmp":"4AICONDEPO0.png",
+        "count":1,
+        "w":36
+      }
+    ]
+  },
+  {
     "id":"$ITP_ANI_ICONDEPO1",
     "type":"animation",
     "frames":[
       {
-        "bmp":"4AICONDEPO.png",
+        "bmp":"4AICONDEPO1.png",
         "count":22,
+        "w":36
+      }
+    ]
+  },
+  {
+    "id":"$ITP_ANI_ICONDEPO2",
+    "type":"animation",
+    "frames":[
+      {
+        "bmp":"4AICONDEPO2.png",
+        "count":3,
         "w":36
       }
     ]

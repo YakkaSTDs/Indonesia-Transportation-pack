@@ -3,6 +3,7 @@
     "id":"$K012_ITP_SPW02",
     "type":"template",
     "category":"$K012_ITPCAT_SPW01",
+    "template":"$K012ITP_TEMP_GAUGE",
     "requirement":{
       "requirements":[
         {
@@ -27,12 +28,9 @@
     "final":true,
     "draw ground":true,
     "needs road":false,
-    "allocate flag":"CapeTR",
-    "flag normal":false,
     "influence culture":25,
     "influence passenger train":15,
     "influence management":15,
-    "flag CapeTR":true,
     "capacity":100,
     "rotation aware":true
   },
@@ -41,7 +39,7 @@
     "type":"template",
     "price factor":0,
     "category":"$K012_ITPCAT_SPW01",
-    "allocate flag":"CapeTR",
+    "template":"$K012ITP_TEMP_GAUGE",
     "requirement":{
       "requirements":[
         {
@@ -62,8 +60,6 @@
     "final":true,
     "draw ground":true,
     "needs road":false,
-    "flag normal":false,
-    "flag CapeTR":true,
     "capacity":150,
     "rotation aware":true
   },
@@ -87,9 +83,7 @@
   {
     "id":"$K012_ITPTEMP_TRN01",
     "type":"template",
-    "allocate flag":"CapeTR",
-    "flag normal":false,
-    "flag CapeTR":true,
+    "template":"$K012ITP_TEMP_GAUGE",
     "capacity":40,
     "v2":true
   }, 

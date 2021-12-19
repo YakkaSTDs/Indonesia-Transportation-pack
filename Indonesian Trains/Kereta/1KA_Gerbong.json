@@ -3,7 +3,7 @@
   {
     "id":"$K012_TR_K1_KAI",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5GerbongPenumpang2016.png",
@@ -28,7 +28,7 @@
   {
     "id":"$K012_TR_B1",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Bagasi1.png",
@@ -59,7 +59,7 @@
   {
     "id":"$K012_GB1",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_BatubaraE.png",
@@ -86,7 +86,7 @@
   {
     "id":"$KRLE205EBH",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5E205KRLT.png",
@@ -113,7 +113,7 @@
   {
     "id":"$KRLE235EBH",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5E235KRLT.png",
@@ -140,7 +140,7 @@
   {
     "id":"$KRLE205E",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5E205KRLM.png",
@@ -167,7 +167,7 @@
   {
     "id":"$KRLE235E",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5E235KRLM.png",
@@ -194,7 +194,7 @@
   {
     "id":"$K012_TR_BIMA",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5Gerbong_BIMA65.png",
@@ -215,7 +215,7 @@
   {
     "id":"$K012_GD1KT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Kontainer1.png",
@@ -230,7 +230,7 @@
   {
     "id":"$K012_GD2KT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Kontainer2.png",
@@ -245,7 +245,7 @@
   {
     "id":"$K012_GD3KT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Kontainer3.png",
@@ -260,7 +260,7 @@
   {
     "id":"$K012_GD4KT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Kontainer4.png",
@@ -275,7 +275,7 @@
   {
     "id":"$K012_GD5KT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Kontainer5.png",
@@ -291,13 +291,13 @@
   {
     "id":"$K012_GMINYAK",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Pertamina1.png",
         "count":4,
         "h":13,
-        "w":20
+        "w":18
       }
     ],
     "frames per car":4,
@@ -306,7 +306,7 @@
   {
     "id":"$K012_GB1K1",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5Gerbong_Kricak.png",
@@ -319,9 +319,24 @@
     "capacity":0
   },
   {
+    "id":"$K012_GDREL",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_Rel.png",
+        "count":4,
+        "h":18,
+        "w":18
+      }
+    ],
+    "frames per car":4,
+    "capacity":0
+  },
+  {
     "id":"$K012_GT",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Barang1.png",
@@ -342,7 +357,7 @@
   {
     "id":"$K012_GK1",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"6Gerbong_Pertamina1.png",
@@ -363,7 +378,7 @@
   {
     "id":"$K012_GTG4",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5Gerbong_Barang1.png",
@@ -384,7 +399,7 @@
   {
     "id":"$K012_GTG2",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5Gerbong_Semen.png",
@@ -399,7 +414,7 @@
   {
     "id":"$K012_GL1",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5GerbongLori.png",
@@ -422,7 +437,7 @@
   {
     "id":"$K012_GL2",
     "type":"car",
-    "template":"$K012_WAGP",
+    "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
         "bmp":"5GerbongLori.png",
