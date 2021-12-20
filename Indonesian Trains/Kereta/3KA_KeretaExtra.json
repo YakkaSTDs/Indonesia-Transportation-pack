@@ -143,6 +143,72 @@
     "title id":"draft_SPW_E235_PAS_title",
     "text id":"draft_SPW_E235_PAS_text"
   },
+  //KRD YIA
+  {
+    "id":"$KRDYIA01",
+    "type":"car",
+    "frames":[
+      {
+        "bmp":"5KRDYIAH.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRDYIAH",
+        "x":-15
+      }
+    ],
+    "frames per car":4,
+    "speed":1.8,
+    "template":"$K012_ITPTEMP_TRN01",
+    "capacity":4,
+    "tail":[
+      "$car_null00",
+      "$KRDYIAM",
+      "$car_null00",
+      "$KRDYIAM",
+      "$car_null00",
+      "$KRDYIAM",
+      "$car_null00",
+      "$KRDYIAM",
+      "$car_null00",
+      "$KRDYIAM",
+      "$car_null00",
+      "$KRDYIAH"
+    ]
+  },
+  {
+    "id":"$ITP_SPW_KRDYIA01",
+    "type":"railway station",
+    "width":1,
+    "height":1,
+    "frames":[
+      {
+        "steal":"$ITP_FrameTMP00",
+        "count":12
+      }
+    ],
+    "car spawner":[
+      {
+        "targets":[
+          "$ITP_SPW_KRDYIA01"
+        ],
+        "cars":[
+          "$KRDYIA01"
+        ],
+        "count":1,
+        "radius":512
+      }
+    ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO0","frame":0}], 
+    "template":"$K012_ITP_SPWPR01",
+    "capacity":2,
+    "title":"YIA DMU[in]KRD YIA",
+    "text":".[in]Kereta api Bandara Internasional Yogyakarta (YIA) merupakan layanan kereta api bandara yang melayani rute Yogyakarta- YIA PP, dan pernah melayani rute Yogyakarta - Wojo -Kebumen PP. Kereta ini dioperasikan oleh PT Kereta Api Indonesia Daerah Operasi VI Yogyakarta."
+  },
   //Lori
   {
     "id":"$K012_Trem001",
@@ -479,6 +545,7 @@
     "template":"$K012_ITP_SPWPR01",
     "width":1,
     "height":1,
+    "hidden":true,
     "frames":[
       {
         "steal":"$ITP_FrameTMP00",
@@ -495,6 +562,7 @@
     "template":"$K012_ITP_SPWPR01",
     "width":1,
     "height":1,
+    "hidden":true,
     "frames":[
       {
         "steal":"$ITP_FrameTMP00",
@@ -511,6 +579,7 @@
     "template":"$K012_ITP_SPWPR01",
     "width":1,
     "height":1,
+    "hidden":true,
     "frames":[
       {
         "steal":"$ITP_FrameTMP00",

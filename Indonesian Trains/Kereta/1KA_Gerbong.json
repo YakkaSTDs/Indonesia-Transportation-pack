@@ -183,6 +183,48 @@
       }
     ]
   },
+  {
+    "id":"$KRDYIAH",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5KRDYIAT.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRDYIAT",
+        "x":-15
+      }
+    ],
+    "frames per car":4,
+    "capacity":80
+  },
+  {
+    "id":"$KRDYIAM",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5KRDYIAM.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRDYIAM",
+        "x":-15
+      }
+    ],
+    "frames per car":4,
+    "capacity":80
+  },
   //Barang
   //Kontainer
   {
