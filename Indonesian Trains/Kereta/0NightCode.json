@@ -236,5 +236,19 @@
       }
     ],
     "rotation aware":true
+  },
+  {
+    "id":"$ITP_ANI_KAISWK",
+    "type":"animation",
+    "light":true,
+    "light switching":true,
+    "frames":[
+      {
+        "bmp":"7Loko_KAIS_Wiku.png",
+        "count":4,
+        "w":20
+      }
+    ],
+    "rotation aware":true
   }
 ]
