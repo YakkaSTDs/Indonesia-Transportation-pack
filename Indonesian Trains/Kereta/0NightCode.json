@@ -118,7 +118,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5GerbongPenumpangN.png",
+        "bmp":"7Gerbong_K3.png",
         "count":4,
         "w":20
       }
@@ -132,7 +132,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"6Gerbong_BagasiN.png",
+        "bmp":"7Gerbong_BN.png",
         "count":4,
         "w":20
       }
@@ -146,7 +146,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5EKRLHN.png",
+        "bmp":"6Loko_KRL.png",
         "count":4,
         "w":20
       }
@@ -160,7 +160,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5EKRLMN.png",
+        "bmp":"7Gerbong_K31.png",
         "count":4,
         "w":20
       }
@@ -174,7 +174,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5EKRLTN.png",
+        "bmp":"7Gerbong_K31T.png",
         "count":4,
         "w":20
       }
@@ -188,7 +188,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"4LokoLori14KedawungN.png",
+        "bmp":"6Loko_Lori14.png",
         "count":4,
         "w":18
       }
@@ -202,7 +202,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5KRDYIAHN.png",
+        "bmp":"6Loko_KRDYIA.png",
         "count":4,
         "w":20
       }
@@ -216,7 +216,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5KRDYIAMN.png",
+        "bmp":"7Gerbong_K32.png",
         "count":4,
         "w":20
       }
@@ -230,7 +230,7 @@
     "light switching":true,
     "frames":[
       {
-        "bmp":"5KRDYIATN.png",
+        "bmp":"7Gerbong_K32T.png",
         "count":4,
         "w":20
       }

@@ -1,18 +1,13 @@
 [
   //Penumpang
+  //Gerbong Normal
   {
-    "id":"$K012_TR_K1_KAI",
+    "id":"$K012_ITPTR_K3L16",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5GerbongPenumpang2016.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5GerbongPenumpang2020.png",
+        "bmp":"5Gerbong_K3L16.png",
         "count":4,
         "h":18,
         "w":20
@@ -26,24 +21,70 @@
     ]
   },
   {
-    "id":"$K012_TR_B1",
+    "id":"$K012_ITPTR_K3L20",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"6Gerbong_Bagasi1.png",
+        "bmp":"5Gerbong_K3L20.png",
         "count":4,
         "h":18,
         "w":20
-      },
+      }
+    ],
+    "animation":[
       {
-        "bmp":"6Gerbong_Bagasi2.png",
+        "id":"$ITP_ANI_PWAG",
+        "x":-15
+      }
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_K3L65",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_K3L65.png",
         "count":4,
         "h":18,
         "w":20
-      },
+      }
+    ],
+    "animation":[
       {
-        "bmp":"6Gerbong_Bagasi3.png",
+        "id":"$ITP_ANI_PWAG",
+        "x":-15
+      }
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_K3L06",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_K3L06.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_PWAG",
+        "x":-15
+      }
+    ]
+  },
+  //Gerbong Bagasi
+  {
+    "id":"$K012_ITPTR_B0L16",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_BL16.png",
         "count":4,
         "h":18,
         "w":20
@@ -57,18 +98,12 @@
     ]
   },
   {
-    "id":"$KRLE205EBH",
+    "id":"$K012_ITPTR_B0L20",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5E205KRLT.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5E205NKRLT.png",
+        "bmp":"5Gerbong_BL20.png",
         "count":4,
         "h":18,
         "w":20
@@ -76,120 +111,130 @@
     ],
     "animation":[
       {
-        "id":"$ITP_ANI_KRLT",
-        "x":-15
-      }
-    ],
-    "frames per car":4,
-    "capacity":80
-  },
-  {
-    "id":"$KRLE235EBH",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5E235KRLT.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5E235NKRLT.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "animation":[
-      {
-        "id":"$ITP_ANI_KRLT",
-        "x":-15
-      }
-    ],
-    "frames per car":4,
-    "capacity":80
-  },
-  {
-    "id":"$KRLE205E",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5E205KRLM.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5E205NKRLM.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "animation":[
-      {
-        "id":"$ITP_ANI_KRLM",
-        "x":-15
-      }
-    ],
-    "frames per car":4,
-    "capacity":80
-  },
-  {
-    "id":"$KRLE235E",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5E235KRLM.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5E235NKRLM.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "animation":[
-      {
-        "id":"$ITP_ANI_KRLM",
-        "x":-15
-      }
-    ],
-    "frames per car":4,
-    "capacity":80
-  },
-  {
-    "id":"$K012_TR_BIMA",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5Gerbong_BIMA65.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "animation":[
-      {
-        "id":"$ITP_ANI_PWAG",
+        "id":"$ITP_ANI_PARWAG",
         "x":-15
       }
     ]
   },
   {
-    "id":"$KRDYIAH",
+    "id":"$K012_ITPTR_B0L10",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5KRDYIAT.png",
+        "bmp":"5Gerbong_B2.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_PARWAG",
+        "x":-15
+      }
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_B0L13",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_B3.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_PARWAG",
+        "x":-15
+      }
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_B0L17",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_B4.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_PARWAG",
+        "x":-15
+      }
+    ]
+  },
+  //Gerbong KA Rangkaian
+  {
+    "id":"$K012_ITPTR_KRLE205",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_K31LCT.png",
+        "count":4,
+        "h":18,
+        "w":20
+      },
+      {
+        "bmp":"5Gerbong_K31LNT.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLT",
+        "x":-15
+      }
+    ],
+    "frames per car":4,
+    "capacity":80
+  },
+  {
+    "id":"$K012_ITPTR_KRLGE205",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_K31LC.png",
+        "count":4,
+        "h":18,
+        "w":20
+      },
+      {
+        "bmp":"5Gerbong_K31LN.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_KRLM",
+        "x":-15
+      }
+    ],
+    "frames per car":4,
+    "capacity":80
+  },
+  {
+    "id":"$K012_ITPTR_KRLYIA",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_K32T.png",
         "count":4,
         "h":18,
         "w":20
@@ -205,12 +250,12 @@
     "capacity":80
   },
   {
-    "id":"$KRDYIAM",
+    "id":"$K012_ITPTR_KRGYIA",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5KRDYIAM.png",
+        "bmp":"5Gerbong_K32.png",
         "count":4,
         "h":18,
         "w":20
@@ -228,12 +273,12 @@
   //Barang
   //Kontainer
   {
-    "id":"$K012_GD1KT",
+    "id":"$K012_ITPTR_DK1",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5Gerbong_Kontainer1.png",
+        "bmp":"5Gerbong_DK1.png",
         "count":4,
         "h":18,
         "w":21
@@ -243,12 +288,12 @@
     "capacity":0
   },
   {
-    "id":"$K012_GD2KT",
+    "id":"$K012_ITPTR_DK2",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5Gerbong_Kontainer2.png",
+        "bmp":"5Gerbong_DK2.png",
         "count":4,
         "h":18,
         "w":21
@@ -258,12 +303,12 @@
     "capacity":0
   },
   {
-    "id":"$K012_GD3KT",
+    "id":"$K012_ITPTR_DK3",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5Gerbong_Kontainer3.png",
+        "bmp":"5Gerbong_DK3.png",
         "count":4,
         "h":18,
         "w":21
@@ -273,12 +318,12 @@
     "capacity":0
   },
   {
-    "id":"$K012_GD4KT",
+    "id":"$K012_ITPTR_DK4",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5Gerbong_Kontainer4.png",
+        "bmp":"5Gerbong_DK4.png",
         "count":4,
         "h":18,
         "w":21
@@ -287,150 +332,75 @@
     "frames per car":4,
     "capacity":0
   },
-  //Random
+  //Gerbong Buka (GB)
   {
-    "id":"$K012_GB1",
+    "id":"$K012_ITPTR_BBAT",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"6Gerbong_BatubaraE.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"6Gerbong_BatubaraH.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"6Gerbong_BatubaraF.png",
+        "bmp":"5Gerbong_BB.png",
         "count":4,
         "h":18,
         "w":20
       }
-    ],
-    "frames per car":4,
-    "capacity":0
+    ]
   },
   {
-    "id":"$K012_GMINYAK",
+    "id":"$K012_ITPTR_BKRK",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"6Gerbong_Pertamina1.png",
+        "bmp":"5Gerbong_BK.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ]
+  },
+  //Gerbong Ketel (GK)
+  {
+    "id":"$K012_ITPTR_KMIN",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_KP1.png",
         "count":4,
         "h":13,
         "w":18
       }
-    ],
-    "frames per car":4,
-    "capacity":0
+    ]
   },
+  //Gerbong Datar (GD)
   {
-    "id":"$K012_GB1K1",
+    "id":"$K012_ITPTR_DREL",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5Gerbong_Kricak.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "frames per car":4,
-    "capacity":0
-  },
-  {
-    "id":"$K012_GDREL",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5Gerbong_Rel.png",
+        "bmp":"5Gerbong_DR.png",
         "count":4,
         "h":18,
         "w":18
       }
-    ],
-    "frames per car":4,
-    "capacity":0
+    ]
   },
   {
-    "id":"$K012_GK1",
+    "id":"$K012_ITPTR_DTBU",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"6Gerbong_Pertamina1.png",
-        "count":4,
-        "h":13,
-        "w":20
-      },
-      {
-        "bmp":"6Gerbong_Pertamina1.png",
-        "count":4,
-        "h":13,
-        "w":20
-      }
-    ],
-    "frames per car":4,
-    "capacity":0
-  },
-  {
-    "id":"$K012_GTG4",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5Gerbong_Barang1.png",
-        "count":4,
-        "h":18,
-        "w":20
-      },
-      {
-        "bmp":"5Gerbong_Barang2.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "frames per car":4,
-    "capacity":0
-  },
-  {
-    "id":"$K012_GTG2",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5Gerbong_Semen.png",
-        "count":4,
-        "h":18,
-        "w":20
-      }
-    ],
-    "frames per car":4,
-    "capacity":0
-  },
-  {
-    "id":"$K012_GL1",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01",
-    "frames":[
-      {
-        "bmp":"5GerbongLori.png",
+        "bmp":"5Gerbong_DT.png",
         "count":4,
         "y":0,
         "h":14,
         "w":18
       },
       {
-        "bmp":"5GerbongLori.png",
+        "bmp":"5Gerbong_DT.png",
         "count":4,
         "y":14,
         "h":14,
@@ -440,27 +410,44 @@
     "frames per car":4,
     "capacity":0
   },
+  //Gerbong Tutup (GT)
   {
-    "id":"$K012_GL2",
+    "id":"$K012_ITPTR_TKER1",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
     "frames":[
       {
-        "bmp":"5GerbongLori.png",
+        "bmp":"5Gerbong_TK1.png",
         "count":4,
-        "y":0,
-        "h":14,
-        "w":18
-      },
-      {
-        "bmp":"5GerbongLori.png",
-        "count":4,
-        "y":14,
-        "h":14,
-        "w":18
+        "h":18,
+        "w":20
       }
-    ],
-    "frames per car":4,
-    "capacity":0
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_TKER2",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_TK2.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ]
+  },
+  {
+    "id":"$K012_ITPTR_TSMN",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames":[
+      {
+        "bmp":"5Gerbong_TS.png",
+        "count":4,
+        "h":18,
+        "w":20
+      }
+    ]
   }
 ]

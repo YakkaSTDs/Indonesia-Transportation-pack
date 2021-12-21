@@ -5,13 +5,13 @@
     "type":"car",
     "frames":[
       {
-        "bmp":"5E205KRLH.png",
+        "bmp":"4Loko_E205LC.png",
         "count":4,
         "h":18,
         "w":20
       },
       {
-        "bmp":"5E205NKRLH.png",
+        "bmp":"4Loko_E205LN.png",
         "count":4,
         "h":18,
         "w":20
@@ -29,17 +29,17 @@
     "capacity":4,
     "tail":[
       "$car_null00",
-      "$KRLE205E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE205E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE205E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE205E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE205E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE205EBH"
+      "$K012_ITPTR_KRLE205"
     ]
   },
   {
@@ -65,7 +65,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":20}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":2}], 
     "template":"$K012_ITP_SPWPR01",
     "title id":"draft_SPW_E205_PAS_title",
     "text id":"draft_SPW_E205_PAS_text"
@@ -76,13 +76,13 @@
     "type":"car",
     "frames":[
       {
-        "bmp":"5E235KRLH.png",
+        "bmp":"4Loko_E235LC.png",
         "count":4,
         "h":18,
         "w":20
       },
       {
-        "bmp":"5E235NKRLH.png",
+        "bmp":"4Loko_E235LN.png",
         "count":4,
         "h":18,
         "w":20
@@ -100,17 +100,17 @@
     "capacity":4,
     "tail":[
       "$car_null00",
-      "$KRLE235E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE235E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE235E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE235E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE235E",
+      "$K012_ITPTR_KRLGE205",
       "$car_null00",
-      "$KRLE235EBH"
+      "$K012_ITPTR_KRLE205"
     ]
   },
   {
@@ -137,7 +137,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":20}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":2}], 
     "template":"$K012_ITP_SPWPR01",
     "capacity":2,
     "title id":"draft_SPW_E235_PAS_title",
@@ -149,7 +149,7 @@
     "type":"car",
     "frames":[
       {
-        "bmp":"5KRDYIAH.png",
+        "bmp":"4Loko_KRDYIA.png",
         "count":4,
         "h":18,
         "w":20
@@ -167,17 +167,17 @@
     "capacity":4,
     "tail":[
       "$car_null00",
-      "$KRDYIAM",
+      "$K012_ITPTR_KRGYIA",
       "$car_null00",
-      "$KRDYIAM",
+      "$K012_ITPTR_KRGYIA",
       "$car_null00",
-      "$KRDYIAM",
+      "$K012_ITPTR_KRGYIA",
       "$car_null00",
-      "$KRDYIAM",
+      "$K012_ITPTR_KRGYIA",
       "$car_null00",
-      "$KRDYIAM",
+      "$K012_ITPTR_KRGYIA",
       "$car_null00",
-      "$KRDYIAH"
+      "$K012_ITPTR_KRLYIA"
     ]
   },
   {
@@ -203,7 +203,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO0","frame":0}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":5}], 
     "template":"$K012_ITP_SPWPR01",
     "capacity":2,
     "title":"YIA DMU[in]KRD YIA",
@@ -215,13 +215,13 @@
     "type":"car",
     "frames":[
       {
-        "bmp":"4LokoLori14Kedawung.png",
+        "bmp":"4Loko_Lori14.png",
         "count":4,
         "h":18,
         "w":18
       },
       {
-        "bmp":"4LokoLori14Kedawung.png",
+        "bmp":"4Loko_Lori14.png",
         "count":4,
         "h":18,
         "w":18
@@ -239,17 +239,17 @@
     "capacity":4,
     "tail":[
       "$IRPNULL",
-      "$K012_GL1",
+      "$K012_ITPTR_DTBU",
       "$IRPNULL",
-      "$K012_GL1",
+      "$K012_ITPTR_DTBU",
       "$IRPNULL",
-      "$K012_GL2",
+      "$K012_ITPTR_DTBU",
       "$IRPNULL",
-      "$K012_GL2",
+      "$K012_ITPTR_DTBU",
       "$IRPNULL",
-      "$K012_GL2",
+      "$K012_ITPTR_DTBU",
       "$IRPNULL",
-      "$K012_GL1"
+      "$K012_ITPTR_DTBU"
     ]
   },
   {
@@ -277,7 +277,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO2","frame":1}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":3}], 
     "title id":"draft_Plat_LOR_title",
     "text":".[in]Pabrik Gula Djatiroto adalah pabrik gula yang terletak di Desa Kaliboto Lor, Kecamatan Jatiroto, Kabupaten Lumajang, Provinsi Jawa Timur. Pabrik ini didirikan pada awal abad ke-20 oleh Perkumpulan Dagang Amsterdam atau disebut Handelsvereeniging Amsterdam (H.V.A)."
   },
@@ -304,17 +304,17 @@
     ],
     "tail":[
       "$IRPNULL",
-      "$K012_GD1KT",
+      "$K012_ITPTR_DK1",
       "$IRPNULL",
-      "$K012_GD2KT",
+      "$K012_ITPTR_DK2",
       "$IRPNULL",
-      "$K012_GD3KT",
+      "$K012_ITPTR_DK3",
       "$IRPNULL",
-      "$K012_GD4KT",
+      "$K012_ITPTR_DK4",
       "$IRPNULL",
-      "$K012_GD2KT",
+      "$K012_ITPTR_DK2",
       "$IRPNULL",
-      "$K012_GD1KT"
+      "$K012_ITPTR_DK1"
     ]
   },
   {
@@ -342,7 +342,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":19}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":1}], 
     "title":"Container train[in]KA Peti Kemas",
     "text":"An intermodal container, often called a shipping container, is a large standardized shipping container, designed and built for intermodal freight transport, meaning these containers can be used across different modes of transport – from ship to rail to truck – without unloading and reloading their cargo.[in]Peti kemas (Inggris: ISO container) adalah peti atau kotak yang memenuhi persyaratan teknis sesuai dengan International Organization for Standardization (ISO) sebagai alat atau perangkat pengangkutan barang yang bisa digunakan diberbagai moda, mulai dari moda jalan dengan truk peti kemas, kereta api dan kapal peti kemas laut. "
   },
@@ -369,17 +369,17 @@
     ],
     "tail":[
       "$IRPNULL",
-      "$K012_GMINYAK",
+      "$K012_ITPTR_KMIN",
       "$IRPNULL",
-      "$K012_GMINYAK",
+      "$K012_ITPTR_KMIN",
       "$IRPNULL",
-      "$K012_GMINYAK",
+      "$K012_ITPTR_KMIN",
       "$IRPNULL",
-      "$K012_GMINYAK",
+      "$K012_ITPTR_KMIN",
       "$IRPNULL",
-      "$K012_GMINYAK",
+      "$K012_ITPTR_KMIN",
       "$IRPNULL",
-      "$K012_GMINYAK"
+      "$K012_ITPTR_KMIN"
     ]
   },
   {
@@ -406,7 +406,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO1","frame":18}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":0}], 
     "title":"CC206 Fuel train[in]KA Ketel CC206",
     "text":".[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
   },
@@ -433,17 +433,17 @@
     ],
     "tail":[
       "$IRPNULL",
-      "$K012_GDREL",
+      "$K012_ITPTR_DREL",
       "$IRPNULL",
-      "$K012_GDREL",
+      "$K012_ITPTR_DREL",
       "$IRPNULL",
-      "$K012_GDREL",
+      "$K012_ITPTR_DREL",
       "$IRPNULL",
-      "$K012_GDREL",
+      "$K012_ITPTR_DREL",
       "$IRPNULL",
-      "$K012_GDREL",
+      "$K012_ITPTR_DREL",
       "$IRPNULL",
-      "$K012_GDREL"
+      "$K012_ITPTR_DREL"
     ]
   },
   {
@@ -470,7 +470,7 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO2","frame":2}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":4}], 
     "title":"CC206 Rail train[in]KLB Rel CC206",
     "text":".[in]Kereta luar biasa (disingkat menjadi KLB) adalah kereta api yang dijalankan di luar jadwal reguler atau grafik perjalanan kereta api (Gapeka). KLB umumnya dijalankan pada saat kebutuhan mendesak atau sangat mendesak, yang mana jadwal perjalanannya akan diteruskan ke stasiun-stasiun yang akan dilewatinya. Walaupun di luar Gapeka, KLB tetap mengacu pada peraturan perjalanan kereta api, yakni tetap membuat maklumat perjalanan kereta api (malka) dan warta maklumat (wam)."
   },
@@ -497,17 +497,17 @@
     ],
     "tail":[
       "$IRPNULL",
-      "$K012_TR_B1",
+      "$K012_ITPTR_B0L13",
       "$IRPNULL",
-      "$K012_TR_B1",
+      "$K012_ITPTR_B0L13",
       "$IRPNULL",
-      "$K012_TR_B1",
+      "$K012_ITPTR_B0L13",
       "$IRPNULL",
-      "$K012_TR_B1",
+      "$K012_ITPTR_B0L17",
       "$IRPNULL",
-      "$K012_TR_B1",
+      "$K012_ITPTR_B0L17",
       "$IRPNULL",
-      "$K012_TR_K1_KAI"
+      "$K012_ITPTR_B0L17"
     ]
   },
   {
@@ -534,13 +534,13 @@
         "radius":512
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO4","frame":0}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":6}], 
     "title":"Parcel Train[in]KA Parcel ONS",
     "text":".[in]Kereta api Over Night Service—diartikan sebagai Kereta api Layanan Semalam, disebut juga Parcel ONS—adalah layanan kereta api barang bagasi yang dioperasikan oleh PT Kereta Api Indonesia (Persero) di Jawa melayani lintas Jakarta Gudang–Surabaya Pasarturi/Malang dan Bandung–Surabaya Kota maupun sebaliknya."
   },
   //Mystery
   {
-    "id":"$ITP_KA_COON",
+    "id":"$ITP_COMINGSOON",
     "type":"railway station",
     "template":"$K012_ITP_SPWPR01",
     "width":1,
@@ -552,42 +552,8 @@
         "count":12
       }
     ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO0","frame":0}], 
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_DEBUG01","frame":0}], 
     "title":"Coming Soon[in]Segera Hadir",
     "text":"This Train Will introduced soon[in]Kereta ini akan di tambahkan pada update berikutnya."
-  },
-  {
-    "id":"$ITP_KA_ER404",
-    "type":"railway station",
-    "template":"$K012_ITP_SPWPR01",
-    "width":1,
-    "height":1,
-    "hidden":true,
-    "frames":[
-      {
-        "steal":"$ITP_FrameTMP00",
-        "count":12
-      }
-    ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO3","frame":0}], 
-    "title":"",
-    "text":"Unknown Train/Invalid Train[in]Kereta Tidak Diketahui/Invalid."
-  },
-  {
-    "id":"$ITP_KA_NOFR",
-    "type":"railway station",
-    "template":"$K012_ITP_SPWPR01",
-    "width":1,
-    "height":1,
-    "hidden":true,
-    "frames":[
-      {
-        "steal":"$ITP_FrameTMP00",
-        "count":12
-      }
-    ],
-    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO4","frame":0}], 
-    "title":"No Frame[in]Tidak Ada Frame",
-    "text":"This train dont have frame or broken.[in]Kereta ini tidak memiliki frame atau rusak!"
   }
 ]
