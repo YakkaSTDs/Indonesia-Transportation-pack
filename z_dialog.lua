@@ -15,23 +15,6 @@ local function showMenu(dialog)
     }
   }
 end
---Show the tutorial menu
-local function showtutorialDialog()
-  local dialog
-  dialog = GUI.createDialog{
-    icon = Icon.ABOUT,
-    title = 'Tutorial',
-    text = [[This is the Tutorial
-Welcome to Indonesia Transportation Pack tutorial,this tutorial just cover about train section.
-Q:How to make platform? (V 5.1 +)
-A: Paltform now is more modulable than before it shows up as fence because i dont need to make more variant of the platform
-Honestly i dont any other question for this particular menu,so comment please.]],
-    width = 250,
-    height = 300,
-    pause = true
-  }
-  closeDialog = dialog.close
-end
 --Show the Credits list dialog window
 local function showcreditsDialog()
   local function createIconPreview(parent, frame)
@@ -62,6 +45,16 @@ local function showcreditsDialog()
         w = -30,
         h = 16
       }
+  local cmd = entry:addButton{
+    x = -35,
+    width = 30,
+    icon = Icon.ABOUT,
+    golden = true,
+    onClick = function()
+      Runtime.setClipboard('https://kiki012184.github.io/K012-Theotown.com/plugin.html')
+      Debug.toast('Put the website link into clipboard')
+    end
+  }
 --Texture Credits
   local entry = listBox:addCanvas{h=20}
       entry:addLabel{
@@ -79,55 +72,61 @@ local function showcreditsDialog()
   }
   local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Kingtut101',
+        text = 'Kingtut101 (Some Texture and lua help)',
         w = -30,
         h = 16
       }
   local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Matthew Fillbert',
+        text = 'Matthew Fillbert (DMU,and EMU Texture)',
         w = -30,
         h = 16
       }
   local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Akunbaru123',
+        text = 'Akunbaru123 (Sugarcane Train Platform texture)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Pederont',
+        text = 'Pederont (Helping on road decoration)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'mdk_813',
+        text = 'mdk_813 (Some of textures)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'theotheorich',
+        text = 'theotheorich (In game Textures)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'lobbydivinus',
+        text = 'lobbydivinus (In game Textures)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'justanyone',
+        text = 'justanyone (In game Textures)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Hadestia',
+        text = 'Hadestia (Lua Help)',
+        w = -30,
+        h = 16
+      }
+local entry = listBox:addCanvas{h=20}
+      entry:addLabel{
+        text = 'yusuf8a684 (Some Textures)',
         w = -30,
         h = 16
       }
@@ -148,19 +147,25 @@ local entry = listBox:addCanvas{h=20}
   }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Chris (Discord)',
+        text = 'Chris (Discord) (Old Station Textures)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Andythenorth (Discord)',
+        text = 'Andythenorth (Discord) (Cargo Icon)',
         w = -30,
         h = 16
       }
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Alan (FTTI)',
+        text = 'Cpt.Klutz (Discord) (Roof Texture Template)',
+        w = -30,
+        h = 16
+      }
+local entry = listBox:addCanvas{h=20}
+      entry:addLabel{
+        text = 'Alan (FTTI) (Supporter)',
         w = -30,
         h = 16
       }
@@ -189,7 +194,7 @@ local function showinfoMenu(dialog)
         icon = Icon.COPY,
         text = 'Discord',
         onClick = function()
-          Runtime.setClipboard('https://discord.gg/UEDRUnFbEJ')
+          Runtime.setClipboard('https://discord.gg/TuTUUfv8MU')
           Debug.toast('Put the Discord invite link into clipboard')
         end,
         autoClose = false
@@ -211,6 +216,23 @@ local function showinfoMenu(dialog)
           Debug.toast('Put the website link into clipboard')
         end,
         autoClose = false
+      },
+      {
+        icon = Icon.COPY,
+        text = 'Github',
+        onClick = function()
+          Runtime.setClipboard('https://github.com/Kiki012184/Indonesia-Transportation-pack')
+          Debug.toast('Put the Github link into clipboard')
+        end,
+        autoClose = false
+      },
+      {
+        icon = Icon.COPY,
+        text = 'I want something',
+        onClick = function()
+          Debug.toast('Never gonna give you up,never gonna let you down,never gonna tell a lie and hurt you.')
+        end,
+        autoClose = false
       }
     }
   }
@@ -225,13 +247,22 @@ local function showDialog()
     text = [[Welcome to Indonesia Transportation Pack!
 This plugin add New Content Related to Transportation in Indonesia.
 
-You can unlock the road section if your city have enough ranks.
+Such as train complete with its infrastucture and pack of road
 
-Unlocking Train is bit more complicated,you need station headmaster house first,then it time for your decision,either unlocking local made trains,you just need to build an train factory,or imported trains,by building dedicated port,most of Indonesian train are imported.
+Quick Tutorial:
+
+Unlock Road Section by making your city level/rank into village level
+
+Train Section is bit more complicated one,
+First Build Station headmaster house,
+then decide which train is being used,
+for local made train,you need train factory,
+for import train,you need train shop,
+there premium train shop,where you pay that building with diamond,then unlock additional train.
 
 Sadly, some features are limited,And Some Bugged.
 
-There Are Patch or addon for this plugin such as normal rail compability,remove roads,and much more,click more info and get the link to my website.
+There Are Patch or addon for this plugin such as normal rail compability,remove roads,and much more,click More button and get the link to my website.
 
 if  you got a bug or a problem, or have an idea, please post it in comments.
 
@@ -248,15 +279,9 @@ to be honest being an plugin creator is hard,especialy managing an huge plugin l
         autoClose = false
       },
       {
-        icon = Icon.ABOUT,
-        text = 'Tutorial',
-        onClick = showtutorialDialog,
-        autoClose = false
-      },
-      {
         id = '$menuparent',
         icon = Icon.INFO,
-        text = 'More Info',
+        text = 'More',
         onClick = function() showinfoMenu(dialog) end,
         autoClose = false
       }

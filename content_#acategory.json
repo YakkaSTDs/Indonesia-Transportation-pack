@@ -23,6 +23,17 @@
     ]
   },
   {
+    "id":"$K012_ITPCAT_RWDC02",
+    "type":"category",
+    "category":"$K012_ITPCAT_RWDC01",
+    "title":"Rail Decoration[in]Deko Rel",
+    "frames":[
+      {
+        "bmp":"Content_icon/ITPCATDECORD.png"
+      }
+    ]
+  },
+  {
     "id":"$K012_ITPCAT_BDL01",
     "type":"category",
     "category":"$K012_ITPCAT_ROOT01",
