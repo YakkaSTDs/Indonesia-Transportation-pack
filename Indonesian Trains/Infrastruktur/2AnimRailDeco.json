@@ -727,7 +727,8 @@
         "bmp":"5DepoLoko.png",
         "x":64,
         "w":32,
-        "handle y":23
+        "handle y":23,
+        "handle x":3
       }
     ]
   },
@@ -737,103 +738,7 @@
     "frames":[
       {
         "bmp":"5DepoLoko.png",
-        "x":92,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYG1",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Aman.png",
-        "x":0,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYG2",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Aman.png",
-        "x":32,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYG3",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Aman.png",
-        "x":64,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYG4",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Aman.png",
-        "x":92,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYR1",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Bahaya.png",
-        "x":0,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYR2",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Bahaya.png",
-        "x":32,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYR3",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Bahaya.png",
-        "x":64,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYR4",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalElektrik_Bahaya.png",
-        "x":92,
+        "x":96,
         "w":32,
         "handle y":23
       }
@@ -859,7 +764,7 @@
         "bmp":"5PerlintasanKA_Buka.png",
         "x":32,
         "w":32,
-        "handle y":23
+        "handle y":24
       }
     ]
   },
@@ -881,9 +786,10 @@
     "frames":[
       {
         "bmp":"5PerlintasanKA_Buka.png",
-        "x":92,
+        "x":96,
         "w":32,
-        "handle y":23
+        "handle y":24,
+        "handle x":1
       }
     ]
   },
@@ -907,7 +813,7 @@
         "bmp":"5PerlintasanKA_Tutup.png",
         "x":32,
         "w":32,
-        "handle y":23
+        "handle y":24
       }
     ]
   },
@@ -929,105 +835,10 @@
     "frames":[
       {
         "bmp":"5PerlintasanKA_Tutup.png",
-        "x":92,
+        "x":96,
         "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMG1",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Aman.png",
-        "x":0,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMG2",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Aman.png",
-        "x":32,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMG3",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Aman.png",
-        "x":64,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMG4",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Aman.png",
-        "x":92,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMR1",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Bahaya.png",
-        "x":0,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMR2",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Bahaya.png",
-        "x":32,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMR3",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Bahaya.png",
-        "x":64,
-        "w":32,
-        "handle y":23
-      }
-    ]
-  },
-  {
-    "id":"$railani_K012_SYMR4",
-    "type":"animation",
-    "frames":[
-      {
-        "bmp":"5SinyalMekanik_Bahaya.png",
-        "x":92,
-        "w":32,
-        "handle y":23
+        "handle y":24,
+        "handle x":1
       }
     ]
   }

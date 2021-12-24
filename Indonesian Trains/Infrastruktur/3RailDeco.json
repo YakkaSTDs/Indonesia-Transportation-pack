@@ -1,4 +1,9 @@
 [
+  {
+    "id":"$K012ITP_TEMP_RDCAT01",
+    "type":"template",
+    "category":"$K012_ITPCAT_RWDC02"
+  },
   //Siyal(
   //Sinyal Elektrik Masuk
   {
@@ -12,6 +17,7 @@
     "enter speed":0.05,
     "exit speed":0.4,
     "exclusive":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SEMB00"
@@ -50,6 +56,7 @@
     "min dirs":2,
     "max dirs":2,
     "exclusive":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SEMA00"
@@ -91,6 +98,7 @@
     "enter speed":0.05,
     "exit speed":0.4,
     "exclusive":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SEKB00"
@@ -129,6 +137,7 @@
     "min dirs":2,
     "max dirs":2,
     "exclusive":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SEKA00"
@@ -169,6 +178,7 @@
     "max dirs":2,
     "enter speed":0.05,
     "exit speed":0.4,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SELB00"
@@ -206,6 +216,7 @@
     "text":"An decoration for your railway",
     "min dirs":2,
     "max dirs":2,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SELA00"
@@ -246,6 +257,7 @@
     "max dirs":2,
     "enter speed":0.05,
     "exit speed":0.4,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMKB00"
@@ -283,6 +295,7 @@
     "text":"An decoration for your railway",
     "min dirs":2,
     "max dirs":2,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMKA00"
@@ -323,6 +336,7 @@
     "max dirs":2,
     "enter speed":0.05,
     "exit speed":0.4,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMMB00"
@@ -360,6 +374,7 @@
     "text":"An decoration for your railway",
     "min dirs":2,
     "max dirs":2,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMMA00"
@@ -400,6 +415,7 @@
     "max dirs":2,
     "enter speed":0.05,
     "exit speed":0.4,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMUB00"
@@ -437,6 +453,7 @@
     "text":"An decoration for your railway",
     "min dirs":2,
     "max dirs":2,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_SMUA00"
@@ -468,10 +485,11 @@
   },
   //)Div
   {
-    "id":"$raildeco_012_RCO",
+    "id":"$K012ITP_RACO_PKAA",
     "type":"road decoration",
     "min dirs":4,
     "max dirs":4,
+    "category":"$K012_ITPCAT_RWDC02",
     "template":"$K012_ITPTEMP_PART00",
     "title":"Railroad crossing",
     "text":"An Railroad crossing",
@@ -485,7 +503,7 @@
         "actions":[
           {
             "type":"build",
-            "id":"$raildeco_012_RCC"
+            "id":"$K012ITP_RACO_PKAB"
           }
         ]
       }
@@ -550,13 +568,15 @@
     ]
   },
   {
-    "id":"$raildeco_012_RCC",
+    "id":"$K012ITP_RACO_PKAB",
     "type":"road decoration",
     "min dirs":4,
     "max dirs":4,
     "template":"$K012_ITPTEMP_PART00",
     "hidden":true,
-    "speed":0,
+    "enter speed":0.05,
+    "exit speed":0.2,
+    "category":"$K012_ITPCAT_RWDC02",
     "on click fun":[
       {
         "condition":{
@@ -567,7 +587,7 @@
         "actions":[
           {
             "type":"build",
-            "id":"$raildeco_012_RCO"
+            "id":"$K012ITP_RACO_PKAA"
           }
         ]
       }
@@ -632,13 +652,14 @@
     ]
   },
   {
-    "id":"$raildeco_012_RCO_B",
+    "id":"$K012ITP_RACO_PKAA_B",
     "type":"road decoration",
     "min dirs":4,
     "max dirs":4,
     "template":"$K012_ITPTEMP_PART00",
     "title id":"Railroad crossing",
     "text":"An Typical Indonesian Railroad crossing",
+    "category":"$K012_ITPCAT_RWDC02",
     "on click fun":[
       {
         "condition":{
@@ -649,7 +670,7 @@
         "actions":[
           {
             "type":"build",
-            "id":"$raildeco_012_RCC_B"
+            "id":"$K012ITP_RACO_PKAB_B"
           }
         ]
       }
@@ -714,7 +735,7 @@
     ]
   },
   {
-    "id":"$raildeco_012_RCC_B",
+    "id":"$K012ITP_RACO_PKAB_B",
     "type":"road decoration",
     "min dirs":4,
     "max dirs":4,
@@ -722,7 +743,9 @@
     "title id":"draft_TRA_DPPKA_title",
     "text id":"draft_TRA_DPPKA_text",
     "hidden":true,
-    "speed":0,
+    "category":"$K012_ITPCAT_RWDC02",
+    "entry speed":0.05,
+    "exit speed":0.2,
     "on click fun":[
       {
         "condition":{
@@ -733,7 +756,7 @@
         "actions":[
           {
             "type":"build",
-            "id":"$raildeco_012_RCO_B"
+            "id":"$K012ITP_RACO_PKAA_B"
           }
         ]
       }
@@ -807,6 +830,7 @@
     "min dirs":2,
     "max dirs":4,
     "line tool":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_KATKAB00"
@@ -845,6 +869,7 @@
     "min dirs":2,
     "max dirs":4,
     "line tool":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$K012ITP_ANIRACO_KAT00"
@@ -875,14 +900,16 @@
     ]
   },
   {
-    "id":"$raildeco_012_DEP",
+    "id":"$K012ITP_RACO_DEPO",
     "type":"road decoration",
     "title":"Train Depo[in]Depo Kereta",
     "text":"Train Depo[in]Depo Kereta",
     "template":"$K012_ITPTEMP_PART00",
     "min dirs":2,
     "max dirs":2,
+    "speed":0.5,
     "line tool":true,
+    "category":"$K012_ITPCAT_RWDC02",
     "animation":[
       {
         "id":"$railani_K012_DEP1"
