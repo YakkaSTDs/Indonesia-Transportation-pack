@@ -11,6 +11,7 @@
     "draw ground":true,
     "monthly price":30,
     "bridge price":250,
+    "allow diagonal":true,
     "price":120,
     "level":20,
     "pile distant":3,
@@ -110,7 +111,7 @@
       }
     ],
     "template":"$K012_ITPTEMP_Rail00",
-    "allow diagonal":true,
+
     "hidden":true,
     "speed":2.2
   },
@@ -148,7 +149,7 @@
       }
     ],
     "template":"$K012_ITPTEMP_Rail00",
-    "allow diagonal":true,
+
     "hidden":true,
     "one way":true,
     "speed":2.2
@@ -187,7 +188,7 @@
       }
     ],
     "template":"$K012_ITPTEMP_Rail00",
-    "allow diagonal":true,
+
     "hidden":true,
     "speed":1.6
   },
@@ -225,7 +226,7 @@
     ],
     "template":"$K012_ITPTEMP_Rail00",
     "speed":1.6,
-    "allow diagonal":true,
+
     "hidden":true,
     "one way":true
   },
