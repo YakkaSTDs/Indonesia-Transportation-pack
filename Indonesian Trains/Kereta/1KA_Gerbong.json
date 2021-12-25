@@ -37,8 +37,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K3L20DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -56,8 +63,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K3L65DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -75,8 +89,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K3L06DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -121,8 +142,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_BL20DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PARWAG",
@@ -140,8 +168,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_B2DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PARWAG",
@@ -159,8 +194,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_B3DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PARWAG",
@@ -178,8 +220,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_B4DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PARWAG",
@@ -212,7 +261,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "capacity":80
   },
   {
@@ -239,7 +288,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "capacity":80
   },
   {
@@ -260,7 +309,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "capacity":80
   },
   {
@@ -281,7 +330,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "capacity":80
   },
   //Barang
@@ -296,9 +345,15 @@
         "count":4,
         "h":18,
         "w":21
+      },
+      {
+        "bmp":"5Gerbong_DK1DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
-    "frames per car":4,
+    "frames per variant":8,
     "capacity":0
   },
   {
@@ -311,9 +366,15 @@
         "count":4,
         "h":18,
         "w":21
+      },
+      {
+        "bmp":"5Gerbong_DK2DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
-    "frames per car":4,
+    "frames per variant":8,
     "capacity":0
   },
   {
@@ -326,9 +387,15 @@
         "count":4,
         "h":18,
         "w":21
+      },
+      {
+        "bmp":"5Gerbong_DK3DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
-    "frames per car":4,
+    "frames per variant":8,
     "capacity":0
   },
   {
@@ -341,9 +408,15 @@
         "count":4,
         "h":18,
         "w":21
+      },
+      {
+        "bmp":"5Gerbong_DK4DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
-    "frames per car":4,
+    "frames per variant":8,
     "capacity":0
   },
   //Gerbong Buka (GB)
@@ -357,8 +430,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_BBDIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   {
     "id":"$K012_ITPTR_BKRK",
@@ -370,8 +450,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_BKDIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   //Gerbong Ketel (GK)
   {
@@ -384,8 +471,15 @@
         "count":4,
         "h":13,
         "w":18
+      },
+      {
+        "bmp":"5Gerbong_KP1DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   //Gerbong Datar (GD)
   {
@@ -398,8 +492,15 @@
         "count":4,
         "h":18,
         "w":18
+      },
+      {
+        "bmp":"5Gerbong_DRDIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   {
     "id":"$K012_ITPTR_DTBU",
@@ -421,7 +522,7 @@
         "w":18
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "capacity":0
   },
   //Gerbong Tutup (GT)
@@ -435,8 +536,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_TK1DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   {
     "id":"$K012_ITPTR_TKER2",
@@ -448,8 +556,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_TK2DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   },
   {
     "id":"$K012_ITPTR_TSMN",
@@ -461,7 +576,14 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_TSDIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
-    ]
+    ],
+    "frames per variant":8
   }
 ]

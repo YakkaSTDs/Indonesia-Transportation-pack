@@ -10,8 +10,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K1LI1DIA.png",
+        "count":4,
+        "h":18,
+        "w":20
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -29,8 +36,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K1LI2DIA.png",
+        "count":4,
+        "h":18,
+        "w":20
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -48,8 +62,15 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_CC206",
@@ -61,7 +82,7 @@
     "id":"$K012_TR_KLB_PRS",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
+    "frames per variant":4,
     "speed":2.4,
     "frames":[
       {

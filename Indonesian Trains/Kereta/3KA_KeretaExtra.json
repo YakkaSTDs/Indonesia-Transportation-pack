@@ -23,7 +23,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "speed":1.8,
     "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
@@ -94,7 +94,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "speed":1.8,
     "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
@@ -161,7 +161,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "speed":1.8,
     "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
@@ -233,7 +233,7 @@
         "x":-15
       }
     ],
-    "frames per car":4,
+    "frames per variant":4,
     "speed":0.8,
     "template":"$K012_ITPTEMP_TRN01",
     "capacity":4,
@@ -286,7 +286,7 @@
     "id":"$K012_TR_CC206_KONT",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
+    "frames per variant":8,
     "speed":2.2,
     "frames":[
       {
@@ -294,6 +294,12 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
     "animation":[
@@ -351,7 +357,7 @@
     "id":"$K012_TR_CC206_KETL",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
+    "frames per variant":8,
     "speed":2.2,
     "frames":[
       {
@@ -359,6 +365,12 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
     "animation":[
@@ -415,7 +427,7 @@
     "id":"$K012_TR_CC206_REL",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
+    "frames per variant":8,
     "speed":2.2,
     "frames":[
       {
@@ -423,6 +435,12 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
     "animation":[
@@ -479,7 +497,7 @@
     "id":"$K012_TR_CC206_PAR",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
+    "frames per variant":8,
     "speed":2.2,
     "frames":[
       {
@@ -487,6 +505,12 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
     "animation":[
@@ -537,6 +561,64 @@
     "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_EXTRA01","frame":6}], 
     "title":"Parcel Train[in]KA Parcel ONS",
     "text":".[in]Kereta api Over Night Service—diartikan sebagai Kereta api Layanan Semalam, disebut juga Parcel ONS—adalah layanan kereta api barang bagasi yang dioperasikan oleh PT Kereta Api Indonesia (Persero) di Jawa melayani lintas Jakarta Gudang–Surabaya Pasarturi/Malang dan Bandung–Surabaya Kota maupun sebaliknya."
+  },
+  //C300
+  {
+    "id":"$K012_TR_C300_PAS",
+    "type":"car",
+    "template":"$K012_ITPTEMP_TRN01",
+    "frames per variant":4,
+    "speed":1.2,
+    "frames":[
+      {
+        "bmp":"4C300.png",
+        "count":4,
+        "w":16,
+        "h":15
+      }
+    ],
+    "animation":[
+      {
+        "id":"$ITP_ANI_C300",
+        "x":-15
+      }
+    ],
+    "tail":[
+      "$IRPNULL",
+      "$K012_ITPTR_K3L65",
+      "$IRPNULL",
+      "$K012_ITPTR_K3L65",
+      "$IRPNULL",
+      "$K012_ITPTR_K3L65"
+    ]
+  },
+  {
+    "id":"$ITP_C300_PAS",
+    "type":"railway station",
+    "template":"$K012_ITP_SPWPR01",
+    "width":1,
+    "height":1,
+    "frames":[
+      {
+        "steal":"$ITP_FrameTMP00",
+        "count":12
+      }
+    ],
+    "car spawner":[
+      {
+        "targets":[
+          "$ITP_C300_PAS"
+        ],
+        "cars":[
+          "$K012_TR_C300_PAS"
+        ],
+        "count":1,
+        "radius":512
+      }
+    ],
+    "preview frames":[{"steal":"$ITP_ANI_ICONDEPO_DEBUG01","frame":0}], 
+    "title":"Shunt C300[in]C300 Langsir",
+    "text":".[in]Lokomotif C 300 adalah lokomotif diesel hidraulik pertama di Indonesia buatan pabrik VEB Lokomotivbau Karl Marx Babelsberg, Jerman Timur. Lokomotif ini mulai berdinas sejak 1966, dan merupakan lokomotif diesel untuk keperluan langsir yang pertama di Indonesia. Lokomotif ini bergandar C', artinya lokomotif ini memiliki tiga gandar penggerak yang saling terhubung dalam satu bogie."
   },
   //Mystery
   {
