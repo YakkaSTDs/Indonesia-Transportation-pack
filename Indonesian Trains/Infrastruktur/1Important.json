@@ -41,6 +41,7 @@
       "requirements":[
         {
           "type":"BUILDING",
+          "text":"Headmaster House Required[in]Rumah dinas dibutuhkan!",
           "data":{
             "id":"$K012_Rumahdinas01"
           }
@@ -68,9 +69,18 @@
       }
     ],
     "template":[
-      "$K012_ITPTEMP_MAIN",
       "$template_diamondbuilding00"
     ],
+    "requirement":{
+      "requirements":[
+        {
+          "type":"RANK",
+          "data":{
+            "id":"$rnk_village_medium"
+          }
+        }
+      ]
+    },
     "rotation aware":true,
     "draw ground":true,
     "needs road":false,
