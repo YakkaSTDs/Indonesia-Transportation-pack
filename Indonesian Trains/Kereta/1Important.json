@@ -45,6 +45,12 @@
         {
           "type":"BUILDING",
           "data":{
+            "id":"$K012_Rumahdinas01"
+          }
+        },
+        {
+          "type":"BUILDING",
+          "data":{
             "id":"$K012_Toko_Kereta_Premium01"
           }
         }
