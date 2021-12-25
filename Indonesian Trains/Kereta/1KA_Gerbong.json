@@ -11,8 +11,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_K3L16DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PWAG",
@@ -88,8 +95,15 @@
         "count":4,
         "h":18,
         "w":20
+      },
+      {
+        "bmp":"5Gerbong_BL16DIA.png",
+        "count":4,
+        "h":19,
+        "w":32
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_PARWAG",

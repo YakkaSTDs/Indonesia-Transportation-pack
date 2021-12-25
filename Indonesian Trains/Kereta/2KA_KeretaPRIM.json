@@ -1253,7 +1253,6 @@
     "id":"$K012_TR_CC206_BIMA",
     "type":"car",
     "template":"$K012_ITPTEMP_TRN01",
-    "frames per car":4,
     "speed":2.2,
     "frames":[
       {
@@ -1261,8 +1260,15 @@
         "count":4,
         "w":20,
         "h":18
+      },
+      {
+        "bmp":"4CC206DIA.png",
+        "count":4,
+        "w":32,
+        "h":19
       }
     ],
+    "frames per variant":8,
     "animation":[
       {
         "id":"$ITP_ANI_CC206",
