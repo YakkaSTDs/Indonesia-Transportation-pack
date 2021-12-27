@@ -1,0 +1,29 @@
+[
+  {
+    "id":"$K012_ITPTEMP_PART00",
+    "type":"template",
+    "category":"$K012_ITPCAT_RWDC01",
+    "template":"$K012ITP_TEMP_GAUGE",
+    "price factor":0,
+    "power":0, 
+    "influence culture":25,
+    "influence passenger train":15,
+    "bulldoze price": 20,
+    "frames per variant":4,
+    "water":0,
+    "rotation aware":true,
+    "draw ground":true,
+    "needs road":false,
+    "requirement":{
+      "requirements":[
+        {
+          "type":"BUILDING",
+          "text":"Headmaster House Required[in]Rumah dinas dibutuhkan!",
+          "data":{
+            "id":"$K012_Rumahdinas01"
+          }
+        }
+      ]
+    }
+  }
+]
