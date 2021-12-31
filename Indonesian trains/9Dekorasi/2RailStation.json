@@ -1,102 +1,181 @@
 [
   {
-    "id":"$K012ITP_DECO_SB1",
-    "type":"railway station",
-    "width":1,
-    "height":1,
-    "frames":[
+    "id": "$K012ITP_DECO_ST_BTG00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
       {
-        "bmp":"4Bangunan_stasiun1.png",
-        "count":16,
-        "w":32
+        "bmp": "4Stasiun_Batang.png",
+        "count": 4,
+        "w": 32
       }
     ],
-    "template":"$K012_ITPTEMP_PART00",
-    "title":"Station Building[in]Bangunan Stasiun",
-    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Batang Station[in]Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
-    "id":"$K012ITP_DECO_SB2",
-    "type":"railway station",
-    "width":1,
-    "height":1,
-    "frames":[
+    "id": "$K012ITP_DECO_ST_BTG01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
       {
-        "bmp":"4Bangunan_stasiun2.png",
-        "count":16,
-        "w":32
+        "bmp": "4Gudang_Stasiun_Batang.png",
+        "count": 4,
+        "w": 32
       }
     ],
-    "template":"$K012_ITPTEMP_PART00",
-    "title":"Station Building[in]Bangunan Stasiun",
-    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Batang Station Warehouse[in]Gudang Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
-    "id":"$K012ITP_DECO_SB3",
-    "type":"railway station",
-    "width":1,
-    "height":1,
-    "frames":[
+    "id": "$K012ITP_DECO_ST_CPD00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
       {
-        "bmp":"4Bangunan_stasiun3.png",
-        "count":12,
-        "w":32
+        "bmp": "4Stasiun_Cipeundeuy.png",
+        "count": 4,
+        "w": 32
       }
     ],
-    "template":"$K012_ITPTEMP_PART00",
-    "title":"Station Building[in]Bangunan Stasiun",
-    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Cipeundeuy Station[in]Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
-    "id":"$K012ITP_DECO_SB4",
-    "type":"railway station",
-    "width":1,
-    "height":1,
-    "frames":[
+    "id": "$K012ITP_DECO_ST_CPD01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
       {
-        "bmp":"4Depo_kontainer.png",
-        "count":16,
-        "w":32
+        "bmp": "4Gudang_Stasiun_Cipeundeuy.png",
+        "count": 4,
+        "w": 32
       }
     ],
-    "template":"$K012_ITPTEMP_PART00",
-    "title":"Container Depot[in]Depo Kontainer",
-    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Cipeundeuy Station Warehouse[in]Gudang Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
-    "id":"$K012ITP_DECO_OLDSB1",
-    "type":"railway station",
-    "width":1,
-    "height":1,
-    "frames":[
+    "id": "$K012ITP_DECO_ST_GLM00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
       {
-        "bmp":"4Bangunan_stasiun_lama1.png",
-        "count":4,
-        "w":32
-      },
-      {
-        "bmp":"4Bangunan_stasiun_lama2.png",
-        "count":4,
-        "w":32
-      },
-      {
-        "bmp":"4Bangunan_stasiun_lama3.png",
-        "count":4,
-        "w":32
-      },
-      {
-        "bmp":"4Bangunan_stasiun_lama4.png",
-        "count":4,
-        "w":32
-      },
-      {
-        "bmp":"4Bangunan_stasiun_lama5.png",
-        "count":4,
-        "w":32
+        "bmp": "4Stasiun_Glenmore.png",
+        "count": 4,
+        "w": 32
       }
     ],
-    "template":"$K012_ITPTEMP_PART00",
-    "title":"Station Building[in]Bangunan Stasiun",
-    "text":"This is for decoration purpose[in]Ini hanya untuk dekorasi."
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Glenmore Station[in]Stasiun Glenmore",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_DIPO_JNG00",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "4Dipo_Jatinegara.png",
+        "count": 4,
+        "w": 64
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Jatinegara Workshop[in]Dipo Jatinegara",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_DC_CONT00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "4Depo_kontainer.png",
+        "count": 16,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Container Depot[in]Depo Kontainer",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_SB1",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "4Bangunan_stasiun1.png",
+        "count": 16,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun2.png",
+        "count": 16,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun3.png",
+        "count": 16,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun_lama4.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Station Building[in]Bangunan Stasiun",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_OLDSB1",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "4Bangunan_stasiun_lama1.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun_lama2.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun_lama3.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun_lama4.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "4Bangunan_stasiun_lama5.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Station Building[in]Bangunan Stasiun",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   }
 ]
