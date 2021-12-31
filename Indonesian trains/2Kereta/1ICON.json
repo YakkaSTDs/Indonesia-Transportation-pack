@@ -1,56 +1,56 @@
 [
   {
-    "id":"$ITP_ANI_ICONDEPO_BB200_BB204",
-    "type":"animation",
-    "frames":[
+    "id": "$ITP_ANI_ICONDEPO_BB200_BB204",
+    "type": "animation",
+    "frames": [
       {
-        "bmp":"4AICONDEPO0.png",
-        "count":5,
-        "w":36
+        "bmp": "4AICONDEPO0.png",
+        "count": 5,
+        "w": 36
       }
     ]
   },
   {
-    "id":"$ITP_ANI_ICONDEPO_BB300_BB306",
-    "type":"animation",
-    "frames":[
+    "id": "$ITP_ANI_ICONDEPO_BB300_BB306",
+    "type": "animation",
+    "frames": [
       {
-        "bmp":"4AICONDEPO1.png",
-        "count":6,
-        "w":36
+        "bmp": "4AICONDEPO1.png",
+        "count": 6,
+        "w": 36
       }
     ]
   },
   {
-    "id":"$ITP_ANI_ICONDEPO_CC201_CC206",
-    "type":"animation",
-    "frames":[
+    "id": "$ITP_ANI_ICONDEPO_CC201_CC206",
+    "type": "animation",
+    "frames": [
       {
-        "bmp":"4AICONDEPO2.png",
-        "count":7,
-        "w":36
+        "bmp": "4AICONDEPO2.png",
+        "count": 7,
+        "w": 36
       }
     ]
   },
   {
-    "id":"$ITP_ANI_ICONDEPO_EXTRA01",
-    "type":"animation",
-    "frames":[
+    "id": "$ITP_ANI_ICONDEPO_EXTRA01",
+    "type": "animation",
+    "frames": [
       {
-        "bmp":"4AICONDEPO3.png",
-        "count":7,
-        "w":36
+        "bmp": "4AICONDEPO3.png",
+        "count": 7,
+        "w": 36
       }
     ]
   },
   {
-    "id":"$ITP_ANI_ICONDEPO_DEBUG01",
-    "type":"animation",
-    "frames":[
+    "id": "$ITP_ANI_ICONDEPO_DEBUG01",
+    "type": "animation",
+    "frames": [
       {
-        "bmp":"4AICONDEPO4.png",
-        "count":1,
-        "w":36
+        "bmp": "4AICONDEPO4.png",
+        "count": 1,
+        "w": 36
       }
     ]
   }

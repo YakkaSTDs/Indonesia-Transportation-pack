@@ -1,109 +1,109 @@
 [
   {
-    "id":"$K012_ITP_SPW02",
-    "type":"template",
-    "category":"$K012_ITPCAT_SPW01",
-    "template":"$K012ITP_TEMP_GAUGE",
-    "requirement":{
-      "requirements":[
+    "id": "$K012_ITP_SPW02",
+    "type": "template",
+    "category": "$K012_ITPCAT_SPW01",
+    "template": "$K012ITP_TEMP_GAUGE",
+    "requirement": {
+      "requirements": [
         {
-          "type":"BUILDING",
-          "data":{
-            "id":"$K012_Rumahdinas01"
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Rumahdinas01"
           }
         },
         {
-          "type":"BUILDING",
-          "data":{
-            "id":"$K012_Pelabuhan_Khusus01"
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Pelabuhan_Khusus01"
           }
         }
       ]
     },
-    "price":120,
-    "price factor":0,
-    "bulldoze price":20,
-    "build time":5,
-    "power":0,
-    "final":true,
-    "draw ground":true,
-    "needs road":false,
-    "influence culture":25,
-    "influence passenger train":15,
-    "influence management":15,
-    "capacity":100,
-    "rotation aware":true
+    "price": 120,
+    "price factor": 0,
+    "bulldoze price": 20,
+    "build time": 5,
+    "power": 0,
+    "final": true,
+    "draw ground": true,
+    "needs road": false,
+    "influence culture": 25,
+    "influence passenger train": 15,
+    "influence management": 15,
+    "capacity": 100,
+    "rotation aware": true
   },
   {
-    "id":"$K012_ITP_SPWPR01",
-    "type":"template",
-    "price factor":0,
-    "category":"$K012_ITPCAT_SPW01",
-    "template":"$K012ITP_TEMP_GAUGE",
-    "requirement":{
-      "requirements":[
+    "id": "$K012_ITP_SPWPR01",
+    "type": "template",
+    "price factor": 0,
+    "category": "$K012_ITPCAT_SPW01",
+    "template": "$K012ITP_TEMP_GAUGE",
+    "requirement": {
+      "requirements": [
         {
-          "type":"BUILDING",
-          "data":{
-            "id":"$K012_Rumahdinas01"
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Rumahdinas01"
           }
         },
         {
-          "type":"BUILDING",
-          "data":{
-            "id":"$K012_Toko_Kereta_Premium01"
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Toko_Kereta_Premium01"
           }
         }
       ]
     },
-    "price":100,
-    "bulldoze price":0,
-    "build time":5,
-    "power":0,
-    "influence culture":25,
-    "influence passenger train":25,
-    "influence management":25,
-    "final":true,
-    "draw ground":true,
-    "needs road":false,
-    "capacity":150,
-    "rotation aware":true
+    "price": 100,
+    "bulldoze price": 0,
+    "build time": 5,
+    "power": 0,
+    "influence culture": 25,
+    "influence passenger train": 25,
+    "influence management": 25,
+    "final": true,
+    "draw ground": true,
+    "needs road": false,
+    "capacity": 150,
+    "rotation aware": true
   },
   {
-    "id":"$ITP_FrameTMP00",
-    "type":"railway station",
-    "category":"$K012_ITPCAT_SPW01",
-    "width":1,
-    "height":1,
-    "hidden":true,
-    "frames":[
+    "id": "$ITP_FrameTMP00",
+    "type": "railway station",
+    "category": "$K012_ITPCAT_SPW01",
+    "width": 1,
+    "height": 1,
+    "hidden": true,
+    "frames": [
       {
-        "bmp":"5DepoLoko.png",
-        "count":8,
-        "w":32
+        "bmp": "5DepoLoko.png",
+        "count": 8,
+        "w": 32
       }
     ],
-    "title":"Depo template",
-    "text ":"How TF you see this"
+    "title": "Depo template",
+    "text ": "How TF you see this"
   },
   {
-    "id":"$K012_ITPTEMP_TRN01",
-    "type":"template",
-    "template":"$K012ITP_TEMP_GAUGE",
-    "capacity":40,
-    "v2":true
-  }, 
+    "id": "$K012_ITPTEMP_TRN01",
+    "type": "template",
+    "template": "$K012ITP_TEMP_GAUGE",
+    "capacity": 40,
+    "v2": true
+  },
   {
-    "id":"$IRPNULL",
-    "type":"car",
-    "template":"$K012_ITPTEMP_TRN01", 
-    "capacity":0, 
-    "frames":[
+    "id": "$IRPNULL",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 0,
+    "frames": [
       {
-        "bmp":"Blank.png",
-        "count":4,
-        "h":18,
-        "w":1
+        "bmp": "Blank.png",
+        "count": 4,
+        "h": 18,
+        "w": 1
       }
     ]
   }
