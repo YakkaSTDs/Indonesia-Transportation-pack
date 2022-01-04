@@ -5,6 +5,7 @@
     "category": "$K012_ITPCAT_RWDC01",
     "template": "$K012ITP_TEMP_GAUGE",
     "price factor": 0,
+    "preview road":"$K012_IRP_RAILM",
     "power": 0,
     "influence culture": 25,
     "influence passenger train": 15,

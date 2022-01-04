@@ -813,13 +813,27 @@
       {
         "bmp": "5Dipo_Jatinegara.png",
         "x": 32,
-        "w": 32,
-        "handle y": 31
+        "w": 16,
+        "handle y": 31//,
+        //"handle x":10
       }
     ]
   },
   {
     "id": "$railani_K012_DEP_JNG3",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "5Dipo_Jatinegara.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 31//,
+        //"handle x":-16
+      }
+    ]
+  },
+  {
+    "id": "$railani_K012_DEP_JNG4",
     "type": "animation",
     "frames": [
       {
@@ -831,24 +845,12 @@
     ]
   },
   {
-    "id": "$railani_K012_DEP_JNG4",
-    "type": "animation",
-    "frames": [
-      {
-        "bmp": "5Dipo_Jatinegara.png",
-        "x": 160,
-        "w": 32,
-        "handle y": 31
-      }
-    ]
-  },
-  {
     "id": "$railani_K012_DEP_JNG5",
     "type": "animation",
     "frames": [
       {
         "bmp": "5Dipo_Jatinegara.png",
-        "x": 224,
+        "x": 128,
         "w": 32,
         "handle y": 31
       }
