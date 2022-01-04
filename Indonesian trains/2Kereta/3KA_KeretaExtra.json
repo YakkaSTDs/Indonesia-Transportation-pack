@@ -529,7 +529,53 @@
     "title": "Shunt C300[in]C300 Langsir",
     "text": ".[in]Lokomotif C 300 adalah lokomotif diesel hidraulik pertama di Indonesia buatan pabrik VEB Lokomotivbau Karl Marx Babelsberg, Jerman Timur. Lokomotif ini mulai berdinas sejak 1966, dan merupakan lokomotif diesel untuk keperluan langsir yang pertama di Indonesia. Lokomotif ini bergandar C', artinya lokomotif ini memiliki tiga gandar penggerak yang saling terhubung dalam satu bogie."
   },
-  //Mystery
+  //MTT
+  {
+    "id": "$K012_TR_MTT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "4MTT.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4MTTDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ]
+  },
+  {
+    "id": "$ITP_MTT00",
+    "type": "railway station",
+    "template": "$K012_ITP_SPWPR01",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_MTT00"],
+        "cars": ["$K012_TR_MTT"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "MTT[in]MTT",
+    "text": "A punching machine is a machine used to punch (or compact) ballast under railroad tracks to make the rails more durable.  Before mechanical punching was introduced, the punching task was performed by workers with the help of a compactor.  Because they are faster, more accurate, more efficient, and more energy efficient, beaters play an important role in concrete rail sleepers because they are too heavy (typically over 250 kg (551 lb)) to lift by hand.  While there are also punchers without lifting and compacting functions, this article focuses on all-purpose punching machines.[in]Mesin pecok adalah mesin yang digunakan untuk memecok (atau memadatkan) balast di bawah rel kereta api agar rel lebih tahan lama. Sebelum pemecok mekanik diperkenalkan, tugas pemecokan dilakukan oleh para pekerja dengan bantuan alat pemadat. Karena lebih cepat, lebih akurat, lebih efisien, dan lebih hemat tenaga, mesin pecok berperan penting untuk penggunaan bantalan rel beton karena terlalu berat (biasanya lebih dari 250 kg (551 pon)) jika diangkat dengan tangan. Walaupun ada pula alat pemecok tanpa fungsi pengangkatan dan pemadatan, artikel ini berfokus pada mesin pecok serbaguna. "
+  },
+  //Debug
   {
     "id": "$ITP_COMINGSOON",
     "type": "railway station",

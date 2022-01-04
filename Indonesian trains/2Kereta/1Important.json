@@ -91,7 +91,7 @@
     "type": "template",
     "template": "$K012ITP_TEMP_GAUGE",
     "capacity": 40,
-    "v2": true
+    "v2": [0,2,-2,0]
   },
   {
     "id": "$IRPNULL",

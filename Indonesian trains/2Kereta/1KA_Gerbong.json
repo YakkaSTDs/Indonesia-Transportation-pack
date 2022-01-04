@@ -503,9 +503,9 @@
     "template": "$K012_ITPTEMP_TRN01",
     "frames": [
       {
-        "bmp": "5Gerbong_KP1.png",
+        "bmp": "5Gerbong_KP_N.png",
         "count": 4,
-        "h": 13,
+        "h": 18,
         "w": 18
       },
       {
