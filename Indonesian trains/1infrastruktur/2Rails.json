@@ -15,7 +15,7 @@
     "price": 120,
     "level": 20,
     "pile distant": 3,
-    "map color": { "r": 255, "g": 121, "b": 59 },
+    "map color": { "r": 215, "g": 148, "b": 46 },
     "bridge frames": [
       {
         "bmp": "7JembatanRel3.png",
@@ -56,28 +56,30 @@
         "h": 19,
         "handle y": 7,
         "w": 16,
-        "x": 0
+        "x":0
       },
       {
         "bmp": "7Terowongan.png",
         "h": 19,
         "handle y": 7,
         "w": 16,
-        "x": 0
+        "x":16
       },
       {
         "bmp": "7Terowongan.png",
         "h": 19,
         "handle y": 7,
+        "handle x":-16,
         "w": 16,
-        "x": 0
+        "x":32
       },
       {
         "bmp": "7Terowongan.png",
         "h": 19,
         "handle y": 7,
+        "handle x":-16,
         "w": 16,
-        "x": 0
+        "x":48
       }
     ],
     "requirement": {
