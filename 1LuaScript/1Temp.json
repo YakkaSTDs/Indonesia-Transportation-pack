@@ -1,5 +1,11 @@
 [
   {
+    "id":"$k012ITP_Script00",
+    "type":"script",
+    "script":"2menu.lua",
+    "strict lua":true
+  },
+  {
     "id":"$K012ITP_TEMP_GAUGE",
     "type":"template",
     "allocate flag":"CapeTR",
