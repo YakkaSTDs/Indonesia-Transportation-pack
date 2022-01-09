@@ -70,6 +70,20 @@
     "rotation aware": true
   },
   {
+    "id": "$ITP_ANI_CC200",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "4CC200N.png",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "rotation aware": true
+  },
+  {
     "id": "$ITP_ANI_CC201",
     "type": "animation",
     "light": true,
@@ -105,6 +119,20 @@
     "frames": [
       {
         "bmp": "4CC206N.png",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC300",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "4CC300N.png",
         "count": 4,
         "w": 20
       }

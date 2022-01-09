@@ -489,10 +489,11 @@
     "template": "$K012_ITPTEMP_TRN01",
     "frames per variant": 4,
     "speed": 1.2,
+    "v2":[2,2,0,0],
     "frames": [
       {
         "bmp": "4C300.png",
-        "count": 4,
+        "count":4,
         "w": 16,
         "h": 15
       }
@@ -574,6 +575,111 @@
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
     "title": "MTT[in]MTT",
     "text": "A punching machine is a machine used to punch (or compact) ballast under railroad tracks to make the rails more durable.  Before mechanical punching was introduced, the punching task was performed by workers with the help of a compactor.  Because they are faster, more accurate, more efficient, and more energy efficient, beaters play an important role in concrete rail sleepers because they are too heavy (typically over 250 kg (551 lb)) to lift by hand.  While there are also punchers without lifting and compacting functions, this article focuses on all-purpose punching machines.[in]Mesin pecok adalah mesin yang digunakan untuk memecok (atau memadatkan) balast di bawah rel kereta api agar rel lebih tahan lama. Sebelum pemecok mekanik diperkenalkan, tugas pemecokan dilakukan oleh para pekerja dengan bantuan alat pemadat. Karena lebih cepat, lebih akurat, lebih efisien, dan lebih hemat tenaga, mesin pecok berperan penting untuk penggunaan bantalan rel beton karena terlalu berat (biasanya lebih dari 250 kg (551 pon)) jika diangkat dengan tangan. Walaupun ada pula alat pemecok tanpa fungsi pengangkatan dan pemadatan, artikel ini berfokus pada mesin pecok serbaguna. "
+  },
+  {
+    "id": "$K012_TR_CC300",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC300.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC300DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC300",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+  },
+  {
+    "id": "$ITP_CC300",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_CC300"],
+        "cars": ["$K012_TR_CC300"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "CC300[in]CC300",
+    "text": "[in]Lokomotif CC 300 adalah salah satu lokomotif diesel hidraulik di Indonesia milik Direktorat Jenderal (Ditjen) Perkeretaapian Kementerian Perhubungan yang digunakan khusus untuk keperluan dinas Ditjen Perkeretaapian.[2] Lokomotif dengan dua kabin masinis ini dibuat oleh PT INKA. Meskipun beberapa lokomotif ini dimiliki Ditjen Perkeretaapian, lokomotif ini tetap dioperasikan oleh PT KAI.  "
+  },
+  {
+    "id": "$K012_TR_CC200",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "4CC200.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC200DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC200",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_B0L10"]
+  },
+  {
+    "id": "$ITP_CC200",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_CC200"],
+        "cars": ["$K012_TR_CC200"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "CC200[in]CC200",
+    "text": ".[in]Lokomotif CC200 dengan nomor model Alco-GE UM 106T adalah lokomotif diesel elektrik berkabin ganda pertama di Indonesia, buatan pabrik General Electric tahun 1953. Lokomotif diesel elektrik dengan berat 96 ton (94 ton panjang; 106 ton pendek) ini dipesan oleh Indonesia sebanyak 27 buah. Lokomotif CC 200 yang tersisa sekarang berada di Museum Kereta Api Ambarawa yaitu CC 200 15 yang masih dirawat dengan baik untuk dilestarikan. Dua saudara terakhirnya, CC 200 08 dan CC 200 09 sudah dikirim ke Balai Yasa Yogyakarta setelah dinyatakan pensiun."
   },
   //Debug
   {

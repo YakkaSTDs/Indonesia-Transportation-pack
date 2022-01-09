@@ -51,7 +51,7 @@
         {
           "type": "BUILDING",
           "data": {
-            "id": "$K012_Toko_Kereta_Premium01"
+            "id": "$K012_Build_Premium_req01"
           }
         }
       ]
@@ -78,9 +78,14 @@
     "hidden": true,
     "frames": [
       {
-        "bmp": "5DepoLoko.png",
-        "count": 8,
+        "bmp": "4Dipo_Cilacap.png",
+        "count": 4,
         "w": 32
+      },
+            {
+        "bmp": "blank.png",
+        "count": 4,
+        "w": 1
       }
     ],
     "title": "Depo template",
