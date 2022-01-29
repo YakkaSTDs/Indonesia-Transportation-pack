@@ -1,20 +1,3 @@
---Show the test dialong
-
---GUI Example plugin
-
--- Show the menu with the close action closing the provided dialog
-local function showMenu(dialog)
-  local parent = GUI.get'$menuparent'
-  GUI.createMenu{
-    source = parent,
-    actions = {
-      {icon = Icon.OK, text = 'A', onClick = function() Debug.toast('yo') end},
-      {icon = Icon.CANCEL, text = 'B', enabled = false},
-      {},
-      {icon = Icon.CLOSE, text = 'Close', onClick = dialog.close}
-    }
-  }
-end
 --Show the Credits list dialog window
 local function showcreditsDialog()
   local function createIconPreview(parent, frame)
@@ -64,7 +47,7 @@ local function showcreditsDialog()
       }
   local cmd = entry:addButton{
     width = 225,
-    text = 'Texture Credits',
+    text = 'Credits',
     golden = true,
     onClick = function(self)
         Debug.toast('Thanks for downloading this plugin.')
@@ -130,6 +113,18 @@ local entry = listBox:addCanvas{h=20}
         w = -30,
         h = 16
       }
+local entry = listBox:addCanvas{h=20}
+      entry:addLabel{
+        text = 'Kulche (Lua Help)',
+        w = -30,
+        h = 16
+      }
+local entry = listBox:addCanvas{h=20}
+      entry:addLabel{
+        text = 'Wikipedia (Most of description)',
+        w = -30,
+        h = 16
+      }
 --Others
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
@@ -175,7 +170,14 @@ local entry = listBox:addCanvas{h=20}
         w = -30,
         h = 16
       }
-  --[[local cmd = entry:addButton{
+  --[[local textFrame = parent:addTextFrame{
+  text = [[This is a long text
+that can even span over multiple lines 
+This will scroll
+if it
+is long enough.]]
+--[[}
+  local cmd = entry:addButton{
     x = -35,
     width = 30,
     icon = Icon.OK,
@@ -244,29 +246,49 @@ local function showDialog()
   dialog = GUI.createDialog{
     icon = Icon.ABOUT,
     title = 'Plugin Manual',
-    text = [[Welcome to Indonesia Transportation Pack!
+    text = [[English:
+Welcome to Indonesia Transportation Pack!
 This plugin add New Content Related to Transportation in Indonesia.
 
 Such as train complete with its infrastucture and pack of road
 
 Quick Tutorial:
 
-Unlock Road Section by making your city level/rank into village level
+Unlock Road Section by making your city rank into village.
 
-Train Section is bit more complicated one,
+Unlock Train Section By following:
 First Build Station headmaster house,
-then decide which train is being used,
-for local made train,you need train factory,
-for import train,you need train shop,
-there premium train shop,where you pay that building with diamond,then unlock additional train.
+Then Build Dedicated Port so locomotive and wagons can be imported.
 
 Sadly, some features are limited,And Some Bugged.
 
 There Are Patch or addon for this plugin such as normal rail compability,remove roads,and much more,click More button and get the link to my website.
 
-if  you got a bug or a problem, or have an idea, please post it in comments.
+if  you got a bug or a problem please post it in comments.
 
-to be honest being an plugin creator is hard,especialy managing an huge plugin like this.]],
+to be honest being an plugin creator is hard,especialy managing an huge plugin like this.
+
+Bahasa Indonesia:
+Selamat datang di Paket Transportasi Indonesia!
+ Plugin ini menambahkan Konten Baru Terkait Transportasi di Tanah Air.
+
+ Seperti kereta api lengkap dengan infrastruktur dan paket jalan
+
+ Tutorial Cepat:
+
+ Buka Bagian Jalan dengan membuat peringkat kota Anda menjadi desa.
+
+ Buka Bagian Kereta Dengan mengikuti:
+ Bangun rumah dinas untuk membuka infrastruktur,
+ Kemudian Bangun pelabuhan khusus agar lokomotif dan gerbong bisa diimpor.
+
+ Sayangnya, beberapa fitur terbatas, Dan Beberapa bug.
+
+ Ada Patch atau addon untuk plugin ini seperti kompatibilitas rel normal, menghapus jalan, dan banyak lagi, klik tombol More dan dapatkan tautan ke situs web saya.
+
+ jika Anda punya bug atau masalah silahkan posting di komentar.
+
+ Sejujurnya menjadi pembuat plugin itu sulit, apalagi mengelola plugin besar seperti ini.]],
     width = 250,
     height = 300,
     pause = true,
