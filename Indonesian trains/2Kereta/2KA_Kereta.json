@@ -1,0 +1,870 @@
+[
+  //BB200
+  {
+    "id": "$K012_TR_BB200_BaturajaCement",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames per variant": 8,
+    "frames": [
+      {
+        "bmp": "4BB200.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB200DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB200",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN"]
+  },
+  //BB201
+  {
+    "id": "$K012_TR_BB201_BIMA1956",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames per variant": 8,
+    "frames": [
+      {
+        "bmp": "4BB201.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB201DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB200",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65"]
+  },
+  //BB202
+  {
+    "id": "$K012_TR_BB202_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4BB202.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4BB202DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB202",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  //BB203
+  {
+    "id": "$K012_TR_BB203_Minyak",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "4BB203.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB203DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC201",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  },
+  //BB204
+  {
+    "id": "$K012_TR_BB204_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4BB204.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4BB204DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.4,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  //BB300
+  {
+    "id": "$K012_TR_BB300_Minyak",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "4BB300.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB300DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB300",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  },
+  //BB301
+  {
+    "id": "$K012_TR_BB301_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4BB301.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4BB301DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB304",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 2,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK"]
+  },
+  //BB302
+  {
+    "id": "$K012_TR_BB302_Srilelawangsa",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.8,
+    "frames": [
+      {
+        "bmp": "4BB302.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB302DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20"]
+  },
+  //BB303
+  {
+    "id": "$K012_TR_BB303_Sibinuang",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "4BB303.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB303DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+  },
+  //BB304
+  {
+    "id": "$K012_TR_BB304_Pandanwangi",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "4BB304.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB304DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB304",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_B0L10"]
+  },
+  //BB305
+  {
+    "id": "$K012_TR_BB305_KERTAS",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4BB305JR.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4BB305JRDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.3,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1"]
+  },
+  //BB306
+  {
+    "id": "$K012_TR_BB306_Sibinuang",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 1.5,
+    "frames": [
+      {
+        "bmp": "4BB306.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4BB306DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L13", "$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L20"]
+  },
+  //CC200
+  {
+    "id": "$K012_TR_CC200",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "4CC200.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC200DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC200",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_B0L10"]
+  },
+  //CC201
+  {
+    "id": "$K012_TR_CC201_Malabar",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "4CC201.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC201DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC201",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_B0L20"]
+  },
+  //CC202
+  {
+    "id": "$K012_TR_CC202_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4CC202.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4CC202DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC201",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.6,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  //CC203
+  {
+    "id": "$K012_TR_CC203_Serayu",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "4CC203.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC203DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC203",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20"]
+  },
+  //TEL
+  {
+    "id": "$K012_TR_CC203_KERTAS",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4CC203PTTEL.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4CC203PTTELDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC203",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 2,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1"]
+  },
+  //CC204
+  {
+    "id": "$K012_TR_CC204_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4CC204.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4CC204DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC203",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 2,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  //CC205
+  {
+    "id": "$K012_TR_CC205_BATUBARA",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4CC205.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4CC205DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC201",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 2.2,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  //CC206
+  {
+    "id": "$K012_TR_CC206_BIMA",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC206.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC206DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC206",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+  },
+  {
+    "id": "$K012_TR_CC206_KONT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC206.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC206DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC206",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_DK1", "$IRPNULL", "$K012_ITPTR_DK2", "$IRPNULL", "$K012_ITPTR_DK3", "$IRPNULL", "$K012_ITPTR_DK4", "$IRPNULL", "$K012_ITPTR_DK2", "$IRPNULL", "$K012_ITPTR_DK1"]
+  },
+  {
+    "id": "$K012_TR_CC206_KETL",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC206.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC206DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC206",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  },
+  {
+    "id": "$K012_TR_CC206_REL",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC206.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC206DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC206",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_DREL", "$IRPNULL", "$K012_ITPTR_DREL", "$IRPNULL", "$K012_ITPTR_DREL", "$IRPNULL", "$K012_ITPTR_DREL", "$IRPNULL", "$K012_ITPTR_DREL", "$IRPNULL", "$K012_ITPTR_DREL"]
+  },
+  {
+    "id": "$K012_TR_CC206_PAR",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames per variant": 8,
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC206.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC206DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC206",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L13", "$IRPNULL", "$K012_ITPTR_B0L13", "$IRPNULL", "$K012_ITPTR_B0L13", "$IRPNULL", "$K012_ITPTR_B0L17", "$IRPNULL", "$K012_ITPTR_B0L17", "$IRPNULL", "$K012_ITPTR_B0L17"]
+  },
+  //CC300
+  {
+    "id": "$K012_TR_CC300",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "4CC300.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "4CC300DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "frames per variant": 8,
+    "animation": [
+      {
+        "id": "$ITP_ANI_CC300",
+        "x": -15
+      }
+    ],
+    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+  },
+  //KRL
+  {
+    "id": "$KRLE205",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4Loko_E205LC.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4Loko_E205LCDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      },
+      {
+        "bmp": "4Loko_E205LN.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4Loko_E205LNDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLE205"
+    ]
+  },
+  {
+    "id": "$KRLE235",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4Loko_E235LC.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4Loko_E205LCDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      },
+      {
+        "bmp": "4Loko_E235LN.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4Loko_E205LNDIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLE205"
+    ]
+  },
+  //KRD
+  {
+    "id": "$KRDYIA01",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "4Loko_KRDYIA.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "4Loko_KRDYIADIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDYIAH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
+  }
+]

@@ -30,3 +30,4 @@ CC206 Livery KAI + KA Kontainer ✓
 CC206 Livery KAI + KA Ketel Minyak ✓
 KRL E205 ✓
 KRL E235 ✓
+Jadi saya setuju dengan lokomotif: D14 E10 B25 DD52

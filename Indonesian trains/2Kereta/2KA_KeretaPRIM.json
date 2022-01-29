@@ -1,35 +1,7 @@
 [
   //BB200
   {
-    "id": "$K012_TR_BB200_BaturajaCement",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "speed": 2,
-    "frames per variant": 8,
-    "frames": [
-      {
-        "bmp": "4BB200.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB200DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB200",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN"]
-  },
-  {
-    "id": "$ITP_BB200_BaturajaCement",
+    "id": "$ITPK012_BB200",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -38,51 +10,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB200_BaturajaCement"],
-        "cars": ["$K012_TR_BB200_BaturajaCement"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 0 }],
-    "title": "Baturaja Train[in]KA Semen Baturaja",
-    "text": "The Semen Baturaja transportation train or the Semen Baturaja train is a freight train that transports bulk cement (clinker) and finished cement in tarpaulins (hereinafter referred to as tarpaulin only) produced by PT Semen Baturaja which serves connections from Tigagajah station to Kertapati station and Pidada station.  .[in]Kereta api angkutan Semen Baturaja atau Kereta api Semen Baturaja adalah kereta api angkutan barang yang mengangkut semen curah (klinker) maupun semen jadi dalam terpal (selanjutnya disebut semen terpal saja) produksi PT Semen Baturaja yang melayani relasi dari stasiun Tigagajah menuju stasiun Kertapati dan stasiun Pidada. "
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB200_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_BB200_BaturajaCement"],
+            "cars": ["$K012_TR_BB200_BaturajaCement"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 0 }],
+        "title": "Baturaja Train[in]KA Baturaja",
+        "text": "The Semen Baturaja transportation train or the Semen Baturaja train is a freight train that transports bulk cement (clinker) and finished cement in tarpaulins (hereinafter referred to as tarpaulin only) produced by PT Semen Baturaja which serves connections from Tigagajah station to Kertapati station and Pidada station.[in]Kereta api angkutan Semen Baturaja atau Kereta api Semen Baturaja adalah kereta api angkutan barang yang mengangkut semen curah (klinker) maupun semen jadi dalam terpal (selanjutnya disebut semen terpal saja) produksi PT Semen Baturaja yang melayani relasi dari stasiun Tigagajah menuju stasiun Kertapati dan stasiun Pidada.",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "EMD G8[in]BB200",
+    "text": "The EMD G8 was a General Motors-built diesel-electric locomotive of which 382 were built between 1954 and 1965 for both export and domestic use. They were built by both Electro-Motive Division in the United States and by General Motors Diesel Division in Canada for use in ten countries, being equipped to operate on several different track gauges.[in]Lokomotif BB 200 adalah lokomotif diesel elektrik milik PT Kereta Api Indonesia buatan pabrik General Motors Electro-Motive Division, Amerika Serikat dengan transmisi daya DC-DC yang saat ini beroperasi di Indonesia sejak tahun 1957, meskipun kini hanya untuk keperluan langsir. Lokomotif ini merupakan lokomotif diesel elektrik model kedua yang dioperasikan oleh PT KAI setelah CC 200. Lokomotif ini merupakan kakak dari lokomotif BB 201, yang juga diproduksi oleh pabrik yang sama. "
   },
   //BB201
   {
-    "id": "$K012_TR_BB201_BIMA1956",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "speed": 2,
-    "frames per variant": 8,
-    "frames": [
-      {
-        "bmp": "4BB201.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB201DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB200",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65", "$IRPNULL", "$K012_ITPTR_K3L65"]
-  },
-  {
-    "id": "$ITP_BB201_BIMA",
+    "id": "$ITPK012_BB201",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -93,50 +56,40 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "upgrades": [
       {
-        "targets": ["$ITP_BB201_BIMA"],
-        "cars": ["$K012_TR_BB201_BIMA1956"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_BB201_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_BIMA1956"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 1 }],
+        "title": "Bima Train (1970)[in]KA Bima (1970)",
+        "text": "The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).  The name Bima itself is an abbreviation of Biru Malam after continuing the previous sleeper train services, namely Bintang Sendja and Bintang Fadjar in 1967.[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). Nama Bima sendiri merupakan kepanjangan dari Biru Malam setelah meneruskan layanan kereta tidur sebelumnya yaitu Bintang Sendja dan Bintang Fadjar pada tahun 1967.",
+        "only one": true,
+        "build time": 0
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 1 }],
-    "title": "Bima train[in]KA Bima 1965",
-    "text": "The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). "
+    "title": "EMD G12[in]BB201",
+    "text": "The EMD G12 is a class of export locomotive built by GM-EMD, and its Canadian affiliate General Motors Diesel. In addition, Australian licensee Clyde Engineering built ten locomotives for New Zealand in 1957, five for Hong Kong, 23 for Queensland, 14 for Western Australia and seven for BHP. Australian licensee Commonwealth Engineering also built 42 for Queensland Rail in 1964–66. Many examples were built in the 1950-1960s for railroads all over the world.[in]Lokomotif BB 201 adalah lokomotif diesel elektrik milik PT Kereta Api Indonesia buatan pabrik General Motors Electro-Motive Division (GM-EMD), Amerika Serikat dengan transmisi daya DC-DC yang pernah dioperasikan sejak tahun 1964 hingga dekade 2010-an awal. Lokomotif ini merupakan lokomotif diesel elektrik model ketiga yang dioperasikan oleh PT KAI setelah CC 200 dan BB 200. Lokomotif ini merupakan adik dari lokomotif BB 200, yang juga diproduksi oleh pabrik yang sama. "
   },
   //BB202
   {
-    "id": "$K012_TR_BB202_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4BB202.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4BB202DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB202",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 1.8,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
-  },
-  {
-    "id": "$ITP_BB202_Batubara",
+    "id": "$ITPK012_BB202",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -145,160 +98,130 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB202_Batubara"],
-        "cars": ["$K012_TR_BB202_BATUBARA"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 2 }],
-    "title": "BB202 Coal Train[in]KA Batubara BB202",
-    "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB202_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB202"],
+            "cars": ["$K012_TR_BB202_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 2 }],
+        "title": "Coal Train[in]KA Batubara",
+        "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "EMD G18[in]BB202",
+    "text": "The EMD G18 was an export locomotive introduced by GM-EMD in the late 1960s. The standard EMD suffixes applied after the G18 designation to indicate if the customer purchased locomotives with specific traction motors to fit narrow gauge (U) or broad gauge (W) rails. An (L) indicates a locomotive built with a lightweight frame, and (6) indicates A1A-A1A trucks. The similar EMD GA18 was a G18 designed as an extremely light locomotive with low axle loading and used freight car trucks driven by a cardan shaft and underframe mounted traction motors like its predecessor, the EMD GA8. A further variation was the G18B. They are powered by an EMD 8-645E prime mover rated at 1100 bhp and 1000 hp for traction and were produced with A1A-A1A or B-B trucks.[in]Lokomotif BB 202 adalah lokomotif diesel elektrik milik PT Kereta Api Indonesia buatan pabrik General Motors Electro-Motive Division (GM-EMD), Amerika Serikat dengan transmisi daya DC-DC yang pernah dioperasikan sejak tahun 1968 hingga dekade 2010-an awal. Lokomotif ini merupakan lokomotif diesel elektrik model keempat yang dioperasikan oleh PT KAI setelah CC 200, BB 200, dan BB 201. Lokomotif ini merupakan saudara jauh dari lokomotif CC 202, yang juga diproduksi oleh pabrik yang sama."
   },
   //BB203
   {
-    "id": "$K012_TR_BB203_Minyak",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 1.7,
-    "frames": [
-      {
-        "bmp": "4BB203.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB203DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC201",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
-  },
-  {
-    "id": "$ITP_BB203_Minyak",
+    "id": "$ITPK012_BB203",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
-
     "width": 1,
     "height": 1,
     "frames": [
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB203_Minyak"],
-        "cars": ["$K012_TR_BB203_Minyak"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 3 }],
-    "title": "BB203 Tanker Train[in]KA Ketel BB203",
-    "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB203_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB203"],
+            "cars": ["$K012_TR_BB203_Minyak"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 3 }],
+        "title": "Fuel Train[in]KA Ketel",
+        "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). ",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB203[in]BB203",
+    "text": "The BB 203 locomotive made by General Electric Transportation is a diesel electric locomotive owned by PT Kereta Api Indonesia with DC-DC power transmission which has been operating since 1978. The BB 203 locomotive has the model number GE U18A1A.[in]Lokomotif BB 203 buatan General Electric Transportation, adalah lokomotif diesel elektrik milik PT Kereta Api Indonesia dengan transmisi daya DC-DC yang mulai beroperasi sejak tahun 1978. Lokomotif BB 203 ini bernomor model GE U18A1A."
   },
   //BB204
   {
-    "id": "$K012_TR_BB204_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4BB204.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4BB204DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB302",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 1.4,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
-  },
-  {
-    "id": "$ITP_BB204_Batubara",
+    "id": "$ITPK012_BB204",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
-
     "width": 1,
     "height": 1,
     "frames": [
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB204_Batubara"],
-        "cars": ["$K012_TR_BB204_BATUBARA"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 4 }],
-    "title": "BB204 Coal Train[in]KA Batubara BB204",
-    "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB204_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB204"],
+            "cars": ["$K012_TR_BB204_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 4 }],
+        "title": "Coal Train[in]KA Batubara",
+        "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB204",
+    "text": "The BB 204 locomotive is the only diesel-electric locomotive in Indonesia made by Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Switzerland, which is specifically operated on toothed rail roads.  This locomotive has been in Indonesia since 1981.[in]Lokomotif BB 204 merupakan satu-satunya lokomotif diesel elektrik di Indonesia buatan Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Swiss yang khusus dioperasikan pada jalan rel bergigi. Lokomotif ini sudah ada di Indonesia sejak 1981."
   },
   //BB300
   {
-    "id": "$K012_TR_BB300_Minyak",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 1.7,
-    "frames": [
-      {
-        "bmp": "4BB300.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB300DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB300",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
-  },
-  {
-    "id": "$ITP_BB300_Minyak",
+    "id": "$ITPK012_BB300",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -307,52 +230,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB300_Minyak"],
-        "cars": ["$K012_TR_BB300_Minyak"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 0 }],
-    "title": "Shunt BB300 Train[in]KA Langsir BB300",
-    "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). "
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB300_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB300"],
+            "cars": ["$K012_TR_BB300_Minyak"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 0 }],
+        "title": "Fuel Train[in]KA Ketel",
+        "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). ",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB300",
+    "text": "The BB 300 locomotive is a hydraulic diesel locomotive manufactured by Fried Krupp, West Germany.  This locomotive has been in service since 1958, and this locomotive is the older brother of the D 300 and D 301 locomotives which have some similarities, especially in the shape of the cabin, and are produced by the same factory.  This locomotive has B'B axles, meaning that this locomotive has two bogies where each bogie has two drive shafts that are connected to each other.[in]Lokomotif BB 300 adalah lokomotif diesel hidraulik buatan pabrik Fried Krupp, Jerman Barat. Lokomotif ini mulai dinas sejak 1958, dan lokomotif ini merupakan kakak dari lokomotif D 300 dan D 301 yang memiliki beberapa kemiripan terutama pada bentuk kabinnya, dan diproduksi oleh pabrik yang sama. Lokomotif ini bergandar B'B, artinya lokomotif ini memiliki dua bogie di mana setiap bogienya memiliki dua poros penggerak yang saling dihubungkan."
   },
   //BB301
   {
-    "id": "$K012_TR_BB301_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4BB301.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4BB301DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB304",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 2,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK", "$IRPNULL", "$K012_ITPTR_BKRK"]
-  },
-  {
-    "id": "$ITP_BB301_Batubara",
+    "id": "$ITPK012_BB301",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -361,51 +274,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB301_Batubara"],
-        "cars": ["$K012_TR_BB301_BATUBARA"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 1 }],
-    "title": "BB301 Gravel Train[in]KLB Kricak BB301",
-    "text": ".[in]Kereta luar biasa (disingkat menjadi KLB) adalah kereta api yang dijalankan di luar jadwal reguler atau grafik perjalanan kereta api (Gapeka). KLB umumnya dijalankan pada saat kebutuhan mendesak atau sangat mendesak, yang mana jadwal perjalanannya akan diteruskan ke stasiun-stasiun yang akan dilewatinya. Walaupun di luar Gapeka, KLB tetap mengacu pada peraturan perjalanan kereta api, yakni tetap membuat maklumat perjalanan kereta api (malka) dan warta maklumat (wam)."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB301_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB301"],
+            "cars": ["$K012_TR_BB301_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 1 }],
+        "title": "Balast Train[in]KLB Kricak",
+        "text": "Extraordinary trains (abbreviated to KLB) are trains that run outside the regular schedule or train travel chart (Gapeka).  KLB is generally run in times of urgent or very urgent need, in which the travel schedule will be forwarded to the stations it will pass through.  Even outside Gapeka, KLB still refers to the rules of train travel, which still makes train travel information (malka) and information gazette (wam).[in]Kereta luar biasa (disingkat menjadi KLB) adalah kereta api yang dijalankan di luar jadwal reguler atau grafik perjalanan kereta api (Gapeka). KLB umumnya dijalankan pada saat kebutuhan mendesak atau sangat mendesak, yang mana jadwal perjalanannya akan diteruskan ke stasiun-stasiun yang akan dilewatinya. Walaupun di luar Gapeka, KLB tetap mengacu pada peraturan perjalanan kereta api, yakni tetap membuat maklumat perjalanan kereta api (malka) dan warta maklumat (wam).",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB301",
+    "text": "The BB 301 locomotive is a hydraulic diesel locomotive owned by PT Kereta Api Indonesia (Persero) made by the Fried Krupp and Krauss-Maffei factories, West Germany.  This locomotive was first ordered by KAI when it was still called the State Railway Company (PNKA).[in]Lokomotif BB 301 adalah lokomotif diesel hidraulik milik PT Kereta Api Indonesia (Persero) buatan pabrik Fried Krupp dan Krauss-Maffei, Jerman Barat. Lokomotif ini pertama kali dipesan oleh KAI saat masih bernama Perusahaan Negara Kereta Api (PNKA)."
   },
   //BB302
   {
-    "id": "$K012_TR_BB302_Srilelawangsa",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 1.8,
-    "frames": [
-      {
-        "bmp": "4BB302.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB302DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB302",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_B0L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20"]
-  },
-  {
-    "id": "$ITP_BB302_Srilelawangsa",
+    "id": "$ITPK012_BB302",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -416,49 +320,40 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 2 }],
+    "upgrades": [
       {
-        "targets": ["$ITP_BB302_Srilelawangsa"],
-        "cars": ["$K012_TR_BB302_Srilelawangsa"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_BB302_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB302"],
+            "cars": ["$K012_TR_BB302_Srilelawangsa"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 2 }],
+        "title": "Sibinuang Train[in]KA Sibinuang",
+        "text": "The Sibinuang train is an AC economy class local passenger train operated by PT Kereta Api Indonesia (Persero) Regional Division II Padang which serves the Padang-Naras route and this train is under the control of Regional Division II West Sumatra.  This train is one of the few passenger rail services operated there along with the Minangkabau Express airport train and the Anai Valley rail bus.[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai.",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 2 }],
-    "title": "Srilelawangsa train[in]KA Srilelawangsa",
-    "text": ".[in]Kereta api Sri Lelawangsa, juga disebut KRD Sri Lelawangsa, adalah layanan kereta api komuter yang dioperasikan oleh PT Kereta Api Indonesia (Persero) untuk melayani lintas Medan–Binjai dan sebaliknya. Kereta api ini pertama kali beroperasi pada 6 Maret 2010 menggunakan rangkaian Kereta Rel Diesel Indonesia (KRDI) buatan PT INKA,[1] akan tetapi saat ini rangkaian kereta api Sri Lelawangsa telah berubah menjadi kereta bisnis yang ditarik lokomotif BB302 atau BB303."
+    "title": "BB302",
+    "text": "The BB 302 locomotive is a hydraulic diesel locomotive manufactured by Henschel, West Germany.  BB 302 has been operating since 1970, and all BB302 locomotives are allocated in North Sumatra.[in]Lokomotif BB 302 adalah lokomotif diesel hidraulik buatan pabrik Henschel, Jerman Barat. BB 302 mulai beroperasi sejak 1970, dan keseluruhan lokomotif BB302 dialokasikan di Sumatra Utara."
   },
   //BB303
   {
-    "id": "$K012_TR_BB303_Sibinuang",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 1.7,
-    "frames": [
-      {
-        "bmp": "4BB303.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB303DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB302",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
-  },
-  {
-    "id": "$ITP_BB303_Sibinuang",
+    "id": "$ITPK012_BB303",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -467,51 +362,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB303_Sibinuang"],
-        "cars": ["$K012_TR_BB303_Sibinuang"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 2 }],
-    "title": "Sibinuang train[in]KA Sibinuang",
-    "text": ".[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB303_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB303"],
+            "cars": ["$K012_TR_BB303_Sibinuang"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 2 }],
+        "title": "Sibinuang Train[in]KA Sibinuang",
+        "text": "The Sibinuang train is an AC economy class local passenger train operated by PT Kereta Api Indonesia (Persero) Regional Division II Padang which serves the Padang-Naras route and this train is under the control of Regional Division II West Sumatra.  This train is one of the few passenger rail services operated there along with the Minangkabau Express airport train and the Anai Valley rail bus.[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai.",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB303",
+    "text": "BB 303 locomotive is a hydraulic diesel locomotive manufactured by Henschel, West Germany.  BB 303 has been operating since 1973, most of the BB303 locomotives are allocated in North Sumatra, West Sumatra and East Java.[in]Lokomotif BB 303 adalah lokomotif diesel hidraulik buatan pabrik Henschel, Jerman Barat. BB 303 mulai beroperasi sejak 1973, kebanyakan lokomotif BB303 dialokasikan di Sumatra Utara, Sumatra Barat, dan Jawa Timur."
   },
   //BB304
   {
-    "id": "$K012_TR_BB304_Pandanwangi",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 2,
-    "frames": [
-      {
-        "bmp": "4BB304.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB304DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB304",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_K3L06", "$IRPNULL", "$K012_ITPTR_B0L10"]
-  },
-  {
-    "id": "$ITP_BB304_Pandanwangi",
+    "id": "$ITPK012_BB304",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -520,52 +406,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB304_Pandanwangi"],
-        "cars": ["$K012_TR_BB304_Pandanwangi"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 3 }],
-    "title": "Pandanwangi train[in]KA Pandanwangi",
-    "text": ".[in]Kereta api Pandanwangi adalah layanan kereta api ekonomi lokal yang menghubungkan Stasiun Ketapang yang terletak di Banyuwangi dengan Stasiun Jember, dan dioperasikan oleh Daerah Operasi IX Jember. Kereta api yang sering membawa enam kereta penumpang kelas ekonomi ini menempuh jarak sejauh 112 km dalam waktu sekitar 2,5 jam. Mulai 1 Juni 2014, jumlah perjalanan kereta api ini ditambah menjadi dua kali dalam sehari."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB304_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB304"],
+            "cars": ["$K012_TR_BB304_Pandanwangi"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 3 }],
+        "title": "Pandanwangi train (2009)[in]KA Pandanwangi (2009)",
+        "text": "Pandanwangi train is a local economy train service that connects Ketapang Station located in Banyuwangi with Jember Station, and is operated by Operation Area IX Jember.  The train, which often carries six economy class passenger trains, covers a distance of 112 km in about 2.5 hours.  Starting June 1, 2014, the number of train trips was increased to twice a day.[in]Kereta api Pandanwangi adalah layanan kereta api ekonomi lokal yang menghubungkan Stasiun Ketapang yang terletak di Banyuwangi dengan Stasiun Jember, dan dioperasikan oleh Daerah Operasi IX Jember. Kereta api yang sering membawa enam kereta penumpang kelas ekonomi ini menempuh jarak sejauh 112 km dalam waktu sekitar 2,5 jam. Mulai 1 Juni 2014, jumlah perjalanan kereta api ini ditambah menjadi dua kali dalam sehari.",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB304",
+    "text": "BB304 locomotive is a hydraulic diesel locomotive owned by PT Kereta Api Indonesia made by Fried factory.  Krupp, West Germany.  This locomotive has been in service since 1976.[in]Lokomotif BB304 adalah lokomotif diesel hidraulik milik PT Kereta Api Indonesia buatan pabrik Fried. Krupp, Jerman Barat. Lokomotif ini mulai dinas sejak 1976."
   },
   //BB305 JR S
   {
-    "id": "$K012_TR_BB305_KERTAS",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4BB305JR.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4BB305JRDIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB302",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 1.3,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1"]
-  },
-  {
-    "id": "$ITP_BB305_Kertas",
+    "id": "$ITPK012_BB305",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -574,51 +450,42 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB305_Kertas"],
-        "cars": ["$K012_TR_BB305_KERTAS"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 4 }],
-    "title": "PT Kertas Leces Train[in]KA PT Kertas Leces",
-    "text": "Paper Leces is the oldest paper mill in Indonesia, which has been around since 1939. Paper Leces products use cellulose bagasse and straw as raw materials, unlike other paper mills that use tree trunks for paper.  To support production, the factory built routes for lorries to transport bagasse and straw from Leces station to the factory.[in]Kertas Leces adalah pabrik kertas tertua di Indonesia yang sudah ada sejak 1939. Produk-produk Kertas Leces menggunakan selulosa ampas tebu dan jerami sebagai bahan bakunya, tidak seperti pabrik kertas lainnya yang menggunakan batang pohon untuk bahan kertas. Untuk menunjang produksi, di pabrik tersebut dibangun jalur-jalur untuk lori pengangkut ampas tebu dan jerami dari stasiun Leces menuju pabrik."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB305_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB305"],
+            "cars": ["$K012_TR_BB305_KERTAS"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 4 }],
+        "title": "PT Kertas Leces Train[in]KA PT Kertas Leces",
+        "text": "Paper Leces is the oldest paper mill in Indonesia, which has been around since 1939. Paper Leces products use cellulose bagasse and straw as raw materials, unlike other paper mills that use tree trunks for paper.  To support production, the factory built routes for lorries to transport bagasse and straw from Leces station to the factory.[in]Kertas Leces adalah pabrik kertas tertua di Indonesia yang sudah ada sejak 1939. Produk-produk Kertas Leces menggunakan selulosa ampas tebu dan jerami sebagai bahan bakunya, tidak seperti pabrik kertas lainnya yang menggunakan batang pohon untuk bahan kertas. Untuk menunjang produksi, di pabrik tersebut dibangun jalur-jalur untuk lori pengangkut ampas tebu dan jerami dari stasiun Leces menuju pabrik.",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB305",
+    "text": "The BB 305 locomotive is a hydraulic diesel locomotive owned by PT Kereta Api Indonesia, Semen Nusantara, and PT Kertas Leces which has been operating in Indonesia since 1978. This locomotive is divided into three versions, namely the BB 305 01 locomotive belonging to PT Semen Nusantara, the BB 305 02 locomotive.  , 03, and locomotive BB 305 04, 05, 06.[in]Lokomotif BB 305 adalah lokomotif diesel hidraulik milik PT Kereta Api Indonesia, Semen Nusantara, dan PT Kertas Leces yang telah beroperasi di Indonesia sejak tahun 1978. Lokomotif ini dibagi menjadi tiga versi, yakni lokomotif BB 305 01 milik PT Semen Nusantara, lokomotif BB 305 02, 03, dan lokomotif BB 305 04, 05, 06."
   },
   //BB306
   {
-    "id": "$K012_TR_BB306_Sibinuang",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 1.5,
-    "frames": [
-      {
-        "bmp": "4BB306.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4BB306DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_BB302",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_B0L13", "$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L20"]
-  },
-  {
-    "id": "$ITP_BB306_Sibinuang",
+    "id": "$ITPK012_BB306",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
 
@@ -628,54 +495,44 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_BB306_Sibinuang"],
-        "cars": ["$K012_TR_BB306_Sibinuang"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 5 }],
-    "title": "Shunt BB306 Train[in]KA Langsir BB306",
-    "text": ".[in]Kereta api Sibinuang merupakan kereta api penumpang lokal kelas ekonomi AC yang dioperasikan oleh PT Kereta api Indonesia (Persero) Divisi Regional II Padang yang melayani rute Padang-Naras dan KA ini berada di bawah kendali Divisi Regional II Sumatra Barat. Kereta api ini merupakan salah satu dari sedikit layanan kereta api penumpang yang dioperasikan di sana bersama dengan kereta bandara Minangkabau Ekspres dan bus rel Lembah Anai."
-  },
-  //CC201
-  {
-    "id": "$K012_TR_CC201_Malabar",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 2,
-    "frames": [
+    "upgrades": [
       {
-        "bmp": "4CC201.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4CC201DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
+        "id": "$K012ITP_UPG_BB306_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_BB306"],
+            "cars": ["$K012_TR_BB306_Sibinuang"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB300_BB306", "frame": 5 }],
+        "title": "Shunt Train[in]KA Langsir",
+        "text": "Curtains (or more popularly as curtains) are the movement of a series of trains, carriages, or simply locomotives to move railroad tracks.  Line shifts are especially needed to separate or link cars or wagons.[in]Langsir (atau lebih populer sebagai langsiran) adalah pergerakan rangkaian kereta, gerbong, atau hanya lokomotif untuk berpindah jalur rel. Perpindahan jalur terutama diperlukan untuk memisahkan atau merangkaikan kereta atau gerbong.",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC201",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_B0L20"]
+    "title": "BB306",
+    "text": "The BB 306 locomotive is a hydraulic diesel locomotive made by the Henschel factory, West Germany.  BB 306 has been operating since 1984, with a wide allocation, starting from North Sumatra, West Sumatra, not forgetting also several places on the island of Java such as Jakarta.[in]Lokomotif BB 306 adalah lokomotif diesel hidraulik buatan pabrik Henschel, Jerman Barat. BB 306 mulai beroperasi sejak 1984, dengan alokasi yang luas, dari mulai Sumatra Utara, Sumatra Barat, tak lupa juga beberapa tempat di Pulau Jawa seperti di Jakarta."
   },
+  //CC200
   {
-    "id": "$ITP_CC201_Malabar",
+    "id": "$ITPK012_CC200",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
-
     "width": 1,
     "height": 1,
     "frames": [
@@ -684,48 +541,82 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "upgrades": [
       {
-        "targets": ["$ITP_CC201_Malabar"],
-        "cars": ["$K012_TR_CC201_Malabar"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_CC200_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_CC200"],
+            "cars": ["$K012_TR_CC200"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+        "title": "passenger Train[in]KA penumpang",
+        "text": ".",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "CC200[in]CC200",
+    "text": "The CC200 locomotive with model number Alco-GE UM 106T is the first double-cabin electric diesel locomotive in Indonesia, manufactured by General Electric in 1953. The 96-ton (94 long; 106 short) diesel-electric locomotive was ordered by Indonesia for 27 units.  .  The remaining CC200 locomotive is now in the Ambarawa Railway Museum, namely CC 200 15 which is still well cared for to be preserved.  His two last brothers, CC 200 08 and CC 200 09, have been sent to Balai Yasa Yogyakarta after being declared retired.[in]Lokomotif CC200 dengan nomor model Alco-GE UM 106T adalah lokomotif diesel elektrik berkabin ganda pertama di Indonesia, buatan pabrik General Electric tahun 1953. Lokomotif diesel elektrik dengan berat 96 ton (94 ton panjang; 106 ton pendek) ini dipesan oleh Indonesia sebanyak 27 buah. Lokomotif CC 200 yang tersisa sekarang berada di Museum Kereta Api Ambarawa yaitu CC 200 15 yang masih dirawat dengan baik untuk dilestarikan. Dua saudara terakhirnya, CC 200 08 dan CC 200 09 sudah dikirim ke Balai Yasa Yogyakarta setelah dinyatakan pensiun."
+  },
+  //CC201
+  {
+    "id": "$ITPK012_CC201",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 0 }],
-    "title": "Malabar train[in]KA Malabar",
-    "text": ".[in]Kereta api Malabar merupakan layanan kereta api penumpang kelas eksekutif, bisnis, dan ekonomi yang dioperasikan oleh Kereta Api Indonesia untuk melayani rute Malang–Bandung melalui Blitar–Yogyakarta dan sebaliknya. Kereta api Malabar merupakan kereta api penumpang pertama dan satu-satunya yang memiliki semua layanan kelas dalam satu rangkaian kereta. Nama Malabar diambil dari salah satu nama gunung berapi di Jawa Barat, Gunung Malabar."
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_CC201_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_CC201"],
+            "cars": ["$K012_TR_CC201_Malabar"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 0 }],
+        "title": "Malabar train[in]KA Malabar",
+        "text": "The Malabar Train (Sundanese: ᮃᮕᮤ ᮙᮜᮘᮁ) is an executive, business and economy class passenger train service operated by Kereta Api Indonesia to serve the Malang–Bandung route via Blitar–Yogyakarta and vice versa.  The Malabar train is the first and only passenger train to have all class services in one train series.  The name Malabar is taken from the name of a volcano in Bandung Regency, West Java, Mount Malabar.[in]Kereta api Malabar (Bahasa Sunda: ᮊᮨᮛᮨᮒ ᮃᮕᮤ ᮙᮜᮘᮁ) merupakan layanan kereta api penumpang kelas eksekutif, bisnis, dan ekonomi yang dioperasikan oleh Kereta Api Indonesia untuk melayani rute Malang–Bandung melalui Blitar–Yogyakarta dan sebaliknya. Kereta api Malabar merupakan kereta api penumpang pertama dan satu-satunya yang memiliki semua layanan kelas dalam satu rangkaian kereta. Nama Malabar diambil dari salah satu nama gunung berapi di Kabupaten Bandung, Jawa Barat, Gunung Malabar.",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "CC201",
+    "text": "The CC201 locomotive is a diesel electric locomotive manufactured by General Electric Transportation.  The production code is GE U18C.  The CC201 locomotive weighs 84 tons (83 long tons; 93 short tons).  The shape is slim, but capable of working at a value of 1454 kW (1950 hp).  This locomotive has a Co'Co' axle arrangement.  This axle indicates that the CC201 locomotive has 2 wheels.  Each wheel set has three axles.  On flat or mountainous tracks, the speed of the CC201 Locomotive can reach 120 km/h (33 m/s).  The CC201 locomotive is owned by PT Kereta Api Indonesia.  The speed of this locomotive is limited to a maximum of 120 km/h (33 m/s).  This is evidenced that the Sancaka train is still capable of being towed by the CC201 locomotive.[in]Lokomotif CC201 adalah lokomotif diesel elektrik yang diproduksi oleh General Electric Transportation. Kode produksinya adalah GE U18C. Lokomotif CC201 mempunyai berat 84 ton (83 ton panjang; 93 ton pendek). Bentuknya ramping, tetapi mampu bekerja pada nilai 1454 kW (1950 hp). Lokomotif ini memiliki susunan gandar Co'Co'. Gandar ini menandakan bahwa lokomotif CC201 memiliki 2 perangkat roda. Masing-masing perangkat roda memiliki tiga poros roda. Pada lintasan datar maupun pegunungan, kecepatan Lokomotif CC201 dapat mencapai 120 km/h (33 m/s). Lokomotif CC201 dimiliki oleh PT Kereta Api Indonesia. Kecepatan lokomotif ini dibatasi maksimal 120 km/h (33 m/s). Hal ini dibuktikan bahwa KA Sancaka masih mampu ditarik oleh lokomotif CC201."
   },
   //CC202
-  {
-    "id": "$K012_TR_CC202_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4CC202.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4CC202DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC201",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 1.6,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
-  },
   {
     "id": "$ITP_CC202_Batubara",
     "type": "railway station",
@@ -738,49 +629,40 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 1 }],
+    "upgrades": [
       {
-        "targets": ["$ITP_CC202_Batubara"],
-        "cars": ["$K012_TR_CC202_BATUBARA"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_CC202_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC202_Batubara"],
+            "cars": ["$K012_TR_CC202_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 1 }],
+        "title": "Coal Train[in]KA Batubara",
+        "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 1 }],
-    "title": "CC202 Coal Train[in]KA Batubara CC202",
-    "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
+    "title": "EMD G25[in]CC202",
+    "text": "The G26 is a diesel-electric locomotive built in the US by General Motors Electro-Motive Diesel for export and in Australia by Clyde Engineering under licence. The G26 was developed to increase traction capacities on the tracks which supported lesser axle loadings. They were intended for main line freight and passenger traffic.[in]Lokomotif CC202 adalah lokomotif diesel elektrik buatan Kanada. Perusahaan yang membuatnya adalah Electro-Motive Diesel, Inc. dengan nomor seri EMD G26MC-2U. Berat lokomotif CC202 adalah 108 ton (106 ton panjang; 119 ton pendek). Lokomotif CC202 dipakai di Indonesia dengan susunan gandar Co'Co'. Jumlah susunan gandar pada lokomotif CC202 adalah enam. Bogie yang digunakan berjenis traksi tinggi tipe-C. Sedangkan mesin Roots blower / Supercharger EMD 16-645E. Mesinnya dapat bekerja dengan tenaga sebesar 1680 kW (2250 hp). Lokomotif CC202 digunakan sebagai penarik kereta api pembawa batu bara. Pengangkutan batu bara dengan lokomotif CC202 hanya dilakukan di Sumatra Selatan. Lokomotif CC202 sangat mirip dengan lokomotif EMD SD38-2 di Amerika Serikat. Desain Lokomotif CC202 dikembangkan sebagai lokomotif CC 205. Lokomotif CC202 dimiliki oleh PT Kereta Api Indonesia."
   },
   //CC203
   {
-    "id": "$K012_TR_CC203_Serayu",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "frames per variant": 8,
-    "speed": 2,
-    "frames": [
-      {
-        "bmp": "4CC203.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
-      },
-      {
-        "bmp": "4CC203DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC203",
-        "x": -15
-      }
-    ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20", "$IRPNULL", "$K012_ITPTR_K3L20"]
-  },
-  {
-    "id": "$ITP_CC203_Serayu",
+    "id": "$ITPK012_CC203",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
     "width": 1,
@@ -789,104 +671,65 @@
       {
         "steal": "$ITP_FrameTMP00",
         "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_CC203_Serayu"],
-        "cars": ["$K012_TR_CC203_Serayu"],
-        "count": 1,
-        "radius": 512
       }
     ],
     "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 2 }],
-    "title": "Serayu train[in]KA Serayu",
-    "text": ".[in]Kereta api Serayu merupakan layanan kereta api penumpang kelas ekonomi yang dioperasikan oleh Kereta Api Indonesia, melayani lintas Pasar Senen–Purwokerto melalui Bandung dan sebaliknya. Nama Serayu berasal dari nama salah satu sungai besar di Jawa Tengah, Kali Serayu."
-  },
-  //CC203 TEL
-  {
-    "id": "$K012_TR_CC203_KERTAS",
-    "type": "car",
-    "frames": [
+    "upgrades": [
       {
-        "bmp": "4CC203PTTEL.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
+        "id": "$K012ITP_UPG_CC203_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_CC203"],
+            "cars": ["$K012_TR_CC203_Serayu"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 2 }],
+        "title": "Serayu train[in]KA Serayu",
+        "text": "The Serayu train is an economy class passenger train service operated by Kereta Api Indonesia, serving the Pasar Senen–Purwokerto route via Bandung and vice versa.  The name Serayu comes from the name of one of the major rivers in Central Java, Kali Serayu.[in]Kereta api Serayu merupakan layanan kereta api penumpang kelas ekonomi yang dioperasikan oleh Kereta Api Indonesia, melayani lintas Pasar Senen–Purwokerto melalui Bandung dan sebaliknya. Nama Serayu berasal dari nama salah satu sungai besar di Jawa Tengah, Kali Serayu.",
+        "only one": true,
+        "build time": 0
       },
       {
-        "bmp": "4CC203PTTELDIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
+        "id": "$K012ITP_UPG_CC203_TEL",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_CC203"],
+            "cars": ["$K012_TR_CC203_KERTAS"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 3 }],
+        "title": "Pulp Railway TEL (Nitahan)[in]Kereta api pulp TEL (Nitahan)",
+        "text": "In Sumatra, the only pulp train operating is the TEL pulp train, which is operated in cooperation between PT KAI and PT TEL.PT TEL is engaged in the production of pulp as a raw material for making paper and tissue, which is located in South Sumatra. It has its own warehouse and dock at Tarahan Station.  For smooth delivery of pulp from its factory located in Niru Station, Muaraenim to Tarahan for export and domestic marketing, transportation by train is much more efficient.[in]Di Sumatra, kereta api pulp yang beroperasi hanyalah kereta api pulp TEL yang dioperasikan kerja sama antara PT KAI dengan PT TEL.PT TEL bergerak di bidang produksi bubur kertas sebagai bahan baku pembuatan kertas dan tissue yang berlokasi di Sumatra Selatan ini memiliki gudang dan dermaga sendiri di Stasiun Tarahan. Untuk kelancaran pengiriman pulp dari pabriknya yang berada di Stasiun Niru, Muaraenim ke Tarahan untuk ekspor dan pemasaran di dalam negeri, maka pengangkutan dengan kereta api jauh lebih efisiensi.",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC203",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 2,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1"]
-  },
-  {
-    "id": "$ITP_CC203_Kertas",
-    "type": "railway station",
-    "template": "$K012_ITP_SPW02",
-    "width": 1,
-    "height": 1,
-    "frames": [
-      {
-        "steal": "$ITP_FrameTMP00",
-        "count": 12
-      }
-    ],
-    "car spawner": [
-      {
-        "targets": ["$ITP_CC203_Kertas"],
-        "cars": ["$K012_TR_CC203_KERTAS"],
-        "count": 1,
-        "radius": 512
-      }
-    ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 3 }],
-    "title": "Pulp Railway TEL (Nitahan)[in]Kereta api pulp TEL (Nitahan)",
-    "text": "In Sumatra, the only pulp train operating is the TEL pulp train, which is operated in cooperation between PT KAI and PT TEL.PT TEL is engaged in the production of pulp as a raw material for making paper and tissue, which is located in South Sumatra. It has its own warehouse and dock at Tarahan Station.  For smooth delivery of pulp from its factory located in Niru Station, Muaraenim to Tarahan for export and domestic marketing, transportation by train is much more efficient.[in]Di Sumatra, kereta api pulp yang beroperasi hanyalah kereta api pulp TEL yang dioperasikan kerja sama antara PT KAI dengan PT TEL.PT TEL bergerak di bidang produksi bubur kertas sebagai bahan baku pembuatan kertas dan tissue yang berlokasi di Sumatra Selatan ini memiliki gudang dan dermaga sendiri di Stasiun Tarahan. Untuk kelancaran pengiriman pulp dari pabriknya yang berada di Stasiun Niru, Muaraenim ke Tarahan untuk ekspor dan pemasaran di dalam negeri, maka pengangkutan dengan kereta api jauh lebih efisiensi."
+    "title": "CC203",
+    "text": "The CC203 locomotive is a diesel-electric locomotive manufactured by General Electric Transportation with the U20C model.  The CC203 locomotive is the result of the development of the CC201 locomotive, namely the aerodynamic and widened short end driver's cabin.  There are two operators and owners of this locomotive, namely PT Kereta Api Indonesia and PT Tanjung Enim Lestari Pulp and Paper (TeL).  An export version of this locomotive was operated by ICTSI in the Philippines and then sold to Australia.[in]Lokomotif CC203 adalah lokomotif diesel elektrik yang diproduksi oleh General Electric Transportation dengan model U20C. Lokomotif CC203 merupakan hasil pengembangan dari lokomotif CC201 yakni pada kabin masinis ujung pendek yang aerodinamis dan diperlebar. Terdapat dua operator sekaligus pemilik dari lokomotif ini, yaitu PT Kereta Api Indonesia dan PT Tanjung Enim Lestari Pulp and Paper (TeL). Satu unit versi ekspor dari lokomotif ini dahulu dioperasikan oleh ICTSI di Filipina dan kemudian dijual ke Australia."
   },
   //CC204
-  {
-    "id": "$K012_TR_CC204_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4CC204.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4CC204DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC203",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 2,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
-  },
   {
     "id": "$ITP_CC204_Batubara",
     "type": "railway station",
@@ -899,53 +742,42 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 4 }],
+    "upgrades": [
       {
-        "targets": ["$ITP_CC204_Batubara"],
-        "cars": ["$K012_TR_CC204_BATUBARA"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_CC204_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC204_Batubara"],
+            "cars": ["$K012_TR_CC204_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 4 }],
+        "title": "Coal Train[in]KA Batubara",
+        "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 4 }],
-    "title": "CC204 Coal Train[in]KA Batubara CC204",
-    "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG)."
+    "title": "CC204",
+    "text": "The CC204 locomotive is one of the diesel electric locomotives owned by Kereta Api Indonesia (KAI), assembled by the Railway Industry with a license from General Electric Transportation.  This locomotive is divided into two series, namely the first CC204 locomotive which is a GE C18MMi model with a short nose appearance (such as the CC201), and the second CC204 locomotive which is a GE C20EMP model with an aerodynamic nose (such as the CC 203).[in]Lokomotif CC204 adalah salah satu lokomotif diesel elektrik yang dimiliki oleh Kereta Api Indonesia (KAI), dirakit oleh Industri Kereta Api dengan lisensi dari General Electric Transportation. Lokomotif ini terbagi menjadi dua seri, yaitu lokomotif CC204 seri pertama yang merupakan model GE C18MMi dengan tampilan hidung pendek (seperti CC201), dan lokomotif CC204 seri kedua yang merupakan model GE C20EMP dengan hidung aerodinamis (seperti CC 203)."
   },
   //CC205 H
-  {
-    "id": "$K012_TR_CC205_BATUBARA",
-    "type": "car",
-    "frames": [
-      {
-        "bmp": "4CC205.png",
-        "count": 4,
-        "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "4CC205DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "animation": [
-      {
-        "id": "$ITP_ANI_CC201",
-        "x": -15
-      }
-    ],
-    "frames per variant": 8,
-    "speed": 2.2,
-    "template": "$K012_ITPTEMP_TRN01",
-    "capacity": 4,
-    "tail": ["$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
-  },
   {
     "id": "$ITP_CC205_Batubara",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
-
     "width": 1,
     "height": 1,
     "frames": [
@@ -954,49 +786,184 @@
         "count": 12
       }
     ],
-    "car spawner": [
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 5 }],
+    "upgrades": [
       {
-        "targets": ["$ITP_CC205_Batubara"],
-        "cars": ["$K012_TR_CC205_BATUBARA"],
-        "count": 1,
-        "radius": 512
+        "id": "$K012ITP_UPG_CC205_Normal",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC205_Batubara"],
+            "cars": ["$K012_TR_CC205_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 5 }],
+        "title": "Coal Train[in]KA Batubara",
+        "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 5 }],
-    "title": "Babaranjang Train[in]KA Babaranjang",
-    "text": "The long chain coal train (Babaranjang) or Baratarahan is a freight train that transports coal owned by PT Tambang Batubara Bukit Asam, as a form of cooperation between Bukit Asam and PT Kereta Api Indonesia.[in]Kereta api batu bara rangkaian panjang (Babaranjang) atau Baratarahan adalah kereta api jenis barang yang mengangkut batu bara milik PT Tambang Batubara Bukit Asam, sebagai wujud kerja sama antara Bukit Asam dengan PT Kereta Api Indonesia."
+    "title": "CC205",
+    "text": "The EMD GT38ACe (known as CC205 in Indonesia) diesel-electric locomotives are made by Electro-Motive Diesel for export in Indonesia. There are 91 locomotives owned by the state-owned Indonesian Railway Company (PT Kereta Api Indonesia), all of them are for in Sumatra and replace the aging EMD G26. It's also one of two most advanced-technology locomotive in Indonesia (another one is GE CM20EMP).[in]CC205 adalah lokomotif terberat kedua di Indonesia, yakni seberat 108 ton. Lokomotif ini dibeli untuk menggantikan beberapa tugas Lokomotif CC202 yang sudah berumur dan dalam hal ini 2 lokomotif CC202 bisa diganti dengan 1 lokomotif CC205. Lokomotif ini tiba di Indonesia, tepatnya di Lampung tanggal 26 September 2011, karena lokomotif ini hanya dikhususkan untuk menarik rangkaian kereta pengangkut batu bara (Babaranjang) di Divisi Regional III Palembang dan Divisi Regional IV Tanjungkarang. Lokomotif CC205 merupakan salah satu lokomotif berteknologi modern di Indonesia. Saat ini ada total 91 unit lokomotif CC205 yang beroperasi di Sumatra."
   },
   //CC206
   {
-    "id": "$K012_TR_CC206_BIMA",
-    "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
-    "speed": 2.2,
+    "id": "$ITP_CC206",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
     "frames": [
       {
-        "bmp": "4CC206.png",
-        "count": 4,
-        "w": 20,
-        "h": 18
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_CC206_BIMA",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC206"],
+            "cars": ["$K012_TR_CC206_BIMA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 6 }],
+        "title": "Bima Train[in]KA Bima",
+        "text": "The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).  The name Bima itself is an abbreviation of Biru Malam after continuing the previous sleeper train services, namely Bintang Sendja and Bintang Fadjar in 1967.[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). Nama Bima sendiri merupakan kepanjangan dari Biru Malam setelah meneruskan layanan kereta tidur sebelumnya yaitu Bintang Sendja dan Bintang Fadjar pada tahun 1967.",
+        "only one": true,
+        "build time": 0
       },
       {
-        "bmp": "4CC206DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      }
-    ],
-    "frames per variant": 8,
-    "animation": [
+        "id": "$K012ITP_UPG_CC206_CONT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC206"],
+            "cars": ["$K012_TR_CC206_KONT"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_EXTRA01", "frame": 1 }],
+        "title": "CC206 + Container Train[in]CC206 + KA peti kemas",
+        "text": "The container train is a container type freight train operated by PT Kereta Api Indonesia with its subsidiary, KAI Logistik, to facilitate the distribution of goods by land and to reduce road load due to the large number of container transport trucks along the national highway section.  Java and Sumatra.  The container train is the longest chain train in Indonesia after the long chain coal train.[in]Kereta api peti kemas merupakan kereta api barang jenis peti kemas yang dioperasikan oleh PT Kereta Api Indonesia bersama anak perusahaannya, KAI Logistik, untuk memperlancar distribusi barang melalui jalur darat serta untuk mengurangi beban jalan raya akibat banyaknya truk angkutan peti kemas di sepanjang ruas jalan raya nasional Jawa dan Sumatra. Kereta api peti kemas merupakan kereta api dengan rangkaian terpanjang di Indonesia setelah kereta api batu bara rangkaian panjang.",
+        "only one": true,
+        "build time": 0
+      },
       {
-        "id": "$ITP_ANI_CC206",
-        "x": -15
+        "id": "$K012ITP_UPG_CC206_KETL",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC206"],
+            "cars": ["$K012_TR_CC206_KETL"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_EXTRA01", "frame": 0 }],
+        "title": "CC206 + tanker Train[in]CC206 + KA ketel",
+        "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK).",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_CC206_REL",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC206"],
+            "cars": ["$K012_TR_CC206_REL"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_EXTRA01", "frame": 4 }],
+        "title": "CC206 + rail Train[in]CC206 + KLB rel",
+        "text": "Select rail variant of CC206 locomotive[in]Pilih variasi KLB rel lokomotif CC206.",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_CC206_PARC",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITP_CC206"],
+            "cars": ["$K012_TR_CC206_PAR"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_EXTRA01", "frame": 6 }],
+        "title": "CC206 + parcel Train[in]CC206 + KA parcel",
+        "text": "Select parcel variant of CC206 locomotivThe Over Night Service train—defined as the Overnight Service Train, also known as Parcel ONS—is a baggage freight train service operated by KAI Logistics in Java serving the Jakarta Gudang–Surabaya Pasarturi/Malang and Bandung–Surabaya Kota and vice versa.[in]Kereta api Over Night Service—diartikan sebagai Kereta api Layanan Semalam, disebut juga Parcel ONS—adalah layanan kereta api barang bagasi yang dioperasikan oleh KAI Logistik di Jawa melayani lintas Jakarta Gudang–Surabaya Pasarturi/Malang dan Bandung–Surabaya Kota maupun sebaliknya.",
+        "only one": true,
+        "build time": 0
       }
     ],
-    "tail": ["$IRPNULL", "$K012_ITPTR_B0L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 6 }],
+    "title": "GE CM20EMP locomotive[in]Lokomotif CC206",
+    "text": "The GE CM20EMP diesel-electric locomotives (also known as CC206 in Indonesia) are owned by Kereta Api Indonesia (Indonesian Railways Co.) and built by GE Transportation. The GE CM20EMPs are multipurpose locomotives, not only for hauling passenger trains (i.e. executive class, business class, or economy class), but also freight trains.[in]Lokomotif CC206 adalah lokomotif diesel elektrik buatan General Electric Transportation, Amerika Serikat yang dioperasikan oleh PT Kereta Api Indonesia (Persero). Lokomotif ini dilengkapi dua bogie dengan konfigurasi C-C (Co'Co'), yaitu tiga buah roda penggerak di setiap bogienya. Terdapat perbedaan dengan lokomotif diesel elektrik buatan GE lain pada jenis yang sama, yaitu dilengkapi dua kabin masinis di ujung muka dan belakang, seperti lokomotif di Eropa pada umumnya. Lokomotif CC206 diperuntukkan untuk keperluan angkutan barang dan penumpang di Pulau Jawa. Sementara di Sumatra Selatan, lokomotif ini hanya diperuntukkan untuk keperluan angkutan barang. "
   },
+  //Cc300
   {
-    "id": "$ITP_CC206_BIMA",
+    "id": "$ITP_CC300",
     "type": "railway station",
     "template": "$K012_ITP_SPW02",
 
@@ -1010,14 +977,14 @@
     ],
     "car spawner": [
       {
-        "targets": ["$ITP_CC206_BIMA"],
-        "cars": ["$K012_TR_CC206_BIMA"],
+        "targets": ["$ITP_CC300"],
+        "cars": ["$K012_TR_CC300"],
         "count": 1,
         "radius": 512
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_CC201_CC206", "frame": 6 }],
-    "title": "Bima train[in]KA Bima",
-    "text": "The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). "
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "CC300[in]CC300",
+    "text": "[in]Lokomotif CC 300 adalah salah satu lokomotif diesel hidraulik di Indonesia milik Direktorat Jenderal (Ditjen) Perkeretaapian Kementerian Perhubungan yang digunakan khusus untuk keperluan dinas Ditjen Perkeretaapian.[2] Lokomotif dengan dua kabin masinis ini dibuat oleh PT INKA. Meskipun beberapa lokomotif ini dimiliki Ditjen Perkeretaapian, lokomotif ini tetap dioperasikan oleh PT KAI.  "
   }
 ]
