@@ -1,0 +1,180 @@
+[
+  //E205
+  {
+    "id": "$IRP_E205",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$IRP_E205"],
+        "cars": ["$KRLE205"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "bmp": "KRLE205.png"}],
+    "template": "$K012_ITP_SPWPR01",
+    "title id": "draft_SPW_E205_PAS_title",
+    "text id": "draft_SPW_E205_PAS_text"
+  },
+  //E235
+  {
+    "id": "$IRP_E235",
+    "type": "railway station",
+
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$IRP_E235"],
+        "cars": ["$KRLE235"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "bmp": "KRLE205.png"}],
+    "template": "$K012_ITP_SPWPR01",
+    "capacity": 2,
+    "title id": "draft_SPW_E235_PAS_title",
+    "text id": "draft_SPW_E235_PAS_text"
+  },
+  //KRD YIA
+  {
+    "id": "$ITP_SPW_KRDFEEDKCIC01",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_SPW_KRDFEEDKCIC01"],
+        "cars": ["$KRDFEEDKCIC01"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "bmp": "KRDFEEDKCIC.png"}],
+    "template": "$K012_ITP_SPWPR01",
+    "capacity": 2,
+    "title": "Feeder KCIC DMU[in]KRD Feeder KCIC",
+    "text": "The Indonesia-China Fast Train (KCIC) is a company that operates the Indonesian high-speed rail network, which is planned to be built on the Jakarta-Bandung route.  This company is a joint project of the Indonesian SOEs Synergy Pillar (a consortium of 4 Indonesian SOEs: Kereta Api Indonesia, Wijaya Karya, PTPN VIII and Jasa Marga) with China Railway Group Limited.[in]Kereta Cepat Indonesia-China (KCIC) adalah perusahaan yang mengoperasikan jaringan kereta cepat Indonesia yang rencananya akan dibangun dengan rute Jakarta-Bandung. Perusahaan ini merupakan proyek bersama Pilar Sinergi BUMN Indonesia (konsorsium dari 4 BUMN Indonesia: Kereta Api Indonesia, Wijaya Karya, PTPN VIII dan Jasa Marga) dengan China Railway Group Limited."
+  },
+  {
+    "id": "$ITP_SPW_KRDYIA01",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_SPW_KRDYIA01"],
+        "cars": ["$KRDYIA01"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "bmp": "KRDYIA.png"}],
+    "template": "$K012_ITP_SPWPR01",
+    "capacity": 2,
+    "title": "YIA DMU[in]KRD YIA",
+    "text": ".[in]Kereta api Bandara Internasional Yogyakarta (YIA) merupakan layanan kereta api bandara yang melayani rute Yogyakarta- YIA PP, dan pernah melayani rute Yogyakarta - Wojo -Kebumen PP. Kereta ini dioperasikan oleh PT Kereta Api Indonesia Daerah Operasi VI Yogyakarta."
+  },
+  //Lori
+
+  {
+    "id": "$K012_PLLOR1",
+    "type": "railway station",
+    "hidden":true,
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "5DepoLori.png",
+        "count": 1,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITP_SPWPR01",
+    "car spawner": [
+      {
+        "targets": ["$K012_PLLOR1"],
+        "cars": ["$K012_Trem001"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_EXTRA01", "frame": 3 }],
+    "title id": "draft_Plat_LOR_title",
+    "text": ".[in]Pabrik Gula Djatiroto adalah pabrik gula yang terletak di Desa Kaliboto Lor, Kecamatan Jatiroto, Kabupaten Lumajang, Provinsi Jawa Timur. Pabrik ini didirikan pada awal abad ke-20 oleh Perkumpulan Dagang Amsterdam atau disebut Handelsvereeniging Amsterdam (H.V.A)."
+  },
+  //MTT
+
+  {
+    "id": "$ITP_MTT00",
+    "type": "railway station",
+    "template": "$K012_ITP_SPWPR01",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "car spawner": [
+      {
+        "targets": ["$ITP_MTT00"],
+        "cars": ["$K012_TR_MTT"],
+        "count": 1,
+        "radius": 512
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "MTT[in]MTT",
+    "text": "A punching machine is a machine used to punch (or compact) ballast under railroad tracks to make the rails more durable.  Before mechanical punching was introduced, the punching task was performed by workers with the help of a compactor.  Because they are faster, more accurate, more efficient, and more energy efficient, beaters play an important role in concrete rail sleepers because they are too heavy (typically over 250 kg (551 lb)) to lift by hand.  While there are also punchers without lifting and compacting functions, this article focuses on all-purpose punching machines.[in]Mesin pecok adalah mesin yang digunakan untuk memecok (atau memadatkan) balast di bawah rel kereta api agar rel lebih tahan lama. Sebelum pemecok mekanik diperkenalkan, tugas pemecokan dilakukan oleh para pekerja dengan bantuan alat pemadat. Karena lebih cepat, lebih akurat, lebih efisien, dan lebih hemat tenaga, mesin pecok berperan penting untuk penggunaan bantalan rel beton karena terlalu berat (biasanya lebih dari 250 kg (551 pon)) jika diangkat dengan tangan. Walaupun ada pula alat pemecok tanpa fungsi pengangkatan dan pemadatan, artikel ini berfokus pada mesin pecok serbaguna. "
+  },
+  //CC300
+  //CC200
+
+  //Debug
+  {
+    "id": "$ITP_COMINGSOON",
+    "type": "railway station",
+    "template": "$K012_ITP_SPWPR01",
+    "width": 1,
+    "height": 1,
+    "hidden": true,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_DEBUG01", "frame": 0 }],
+    "title": "Coming Soon[in]Segera Hadir",
+    "text": "This Train Will introduced soon[in]Kereta ini akan di tambahkan pada update berikutnya."
+  }
+]

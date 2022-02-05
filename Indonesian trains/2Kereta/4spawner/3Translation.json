@@ -1,0 +1,15 @@
+[
+  // code example "draft_ID_title / text": "string",
+  {
+    "id": "$K012ITP_translation",
+    "type": "translation",
+    "*":{
+        "draft_K012ITP_UPG_Generic00":"Use in game train lenght.",
+        "draft_K012ITP_UPG_Generic01":"Use real life train lenght."
+    },
+    "in": {
+        "draft_K012ITP_UPG_Generic00":"Gunakan panjang kereta game.",
+        "draft_K012ITP_UPG_Generic01":"Gunakan panjang kereta dunia nyata."
+    }
+  }
+]
