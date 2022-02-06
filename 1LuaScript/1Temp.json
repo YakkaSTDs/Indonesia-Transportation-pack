@@ -14,7 +14,7 @@
     "required flag normal":false,
     "required flag CapeTR":true,
     "x flags":{
-      "flag normal":false,
+      "flag normal":true,
       "flag CapeTR":true
     }
   }
