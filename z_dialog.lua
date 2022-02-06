@@ -118,28 +118,20 @@ local entry = listBox:addCanvas{h=20}
         text = 'Kulche (Lua Help)',
         w = -30,
         h = 16
-      }
+      } 
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
         text = 'Wikipedia (Most of description)',
         w = -30,
         h = 16
       }
---Others
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
-        text = 'Non Forum Member & Contributor',
+        text = 'Chanxin (Platform Roof)',
         w = -30,
         h = 16
       }
-  local cmd = entry:addButton{
-    width = 225,
-    text = 'Non Forum Member & Contributor',
-    golden = true,
-    onClick = function(self)
-        Debug.toast('Want be listed here?,join my discord or Whatsapp,then request an content.')
-    end
-  }
+--Others
 local entry = listBox:addCanvas{h=20}
       entry:addLabel{
         text = 'Chris (Discord) (Old Station Textures)',
