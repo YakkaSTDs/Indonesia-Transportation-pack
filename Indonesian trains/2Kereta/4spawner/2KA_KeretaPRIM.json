@@ -12,7 +12,7 @@
         "count": 12
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 0 }],
+    "preview frames": [{ "bmp": "BB200SMN.png"}],
     "upgrades": [
       {
         "id": "$K012ITP_UPG_BB200_Normal",
@@ -27,13 +27,13 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_BB200_BaturajaCement"],
+            "targets": ["$ITPK012_PLB00","$ITP_BB200_BaturajaCement"],
             "cars": ["$K012_TR_BB200_BaturajaCement"],
             "count": 1,
             "radius": 512
           }
         ],
-        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 0 }],
+    "preview frames": [{ "bmp": "BB200SMN.png"}],
         "title": "Baturaja Train[in]KA Baturaja",
         "text": "The Semen Baturaja transportation train or the Semen Baturaja train is a freight train that transports bulk cement (clinker) and finished cement in tarpaulins (hereinafter referred to as tarpaulin only) produced by PT Semen Baturaja which serves connections from Tigagajah station to Kertapati station and Pidada station.[in]Kereta api angkutan Semen Baturaja atau Kereta api Semen Baturaja adalah kereta api angkutan barang yang mengangkut semen curah (klinker) maupun semen jadi dalam terpal (selanjutnya disebut semen terpal saja) produksi PT Semen Baturaja yang melayani relasi dari stasiun Tigagajah menuju stasiun Kertapati dan stasiun Pidada.",
         "only one": true,
@@ -70,20 +70,20 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB201"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_BB201"],
             "cars": ["$K012_TR_BB201_BIMA1956"],
             "count": 1,
             "radius": 512
           }
         ],
-        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 1 }],
+    "preview frames": [{ "bmp": "BB201BIMA.png"}],
         "title": "Bima Train (1970)[in]KA Bima (1970)",
         "text": "The Bima train is an executive class passenger train service operated by Kereta Api Indonesia (KAI) serving the Gambir–Surabaya Gubeng route via the southern Java route (via Purwokerto–Yogyakarta–Solo).  The name Bima itself is an abbreviation of Biru Malam after continuing the previous sleeper train services, namely Bintang Sendja and Bintang Fadjar in 1967.[in]Kereta api Bima merupakan layanan kereta api penumpang kelas eksekutif yang dioperasikan oleh Kereta Api Indonesia (KAI) melayani rute Gambir–Surabaya Gubeng melalui jalur lintas selatan Jawa (via Purwokerto–Yogyakarta–Solo). Nama Bima sendiri merupakan kepanjangan dari Biru Malam setelah meneruskan layanan kereta tidur sebelumnya yaitu Bintang Sendja dan Bintang Fadjar pada tahun 1967.",
         "only one": true,
         "build time": 0
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 1 }],
+    "preview frames": [{ "bmp": "BB201BIMA.png"}],
     "title": "EMD G12[in]BB201",
     "text": "The EMD G12 is a class of export locomotive built by GM-EMD, and its Canadian affiliate General Motors Diesel. In addition, Australian licensee Clyde Engineering built ten locomotives for New Zealand in 1957, five for Hong Kong, 23 for Queensland, 14 for Western Australia and seven for BHP. Australian licensee Commonwealth Engineering also built 42 for Queensland Rail in 1964–66. Many examples were built in the 1950-1960s for railroads all over the world.[in]Lokomotif BB 201 adalah lokomotif diesel elektrik milik PT Kereta Api Indonesia buatan pabrik General Motors Electro-Motive Division (GM-EMD), Amerika Serikat dengan transmisi daya DC-DC yang pernah dioperasikan sejak tahun 1964 hingga dekade 2010-an awal. Lokomotif ini merupakan lokomotif diesel elektrik model ketiga yang dioperasikan oleh PT KAI setelah CC 200 dan BB 200. Lokomotif ini merupakan adik dari lokomotif BB 200, yang juga diproduksi oleh pabrik yang sama. "
   },
@@ -100,7 +100,7 @@
         "count": 12
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 2 }],
+    "preview frames": [{ "bmp": "BB202BTB.png"}],
     "upgrades": [
       {
         "id": "$K012ITP_UPG_BB202_Normal",
@@ -115,13 +115,13 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB202"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB202"],
             "cars": ["$K012_TR_BB202_BATUBARA"],
             "count": 1,
             "radius": 512
           }
         ],
-        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 2 }],
+    "preview frames": [{ "bmp": "BB202BTB.png"}],
         "title": "Coal Train[in]KA Batubara",
         "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
         "only one": true,
@@ -144,7 +144,7 @@
         "count": 12
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 3 }],
+    "preview frames": [{ "bmp": "BB203KTL.png"}],
     "upgrades": [
       {
         "id": "$K012ITP_UPG_BB203_Normal",
@@ -159,13 +159,13 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB203"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB203"],
             "cars": ["$K012_TR_BB203_Minyak"],
             "count": 1,
             "radius": 512
           }
         ],
-        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 3 }],
+    "preview frames": [{ "bmp": "BB203KTL.png"}],
         "title": "Fuel Train[in]KA Ketel",
         "text": "Pertamina boiler train is a freight train service operated by PT Kereta Api Indonesia in collaboration with PT Pertamina to transport fuel oil (BBM) and special fuel (BBK).[in]Kereta api ketel Pertamina adalah layanan kereta api angkutan barang yang dioperasikan oleh PT Kereta Api Indonesia hasil kerja sama dengan PT Pertamina untuk mengangkut bahan bakar minyak (BBM) dan bahan bakar khusus (BBK). ",
         "only one": true,
@@ -188,7 +188,7 @@
         "count": 12
       }
     ],
-    "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 4 }],
+    "preview frames": [{ "bmp": "BB204BTB.png"}],
     "upgrades": [
       {
         "id": "$K012ITP_UPG_BB204_Normal",
@@ -203,13 +203,13 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB204"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB204"],
             "cars": ["$K012_TR_BB204_BATUBARA"],
             "count": 1,
             "radius": 512
           }
         ],
-        "preview frames": [{ "steal": "$ITP_ANI_ICONDEPO_BB200_BB204", "frame": 4 }],
+    "preview frames": [{ "bmp": "BB204BTB.png"}],
         "title": "Coal Train[in]KA Batubara",
         "text": "The South Sumatran private coal train is a freight train service that transports coal owned by a number of private coal companies in South Sumatra.  Coal from the Sukamarga area, Lahat Regency and Muara Enim Regency, South Sumatra is sent by train to Kertapati Pier or Tanjung Api-Api Port for export or use for domestic needs.[2]  The operation of this service is a collaboration between a private mining company and PT Kereta Api Indonesia and PT Kereta Api Logistik (PT KALOG).[in]Kereta api batu bara swasta Sumatra Selatan adalah layanan kereta api barang yang mengangkut batu bara milik sejumlah perusahaan batu bara swasta di Sumatra Selatan. Batu bara dari daerah Sukamarga, Kabupaten Lahat dan Kabupaten Muara Enim, Sumatra Selatan dikirim menggunakan kereta api menuju Dermaga Kertapati atau Pelabuhan Tanjung Api-Api untuk kemudian diekspor atau digunakan untuk kebutuhan dalam negeri.[2] Pengoperasian layanan ini merupakan kerja sama antara perusahaan tambang swasta dengan PT Kereta Api Indonesia dengan PT Kereta Api Logistik (PT KALOG).",
         "only one": true,
@@ -247,7 +247,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB300"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB300"],
             "cars": ["$K012_TR_BB300_Minyak"],
             "count": 1,
             "radius": 512
@@ -291,7 +291,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB301"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB301"],
             "cars": ["$K012_TR_BB301_BATUBARA"],
             "count": 1,
             "radius": 512
@@ -335,7 +335,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB302"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_BB302"],
             "cars": ["$K012_TR_BB302_Srilelawangsa"],
             "count": 1,
             "radius": 512
@@ -379,7 +379,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB303"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_BB303"],
             "cars": ["$K012_TR_BB303_Sibinuang"],
             "count": 1,
             "radius": 512
@@ -423,7 +423,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB304"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_BB304"],
             "cars": ["$K012_TR_BB304_Pandanwangi"],
             "count": 1,
             "radius": 512
@@ -467,7 +467,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB305"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_BB305"],
             "cars": ["$K012_TR_BB305_KERTAS"],
             "count": 1,
             "radius": 512
@@ -512,7 +512,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_BB306"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_BB306"],
             "cars": ["$K012_TR_BB306_Sibinuang"],
             "count": 1,
             "radius": 512
@@ -556,7 +556,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC200"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_CC200"],
             "cars": ["$K012_TR_CC200"],
             "count": 1,
             "radius": 512
@@ -600,7 +600,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC201"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_CC201"],
             "cars": ["$K012_TR_CC201_Malabar"],
             "count": 1,
             "radius": 512
@@ -625,7 +625,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC201"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_CC201"],
             "cars": ["$K012_TR_CC201_Logawa"],
             "count": 1,
             "radius": 512
@@ -650,7 +650,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC201"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_CC201"],
             "cars": ["$K012_TR_CC201_KualaStabas"],
             "count": 1,
             "radius": 512
@@ -675,7 +675,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC201"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC201"],
             "cars": ["$K012_TR_CC201_KONT"],
             "count": 1,
             "radius": 512
@@ -700,7 +700,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC201"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC201"],
             "cars": ["$K012_TR_CC201_KETL"],
             "count": 1,
             "radius": 512
@@ -744,7 +744,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC202_Batubara"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC202_Batubara"],
             "cars": ["$K012_TR_CC202_BATUBARA"],
             "count": 1,
             "radius": 512
@@ -788,7 +788,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC203"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITPK012_CC203"],
             "cars": ["$K012_TR_CC203_Serayu"],
             "count": 1,
             "radius": 512
@@ -813,7 +813,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_CC203"],
+            "targets": ["$ITPK012_PLB00","$ITPK012_CC203"],
             "cars": ["$K012_TR_CC203_KERTAS"],
             "count": 1,
             "radius": 512
@@ -857,7 +857,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC204_Batubara"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC204_Batubara"],
             "cars": ["$K012_TR_CC204_BATUBARA"],
             "count": 1,
             "radius": 512
@@ -901,7 +901,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC205_Batubara"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC205_Batubara"],
             "cars": ["$K012_TR_CC205_BATUBARA"],
             "count": 1,
             "radius": 512
@@ -944,7 +944,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC206"],
+            "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITP_CC206"],
             "cars": ["$K012_TR_CC206_BIMA"],
             "count": 1,
             "radius": 512
@@ -969,7 +969,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC206"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC206"],
             "cars": ["$K012_TR_CC206_KONT"],
             "count": 1,
             "radius": 512
@@ -994,7 +994,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC206"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC206"],
             "cars": ["$K012_TR_CC206_KETL"],
             "count": 1,
             "radius": 512
@@ -1019,7 +1019,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC206"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC206"],
             "cars": ["$K012_TR_CC206_REL"],
             "count": 1,
             "radius": 512
@@ -1044,7 +1044,7 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITP_CC206"],
+            "targets": ["$ITPK012_PLB00","$ITP_CC206"],
             "cars": ["$K012_TR_CC206_PAR"],
             "count": 1,
             "radius": 512
@@ -1077,7 +1077,7 @@
     ],
     "car spawner": [
       {
-        "targets": ["$ITP_CC300"],
+        "targets": ["$ITPK012_PLS00","$ITPK012_PLS01","$ITP_CC300"],
         "cars": ["$K012_TR_CC300"],
         "count": 1,
         "radius": 512
