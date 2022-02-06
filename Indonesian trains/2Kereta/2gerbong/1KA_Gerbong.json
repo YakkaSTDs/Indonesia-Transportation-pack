@@ -535,13 +535,13 @@
     "template": "$K012_ITPTEMP_TRN01",
     "frames": [
       {
-        "bmp": "5Gerbong_BB.png",
+        "bmp": "5Gerbong_BBN.png",
         "count": 4,
         "h": 18,
         "w": 20
       },
       {
-        "bmp": "5Gerbong_BBDIA.png",
+        "bmp": "5Gerbong_BBNDIA.png",
         "count": 4,
         "h": 19,
         "w": 32
@@ -556,13 +556,13 @@
     "template": "$K012_ITPTEMP_TRN01",
     "frames": [
       {
-        "bmp": "5Gerbong_BK.png",
+        "bmp": "5Gerbong_BKN.png",
         "count": 4,
         "h": 18,
-        "w": 20
+        "w": 18
       },
       {
-        "bmp": "5Gerbong_BKDIA.png",
+        "bmp": "5Gerbong_BKNDIA.png",
         "count": 4,
         "h": 19,
         "w": 32
