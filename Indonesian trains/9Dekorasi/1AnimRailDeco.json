@@ -906,12 +906,13 @@
       }
     ]
   },
+  //new crossing
   {
-    "id": "$railani_K012_RCC1",
+    "id": "$railani_K012_RCO1N",
     "type": "animation",
     "frames": [
       {
-        "bmp": "5PerlintasanKA_Tutup.png",
+        "bmp": "5PerlintasanKA_Buka_N.png",
         "x": 0,
         "w": 32,
         "handle y": 23
@@ -919,11 +920,11 @@
     ]
   },
   {
-    "id": "$railani_K012_RCC2",
+    "id": "$railani_K012_RCO2N",
     "type": "animation",
     "frames": [
       {
-        "bmp": "5PerlintasanKA_Tutup.png",
+        "bmp": "5PerlintasanKA_Buka_N.png",
         "x": 32,
         "w": 32,
         "handle y": 24
@@ -931,11 +932,11 @@
     ]
   },
   {
-    "id": "$railani_K012_RCC3",
+    "id": "$railani_K012_RCO3N",
     "type": "animation",
     "frames": [
       {
-        "bmp": "5PerlintasanKA_Tutup.png",
+        "bmp": "5PerlintasanKA_Buka_N.png",
         "x": 64,
         "w": 32,
         "handle y": 23
@@ -943,11 +944,60 @@
     ]
   },
   {
-    "id": "$railani_K012_RCC4",
+    "id": "$railani_K012_RCO4N",
     "type": "animation",
     "frames": [
       {
-        "bmp": "5PerlintasanKA_Tutup.png",
+        "bmp": "5PerlintasanKA_Buka_N.png",
+        "x": 96,
+        "w": 32,
+        "handle y": 24,
+        "handle x": 1
+      }
+    ]
+  },
+  {
+    "id": "$railani_K012_RCC1N",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "5PerlintasanKA_Tutup_N.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$railani_K012_RCC2N",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "5PerlintasanKA_Tutup_N.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 24
+      }
+    ]
+  },
+  {
+    "id": "$railani_K012_RCC3N",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "5PerlintasanKA_Tutup_N.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$railani_K012_RCC4N",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "5PerlintasanKA_Tutup_N.png",
         "x": 96,
         "w": 32,
         "handle y": 24,

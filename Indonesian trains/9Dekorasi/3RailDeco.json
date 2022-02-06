@@ -521,36 +521,6 @@
     "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
   },
   {
-    "id": "$K012ITP_RACO_PKAB",
-    "type": "road decoration",
-    "min dirs": 4,
-    "max dirs": 4,
-    "template": "$K012_ITPTEMP_PART00",
-    "hidden": true,
-    "enter speed": 0.05,
-    "exit speed": 0.2,
-    "category": "$K012_ITPCAT_RWDC02",
-    "on click fun": [
-      {
-        "actions": [
-          {
-            "type": "build",
-            "id": "$K012ITP_RACO_PKAA"
-          }
-        ]
-      }
-    ],
-    "animation": [
-      {
-        "id": "$railani_K012_RCC2"
-      },
-      {
-        "id": "$railani_K012_RCC4"
-      }
-    ],
-    "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
-  },
-  {
     "id": "$K012ITP_RACO_PKAA_B",
     "type": "road decoration",
     "min dirs": 4,
@@ -580,37 +550,93 @@
     ],
     "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
   },
+  //New
   {
-    "id": "$K012ITP_RACO_PKAB_B",
+    "id": "$K012ITP_RACO_PPKANBUKA00",
     "type": "road decoration",
-    "min dirs": 4,
-    "max dirs": 4,
-    "template": "$K012_ITPTEMP_PART00",
     "title id": "draft_TRA_DPPKA_title",
     "text id": "draft_TRA_DPPKA_text",
-    "hidden": true,
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "required flag normal":true,
+    "required flag CapeTR":false,
     "category": "$K012_ITPCAT_RWDC02",
-    "entry speed": 0.05,
-    "exit speed": 0.2,
     "on click fun": [
       {
         "actions": [
           {
             "type": "build",
-            "id": "$K012ITP_RACO_PKAA_B"
+            "id": "$K012ITP_RACO_PPKANTUTUP00"
+          },
+          {
+            "type":"remove"
           }
         ]
       }
     ],
     "animation": [
       {
-        "id": "$railani_K012_RCC4"
+        "id": "$railani_K012_RCO1N"
       },
       {
-        "id": "$railani_K012_RCC2"
+        "id": "$railani_K012_RCO3N"
       }
     ],
-    "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_RCO2N"
+      },
+      {
+        "id": "$railani_K012_RCO4N"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_PPKANTUTUP00",
+    "type": "road decoration",
+    "title id": "draft_TRA_DPPKA_title",
+    "text id": "draft_TRA_DPPKA_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "speed":0.005,
+    "required flag normal":true,
+    "required flag CapeTR":false,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_PPKANBUKA00"
+          },
+          {
+            "type":"remove"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$railani_K012_RCC1N"
+      },
+      {
+        "id": "$railani_K012_RCC3N"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_RCC2N"
+      },
+      {
+        "id": "$railani_K012_RCC4N"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
   },
   //Katenari
   {
