@@ -20,53 +20,17 @@
         }
       ]
     },
-    "price": 120,
+    "price": 500,
     "price factor": 0,
     "bulldoze price": 20,
     "build time": 5,
     "power": 0,
-    "final": true,
     "draw ground": true,
     "needs road": false,
     "influence culture": 25,
     "influence passenger train": 15,
     "influence management": 15,
     "capacity": 100,
-    "rotation aware": true
-  },
-  {
-    "id": "$K012_ITP_SPWPR01",
-    "type": "template",
-    "price factor": 0,
-    "category": "$K012_ITPCAT_SPW01",
-    "template": "$K012ITP_TEMP_GAUGE",
-    "requirement": {
-      "requirements": [
-        {
-          "type": "BUILDING",
-          "data": {
-            "id": "$K012_Rumahdinas01"
-          }
-        },
-        {
-          "type": "BUILDING",
-          "data": {
-            "id": "$K012_Build_Premium_req01"
-          }
-        }
-      ]
-    },
-    "price": 100,
-    "bulldoze price": 0,
-    "build time": 5,
-    "power": 0,
-    "influence culture": 25,
-    "influence passenger train": 25,
-    "influence management": 25,
-    "final": true,
-    "draw ground": true,
-    "needs road": false,
-    "capacity": 150,
     "rotation aware": true
   },
   {
