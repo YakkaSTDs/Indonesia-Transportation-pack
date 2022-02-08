@@ -9,7 +9,7 @@
     "power": 0,
     "influence culture": 25,
     "influence passenger train": 15,
-    "bulldoze price": 20,
+    "price": 100,
     "frames per variant": 4,
     "water": 0,
     "rotation aware": true,
