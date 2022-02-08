@@ -10,10 +10,10 @@
     "auto join": false,
     "draw ground": true,
     "monthly price": 30,
-    "bridge price": 250,
+    "bridge price": 180,
     "allow diagonal": true,
-    "price": 120,
-    "level": 20,
+    "price": 450,
+    "level": 50,
     "pile distant": 3,
     "map color": { "r": 215, "g": 148, "b": 46 },
     "bridge frames": [
@@ -202,9 +202,9 @@
       }
     ],
     "template": "$K012_ITPTEMP_Rail00",
-
     "hidden": true,
-    "speed": 1.6
+    "speed": 1.6,
+    "monthly price":20
   },
   {
     "id": "$K012_IRP_RAILV21",
@@ -222,7 +222,8 @@
     ],
     "template": "$K012_ITPTEMP_Rail00",
     "diagonal road": "$K012_IRP_RAILV21DIA",
-    "speed": 1.6
+    "speed": 1.6,
+    "monthly price":20
   },
   {
     "id": "$K012_IRP_RAILV21DIA_ONE",
@@ -240,7 +241,7 @@
     ],
     "template": "$K012_ITPTEMP_Rail00",
     "speed": 1.6,
-
+    "monthly price":20,
     "hidden": true,
     "one way": true
   },
@@ -260,30 +261,8 @@
     ],
     "template": "$K012_ITPTEMP_Rail00",
     "diagonal road": "$K012_IRP_RAILV21DIA_ONE",
+    "monthly price":20,
     "speed": 1.6,
     "one way": true
-  },
-  //Normal road compatible
-  {
-    "id": "$K012_IRP_RAILMCC",
-    "type": "road",
-    "author": "Kiki012",
-    "title": "Crossing Rail[in]Rel Perlintasan",
-    "text": "A Rail Track used to make railroad Crossing,so cars can cross the railroad.[in]Sebuah rel yang dipakai untuk Perlintasan Kereta,agar mobil bisa melintas rel.",
-    "template": "$K012_ITPTEMP_Rail00",
-    "allocate flag": "CapeTR",
-    "frames": [
-      {
-        "bmp": "4RelKereta.png",
-        "count": 16,
-        "h": 16,
-        "w": 32
-      }
-    ],
-    "flag normal": true,
-    "flag CapeTR": true,
-    "auto join": true,
-    "x flags": { "flag normal": true, "flag CapeTR": true },
-    "speed": 1
   }
 ]

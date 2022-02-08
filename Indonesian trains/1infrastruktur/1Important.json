@@ -5,6 +5,7 @@
     "category": "$K012_ITPCAT_BDL01",
     "power": 0,
     "water": 0,
+    "price": 1000,
     "influence culture": 25,
     "influence passenger train": 15,
     "influence management": 15,
@@ -160,31 +161,5 @@
     "price": 60000,
     "title": "Premium Dedicated Port[in]Pelabuhan Khusus Premium",
     "text": "Required Building to unlock Locomotive By importing it.[in]Banggunan yang diperlukan untuk membuka Lokomotif dengan mengimpornya."
-  }/*,
-  {
-    "id": "$K012_Pabrik_Kereta01",
-    "type": "railway station",
-
-    "width": 2,
-    "height": 2,
-    "max count": 1,
-    "frames": [
-      {
-        "bmp": "5DepoKereta.png",
-        "count": 4,
-        "w": 64
-      },
-      {
-        "bmp": "6blank.png",
-        "count": 4,
-        "w": 32
-      }
-    ],
-    "template": ["$K012_ITPTEMP_MAIN", "$template_diamondbuilding00"],
-    "rotation aware": true,
-    "draw ground": true,
-    "needs road": false,
-    "title": "Train Factory[in]Pabrik Kereta Api",
-    "text": "Required Building to unlock Indonesia made train and wagon[in]Banggunan yang diperlukan untuk membuka Kereta atau gerbong buatan dalam negeri"
-  }*/
+  }
 ]
