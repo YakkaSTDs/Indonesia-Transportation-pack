@@ -112,54 +112,5 @@
     "needs road": false,
     "title": "Dedicated Port[in]Pelabuhan Khusus",
     "text": "Required Building to unlock Locomotive By importing it.[in]Banggunan yang diperlukan untuk membuka Lokomotif dengan mengimpornya."
-  },
-  {
-    "id": "$K012_Build_Premium_req01",
-    "type": "railway station",
-    "width": 3,
-    "height": 3,
-    "needs water": true,
-    "needs land": true,
-    "max count": 1,
-    "frames": [
-      {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 60,
-        "count": 4
-      }
-    ],
-    "animation": [
-      {
-        "id": "$animationharborpierbase00",
-        "x": 0,
-        "y": 0
-      },
-      {
-        "id": "$animationharborpierbaseext00",
-        "x": 0,
-        "y": 0
-      },
-      {
-        "id": "$animationharborpierbigcranebase00",
-        "x": 0,
-        "y": 0
-      },
-      {
-        "id": "$animationharborpierbigcranetop01",
-        "x": 0,
-        "y": 0
-      }
-    ],
-    "template": ["$K012_ITPTEMP_MAIN", "$template_diamondbuilding00"],
-    "influence noise":5,
-    "rotation aware": true,
-    "draw ground": true,
-    "needs road": false,
-    "diamond price": 10,
-    "price": 60000,
-    "title": "Premium Dedicated Port[in]Pelabuhan Khusus Premium",
-    "text": "Required Building to unlock Locomotive By importing it.[in]Banggunan yang diperlukan untuk membuka Lokomotif dengan mengimpornya."
   }
 ]
