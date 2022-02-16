@@ -15,7 +15,8 @@ function script:settings()
         valueNames = {
             'Metre','Cape', 'Standard'
         },
-        onChange = function(self)
+        onChange = function(state)
+            settings.ITPsettingsGauge = state
             debug.toast('Restart to see effect')
         end
     },
@@ -28,7 +29,8 @@ function script:settings()
         valueNames = {
             'Yes', 'No'
         },
-        onChange = function(self)
+        onChange = function(state)
+            settings.ITPsettingsexperimental = state
             debug.toast('Restart to see effect')
         end
     },
@@ -41,7 +43,8 @@ function script:settings()
         valueNames = {
             'Disable', 'Enabled'
         },
-        onChange = function(self)
+        onChange = function(state)
+            settings.ITPsettingsNight = state
             debug.toast('Not implemented yet')
         end
     }
