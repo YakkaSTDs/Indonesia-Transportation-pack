@@ -12,6 +12,7 @@
     "monthly price": 30,
     "bridge price": 180,
     "allow diagonal": true,
+    "overrunnable":false,
     "price": 450,
     "level": 50,
     "pile distant": 3,
