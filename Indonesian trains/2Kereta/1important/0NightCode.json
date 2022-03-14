@@ -6,11 +6,17 @@
     "light switching": true,
     "frames": [
       {
-        "bmp": "4BB200N.png",
+        "bmp": "4BB200N.png", //Normal Frames
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4BB202N_DIA.png", //Diagonal Frames
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8, //Dont forget this.
     "rotation aware": true
   },
   {
@@ -23,8 +29,14 @@
         "bmp": "4BB202N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4BB202N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -37,8 +49,14 @@
         "bmp": "4BB300N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4BB300N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -51,8 +69,14 @@
         "bmp": "4BB302N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC201N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -65,8 +89,14 @@
         "bmp": "4BB304N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4BB304N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -79,8 +109,14 @@
         "bmp": "4CC200N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC300N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -93,8 +129,14 @@
         "bmp": "4CC201N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC201N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -107,8 +149,14 @@
         "bmp": "4CC203N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC203N.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -121,8 +169,14 @@
         "bmp": "4CC206N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC206N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -135,8 +189,14 @@
         "bmp": "4CC300N.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "4CC300N_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -149,8 +209,14 @@
         "bmp": "7Gerbong_K3.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp":"7Gerbong_K3_DIA.png",
+        "count":4,
+        "w":32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
@@ -163,8 +229,14 @@
         "bmp": "7Gerbong_BN.png",
         "count": 4,
         "w": 20
+      },
+      {
+        "bmp": "7Gerbong_BN_DIA.png",
+        "count": 4,
+        "w": 32
       }
     ],
+    "frames per animation":8,
     "rotation aware": true
   },
   {
