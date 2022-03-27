@@ -15,10 +15,10 @@ This plugin is made by Indonesian native people so the work of this plugin is gu
 ___
 ### Download
 
-It's easy to download, by tapping/click [this link](""https://github.com/Kiki012184/Indonesia-Transportation-pack/releases) then select the one with the *latest* symbol  and choose between .zip or .plugin files, ignore *Source Code .zip/.tar.gz*,other plugin creators can download *ITP Original Source.zip* if available  .
+It's easy to download, by tapping/click [this link](https://github.com/Kiki012184/Indonesia-Transportation-pack/releases) then select the one with the *latest* symbol  and choose between .zip or .plugin files, ignore *Source Code .zip/.tar.gz*,other plugin creators can download *ITP Original Source.zip* if available  .
 ___
 ### Contribution
- You can contribute to this plugin [read the contents of this link]("CONTRIBUTING.md").
+ You can contribute to this plugin [read the contents of this link](CONTRIBUTING.md).
 ___
 ### Tentangnya
 
@@ -31,10 +31,10 @@ Paket Jalan sudah lengkap,mulai dari jalan perkebunan, hingga jalan kecepatan ti
 Plugin ini di buat oleh orang asli Indonesia jadi karya plugin ini terjamin kualitasnya,karena sudah mengambil refrensi yang diambil secara manual ataupun dari internet.
 ___
 ### Mengunduh (Download)
-Cara Mengunduhnya Mudah,Yaitu dengan mengetuk [tautan ini]("https://github.com/Kiki012184/Indonesia-Transportation-pack/releases") lalu pilih yang memiliki lambang *latest* dan pilih di antara file .zip atau .plugin,hiraukan *Source Code .zip/.tar.gz*,bagi kreator plugin lain bisa mengunduh *@ITP Original Source.zip* jika tersedia.
+Cara Mengunduhnya Mudah,Yaitu dengan mengetuk [tautan ini](https://github.com/Kiki012184/Indonesia-Transportation-pack/releases) lalu pilih yang memiliki lambang *latest* dan pilih di antara file .zip atau .plugin,hiraukan *Source Code .zip/.tar.gz*,bagi kreator plugin lain bisa mengunduh *@ITP Original Source.zip* jika tersedia.
 ___
 ### Kontribusi
-Anda dapat berkontribusi dalam plugin ini [baca isi tautan ini]("CONTRIBUTING.md").
+Anda dapat berkontribusi dalam plugin ini [baca isi tautan ini](CONTRIBUTING.md).
 ___
 ### Credits
 **Author/Pemilik:**
