@@ -1,5 +1,5 @@
 <div align="center">
-<img src="Content_icon/icon2.png" alt="Logo" width="80" height="80" style="margin-top:5px;">
+<img src="icon.png" alt="Logo" width="80" height="80" style="margin-top:5px;">
 <h3 align="center">Contribute on project</h3>
 </div><hr>
 <a href="https://github.com/Kiki012184/Indonesia-Transportation-pack">Indonesia Transportation Pack</a> Are open for contributors<br>
