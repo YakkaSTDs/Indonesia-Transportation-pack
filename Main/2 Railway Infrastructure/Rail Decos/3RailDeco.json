@@ -1,0 +1,794 @@
+[
+  {
+    "id": "$K012ITP_TEMP_RDCAT01",
+    "type": "template",
+    "category": "$K012_ITPCAT_RWDC02"
+  },
+  //Siyal(
+  //Sinyal Elektrik Masuk
+  {
+    "id": "$K012ITP_RACO_SEMB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "exclusive": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SEMA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SEMB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEMB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SEMB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEMB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SEMA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "exclusive": true,
+    "hidden": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SEMB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SEMA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEMA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SEMA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEMA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Elektrik Keluar
+  {
+    "id": "$K012ITP_RACO_SEKB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "exclusive": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SEKA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SEKB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEKB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SEKB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEKB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SEKA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "exclusive": true,
+    "hidden": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SEKB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SEKA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEKA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SEKA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SEKA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Elektrik Langsir
+  {
+    "id": "$K012ITP_RACO_SELB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Shunt Electric Signal[in]Sinyal Langsir Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SELA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SELB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SELB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SELB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SELB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SELA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Shunt Electric Signal[in]Sinyal Langsir Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "hidden": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SELB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SELA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SELA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SELA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SELA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Keluar
+  {
+    "id": "$K012ITP_RACO_SMKB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanis",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMKA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMKB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMKB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMKB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMKB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SMKA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$K012_ITPCAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMKB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMKA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMKA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMKA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMKA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Masuk
+  {
+    "id": "$K012ITP_RACO_SMMB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Entry Mechanical Signal[in]Sinyal Masuk Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMMA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMMB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMMB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMMB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMMB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SMMA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Entry Mechanical Signal[in]Sinyal Masuk Mechanical",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$K012_ITPCAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMMB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMMA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMMA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMMA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMMA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Muka
+  {
+    "id": "$K012ITP_RACO_SMUB",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.05,
+    "exit speed": 0.4,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMUA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMUB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMUB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMUB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMUB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_SMUA",
+    "type": "road decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$K012_ITPCAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_SMUB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_SMUA00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMUA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_SMUA01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_SMUA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //)Div
+  {
+    "id": "$K012ITP_RACO_PKAA",
+    "type": "road decoration",
+    "min dirs": 4,
+    "max dirs": 4,
+    "category": "$K012_ITPCAT_RWDC02",
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Railroad crossing",
+    "text": "An Railroad crossing",
+    "speed": 1.4,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_PKAB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$railani_K012_RCO2"
+      },
+      {
+        "id": "$railani_K012_RCO4"
+      }
+    ],
+    "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
+  },
+  {
+    "id": "$K012ITP_RACO_PKAA_B",
+    "type": "road decoration",
+    "min dirs": 4,
+    "max dirs": 4,
+    "template": "$K012_ITPTEMP_PART00",
+    "title id": "Railroad crossing",
+    "text": "An Typical Indonesian Railroad crossing",
+    "category": "$K012_ITPCAT_RWDC02",
+    "speed": 1.4,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_PKAB_B"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$railani_K012_RCO4"
+      },
+      {
+        "id": "$railani_K012_RCO2"
+      }
+    ],
+    "frame animation indices": [[0], [0], [0], [0], [0], [0], [0], [0], [0], ["0"], [0], [0], [0], [0], [0], [0]]
+  },
+  //New
+  {
+    "id": "$K012ITP_RACO_PPKANBUKA00",
+    "type": "road decoration",
+    "title id": "draft_TRA_DPPKA_title",
+    "text id": "draft_TRA_DPPKA_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "required flag normal":true,
+    "required flag CapeTR":false,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_PPKANTUTUP00"
+          },
+          {
+            "type":"remove",
+            "id":"$K012ITP_RACO_PPKANBUKA00"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$railani_K012_RCO1N"
+      },
+      {
+        "id": "$railani_K012_RCO3N"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_RCO2N"
+      },
+      {
+        "id": "$railani_K012_RCO4N"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_PPKANTUTUP00",
+    "type": "road decoration",
+    "title id": "draft_TRA_DPPKA_title",
+    "text id": "draft_TRA_DPPKA_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "speed":0.005,
+    "required flag normal":true,
+    "required flag CapeTR":false,
+    "category": "$K012_ITPCAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$K012ITP_RACO_PPKANBUKA00"
+          },
+          {
+            "type":"remove",
+            "id":"$K012ITP_RACO_PPKANBUKA00"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$railani_K012_RCC1N"
+      },
+      {
+        "id": "$railani_K012_RCC3N"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_RCC2N"
+      },
+      {
+        "id": "$railani_K012_RCC4N"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  //Katenari
+  {
+    "id": "$K012ITP_RACO_CATBEL00",
+    "type": "road decoration",
+    "title": "Catenary[in]Katenari",
+    "text id": "draft_TRA_DKATB_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_CAT00",
+    "type": "road decoration",
+    "title": "Catenary[in]Katenari",
+    "text id": "draft_TRA_DKATB_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_KAT00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KAT02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_KAT01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KAT03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  //Patok Kilometer
+  {
+    "id": "$K012ITP_RACO_PATKM00",
+    "type": "road decoration",
+    "title": "Kilometer Mark[in]Patok Kilometer",
+    "text": "Used to Mark A Kilometer[in]Dipakai untuk menandakan Kilometer",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_PATKM00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_PATKM02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_PATKM01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_PATKM03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  //Dipo
+  //Jatinegara
+  {
+    "id": "$K012ITP_RACO_DEPO_JTN01",
+    "type": "road decoration",
+    "title": "Jatinegara Workshop[in]Dipo Jatinegara",
+    "text": "Jatinegara Station (JNG) is a type A large class train station located on the border between Jatinegara and Matraman sub-districts, precisely in Pisangan Baru Village, Matraman District, East Jakarta City.  The station, which is located at an altitude of +16 meters, is included in Operation Area I Jakarta.  This station is a station where three lines meet, which are passed by hundreds of trains every day, namely the lines to Pasar Senen, Manggarai, and Bekasi.[in]Stasiun Jatinegara (JNG) adalah stasiun kereta api kelas besar tipe A yang terletak di perbatasan antara Kecamatan Jatinegara dan Matraman, tepatnya di Kelurahan Pisangan Baru, Kecamatan Matraman, Kota Jakarta Timur. Stasiun yang terletak pada ketinggian +16 meter ini termasuk dalam Daerah Operasi I Jakarta. Stasiun ini merupakan stasiun tempat bertemunya tiga jalur yang setiap harinya dilewati ratusan kereta api, yaitu jalur ke Pasar Senen, Manggarai, dan Bekasi.",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "speed": 0.5,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$railani_K012_DEP_JNG1"
+      },
+      {
+        "id": "$railani_K012_DEP_JNG1"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_DEP_JNG3"
+      },
+      {
+        "id": "$railani_K012_DEP_JNG2"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_DEPO_JTN02",
+    "type": "road decoration",
+    "title": "Jatinegara Workshop[in]Dipo Jatinegara",
+    "text": "Jatinegara Station (JNG) is a type A large class train station located on the border between Jatinegara and Matraman sub-districts, precisely in Pisangan Baru Village, Matraman District, East Jakarta City.  The station, which is located at an altitude of +16 meters, is included in Operation Area I Jakarta.  This station is a station where three lines meet, which are passed by hundreds of trains every day, namely the lines to Pasar Senen, Manggarai, and Bekasi.[in]Stasiun Jatinegara (JNG) adalah stasiun kereta api kelas besar tipe A yang terletak di perbatasan antara Kecamatan Jatinegara dan Matraman, tepatnya di Kelurahan Pisangan Baru, Kecamatan Matraman, Kota Jakarta Timur. Stasiun yang terletak pada ketinggian +16 meter ini termasuk dalam Daerah Operasi I Jakarta. Stasiun ini merupakan stasiun tempat bertemunya tiga jalur yang setiap harinya dilewati ratusan kereta api, yaitu jalur ke Pasar Senen, Manggarai, dan Bekasi.",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "speed": 0.5,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$railani_K012_DEP_JNG1"
+      },
+      {
+        "id": "$railani_K012_DEP_JNG1"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$railani_K012_DEP_JNG5"
+      },
+      {
+        "id": "$railani_K012_DEP_JNG4"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  }
+]
