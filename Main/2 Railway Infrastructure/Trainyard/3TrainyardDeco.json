@@ -1,0 +1,347 @@
+[
+  {
+    "id":"$K012_ITPTEMP_TY00",
+    "type":"template",
+    "category":"$K012_ITPCAT_RWDC03"
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_Empty.png",
+        "count": 2,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GBB.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY04",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GBK.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY02",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_K3L16.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY03",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_K3L20.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY05",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_BL16.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY06",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_BL17.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY07",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_BL20.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY08",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GDK1.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY09",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GDK2.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY10",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_K3L16.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY11",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GKP.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY12",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GR.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY13",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GTK.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY14",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_GTS.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY15",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_CC201.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY16",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_CC203.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY17",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_CC203PTTEL.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY18",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_CC205.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO1x1_TY19",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Trainyard_CC206.png",
+        "count": 12,
+        "w": 32
+      }
+    ],
+    "template":"$K012_ITPTEMP_PART00",
+    "category":"$K012_ITPCAT_RWDC03",
+    "title": "Trainyard decoration[in]Kereta Terparkir",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  }
+]
