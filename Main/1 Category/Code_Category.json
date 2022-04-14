@@ -1,0 +1,91 @@
+[
+  {
+    "id": "$K012_ITPCAT_ROOT01",
+    "type": "category",
+    "ordinal": 10,
+    "category": "$cat_transport00",
+    "title": "ITP",
+    "frames": [
+      {
+        "bmp": "ITPCATROOT.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_RWDC01",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Railway Decoration[in]Kategori Kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATDECO.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_RWDC02",
+    "type": "category",
+    "category": "$K012_ITPCAT_RWDC01",
+    "title": "Rail Decoration[in]Deko Rel",
+    "frames": [
+      {
+        "bmp": "ITPCATDECORD.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_RWDC03",
+    "type": "category",
+    "category": "$K012_ITPCAT_RWDC01",
+    "title": "Trainyard Decoration[in]Deko Langsir",
+    "frames": [
+      {
+        "bmp": "ITPCATTRYARD.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_BDL01",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Railway Building[in]Bangunan Kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATBUILD.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_SPW01",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Train Category[in]Kategori Kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATTRAIN.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_RAIL01",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Railway Track[in]Rel Kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATRAIL.png"
+      }
+    ]
+  },
+  {
+    "id": "$K012_ITPCAT_ROAD01",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Road Pack[in]Paket Jalan",
+    "frames": [
+      {
+        "bmp": "ITPCATROAD.png"
+      }
+    ]
+  }
+]
