@@ -1,0 +1,107 @@
+[
+  {
+    "id": "$ITP_ANI_PWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp":"GER_EKO_DIA.png",
+        "count":4,
+        "w":32,
+        "handle y":1
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_PMWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp":"GER_MDR_DIA.png",
+        "count":4,
+        "w":32,
+        "handle y":1
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_PWAGB",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_BIS_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp":"GER_BIS_DIA.png",
+        "count":4,
+        "w":32,
+        "handle y":1
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_PARWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_BAG_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "GER_BAG_DIA.png",
+        "count": 4,
+        "w": 32,
+        "handle y":1
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_PARNWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_PAR_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "GER_PAR_DIA.png",
+        "count": 4,
+        "w": 32,
+        "handle y":1
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  }
+]

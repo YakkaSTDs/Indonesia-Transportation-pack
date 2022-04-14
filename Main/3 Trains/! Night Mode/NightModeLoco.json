@@ -1,0 +1,202 @@
+[
+  {
+    "id": "$ITP_ANI_BB200",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "BB200_NOR.png", //Normal Frames
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB202_DIA.png", //Diagonal Frames
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8, //Dont forget this.
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_BB202",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "BB202_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB202_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_BB300",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "BB300_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB300_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_BB302",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "BB302_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC201_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_BB304",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "BB304_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB304_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC200",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC200_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC300_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC201",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC201_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC201_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC203",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC203_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC203_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC206",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC206_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC206_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_CC300",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC300_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC300_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  }
+]
