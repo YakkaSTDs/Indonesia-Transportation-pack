@@ -1,0 +1,211 @@
+[
+  {
+    "id": "$ITPK012_BB301-BB305",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB301_Kricak",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB301_KRICAK"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 301 Balast Train[in]BB301 + KA Kricak",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB301_Pandanwangi",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB301_Pandanwangi"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 301 Pandanwangi Train[in]BB301 + KA Pandanwangi",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB304_BIMA",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB304_BIMA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 304 Bima Train[in]BB304 + KA Bima",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB302_Batubara",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB302_BATUBARA"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 302 Coal Train[in]BB302 + KA Batubara",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB303_Kertas",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB303_Kertas"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 303 Paper Train[in]BB202 + KA Kertas",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB305_Kertas",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB305_KERTAS"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 305 Paper Train[in]BB305 + KA Kertas",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB302_Sibinuang",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB302_Sibinuang"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 302 Sibinuang Train[in]BB302 + KA Sibinuang",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$K012ITP_UPG_BB303_Sibinuang",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301-BB305"],
+            "cars": ["$K012_TR_BB303_Sibinuang"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "BB 303 Sibinuang Train[in]BB303 + KA Sibinuang",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "Krupp-M1500BB-BB305 Jenbacher[in]BB301-BB305",
+    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+  }
+]
