@@ -1,0 +1,17 @@
+[
+  {
+    "id": "$K012_TR_BB305_KERTAS",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB305", "$IRPNULL","$K012_ITPTR_BB305", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1","$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1", "$IRPNULL", "$K012_ITPTR_TKER1"]
+  }
+]

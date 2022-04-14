@@ -1,0 +1,32 @@
+[
+  {
+    "id": "$K012_TR_BB202_BATUBARA",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB202", "$IRPNULL","$K012_ITPTR_BB202", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT","$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  },
+  {
+    "id": "$K012_TR_BB204_BATUBARA",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB204", "$IRPNULL","$K012_ITPTR_BB204", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT","$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT", "$IRPNULL", "$K012_ITPTR_BBAT"]
+  }
+]
