@@ -1,0 +1,16 @@
+[
+  {
+    "id": "$ITP_K012",
+    "type": "tool",
+    "category": "$K012_ITPCAT_ROOT01",
+    "preview frames": [
+      {
+        "bmp": "ITPMANUAL.png"
+      }
+    ],
+    "strict lua": true,
+    "title": "Manual",
+    "text": "This is Manual.",
+    "script": "z_dialog.lua"
+  }
+]
