@@ -1,0 +1,116 @@
+[
+  //KRL
+  {
+    "id": "$KRLE205",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205C_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205N_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205",
+      "$car_null00",
+      "$K012_ITPTR_KRLE205"
+    ]
+  },
+  //KRD
+  {
+    "id": "$KRDYIA01",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_YIA_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDYIAH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
+  },
+  {
+    "id": "$KRDFEEDKCIC01",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_FED_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDFDKCH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRLFEEDKCICT"]
+  }
+]
