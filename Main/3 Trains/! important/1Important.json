@@ -1,0 +1,39 @@
+[
+  {
+    "id": "$ITP_FrameTMP00",
+    "type": "railway station",
+    "category": "$K012_ITPCAT_SPW01",
+    "width": 1,
+    "height": 1,
+    "hidden": true,
+    "frames": [
+      {
+        "bmp": "4Dipo_Cilacap.png",
+        "count": 4,
+        "w": 32
+      },
+            {
+        "bmp": "blank.png",
+        "count": 4,
+        "w": 1
+      }
+    ],
+    "title": "Depo template",
+    "text ": "How TF you see this"
+  },
+  {
+    "id": "$IRPNULL",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "capacity": 0,
+    "chargeable": false,
+    "frames": [
+      {
+        "bmp": "Blank.png",
+        "count": 4,
+        "h": 18,
+        "w": 1
+      }
+    ]
+  }
+]
