@@ -1,0 +1,98 @@
+[
+  {
+    "id": "$K012ITP_ROAD_PROV_DOUB",
+    "old id": "$IRP_ROAD04",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$K012_IRPK012_RD01",
+    "width": 2,
+    "speed": 2,
+    "price": 50,
+    "one way": true,
+    "title": "Pronvince Road[in]Jalan Pronvinsi",
+    "text": "YNTKTS",
+    "preview frames": [
+      {
+        "bmp": "Ikon/White_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "Jalan/road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "Jalan/road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "Jalan/road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "Jalan/road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ROAD_NAT_DOUB",
+    "old id": "$IRP_ROAD05",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$K012_IRPK012_RD01",
+    "width": 2,
+    "speed": 2,
+    "price": 50,
+    "one way": true,
+    "title": "Road[in]Jalan",
+    "text": "YNTKTS",
+    "preview frames": [
+      {
+        "bmp": "Ikon/Yellow_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "Jalan/road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "Jalan/road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "Jalan/road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "Jalan/road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  }
+]
