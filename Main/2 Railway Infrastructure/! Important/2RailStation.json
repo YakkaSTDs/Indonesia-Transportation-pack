@@ -1,0 +1,214 @@
+[
+  {
+    "id": "$K012ITP_DECO_ST_BTG00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Batang_utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Batang Station[in]Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_ST_BTG01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Batang_Gudang.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Batang Station Warehouse[in]Gudang Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_ST_CPD00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Cipendeuy_Utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Cipeundeuy Station[in]Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_ST_CPD01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Cipendeuy_Gudang.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Cipeundeuy Station Warehouse[in]Gudang Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_ST_GLM00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Glenmore_Utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Glenmore Station[in]Stasiun Glenmore",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_DIPO_JNG00",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "Depo_Jatinegara.png",
+        "count": 4,
+        "w": 64
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Jatinegara Workshop[in]Dipo Jatinegara",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_DC_CONT00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kontainer.png",
+        "count": 16,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Container Depot[in]Depo Kontainer",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_OLDSB1",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Lama_1.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_2.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_3.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_4.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_5.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Station Building[in]Bangunan Stasiun",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPK012_PLS01",
+    "type": "decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "width": 1,
+    "height": 1,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "Peron_Tepi_Kosong.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tepi_Atap_1.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tepi_Atap_2.png",
+        "count": 4,
+        "w":32
+      } 
+    ],
+    "title": "Side platform[in]Peron Tepi",
+    "text": "Decorative platform.[in]Peron dekoratif"
+  },
+  {
+    "id": "$ITPK012_PLC01",
+    "type": "decoration",
+    "template": "$K012_ITPTEMP_PART00",
+    "width": 1,
+    "height": 1,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "Peron_Tengah_Kosong.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tengah_Atap_1.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tengah_Atap_2.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tengah_Tanda_1.png",
+        "count": 4,
+        "w":32
+      },
+      {
+        "bmp": "Peron_Tengah_Tanda_2.png",
+        "count": 4,
+        "w":32
+      }
+    ],
+    "title": "Side platform[in]Peron Tepi",
+    "text": "Decorative platform.[in]Peron dekoratif"
+  }
+]
