@@ -1,0 +1,12 @@
+{
+  "id":"dc9d79d4-5d22-4f17-a6ab-c92627b85c25",
+  "version":61,
+  "title":"Indoneisan Tranportation Pack",
+  "text":"Indonesia Transport Pack (ITP)\nIs a theotown plugin that adds transportation related content from Indonesia\n\nFor example, a complete train with its infrastructure, and a road package.\n\n Find change log at: https://github.com/Kiki012184/Indonesia-Transportation-pack/releases \n My website: https://kiki012184.github.io/Kiki012.TT.id/index.html \n\n\n\n thanks for downloading this plugins.",
+  "author":"Kiki012",
+  "thumbnail":"icon.png", 
+  "category":true,
+  "url":"https://github.com/Kiki012184/Indonesia-Transportation-pack/releases",
+  "multiplayer":true,
+  "once":true 
+}
