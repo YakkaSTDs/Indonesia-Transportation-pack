@@ -30,6 +30,26 @@
     "text": "Train will cross this platform.[in]Kereta akan melewati platform ini.\nhanya gunakan satu platform tengah atau tepi satiap stasiun! "
   },
   {
+    "id": "$ITPK012_PL01",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "Peron_Baru.png",
+        "count": 12,
+        "w":32
+      }
+    ],
+    "targets": ["$ITPK012_PLS00","$ITPK012_PLS01"],
+    "meta": {"tags": {"railway": {"levels": [0]}}},
+    "capacity": 40,
+    "template": "$K012_ITP_SPW02",
+    "title": "Side platform[in]Platform Tepi",
+    "text": "Train will cross this platform.[in]Kereta akan melewati platform ini.\nhanya gunakan satu platform tengah atau tepi satiap stasiun! "
+  },
+  {
     "id": "$ITPK012_PLC00",
     "type": "railway station",
     "width": 1,
