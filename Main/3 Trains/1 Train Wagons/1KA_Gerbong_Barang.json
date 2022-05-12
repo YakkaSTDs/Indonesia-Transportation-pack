@@ -9,18 +9,19 @@
       {
         "bmp": "Gerbong_Kontainer_1.png",
         "count": 4,
-        "h": 18,
-        "w": 21
+        "h": 19,
+        "w": 19
       },
       {
         "bmp": "Gerbong_Kontainer_1.png",
         "count": 4,
-        "h": 18,
+        "h": 19,
         "w": 32,
-        "x": 84
+        "x": 76
       }
     ],
     "frames per variant": 8,
+    "v2":[1,2,0,1],
     "chargeable": false,
     "capacity": 0
   },
@@ -32,18 +33,19 @@
       {
         "bmp": "Gerbong_Kontainer_2.png",
         "count": 4,
-        "h": 18,
-        "w": 21
+        "h": 19,
+        "w": 19
       },
       {
         "bmp": "Gerbong_Kontainer_2.png",
         "count": 4,
-        "h": 18,
+        "h": 19,
         "w": 32,
-        "x": 84
+        "x": 76
       }
     ],
     "frames per variant": 8,
+    "v2":[1,2,0,1],
     "chargeable": false,
     "capacity": 0
   },
@@ -55,18 +57,19 @@
       {
         "bmp": "Gerbong_Kontainer_3.png",
         "count": 4,
-        "h": 18,
-        "w": 21
+        "h": 19,
+        "w": 19
       },
       {
         "bmp": "Gerbong_Kontainer_3.png",
         "count": 4,
-        "h": 18,
+        "h": 19,
         "w": 32,
-        "x": 84
+        "x": 76
       }
     ],
     "frames per variant": 8,
+    "v2":[1,2,0,1],
     "chargeable": false,
     "capacity": 0
   },
@@ -78,21 +81,118 @@
       {
         "bmp": "Gerbong_Kontainer_4.png",
         "count": 4,
-        "h": 18,
-        "w": 21
+        "h": 19,
+        "w": 19
       },
       {
         "bmp": "Gerbong_Kontainer_4.png",
         "count": 4,
-        "h": 18,
+        "h": 19,
         "w": 32,
-        "x": 84
+        "x": 76
       }
     ],
     "frames per variant": 8,
+    "v2":[1,2,0,1],
     "chargeable": false,
     "capacity": 0
   },
+  {
+    "id": "$K012_ITPTR_DK5",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "count": 4,
+        "h": 19,
+        "w": 19
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "count": 4,
+        "h": 19,
+        "w": 32,
+        "x": 76
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$K012_ITPTR_DK6",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "count": 4,
+        "h": 19,
+        "w": 19
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "count": 4,
+        "h": 19,
+        "w": 32,
+        "x": 76
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$K012_ITPTR_DK7",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "count": 4,
+        "h": 19,
+        "w": 19
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "count": 4,
+        "h": 19,
+        "w": 32,
+        "x": 76
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$K012_ITPTR_DK8",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "count": 4,
+        "h": 19,
+        "w": 19
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "count": 4,
+        "h": 19,
+        "w": 32,
+        "x": 76
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },// Y -1 B X -1 L 0 X -1 L
   //Gerbong Buka (GB)
   {
     "id": "$K012_ITPTR_BBAT",
@@ -220,6 +320,72 @@
       },
       {
         "bmp": "Gerbong_Box_Kertas_2.png",
+        "count": 4,
+        "h": 18,
+        "w": 32,
+        "x": 80
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$K012_ITPTR_TGW",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "count": 4,
+        "h": 18,
+        "w": 32,
+        "x": 80
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$K012_ITPTR_TNR",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "count": 4,
+        "h": 18,
+        "w": 32,
+        "x": 80
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$K012_ITPTR_TDGGW",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
         "count": 4,
         "h": 18,
         "w": 32,

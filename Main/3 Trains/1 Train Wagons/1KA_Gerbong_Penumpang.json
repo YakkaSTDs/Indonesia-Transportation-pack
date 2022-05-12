@@ -482,5 +482,33 @@
         "x": -15
       }
     ]
+  },
+    {
+    "id": "$K012_ITPTR_K3LSKR",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "count": 4,
+        "h": 18,
+        "w": 32,
+        "x": 80
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITP_ANI_PMWAG",
+        "x": -15
+      }
+    ]
   }
 ]
