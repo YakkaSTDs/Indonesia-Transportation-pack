@@ -1,0 +1,12 @@
+[{
+    "id":"$K012_ITP_Traslation_Depo",
+    "type":"translation",
+    "*":{
+        "draft_Generic_depot_text":"Select this train set to appear.\n\n You can choose several options, for passenger trains, you can choose commuter, local, and express trains, while for freight trains you can choose 2 variations, namely short and long.",
+        "draft_Generic_daop_text":"Select Multiple Trains and the cargo they carry using the upgrade buttons."
+    },
+    "in":{
+        "draft_Generic_depot_text":"Pilih Set kereta ini untuk dimunculkan.\n\n Anda dapat memilih beberapa opsi,untuk kereta penumpang,anda dapat memilih kereta komuter,lokal,dan argo,sedangkan kereta barang anda dapat memilih 2 variasi,yaitu pendek dan panjang.",
+        "draft_Generic_daop_text":"Pilih Beberapa Kereta dan kargo yang dibawanya dengan cara mengetuk tombol tingkatkan yang tertera."
+    }
+}]
