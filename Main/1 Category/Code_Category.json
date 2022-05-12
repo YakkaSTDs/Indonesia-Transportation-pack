@@ -87,5 +87,16 @@
         "bmp": "ITPCATROAD.png"
       }
     ]
+  },
+  {
+    "id": "$K012_ITPCAT_SFX",
+    "type": "category",
+    "category": "$K012_ITPCAT_ROOT01",
+    "title": "Sound Effects[in]Efek Suara",
+    "frames": [
+      {
+        "bmp": "ITPCATSFX.png"
+      }
+    ]
   }
 ]
