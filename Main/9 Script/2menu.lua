@@ -1,51 +1,51 @@
-local settings = Util.optStorage(TheoTown.getStorage(), script:getDraft():getId())
-settings.ITPsettingsGauge = settings.ITPsettingsGauge or 2
+local settings = Util.optStorage(TheoTown.getStorage(), script:getDraft():getId()..':settings')
+settings.ITPsettingsGauge = settings.ITPsettingsGauge or 1
 settings.ITPsettingsexperimental = settings.ITPsettingsexperimental or 2 
-settings.ITPsettingsNight = settings.ITPsettingsNight or 2
+settings.ITPsettingsNight = settings.ITPsettingsNight or 3
 
 -- Adds an option to the settings.
 function script:settings()
   return {
     {
-        name = 'Select Gauge',
+        name = Translation.draft_K012ITP_Gauge,
         value = settings.ITPsettingsGauge,
         values = {
-            1, 2, 3
+            1, 2
         },
         valueNames = {
-            'Metre','Cape', 'Standard'
+            Translation.draft_K012ITP_1067mm, Translation.draft_K012ITP_1477mm
         },
         onChange = function(state)
             settings.ITPsettingsGauge = state
-            debug.toast('Restart to see effect')
+            Debug.toast(Translation.draft_K012ITP_NOTIMPY)
         end
     },
     {
-        name = 'Show experimental content',
+        name = Translation.settings_debugmode,
         value = settings.ITPsettingsexperimental,
         values = {
             1, 2
         },
         valueNames = {
-            'Yes', 'No'
+            Translation.dialog_hugesize_cmdyes, Translation.dialog_hugesize_cmdno
         },
         onChange = function(state)
             settings.ITPsettingsexperimental = state
-            debug.toast('Restart to see effect')
+            Debug.toast('Toggled debug mode.')
         end
     },
     {
-        name = 'Disable Night mode',
+        name = Translation.draft_K012ITP_DIFC,
         value = settings.ITPsettingsNight,
         values = {
-            1, 2
+            1, 2, 3
         },
         valueNames = {
-            'Disable', 'Enabled'
+            Translation.gamemode_easy , Translation.gamemode_middle , Translation.gamemode_hard
         },
         onChange = function(state)
             settings.ITPsettingsNight = state
-            debug.toast('Not implemented yet')
+            Debug.toast(Translation.draft_K012ITP_NOTIMPY)
         end
     }
   }

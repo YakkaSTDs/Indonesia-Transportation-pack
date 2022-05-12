@@ -1,6 +1,6 @@
 [
   {
-    "id": "$ITP_K012_MAN",
+    "id": "$ITP_K012_TUT",
     "type": "tool",
     "category": "$K012_ITPCAT_ROOT01",
     "preview frames": [
@@ -9,8 +9,8 @@
       }
     ],
     "strict lua": true,
-    "title": "Manual",
-    "text": "This is Manual.",
-    "script": "z_dialog.lua"
+    "title": "Tutorial",
+    "text": "",
+    "script": "Tutorial.lua"
   }
 ]

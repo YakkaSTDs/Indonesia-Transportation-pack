@@ -1,0 +1,24 @@
+[{
+    "id":"$K012_ITP_Traslations",
+    "type":"translation",
+    "*": {
+        "draft_K012ITP_Manual_text":"Welcome to Manual Indonesia Transport Pack.\nThis plugin adds transportation with transportation in the country of Indonesia, ranging from the train complete with its infrastructure, to toll road. \nThis plugin contains almost all diesel locomotives that have ever existed in Indonesia from BB200 to CC300 exclude C300, C301, D300 and D301.\nroad packages are complete, starting from the streets of the plantation, to high-speed roads or toll roads, complete with some decorations and road marks. \nThis plugin is made by Indonesian native people so the work of this plugin is guaranteed quality, because it has taken the reference taken manually or from the internet. \nTo open the railroad part requires the official runner to open infrastructure, and a special port to open the rathy train. \nTo open the road part you only need to reach a certain level of city. For example, the plantation road requires level 0 to open while the toll road is at least level 6. \n\nIf you find a bug or error you can report it in the comments column or on my official site.\n\nThank you for downloading this plugin, I hope you enjoy our work, thank you.",
+        "draft_K012ITP_FAQ":"",
+        "draft_K012ITP_DIFC":"Difficulty",
+        "draft_K012ITP_NOTIMPY":"Not implemented yet ",
+        "draft_K012ITP_Gauge":"Select Railway gauge (Rail Width):",
+        "draft_K012ITP_1067mm":"Cape Gauge (1067mm)",
+        "draft_K012ITP_1477mm":"Standard Gauge (1477mm)",
+        "draft_K012ITP_Tutorial":""
+    },
+    "in":{
+        "draft_K012ITP_Manual_text":"Selamat datang ke manual Indonesia transport pack.\nPlugin ini menambahkan transportasi yang bertemakan transportasi di negara Indonesia, mulai dari kereta api lengkap dengan infrastrukturnya,higga jalan tol.\nPlugin ini berisi hampir semua lokomotif diesel yang pernah ada di Indonesia mulai dari BB200 Hingga CC300 mengecualikan C300,C301,D300 Dan D301\nPaket Jalan sudah lengkap,mulai dari jalan perkebunan, hingga jalan kecepatan tinggi atau jalan tol, lengkap dengan beberapa dekorasi dan marka.\nPlugin ini di buat oleh orang asli Indonesia jadi karya plugin ini terjamin kualitasnya,karena sudah mengambil refrensi yang diambil secara manual ataupun dari internet.\n\n Perlu bantuan? baca FAQ yang ada di bawah ini.",
+        "draft_K012ITP_FAQ":"Pertanyaan Yang sering ditanyakan\n\nP: Bagaimana membuka kereta-kereta dan infrastrukturnya?\n\n J: Bangun Rumah dinas,dan pelabuhan khusus.\n\n P: Cara memunculkan kereta?\n\n J: Ketuk bangunan depo,lalu ketuk tingkatkan,lalu pilihlah.\n\nP: Kenapa ITP tidak mendung rel game?\n\nJ: Jawaban sederhananya adalah lebar rel.\n\n P: Menagapa beberapa banggunan hilang ketika saya perbarui plugin ini? \n\n J: [Data teks yang anda minta adalah informasi rahasia]\n\n apa ajg.",
+        "draft_K012ITP_NOTIMPY":"Belum terimplementasikan/berfungsi.",
+        "draft_K012ITP_DIFC":"Kesulitan",
+        "draft_K012ITP_Gauge":"Pilih lebar sepur (Lebar rel):",
+        "draft_K012ITP_1067mm":"Sepur cape(1067mm)",
+        "draft_K012ITP_1477mm":"Sepur standar(1477mm)",
+        "draft_K012ITP_Tutorial":"0001101111"
+    }
+}]

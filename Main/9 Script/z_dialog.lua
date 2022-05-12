@@ -251,44 +251,24 @@ local function showinfoMenu(dialog)
 end
 --https://kiki012184.github.io/K012-Theotown.com/plugin.html
 -- Show the main dialog window
+local function showFAQDialog()
+  local dialog
+  dialog = GUI.createDialog{
+    icon = Icon.INFO,
+    title = 'FAQ',
+    text = Translation.draft_K012ITP_FAQ,
+    width = 200,
+    height = 300,
+    pause = true,
+  }
+  closeDialog = dialog.close
+end
 local function showDialog()
   local dialog
   dialog = GUI.createDialog{
     icon = Icon.ABOUT,
     title = 'Plugin Manual',
-    text = [[English:
-Welcome to Manual Indonesia Transport Pack.
-This plugin adds transportation with transportation in the country of Indonesia, ranging from the train complete with its infrastructure, to toll road. 
-This plugin contains almost all diesel locomotives that have ever existed in Indonesia from BB200 to CC300 exclude C300, C301, D300 and D301.
-road packages are complete, starting from the streets of the plantation, to high-speed roads or toll roads, complete with some decorations and road marks. 
-This plugin is made by Indonesian native people so the work of this plugin is guaranteed quality, because it has taken the reference taken manually or from the internet. 
-To open the railroad part requires the official runner to open infrastructure, and a special port to open the rathy train. 
-To open the road part you only need to reach a certain level of city. For example, the plantation road requires level 0 to open while the toll road is at least level 6. 
-If you find a bug or error you can report it in the comments column or on my official site.
-
-Thank you for downloading this plugin, I hope you enjoy our work, thank you.
-
-Bahasa Indonesia:
-Selamat datang ke manual Indonesia transport pack.
-
-Plugin ini menambahkan transportasi yang bertemakan transportasi di negara Indonesia, mulai dari kereta api lengkap dengan infrastrukturnya,higga jalan tol.
-
-Plugin ini berisi hampir semua lokomotif diesel yang pernah ada di Indonesia mulai dari BB200 Hingga CC300 mengecualikan C300,C301,D300 Dan D301
-
-Paket Jalan sudah lengkap,mulai dari jalan perkebunan, hingga jalan kecepatan tinggi atau jalan tol, lengkap dengan beberapa dekorasi dan marka.
-
-Plugin ini di buat oleh orang asli Indonesia jadi karya plugin ini terjamin kualitasnya,karena sudah mengambil refrensi yang diambil secara manual ataupun dari internet.
-
-Untuk membuka bagian kereta api anda membutuhkan runah dinas untuk membuka infrastruktur,dan pelabuhan khusus untuk membuka kereta apinya.
-
-Untuk Membuka Bagian jalan anda hanya perlu mencapai level kota tertentu.
-Contohnya jalan perkebunan membutuhkan level 0 untuk membuka sedangkan jalan tol setidaknya level 6.
-
-Jika anda menemukan bug ataupun error anda dapat melaporkannya di kolom komentar atau di situs resmi milik saya.
-
-Terima kasih untuk mengunduh plugin ini,saya harap anda menikmati karya kami,terima kasih dan salam sejahtera.
-
-]],
+    text = Translation.draft_K012ITP_Manual_text,
     width = 200,
     height = 300,
     pause = true,
@@ -298,6 +278,13 @@ Terima kasih untuk mengunduh plugin ini,saya harap anda menikmati karya kami,ter
         text = 'Credits',
         golden = true,
         onClick = showcreditsDialog,
+        autoClose = false
+      },
+      {
+        icon = Icon.INFO,
+        text = 'F.A.Q',
+        golden = true,
+        onClick = showFAQDialog,
         autoClose = false
       },
       {
