@@ -1,7 +1,7 @@
 [
   //KRL
   {
-    "id": "$KRLE205",
+    "id": "$ITPK012_KRLE205",
     "type": "car",
     "frames": [
       {
@@ -56,7 +56,7 @@
   },
   //KRD
   {
-    "id": "$KRDYIA01",
+    "id": "$ITPK012_KRDYIA01",
     "type": "car",
     "frames": [
       {
@@ -85,7 +85,7 @@
     "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
   },
   {
-    "id": "$KRDFEEDKCIC01",
+    "id": "$ITPK012_KRDFEEDKCIC01",
     "type": "car",
     "frames": [
       {
