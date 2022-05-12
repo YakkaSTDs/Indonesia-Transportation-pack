@@ -54,6 +54,14 @@
         "count": 4
       }
     ],
+    "fun":[
+      {
+        "actions":[
+          {"type":"play","id":"$ITPK012_SFX_PPKA"}
+        ],
+        "p":0.08
+      }
+    ],
     "rotation aware": true,
     "template": "$K012_ITPTEMP_PART00",
     "title": "PPRKA",

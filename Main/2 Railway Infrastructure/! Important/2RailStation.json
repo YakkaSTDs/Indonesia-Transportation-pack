@@ -80,6 +80,56 @@
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
+    "id": "$K012ITP_DECO_ST_KTK00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kotok_WIP.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Kotok Station[in]Stasiun Kotok.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  
+  {
+    "id": "$K012ITP_DECO_ST_MLS00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kotok_WIP.png",
+        "count": 4,
+        "x":128,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Malasan Station[in]Stasiun Malasan.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$K012ITP_DECO_ST_SDJ00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Sidoarjo_WIP.png",
+        "count": 8,
+        "w": 32
+      }
+    ],
+    "template": "$K012_ITPTEMP_PART00",
+    "title": "Sidoarjo Station[in]Stasiun Sidoarjo.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
     "id": "$K012ITP_DECO_DIPO_JNG00",
     "type": "decoration",
     "width": 2,
