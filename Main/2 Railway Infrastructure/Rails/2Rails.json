@@ -14,7 +14,7 @@
     "allow diagonal": true,
     "overrunnable":false,
     "price": 450,
-    "level": 50,
+    "level": 10,
     "pile distant": 3,
     "map color": { "r": 215, "g": 148, "b": 46 },
     "bridge frames": [
@@ -81,6 +81,14 @@
         "handle x":-16,
         "w": 16,
         "x":48
+      }
+    ],
+    "fun":[
+      {
+        "actions":[
+          {"type":"play","id":"$ITPK012_SFX_Bogi"}
+        ],
+        "p":0.0001
       }
     ],
     "requirement": {
