@@ -1,0 +1,80 @@
+[
+  {
+    "id": "$K012_TR_BB201_PASLOK",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB201", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_BLG2"]
+  },
+  {
+    "id": "$K012_TR_BB201_PASARG",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB201", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_BLG2", "$IRPNULL", "$K012_ITPTR_BLG2"]
+  },
+  //Box Train
+  {
+    "id": "$K012_TR_BB201_KBOX_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB201", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW", "$IRPNULL", "$K012_ITPTR_TGW"]
+  },
+  //Cement Train
+  {
+    "id": "$K012_TR_BB201_KCEM_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB201", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN", "$IRPNULL", "$K012_ITPTR_TSMN"]
+  },
+  // Tanker Train
+  {
+    "id": "$K012_TR_BB201_KTL_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB201", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  }
+]

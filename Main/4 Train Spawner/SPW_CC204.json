@@ -1,0 +1,175 @@
+[
+  {
+    "id": "$ITPK012_CC204",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$K012_ITPTR_CC204",
+            "frame":4
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_CC204_PAS_LOK",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_CC204"],
+            "cars": ["$K012_TR_CC204_PASLOK"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "GE C20EMP Passenger Train (Local)[in]CC204  Ka penumpang (Lokal)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_CC204_PAS_ARG",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_CC204"],
+            "cars": ["$K012_TR_CC204_PASARG"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "GE C20EMP Passenger Train (Express)[in]CC204  Ka penumpang (Argo)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_CC204_BTB",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_BBAT",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_CC204"],
+            "cars": ["$K012_TR_CC204_BTB_LNG"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "GE C20EMP Coal Train[in]CC204  Ka Batubara",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_CC204_KTNR_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_DK1",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_CC204"],
+            "cars": ["$K012_TR_CC204_KTNR_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "GE C20EMP Container Train (Short)[in]CC204  Ka Peti kemas (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_CC204_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_KMIN",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_CC204"],
+            "cars": ["$K012_TR_CC204_KTL_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "GE C20EMP Tanker Train (Short)[in]CC204  Ka Ketel (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "GE C20EMP[in]CC204",
+    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+  }
+]

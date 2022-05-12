@@ -1,0 +1,145 @@
+[
+  {
+    "id": "$ITPK012_BB301",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$K012_ITPTR_BB301",
+            "frame":4
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB301_PAS_LOK",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301"],
+            "cars": ["$K012_TR_BB301_PASLOK"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "Krupp-M1500BB Passenger Train (Local)[in]BB301  Ka penumpang (Lokal)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB301_PAS_ARG",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB301"],
+            "cars": ["$K012_TR_BB301_PASARG"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "Krupp-M1500BB Passenger Train (Express)[in]BB301  Ka penumpang (Argo)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB301_KBOX_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_TNR",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301"],
+            "cars": ["$K012_TR_BB301_KBOX_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "Krupp-M1500BB Box Train[in]BB301  Ka Box",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB301_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_KMIN",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB301"],
+            "cars": ["$K012_TR_BB301_KTL_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "Krupp-M1500BB Tanker Train[in]BB301  Ka Ketel",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "Krupp-M1500BB[in]BB301",
+    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+  }
+]

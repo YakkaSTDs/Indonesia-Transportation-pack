@@ -1,0 +1,175 @@
+[
+  {
+    "id": "$ITPK012_BB201",
+    "type": "railway station",
+    "template": "$K012_ITP_SPW02",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$K012_ITPTR_BB201",
+            "frame":4
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB201_PAS_LOK",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_PASLOK"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "EMD G12U6 Passenger Train (Local)[in]BB201  Ka penumpang (Lokal)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB201_PAS_ARG",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_K3L16",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_PASARG"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "EMD G12U6 Passenger Train (Express)[in]BB201  Ka penumpang (Argo)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB201_KBOX_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_TGW",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_KBOX_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "EMD G12U6 Box Train[in]BB201  Ka Box",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB201_KSMN_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_TSMN",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_KCEM_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "EMD G12U6 Cement Train[in]BB201  Ka Semen",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$K012ITP_UPG_BB201_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_KMIN",
+            "frame":4
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB201"],
+            "cars": ["$K012_TR_BB201_KTL_SHT"],
+            "count": 1,
+            "radius": 256
+          }
+        ],
+        "title": "EMD G12U6 Tanker Train[in]BB201  Ka Ketel",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "EMD G12U6[in]BB201",
+    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+  }
+]

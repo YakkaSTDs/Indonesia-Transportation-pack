@@ -1,0 +1,64 @@
+[
+  {
+    "id": "$K012_TR_BB301_PASLOK",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB301", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_BLG1"]
+  },
+  {
+    "id": "$K012_TR_BB301_PASARG",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB301", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K2L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_K3L10", "$IRPNULL", "$K012_ITPTR_BLG1", "$IRPNULL", "$K012_ITPTR_BLG1"]
+  },
+  //Container Train
+  {
+    "id": "$K012_TR_BB301_KBOX_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB301", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR", "$IRPNULL", "$K012_ITPTR_TNR"]
+  },
+  // Tanker Train
+  {
+    "id": "$K012_TR_BB301_KTL_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB301", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  }
+]

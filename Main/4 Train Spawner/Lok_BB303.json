@@ -1,0 +1,48 @@
+[
+  {
+    "id": "$K012_TR_BB303_PASCOM",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB303", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16"]
+  },
+  {
+    "id": "$K012_TR_BB303_PASLOK",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB303", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_K3L16", "$IRPNULL", "$K012_ITPTR_BLG2"]
+  },
+  // Tanker Train
+  {
+    "id": "$K012_TR_BB303_KTL_SHT",
+    "type": "car",
+    "template": "$K012_ITPTEMP_TRN01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "Z.png",
+        "count": 4,
+        "w": 1,
+        "h": 18
+      }
+    ],
+    "tail": ["$K012_ITPTR_BB303", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN", "$IRPNULL", "$K012_ITPTR_KMIN"]
+  }
+]
