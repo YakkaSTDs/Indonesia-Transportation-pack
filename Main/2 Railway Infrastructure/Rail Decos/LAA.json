@@ -1,0 +1,158 @@
+[
+  //Kabel
+  {
+    "id": "$K012ITP_ANIRACO_KATKAB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "KatenariV2.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KATKAB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "KatenariV2.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KATKAB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "KatenariV2.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KATKAB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "KatenariV2.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Non Kabel
+  {
+    "id": "$K012ITP_ANIRACO_KAT00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Katenari.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KAT01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Katenari.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KAT02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Katenari.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_ANIRACO_KAT03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Katenari.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$K012ITP_RACO_CATBEL00",
+    "type": "road decoration",
+    "title": "Catenary[in]Katenari",
+    "text id": "draft_TRA_DKATB_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KATKAB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$K012ITP_RACO_CAT00",
+    "type": "road decoration",
+    "title": "Catenary[in]Katenari",
+    "text id": "draft_TRA_DKATB_text",
+    "template": "$K012_ITPTEMP_PART00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "category": "$K012_ITPCAT_RWDC02",
+    "animation": [
+      {
+        "id": "$K012ITP_ANIRACO_KAT00"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KAT02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$K012ITP_ANIRACO_KAT01"
+      },
+      {
+        "id": "$K012ITP_ANIRACO_KAT03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  }
+]
