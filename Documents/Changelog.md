@@ -1,18 +1,14 @@
-After about a month without an update here is it.
+A little update again.
 
 **Chagelog:**
 
-- Add SFX
-- Add New Container Wagons
-- Add new icons
-- Add Kotok station
-- Add Malasan station
-- Add Sidoarjo station
-- Add new platform
-- Add dedicated depot for each locomotive.
-- New icons
-- pixel fixes.
-- fix some liveries on locomotive that didnt match with the train.
+- Fix wrong icon on village and farm road
+- New Translation
+- New ID for serveral content
+- Re introducing BB300,BB305,And BB306
+- New names for road
+- New textures for 4 lane road (not highway)
+- minor fixes.
 
 
 Please dowload the ```DOWNLOAD THIS!.ZIP``` or ```DOWNLOAD THIS!.plugin```,ignore the other one!
