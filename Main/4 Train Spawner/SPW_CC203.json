@@ -2,7 +2,7 @@
   {
     "id": "$ITPK012_CC203",
     "type": "railway station",
-    "template": "$K012_ITP_SPW02",
+    "template": "$K012ITP_TEMP_SPWN00",
     "width": 1,
     "height": 1,
     "frames": [
@@ -140,6 +140,6 @@
       }
     ],
     "title": "GE U20C[in]CC203",
-    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+    "text id": "draft_Generic_daop_text"
   }
 ]

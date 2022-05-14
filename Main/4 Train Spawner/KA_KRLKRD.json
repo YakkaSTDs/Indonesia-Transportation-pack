@@ -2,7 +2,7 @@
   {
     "id": "$ITPK012_KRLKRD",
     "type": "railway station",
-    "template": "$K012_ITP_SPW02",
+    "template": "$K012ITP_TEMP_SPWN00",
     "width": 1,
     "height": 1,
     "frames": [
@@ -38,7 +38,7 @@
         "car spawner": [
           {
             "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
-            "cars": ["$ITPK012_KRLE205"],
+            "cars": ["$K012_ITPMU_E205"],
             "count": 1,
             "radius": 512
           }
@@ -68,7 +68,7 @@
         "car spawner": [
           {
             "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
-            "cars": ["$ITPK012_KRDYIA01"],
+            "cars": ["$K012_ITPMU_YIAMU"],
             "count": 1,
             "radius": 512
           }
@@ -98,7 +98,7 @@
         "car spawner": [
           {
             "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
-            "cars": ["$ITPK012_KRDFEEDKCIC01"],
+            "cars": ["$K012_ITPMU_KRDI_FKCIC"],
             "count": 1,
             "radius": 512
           }
@@ -110,6 +110,6 @@
       }
     ],
     "title": "EMU and DMU[in]KRL dan KRD",
-    "text": "You can choose multiple locomotives and trains.[in]Anda dapat memilih beberapa lokomotif dan kereta api"
+    "text id": "draft_Generic_daop_text"
   }
 ]

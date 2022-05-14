@@ -1,0 +1,34 @@
+[
+  {
+    "id": "$K012ITP_TEMP_SPWN00",
+    "type": "template",
+    "category": "$K012_ITPCAT_SPW01",
+    "requirement": {
+      "requirements": [
+        {
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Rumahdinas01"
+          }
+        },
+        {
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Pelabuhan_Khusus01"
+          }
+        }
+      ]
+    },
+    "price": 500,
+    "price factor": 0,
+    "build time": 5,
+    "power": 0,
+    "draw ground": true,
+    "needs road": false,
+    "influence culture": 25,
+    "influence passenger train": 15,
+    "influence management": 15,
+    "capacity": 0,
+    "rotation aware": true
+  }
+]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "$ITPK012_BB204",
+    "id": "$ITPK012_BB300",
     "type": "railway station",
     "template": "$K012ITP_TEMP_SPWN00",
     "width": 1,
@@ -13,13 +13,13 @@
     ],
     "preview frames":[
         {
-            "steal":"$K012_ITPTR_BB204",
+            "steal":"$K012_ITPTR_BB300",
             "frame":4
         }
     ],
     "upgrades": [
       {
-        "id": "$K012ITP_UPG_BB204_PAS_LOK",
+        "id": "$K012ITP_UPG_BB300_PAS_COM",
         "frames": [
           {
             "x": 0,
@@ -37,19 +37,19 @@
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB204"],
-            "cars": ["$K012_TR_BB204_PASLOK"],
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB300"],
+            "cars": ["$K012_TR_BB300_PASCOM"],
             "count": 1,
             "radius": 256
           }
         ],
-        "title": "SLM HGm4/6 Passenger Train (Tour)[in]BB204  Ka penumpang (Wisata)",
+        "title": "Krupp-M700BB Passenger Train (Commuter)[in]BB300  Ka penumpang (Commuter)",
         "text id": "draft_Generic_depot_text",
         "only one": true,
         "build time": 0
-      }, 
+      },
       {
-        "id": "$K012ITP_UPG_BB204_BTB",
+        "id": "$K012ITP_UPG_BB300_PAS_LOK",
         "frames": [
           {
             "x": 0,
@@ -61,25 +61,25 @@
         ],
         "preview frames":[
         {
-            "steal":"$K012_ITPTR_BBAT",
+            "steal":"$K012_ITPTR_K3L16",
             "frame":4
         }
         ],
         "car spawner": [
           {
-            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_BB204"],
-            "cars": ["$K012_TR_BB204_BTB_LNG"],
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_BB300"],
+            "cars": ["$K012_TR_BB300_PASLOK"],
             "count": 1,
-            "radius": 512
+            "radius": 256
           }
         ],
-        "title": "SLM HGm4/6 Coal Train[in]BB204  Ka Batubara",
+        "title": "Krupp-M700BB Passenger Train (Local)[in]BB300  Ka penumpang (Lokal)",
         "text id": "draft_Generic_depot_text",
         "only one": true,
         "build time": 0
       }
     ],
-    "title": "SLM HGm4/6[in]BB204",
+    "title": "Krupp-M700BB[in]BB300",
     "text id": "draft_Generic_daop_text"
   }
 ]

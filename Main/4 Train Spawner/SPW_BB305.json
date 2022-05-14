@@ -1,0 +1,55 @@
+[
+  {
+    "id": "$ITPK012_BB305KER",
+    "type": "railway station",
+    "template": "$K012ITP_TEMP_SPWN00",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITP_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$K012_ITPTR_BB305",
+            "frame":4
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$K012ITP_UPG_BB305_KERTAS",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$K012_ITPTR_TGW",
+            "frame":4    
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLS00", "$ITPK012_PLS01", "$ITPK012_WYP00", "$ITPK012_CC300"],
+            "cars": ["$K012_TR_BB305_KER"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "U20C TEL Paper Train[in]BB305 TEL KA Kertas",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB305 01 Jenbacher[in]BB305 Jenbacher",
+    "text id": "draft_Generic_daop_text"
+  }
+]
