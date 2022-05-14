@@ -5,7 +5,7 @@
     "id": "$K012_ITPTR_K3L16",
     "type": "train car",
     "author":"lobby,kiki012",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2016_EKO.png",
@@ -33,7 +33,7 @@
   {
     "id": "$K012_ITPTR_K2L16",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2016_BIS.png",
@@ -61,7 +61,7 @@
   {
     "id": "$K012_ITPTR_B0L16",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2016_BAG.png",
@@ -90,7 +90,7 @@
   {
     "id": "$K012_ITPTR_K3L20",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2020_EKO.png",
@@ -118,7 +118,7 @@
   {
     "id": "$K012_ITPTR_K2L20",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2020_BIS.png",
@@ -146,7 +146,7 @@
   {
     "id": "$K012_ITPTR_B0L20",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2020_BAG.png",
@@ -175,7 +175,7 @@
   {
     "id": "$K012_ITPTR_K3L50",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L1950_EKO.png",
@@ -203,7 +203,7 @@
   {
     "id": "$K012_ITPTR_K2L50",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L1950_BIS.png",
@@ -231,7 +231,7 @@
   {
     "id": "$K012_ITPTR_B0L50",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L1950_BAG.png",
@@ -260,7 +260,7 @@
   {
     "id": "$K012_ITPTR_K3L10",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2010_EKO.png",
@@ -288,7 +288,7 @@
   {
     "id": "$K012_ITPTR_K2L10",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2010_BIS.png",
@@ -317,7 +317,7 @@
   {
     "id": "$K012_ITPTR_K3L22",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2022_EKO.png",
@@ -345,7 +345,7 @@
   {
     "id": "$K012_ITPTR_K2L22",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2022_BIS.png",
@@ -373,7 +373,7 @@
   {
     "id": "$K012_ITPTR_B0L22",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_L2022_BAG.png",
@@ -402,7 +402,7 @@
   {
     "id": "$K012_ITPTR_BLG1",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_Bagasi_1.png",
@@ -430,7 +430,7 @@
   {
     "id": "$K012_ITPTR_BLG2",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_Bagasi_2.png",
@@ -458,7 +458,7 @@
   {
     "id": "$K012_ITPTR_BLG3",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_Bagasi_3.png",
@@ -486,7 +486,7 @@
     {
     "id": "$K012_ITPTR_K3LSKR",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "Gerbong_LSingkarak.png",

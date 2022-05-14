@@ -4,7 +4,7 @@
   {
     "id": "$K012_ITPTR_DK1",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_1.png",
@@ -28,7 +28,7 @@
   {
     "id": "$K012_ITPTR_DK2",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_2.png",
@@ -52,7 +52,7 @@
   {
     "id": "$K012_ITPTR_DK3",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_3.png",
@@ -76,7 +76,7 @@
   {
     "id": "$K012_ITPTR_DK4",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_4.png",
@@ -100,7 +100,7 @@
   {
     "id": "$K012_ITPTR_DK5",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_5.png",
@@ -124,7 +124,7 @@
   {
     "id": "$K012_ITPTR_DK6",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_6.png",
@@ -148,7 +148,7 @@
   {
     "id": "$K012_ITPTR_DK7",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_7.png",
@@ -172,7 +172,7 @@
   {
     "id": "$K012_ITPTR_DK8",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Kontainer_8.png",
@@ -197,7 +197,7 @@
   {
     "id": "$K012_ITPTR_BBAT",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_KKBW_BBR.png",
@@ -219,7 +219,7 @@
   {
     "id": "$K012_ITPTR_BKRK",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_KKBW_KRI.png",
@@ -242,7 +242,7 @@
   {
     "id": "$K012_ITPTR_KMIN",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Ketel.png",
@@ -265,7 +265,7 @@
   {
     "id": "$K012_ITPTR_DREL",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_REL.png",
@@ -288,7 +288,7 @@
   {
     "id": "$K012_ITPTR_TKER1",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_Kertas_1.png",
@@ -310,7 +310,7 @@
   {
     "id": "$K012_ITPTR_TKER2",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_Kertas_2.png",
@@ -332,7 +332,7 @@
   {
     "id": "$K012_ITPTR_TGW",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_GW.png",
@@ -354,7 +354,7 @@
   {
     "id": "$K012_ITPTR_TNR",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_NR.png",
@@ -376,7 +376,7 @@
   {
     "id": "$K012_ITPTR_TDGGW",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_DGGW.png",
@@ -398,7 +398,7 @@
   {
     "id": "$K012_ITPTR_TSMN",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERBAR01",
     "frames": [
       {
         "bmp": "Gerbong_Box_Semen.png",
