@@ -1,5 +1,30 @@
 [
   {
+    "id": "$K012_ITPTEMP_Station00",
+    "type": "template",
+    "category": "$K012_ITPCAT_RWDC01",
+    "price factor": 0,
+    "power": 0,
+    "influence culture": 25,
+    "influence passenger train": 15,
+    "price": 2500,
+    "frames per variant": 4,
+    "water": 0,
+    "rotation aware": true,
+    "draw ground": true,
+    "needs road": false,
+    "requirement": {
+      "requirements": [
+        {
+          "type": "BUILDING",
+          "data": {
+            "id": "$K012_Rumahdinas01"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "$K012ITP_DECO_ST_BTG00",
     "type": "decoration",
     "width": 1,
@@ -11,7 +36,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Batang Station[in]Stasiun Batang",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -27,7 +52,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Batang Station Warehouse[in]Gudang Stasiun Batang",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -43,7 +68,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Cipeundeuy Station[in]Stasiun Cipeundeuy",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -59,7 +84,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Cipeundeuy Station Warehouse[in]Gudang Stasiun Cipeundeuy",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -75,7 +100,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Glenmore Station[in]Stasiun Glenmore",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -91,11 +116,10 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Kotok Station[in]Stasiun Kotok.",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
-  
   {
     "id": "$K012ITP_DECO_ST_MLS00",
     "type": "decoration",
@@ -109,7 +133,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Malasan Station[in]Stasiun Malasan.",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -125,7 +149,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Sidoarjo Station[in]Stasiun Sidoarjo.",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -141,7 +165,7 @@
         "w": 64
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Jatinegara Workshop[in]Dipo Jatinegara",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -157,7 +181,7 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Container Depot[in]Depo Kontainer",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
@@ -193,14 +217,14 @@
         "w": 32
       }
     ],
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "title": "Station Building[in]Bangunan Stasiun",
     "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
   },
   {
     "id": "$ITPK012_PLS01",
     "type": "decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "width": 1,
     "height": 1,
     "ordinal":999,
@@ -227,7 +251,7 @@
   {
     "id": "$ITPK012_PLC01",
     "type": "decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_Station00",
     "width": 1,
     "height": 1,
     "ordinal":999,

@@ -1,15 +1,39 @@
 [
   {
+    "id": "$K012_ITPTEMP_MAIN",
+    "type": "template",
+    "category": "$K012_ITPCAT_BDL01",
+    "power": 0,
+    "water": 0,
+    "price": 1000,
+    "influence culture": 25,
+    "influence passenger train": 15,
+    "influence management": 15,
+    "draw ground": true,
+    "needs road": false,
+    "rotation aware": true,
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "id": "$rnk_village_medium"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "$K012_Rumahdinas01",
     "type": "railway station",
-
+    "price": 4500,
     "width": 1,
     "height": 1,
     "max count": 1,
     "frames": [
       {
         "bmp": "Bangunan_PPKA.png",
-        "count": 16,
+        "count": 4,
         "w": 32
       },
       {
@@ -18,7 +42,7 @@
         "w": 32
       }
     ],
-    "template": ["$template_diamondbuilding00", "$K012_ITPTEMP_MAIN"],
+    "template": ["$K012_ITPTEMP_MAIN"],
     "requirement": {
       "requirements": [
         {
@@ -40,6 +64,7 @@
     "type": "railway station",
     "width": 3,
     "height": 3,
+    "price": 5000,
     "needs water": true,
     "needs land": true,
     "max count": 1,
@@ -72,12 +97,6 @@
         "id": "$animationharborpierbigcranetop02",
         "x": 0,
         "y": 0
-      }
-    ],
-    "fun": [
-      {
-        "actions": [{ "type": "build", "id": "$K012_Toko_Kereta_Premium01" }],
-        "p": 0.0003
       }
     ],
     "template":"$K012_ITPTEMP_MAIN",

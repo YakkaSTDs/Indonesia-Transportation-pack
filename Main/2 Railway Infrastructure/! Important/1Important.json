@@ -1,41 +1,14 @@
 [
   {
-    "id": "$K012_ITPTEMP_MAIN",
-    "type": "template",
-    "category": "$K012_ITPCAT_BDL01",
-    "power": 0,
-    "water": 0,
-    "price": 1000,
-    "influence culture": 25,
-    "influence passenger train": 15,
-    "influence management": 15,
-    "draw ground": true,
-    "needs road": false,
-    "rotation aware": true,
-    "requirement": {
-      "requirements": [
-        {
-          "type": "RANK",
-          "data": {
-            "id": "$rnk_village_medium"
-          }
-        }
-      ]
-    }
-  },
-  {
     "id":"$K012ITP_TEMP_GAUGE",
     "type":"template",
     "allocate flag":"CapeTR",
     "flag normal":false,
-    "flag CapeTR":true,
     "flag train":true,
     "required flag normal":false,
-    "required flag CapeTR":true,
     "required flag train":true,
     "x flags":{
       "flag normal":true,
-      "flag CapeTR":true,
       "flag train":true
     }
   },
