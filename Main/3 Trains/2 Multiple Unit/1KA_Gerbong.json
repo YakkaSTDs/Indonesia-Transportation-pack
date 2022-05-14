@@ -3,7 +3,7 @@
   {
     "id": "$K012_ITPTR_KRLE205",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRL_E205C_EKR.png",
@@ -43,7 +43,7 @@
   {
     "id": "$K012_ITPTR_KRLGE205",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRL_E205C_GER.png",
@@ -83,7 +83,7 @@
   {
     "id": "$K012_ITPTR_KRLYIA",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRD_YIA_EKR.png",
@@ -111,7 +111,7 @@
   {
     "id": "$K012_ITPTR_KRGYIA",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRD_YIA_GER.png",
@@ -139,7 +139,7 @@
   {
     "id": "$K012_ITPTR_KRLFEEDKCICT",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRD_FED_EKR.png",
@@ -167,7 +167,7 @@
   {
     "id": "$K012_ITPTR_KRGFEEDKCICG",
     "type": "train car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_GERPEN01",
     "frames": [
       {
         "bmp": "KRD_FED_GER.png",

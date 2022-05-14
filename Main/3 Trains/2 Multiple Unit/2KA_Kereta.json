@@ -1,7 +1,7 @@
 [
   //KRL
   {
-    "id": "$ITPK012_KRLE205",
+    "id": "$K012_ITPMU_E205",
     "type": "car",
     "frames": [
       {
@@ -37,7 +37,7 @@
     ],
     "frames per variant": 8,
     "speed": 1.8,
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_KARANG01",
     "capacity": 4,
     "tail": [
       "$car_null00",
@@ -56,7 +56,7 @@
   },
   //KRD
   {
-    "id": "$ITPK012_KRDYIA01",
+    "id": "$K012_ITPMU_YIAMU",
     "type": "car",
     "frames": [
       {
@@ -80,12 +80,12 @@
     ],
     "frames per variant": 8,
     "speed": 1.8,
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_KARANG01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
   },
   {
-    "id": "$ITPK012_KRDFEEDKCIC01",
+    "id": "$K012_ITPMU_KRDI_FKCIC",
     "type": "car",
     "frames": [
       {
@@ -109,7 +109,7 @@
     ],
     "frames per variant": 8,
     "speed": 1.8,
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_KARANG01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRLFEEDKCICT"]
   }
