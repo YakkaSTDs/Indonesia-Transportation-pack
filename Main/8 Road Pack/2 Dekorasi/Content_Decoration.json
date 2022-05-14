@@ -1,0 +1,38 @@
+[
+  {
+    "id": "$K012_ITPRODECO_BR00",
+    "type": "fence",
+    "price": 30,
+    "title": "Road Border[in]Pembatas Jalan",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "concrete.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$K012_ITPCAT_ROAD01"
+  },
+  {
+    "id": "$K012_ITPRODECO_BR01",
+    "type": "fence",
+    "price": 30,
+    "title": "Road Border[in]Pembatas Jalan",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "grass.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$K012_ITPCAT_ROAD01"
+  }
+]
