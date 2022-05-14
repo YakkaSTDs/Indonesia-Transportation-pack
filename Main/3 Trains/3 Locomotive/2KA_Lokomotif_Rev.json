@@ -34,7 +34,7 @@
       }
     ],
     "speed": 1.6,
-    "template": "$K012_ITPTEMP_LOK01"
+    "template": "$K012_ITPTEMP_LOKO01"
   },
   //TEL
   {
@@ -71,7 +71,7 @@
       }
     ],
     "speed": 2,
-    "template": "$K012_ITPTEMP_LOK01"
+    "template": "$K012_ITPTEMP_LOKO01"
   },
   //CC204
   {
@@ -108,7 +108,7 @@
       }
     ],
     "frames per variant": 8,
-    "template": "$K012_ITPTEMP_LOK01"
+    "template": "$K012_ITPTEMP_LOKO01"
   },
   //CC205
   {
@@ -145,6 +145,6 @@
       }
     ],
     "speed": 2.2,
-    "template": "$K012_ITPTEMP_LOK01"
+    "template": "$K012_ITPTEMP_LOKO01"
   }
 ]
