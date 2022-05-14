@@ -24,10 +24,16 @@
   {
     "id": "$IRPNULL",
     "type": "car",
-    "template": "$K012_ITPTEMP_TRN01",
+    "template": "$K012_ITPTEMP_LOKO01",
     "capacity": 0,
     "chargeable": false,
     "frames": [
+      {
+        "bmp": "Blank.png",
+        "count": 4,
+        "h": 18,
+        "w": 1
+      },
       {
         "bmp": "Blank.png",
         "count": 4,
