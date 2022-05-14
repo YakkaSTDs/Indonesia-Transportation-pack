@@ -1,0 +1,98 @@
+[
+  {
+    "id": "$K012itp_highway_PROV_DOUB",
+    "old id": "$IRP_ROAD04",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$K012_ITPTEMP_ROAD00",
+    "width": 2,
+    "speed": 5,
+    "price": 50,
+    "one way": true,
+    "title": "Branch toll road[in] Jalan tol cabang",
+    "text": "Branch toll road to your city/district.[in]Jalan tol cabang menuju ke kota/distrik anda.",
+    "preview frames": [
+      {
+        "bmp": "Ikon/White_double_tol.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "roadhs_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "roadhs_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "roadhs_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "roadhs_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "$K012itp_highway_NAT_DOUB",
+    "old id": "$IRP_ROAD05",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$K012_ITPTEMP_ROAD00",
+    "width": 2,
+    "speed": 5,
+    "price": 50,
+    "one way": true,
+    "title": "Main toll road[in] Jalan tol utama",
+    "text": "The main toll road that passes through your city.[in]Jalan tol utama yang melewati kota anda.",
+    "preview frames": [
+      {
+        "bmp": "Ikon/Yellow_double_tol.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "roadhs_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "roadhs_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "roadhs_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "roadhs_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  }
+]
