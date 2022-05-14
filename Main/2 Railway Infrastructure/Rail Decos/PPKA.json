@@ -155,7 +155,7 @@
     "min dirs": 4,
     "max dirs": 4,
     "category": "$K012_ITPCAT_RWDC02",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Railroad crossing",
     "text": "An Railroad crossing",
     "speed": 1.4,
@@ -184,10 +184,9 @@
     "type": "road decoration",
     "min dirs": 4,
     "max dirs": 4,
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title id": "Railroad crossing",
     "text": "An Typical Indonesian Railroad crossing",
-    "category": "$K012_ITPCAT_RWDC02",
     "speed": 1.4,
     "on click fun": [
       {
@@ -215,12 +214,11 @@
     "type": "road decoration",
     "title id": "draft_TRA_DPPKA_title",
     "text id": "draft_TRA_DPPKA_text",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "min dirs": 2,
     "max dirs": 2,
     "required flag normal":true,
     "required flag CapeTR":false,
-    "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
         "actions": [
@@ -259,13 +257,12 @@
     "type": "road decoration",
     "title id": "draft_TRA_DPPKA_title",
     "text id": "draft_TRA_DPPKA_text",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "min dirs": 2,
     "max dirs": 2,
     "speed":0.005,
     "required flag normal":true,
     "required flag CapeTR":false,
-    "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
         "actions": [

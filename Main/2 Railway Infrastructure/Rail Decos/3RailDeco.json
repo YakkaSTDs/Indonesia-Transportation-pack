@@ -1,8 +1,25 @@
 [
   {
-    "id": "$K012ITP_TEMP_RDCAT01",
+    "id": "$K012_ITPTEMP_RailDeco00",
     "type": "template",
-    "category": "$K012_ITPCAT_RWDC02"
+    "category": "$K012_ITPCAT_RWDC02",
+    "required flag normal":false,
+    "required flag train":true,
+    "price factor": 0,
+    "preview road":"$K012_IRP_RAILM",
+    "price": 100,
+    "rotation aware": true,
+    "requirement": {
+      "requirements": [
+        {
+          "type": "BUILDING",
+          "text": "Headmaster House Required[in]Rumah dinas dibutuhkan!",
+          "data": {
+            "id": "$K012_Rumahdinas01"
+          }
+        }
+      ]
+    }
   },
   //Katenari
   //Patok Kilometer
@@ -11,11 +28,10 @@
     "type": "road decoration",
     "title": "Kilometer Mark[in]Patok Kilometer",
     "text": "Used to Mark A Kilometer[in]Dipakai untuk menandakan Kilometer",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "min dirs": 2,
     "max dirs": 4,
     "line tool": true,
-    "category": "$K012_ITPCAT_RWDC02",
     "animation": [
       {
         "id": "$K012ITP_ANIRACO_PATKM00"
@@ -42,12 +58,12 @@
     "type": "road decoration",
     "title": "Jatinegara Workshop[in]Dipo Jatinegara",
     "text": "Jatinegara Station (JNG) is a type A large class train station located on the border between Jatinegara and Matraman sub-districts, precisely in Pisangan Baru Village, Matraman District, East Jakarta City.  The station, which is located at an altitude of +16 meters, is included in Operation Area I Jakarta.  This station is a station where three lines meet, which are passed by hundreds of trains every day, namely the lines to Pasar Senen, Manggarai, and Bekasi.[in]Stasiun Jatinegara (JNG) adalah stasiun kereta api kelas besar tipe A yang terletak di perbatasan antara Kecamatan Jatinegara dan Matraman, tepatnya di Kelurahan Pisangan Baru, Kecamatan Matraman, Kota Jakarta Timur. Stasiun yang terletak pada ketinggian +16 meter ini termasuk dalam Daerah Operasi I Jakarta. Stasiun ini merupakan stasiun tempat bertemunya tiga jalur yang setiap harinya dilewati ratusan kereta api, yaitu jalur ke Pasar Senen, Manggarai, dan Bekasi.",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "min dirs": 2,
     "max dirs": 2,
     "speed": 0.5,
     "line tool": true,
-    "category": "$K012_ITPCAT_RWDC02",
+
     "animation": [
       {
         "id": "$railani_K012_DEP_JNG1"
@@ -72,12 +88,12 @@
     "type": "road decoration",
     "title": "Jatinegara Workshop[in]Dipo Jatinegara",
     "text": "Jatinegara Station (JNG) is a type A large class train station located on the border between Jatinegara and Matraman sub-districts, precisely in Pisangan Baru Village, Matraman District, East Jakarta City.  The station, which is located at an altitude of +16 meters, is included in Operation Area I Jakarta.  This station is a station where three lines meet, which are passed by hundreds of trains every day, namely the lines to Pasar Senen, Manggarai, and Bekasi.[in]Stasiun Jatinegara (JNG) adalah stasiun kereta api kelas besar tipe A yang terletak di perbatasan antara Kecamatan Jatinegara dan Matraman, tepatnya di Kelurahan Pisangan Baru, Kecamatan Matraman, Kota Jakarta Timur. Stasiun yang terletak pada ketinggian +16 meter ini termasuk dalam Daerah Operasi I Jakarta. Stasiun ini merupakan stasiun tempat bertemunya tiga jalur yang setiap harinya dilewati ratusan kereta api, yaitu jalur ke Pasar Senen, Manggarai, dan Bekasi.",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "min dirs": 2,
     "max dirs": 2,
     "speed": 0.5,
     "line tool": true,
-    "category": "$K012_ITPCAT_RWDC02",
+
     "animation": [
       {
         "id": "$railani_K012_DEP_JNG1"

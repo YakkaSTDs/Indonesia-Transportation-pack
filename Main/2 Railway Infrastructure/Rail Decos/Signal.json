@@ -4,13 +4,13 @@
   {
     "id": "$K012ITP_RACO_SEMB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "exclusive": true,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
@@ -45,7 +45,7 @@
   {
     "id": "$K012ITP_RACO_SEMA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
@@ -86,13 +86,13 @@
   {
     "id": "$K012ITP_RACO_SEKB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "exclusive": true,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
@@ -127,7 +127,7 @@
   {
     "id": "$K012ITP_RACO_SEKA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
@@ -168,13 +168,13 @@
   {
     "id": "$K012ITP_RACO_SELB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Shunt Electric Signal[in]Sinyal Langsir Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
@@ -208,7 +208,7 @@
   {
     "id": "$K012ITP_RACO_SELA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Shunt Electric Signal[in]Sinyal Langsir Elektrik",
     "text": "An decoration for your railway",
     "min dirs": 2,
@@ -248,13 +248,13 @@
   {
     "id": "$K012ITP_RACO_SMKB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanis",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
@@ -288,7 +288,7 @@
   {
     "id": "$K012ITP_RACO_SMKA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanik",
     "text": "An decoration for your railway",
     "min dirs": 2,
@@ -328,13 +328,13 @@
   {
     "id": "$K012ITP_RACO_SMMB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Entry Mechanical Signal[in]Sinyal Masuk Mekanik",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
@@ -368,7 +368,7 @@
   {
     "id": "$K012ITP_RACO_SMMA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Entry Mechanical Signal[in]Sinyal Masuk Mechanical",
     "text": "An decoration for your railway",
     "min dirs": 2,
@@ -408,13 +408,13 @@
   {
     "id": "$K012ITP_RACO_SMUB",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
     "text": "An decoration for your railway",
     "min dirs": 2,
     "max dirs": 2,
     "enter speed": 0.05,
-    "exit speed": 0.4,
+    "exit speed": 0.15,
     "category": "$K012_ITPCAT_RWDC02",
     "on click fun": [
       {
@@ -448,7 +448,7 @@
   {
     "id": "$K012ITP_RACO_SMUA",
     "type": "road decoration",
-    "template": "$K012_ITPTEMP_PART00",
+    "template": "$K012_ITPTEMP_RailDeco00",
     "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
     "text": "An decoration for your railway",
     "min dirs": 2,
