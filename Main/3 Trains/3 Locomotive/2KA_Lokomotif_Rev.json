@@ -7,34 +7,35 @@
       {
         "bmp": "CC202.png",
         "count": 2,
-        "h": 18,
-        "w": 20,
-        "x": 40
+        "h": 19,
+        "w": 22,
+        "x": 44
       },
       {
         "bmp": "CC202.png",
         "count": 2,
-        "h": 18,
-        "w": 20,
+        "h": 19,
+        "w": 22,
         "x": 0
       },
       {
         "bmp": "CC202.png",
         "count": 2,
         "w": 32,
-        "h": 18,
-        "x": 144
+        "h": 19,
+        "x": 152
       },
       {
         "bmp": "CC202.png",
         "count": 2,
         "w": 32,
         "h": 18,
-        "x": 80
+        "x": 88
       }
     ],
     "speed": 1.6,
-    "template": "$K012_ITPTEMP_LOKO01"
+    "template": "$K012_ITPTEMP_LOKO01",
+    "v2":[-1,2,-3,0]
   },
   //TEL
   {
@@ -118,33 +119,34 @@
       {
         "bmp": "CC205.png",
         "count": 2,
-        "h": 18,
-        "w": 20,
-        "x": 40
+        "h": 19,
+        "w": 22,
+        "x": 44
       },
       {
         "bmp": "CC205.png",
         "count": 2,
-        "h": 18,
-        "w": 20,
+        "h": 19,
+        "w": 22,
         "x": 0
       },
       {
         "bmp": "CC205.png",
         "count": 2,
         "w": 32,
-        "h": 18,
-        "x": 144
+        "h": 19,
+        "x": 152
       },
       {
         "bmp": "CC205.png",
         "count": 2,
         "w": 32,
-        "h": 18,
-        "x": 80
+        "h": 19,
+        "x": 88
       }
     ],
     "speed": 2.2,
-    "template": "$K012_ITPTEMP_LOKO01"
+    "template": "$K012_ITPTEMP_LOKO01",
+    "v2":[-2,1,-2,-1]
   }
 ]

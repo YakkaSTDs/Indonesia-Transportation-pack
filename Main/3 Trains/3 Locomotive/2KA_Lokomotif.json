@@ -347,7 +347,7 @@
       {
         "bmp": "CC200.png",
         "count": 4,
-        "w": 20,
+        "w": 22,
         "h": 18
       },
       {
@@ -355,9 +355,10 @@
         "count": 4,
         "w": 32,
         "h": 18,
-        "x": 80
+        "x": 88
       }
     ],
+    "v2":[-1,2,-3,0],
     "animation": [
       {
         "id": "$ITP_ANI_CC200",
@@ -386,6 +387,7 @@
         "x": 80
       }
     ],
+    "v2":[-2,1,-2,-1],
     "animation": [
       {
         "id": "$ITP_ANI_CC201",
@@ -401,25 +403,26 @@
       {
         "bmp": "CC202.png",
         "count": 4,
-        "h": 18,
-        "w": 20
+        "h": 19,
+        "w": 22
       },
       {
         "bmp": "CC202.png",
         "count": 4,
         "w": 32,
-        "h": 18,
-        "x": 80
+        "h": 19,
+        "x": 88
       }
     ],
     "animation": [
       {
-        "id": "$ITP_ANI_CC201",
+        "id": "$ITP_ANI_CC205",
         "x": -15
       }
     ],
     "speed": 1.6,
-    "template": "$K012_ITPTEMP_LOKO01"
+    "template": "$K012_ITPTEMP_LOKO01",
+    "v2":[-1,2,-3,0]
   },
   //CC203
   {
@@ -513,25 +516,26 @@
       {
         "bmp": "CC205.png",
         "count": 4,
-        "h": 18,
-        "w": 20
+        "h": 19,
+        "w": 22
       },
       {
         "bmp": "CC205.png",
         "count": 4,
         "w": 32,
-        "h": 18,
-        "x": 80
+        "h": 19,
+        "x": 88
       }
     ],
     "animation": [
       {
-        "id": "$ITP_ANI_CC201",
+        "id": "$ITP_ANI_CC205",
         "x": -15
       }
     ],
     "speed": 2.2,
-    "template": "$K012_ITPTEMP_LOKO01"
+    "template": "$K012_ITPTEMP_LOKO01",
+    "v2":[-2,1,-2,-1]
   },
   //CC206
   {
@@ -543,15 +547,15 @@
       {
         "bmp": "CC206.png",
         "count": 4,
-        "w": 20,
-        "h": 18
+        "w": 21,
+        "h": 19
       },
       {
         "bmp": "CC206.png",
         "count": 4,
         "w": 32,
-        "h": 18,
-        "x": 80
+        "h": 19,
+        "x": 84
       }
     ],
     "animation": [
@@ -571,7 +575,7 @@
       {
         "bmp": "CC300.png",
         "count": 4,
-        "w": 20,
+        "w": 22,
         "h": 18
       },
       {
@@ -579,9 +583,10 @@
         "count": 4,
         "w": 32,
         "h": 18,
-        "x": 80
+        "x": 88
       }
     ],
+    "v2":[-1,2,-3,0],
     "animation": [
       {
         "id": "$ITP_ANI_CC300",
