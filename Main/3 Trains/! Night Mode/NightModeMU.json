@@ -1,4 +1,5 @@
 [
+    //KRL
   {
     "id": "$ITP_ANI_KRLH",
     "type": "animation",
@@ -62,6 +63,7 @@
     "frames per animation":8,
     "rotation aware": true
   },
+  //KRD YIA
   {
     "id": "$ITP_ANI_KRDYIAH",
     "type": "animation",
@@ -116,6 +118,7 @@
     ],
     "rotation aware": true
   },
+  //KRD Feeder KCIC
   {
     "id": "$ITP_ANI_KRDFDKCH",
     "type": "animation",
@@ -166,6 +169,87 @@
         "bmp": "KRD_FED_EKR.png",
         "count": 4,
         "w": 20
+      }
+    ],
+    "rotation aware": true
+  },
+  //KRD Presiden
+  {
+    "id": "$ITP_ANI_KRDPREH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 4,
+        "w": 21,
+        "h": 18,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "handle y":1
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_KRDPREM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 4,
+        "w": 21,
+        "h": 18
+      },
+      {
+        "bmp": "KRD_PRE_GER_DIA.png",
+        "count": 4,
+        "w": 32,
+        "handle y":1
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITP_ANI_KRDPRET",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 2,
+        "w": 21,
+        "h": 18,
+        "x": 42,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 2,
+        "w": 21,
+        "h": 18,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 2,
+        "w": 32,
+        "handle y":1,
+        "x": 64
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 2,
+        "w": 32,
+        "handle y":1
       }
     ],
     "rotation aware": true
