@@ -1,5 +1,6 @@
 [
   //Gerbong KA Rangkaian
+  //KRL E205 both livery
   {
     "id": "$K012_ITPTR_KRLE205",
     "type": "train car",
@@ -80,6 +81,7 @@
     "chargeable": false,
     "capacity": 80
   },
+  //YIA KRD
   {
     "id": "$K012_ITPTR_KRLYIA",
     "type": "train car",
@@ -136,6 +138,7 @@
     "chargeable": false,
     "capacity": 80
   },
+  //KCIC FEEDER KRD
   {
     "id": "$K012_ITPTR_KRLFEEDKCICT",
     "type": "train car",
@@ -185,6 +188,79 @@
     "animation": [
       {
         "id": "$ITP_ANI_KRDFDKCM",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  },
+  //Presidental KRD 
+  {
+    "id": "$K012_ITPTR_KREPRE",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 2,
+        "h": 18,
+        "w": 21,
+        "x": 42,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 2,
+        "h": 18,
+        "w": 21,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 2,
+        "w": 32,
+        "h": 18,
+        "x": 64
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 2,
+        "w": 32,
+        "h": 18
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDPRET",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  },
+  {
+    "id": "$K012_ITPTR_KRGPRE",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 4,
+        "h": 18,
+        "w": 21
+      },
+      {
+        "bmp": "KRD_PRE_GER_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDPREM",
         "x": -15
       }
     ],

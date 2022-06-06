@@ -54,7 +54,7 @@
       "$K012_ITPTR_KRLE205"
     ]
   },
-  //KRD
+  //KRD YIA
   {
     "id": "$K012_ITPMU_YIAMU",
     "type": "car",
@@ -84,6 +84,7 @@
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
   },
+  //Feeder KCIC
   {
     "id": "$K012_ITPMU_KRDI_FKCIC",
     "type": "car",
@@ -112,5 +113,36 @@
     "template": "$K012_ITPTEMP_KARANG01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRLFEEDKCICT"]
+  },
+  //KRD Presiden
+  {
+    "id": "$K012_ITPMU_KRDI_PRE",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "KRD_PRE.png",
+        "count": 4,
+        "h": 18,
+        "w": 21,
+        "y": 18
+      },
+      {
+        "bmp": "KRD_PRE_LOK_DIA.png",
+        "count": 4,
+        "w": 32,
+        "h": 19
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRDPREH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "speed": 1.8,
+    "template": "$K012_ITPTEMP_KARANG01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KREPRE"]
   }
 ]
