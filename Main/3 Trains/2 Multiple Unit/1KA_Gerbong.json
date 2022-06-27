@@ -205,15 +205,15 @@
         "bmp": "KRD_PRE.png",
         "count": 2,
         "h": 18,
-        "w": 21,
-        "x": 42,
+        "w": 20,
+        "x": 40,
         "y": 18
       },
       {
         "bmp": "KRD_PRE.png",
         "count": 2,
         "h": 18,
-        "w": 21,
+        "w": 20,
         "y": 18
       },
       {
@@ -249,7 +249,7 @@
         "bmp": "KRD_PRE.png",
         "count": 4,
         "h": 18,
-        "w": 21
+        "w": 20
       },
       {
         "bmp": "KRD_PRE_GER_DIA.png",
@@ -261,7 +261,7 @@
     "animation": [
       {
         "id": "$ITP_ANI_KRDPREM",
-        "x": -15
+        "x": -14
       }
     ],
     "frames per variant": 8,
