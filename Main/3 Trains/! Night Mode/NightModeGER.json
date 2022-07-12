@@ -8,79 +8,16 @@
       {
         "bmp": "GER_EKO_NOR.png",
         "count": 4,
-        "w": 20
-      },//normal night mode
+        "w": 22
+      },
       {
         "bmp":"GER_EKO_DIA.png",
         "count":4,
         "w":32,
         "handle y":1
-      }//Diagonal night mode
+      }
     ],
-    "frames per animation":8,//to indicate if there 8 frames per animation.
-    "rotation aware": true//also this.
-  },
-  {
-    "id": "$ITP_ANI_PWAGB",
-    "type": "animation",
-    "light": true,
-    "light switching": true,
-    "frames": [
-      {
-        "bmp": "GER_EKO_NORB.png",
-        "count": 4,
-        "w": 20
-      },//normal night mode
-      {
-        "bmp":"GER_EKO_DIA.png",
-        "count":4,
-        "w":32,
-        "handle y":1
-      }//Diagonal night mode
-    ],
-    "frames per animation":8,//to indicate if there 8 frames per animation.
-    "rotation aware": true//also this.
-  },
-  {
-    "id": "$ITP_ANI_MWAG",
-    "type": "animation",
-    "light": true,
-    "light switching": true,
-    "frames": [
-      {
-        "bmp": "GER_BIS_NOR.png",
-        "count": 4,
-        "w": 20
-      },//normal night mode
-      {
-        "bmp":"GER_EKO_DIA.png",
-        "count":4,
-        "w":32,
-        "handle y":1
-      }//Diagonal night mode
-    ],
-    "frames per animation":8,//to indicate if there 8 frames per animation.
-    "rotation aware": true//also this.
-  },
-  {
-    "id": "$ITP_ANI_MWAGB",
-    "type": "animation",
-    "light": true,
-    "light switching": true,
-    "frames": [
-      {
-        "bmp": "GER_BIS_NORB.png",
-        "count": 4,
-        "w": 20
-      },//normal night mode
-      {
-        "bmp":"GER_EKO_DIA.png",
-        "count":4,
-        "w":32,
-        "handle y":1
-      }//Diagonal night mode
-    ],
-    "frames per animation":8,//to indicate if there 8 frames per animation.
-    "rotation aware": true//also this.
+    "frames per animation":8,
+    "rotation aware": true
   }
 ]
