@@ -19,7 +19,7 @@
     "flag train":true,
     "moveable":false,
     "chargeable": false,
-    "v2": [0,2,-2,0]
+    "v2": [0,3,-2,1,1,0,1,0]
   },
   {
     "id": "$K012_ITPTEMP_KARANG01",
