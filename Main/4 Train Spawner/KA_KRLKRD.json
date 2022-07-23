@@ -3,6 +3,7 @@
     "id": "$ITPK012_KRLKRD",
     "type": "railway station",
     "template": "$K012ITP_TEMP_SPWN00",
+    "click sound": { "id": "$ITPK012_SFX_KRL" },
     "width": 1,
     "height": 1,
     "frames": [
@@ -11,15 +12,15 @@
         "count": 12
       }
     ],
-    "preview frames":[
-        {
-            "steal":"$K012_ITPTR_KRLE205",
-            "frame":4
-        }
+    "preview frames": [
+      {
+        "steal": "$K012_ITPMU_E205C",
+        "frame": 1
+      }
     ],
     "upgrades": [
       {
-        "id": "$K012ITP_UPG_KRL_E205",
+        "id": "$K012ITP_UPG_KRL_E205C",
         "frames": [
           {
             "x": 0,
@@ -29,25 +30,56 @@
             "count": 4
           }
         ],
-    "preview frames":[
-        {
-            "steal":"$K012_ITPTR_KRLE205",
-            "frame":4
-        }
-    ],
+        "preview frames": [
+          {
+            "steal": "$K012_ITPMU_E205C",
+            "frame": 1
+          }
+        ],
         "car spawner": [
           {
             "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
-            "cars": ["$K012_ITPMU_E205"],
+            "cars": ["$K012_ITPMU_E205C"],
             "count": 1,
             "radius": 512
           }
         ],
-        "title": "EMU[in]KRL",
+        "title": "Classic E205 EMU[in]KRL E205 Klasik",
         "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
         "only one": true,
         "build time": 0
       },
+      {
+        "id": "$K012ITP_UPG_KRL_E205N",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames": [
+          {
+            "steal": "$K012_ITPMU_E205N",
+            "frame": 1
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
+            "cars": ["$K012_ITPMU_E205N"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "New E205 EMU[in]KRL E205 Baru",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      }
+      /*
       {
         "id": "$K012ITP_UPG_KRD_YIA",
         "frames": [
@@ -61,8 +93,8 @@
         ],
     "preview frames":[
         {
-            "steal":"$K012_ITPTR_KRLYIA",
-            "frame":4
+            "steal":"$K012_ITPMU_YIAMU",
+            "frame":1
         }
     ],
         "car spawner": [
@@ -92,7 +124,7 @@
     "preview frames":[
         {
             "steal":"$K012_ITPTR_KRLFEEDKCICT",
-            "frame":4
+            "frame":1
         }
     ],
         "car spawner": [
@@ -107,7 +139,37 @@
         "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
         "only one": true,
         "build time": 0
-      }
+      },
+      {
+        "id": "$K012ITP_UPG_KRD_PRE",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+    "preview frames":[
+        {
+            "steal":"$K012_ITPMU_KRDI_PRE",
+            "frame":1
+        }
+    ],
+        "car spawner": [
+          {
+            "targets": ["$ITPK012_PLB00", "$ITPK012_WYP00", "$ITPK012_KRLKRD"],
+            "cars": ["$K012_ITPMU_KRDI_PRE"],
+            "count": 1,
+            "radius": 512
+          }
+        ],
+        "title": "Presidental DMU[in]KRD Presiden.",
+        "text": "Description and preview is not available on your languange :)[in] Deskripsi belum tersedia",
+        "only one": true,
+        "build time": 0
+      }*/
     ],
     "title": "EMU and DMU[in]KRL dan KRD",
     "text id": "draft_Generic_daop_text"
