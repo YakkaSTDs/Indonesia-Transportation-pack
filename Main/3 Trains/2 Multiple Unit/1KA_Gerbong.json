@@ -1,40 +1,44 @@
 [
   //Gerbong KA Rangkaian
-  //KRL E205 both livery
+  //Driving cab
   {
-    "id": "$K012_ITPTR_KRLE205",
+    "id": "$K012_ITPTR_KRLTA205C",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
-        "bmp": "KRL_E205C_EKR.png",
-        "count": 4,
+        "bmp": "KRL_E205C_KAB.png",
+        "count": 2,
         "h": 18,
-        "w": 20
+        "w": 20,
+        "x": 40
       },
       {
-        "bmp": "KRL_E205C_LOK_DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
-      },
-      {
-        "bmp": "KRL_E205N_EKR.png",
-        "count": 4,
+        "bmp": "KRL_E205C_KAB.png",
+        "count": 2,
         "h": 18,
-        "w": 20
+        "w": 20,
+        "x": 0
       },
       {
-        "bmp": "KRL_E205N_LOK_DIA.png",
-        "count": 4,
+        "bmp": "KRL_E205C_KAB.png",
+        "count": 2,
         "w": 32,
-        "h": 19
+        "h": 18,
+        "x": 144
+      },
+      {
+        "bmp": "KRL_E205C_KAB.png",
+        "count": 2,
+        "w": 32,
+        "h": 18,
+        "x": 80
       }
     ],
     "animation": [
       {
         "id": "$ITP_ANI_KRLT",
-        "x": -15
+        "x": -14
       }
     ],
     "frames per variant": 8,
@@ -42,9 +46,54 @@
     "capacity": 80
   },
   {
-    "id": "$K012_ITPTR_KRLGE205",
+    "id": "$K012_ITPTR_KRLTA205N",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
+    "frames": [
+      {
+        "bmp": "KRL_E205N_KAB.png",
+        "count": 2,
+        "h": 18,
+        "w": 20,
+        "x": 40
+      },
+      {
+        "bmp": "KRL_E205N_KAB.png",
+        "count": 2,
+        "h": 18,
+        "w": 20,
+        "x": 0
+      },
+      {
+        "bmp": "KRL_E205N_KAB.png",
+        "count": 2,
+        "w": 32,
+        "h": 18,
+        "x": 144
+      },
+      {
+        "bmp": "KRL_E205N_KAB.png",
+        "count": 2,
+        "w": 32,
+        "h": 18,
+        "x": 80
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLT",
+        "x": -14
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  },
+  //KRL E205 wagons
+  {
+    "id": "$K012_ITPTR_KRLGE205C",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRL_E205C_GER.png",
@@ -53,11 +102,28 @@
         "w": 20
       },
       {
-        "bmp": "KRL_E205C_GER_DIA.png",
+        "bmp": "KRL_E205C_GER.png",
         "count": 4,
         "w": 32,
-        "h": 19
-      },
+        "h": 19,
+        "x": 80
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLM",
+        "x": -14
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  },
+  {
+    "id": "$K012_ITPTR_KRLGE205N",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_KRGER01",
+    "frames": [
       {
         "bmp": "KRL_E205N_GER.png",
         "count": 4,
@@ -65,27 +131,87 @@
         "w": 20
       },
       {
-        "bmp": "KRL_E205N_GER_DIA.png",
+        "bmp": "KRL_E205N_GER.png",
         "count": 4,
         "w": 32,
-        "h": 19
+        "h": 19,
+        "x": 80
       }
     ],
     "animation": [
       {
         "id": "$ITP_ANI_KRLM",
-        "x": -15
+        "x": -14
       }
     ],
     "frames per variant": 8,
     "chargeable": false,
     "capacity": 80
   },
+  //KRL wagon with pantograph
+  {
+    "id": "$K012_ITPTR_KRLGE205CP",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_KRGER01",
+    "frames": [
+      {
+        "bmp": "KRL_E205C_GER_pan.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205C_GER_pan.png",
+        "count": 4,
+        "w": 32,
+        "h": 19,
+        "x": 80
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLM",
+        "x": -14
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  },
+  {
+    "id": "$K012_ITPTR_KRLGE205NP",
+    "type": "train car",
+    "template": "$K012_ITPTEMP_KRGER01",
+    "frames": [
+      {
+        "bmp": "KRL_E205N_GER_pan.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205N_GER_pan.png",
+        "count": 4,
+        "w": 32,
+        "h": 19,
+        "x": 80
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLM",
+        "x": -14
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "capacity": 80
+  }/*,
   //YIA KRD
   {
     "id": "$K012_ITPTR_KRLYIA",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_YIA_EKR.png",
@@ -113,7 +239,7 @@
   {
     "id": "$K012_ITPTR_KRGYIA",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_YIA_GER.png",
@@ -142,7 +268,7 @@
   {
     "id": "$K012_ITPTR_KRLFEEDKCICT",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_FED_EKR.png",
@@ -170,7 +296,7 @@
   {
     "id": "$K012_ITPTR_KRGFEEDKCICG",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_FED_GER.png",
@@ -199,7 +325,7 @@
   {
     "id": "$K012_ITPTR_KREPRE",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_PRE.png",
@@ -243,7 +369,7 @@
   {
     "id": "$K012_ITPTR_KRGPRE",
     "type": "train car",
-    "template": "$K012_ITPTEMP_GERPEN01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "frames": [
       {
         "bmp": "KRD_PRE.png",
@@ -267,5 +393,5 @@
     "frames per variant": 8,
     "chargeable": false,
     "capacity": 80
-  }
+  }*/
 ]

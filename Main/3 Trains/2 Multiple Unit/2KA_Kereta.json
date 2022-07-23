@@ -1,7 +1,7 @@
 [
   //KRL
   {
-    "id": "$K012_ITPMU_E205",
+    "id": "$K012_ITPMU_E205C",
     "type": "car",
     "frames": [
       {
@@ -11,22 +11,11 @@
         "w": 20
       },
       {
-        "bmp": "KRL_E205C_LOK_DIA.png",
+        "bmp": "KRL_E205C_LOK.png",
         "count": 4,
         "w": 32,
-        "h": 19
-      },
-      {
-        "bmp": "KRL_E205N_LOK.png",
-        "count": 4,
         "h": 18,
-        "w": 20
-      },
-      {
-        "bmp": "KRL_E205N_LOK_DIA.png",
-        "count": 4,
-        "w": 32,
-        "h": 19
+        "x": 80
       }
     ],
     "animation": [
@@ -36,24 +25,82 @@
       }
     ],
     "frames per variant": 8,
-    "speed": 1.8,
-    "template": "$K012_ITPTEMP_KARANG01",
+    "template": "$K012_ITPTEMP_KRGER01",
     "capacity": 4,
     "tail": [
       "$car_null00",
-      "$K012_ITPTR_KRLGE205",
+      "$K012_ITPTR_KRLGE205C",
       "$car_null00",
-      "$K012_ITPTR_KRLGE205",
+      "$K012_ITPTR_KRLGE205C",
       "$car_null00",
-      "$K012_ITPTR_KRLGE205",
+      "$K012_ITPTR_KRLGE205CP",
       "$car_null00",
-      "$K012_ITPTR_KRLGE205",
+      "$K012_ITPTR_KRLGE205C",
       "$car_null00",
-      "$K012_ITPTR_KRLGE205",
+      "$K012_ITPTR_KRLGE205C",
       "$car_null00",
-      "$K012_ITPTR_KRLE205"
+      "$K012_ITPTR_KRLGE205C",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205CP",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205C",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205C",
+      "$car_null00",
+      "$K012_ITPTR_KRLTA205C"
     ]
   },
+  {
+    "id": "$K012_ITPMU_E205N",
+    "type": "car",
+    "frames": [
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "count": 4,
+        "h": 18,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "count": 4,
+        "w": 32,
+        "h": 18,
+        "x": 80
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITP_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "template": "$K012_ITPTEMP_KRGER01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205NP",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205NP",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLGE205N",
+      "$car_null00",
+      "$K012_ITPTR_KRLTA205N"
+    ]
+  }
+  /*,
   //KRD YIA
   {
     "id": "$K012_ITPMU_YIAMU",
@@ -79,8 +126,8 @@
       }
     ],
     "frames per variant": 8,
-    "speed": 1.8,
-    "template": "$K012_ITPTEMP_KARANG01",
+
+    "template": "$K012_ITPTEMP_KRGER01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRGYIA", "$car_null00", "$K012_ITPTR_KRLYIA"]
   },
@@ -109,8 +156,8 @@
       }
     ],
     "frames per variant": 8,
-    "speed": 1.8,
-    "template": "$K012_ITPTEMP_KARANG01",
+
+    "template": "$K012_ITPTEMP_KRGER01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRGFEEDKCICG", "$car_null00", "$K012_ITPTR_KRLFEEDKCICT"]
   },
@@ -140,9 +187,9 @@
       }
     ],
     "frames per variant": 8,
-    "speed": 1.8,
-    "template": "$K012_ITPTEMP_KARANG01",
+
+    "template": "$K012_ITPTEMP_KRGER01",
     "capacity": 4,
     "tail": ["$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KRGPRE", "$car_null00", "$K012_ITPTR_KREPRE"]
-  }
+  }*/
 ]
