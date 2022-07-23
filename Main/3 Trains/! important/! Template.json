@@ -22,15 +22,40 @@
     "v2": [0,3,-2,1,1,0,1,0]
   },
   {
-    "id": "$K012_ITPTEMP_KARANG01",
+    "id": "$K012_ITPTEMP_KRLOK01",
     "type": "template",
     "template": "$K012ITP_TEMP_GAUGE",
     "capacity": 40,
     "flag normal":false,
+    "speed": 4.0,
     "flag train":true,
     "moveable":false,
     "chargeable": false,
-    "v2": [0,2,-2,0]
+    "v2":[0,3,-2,0,2,-1,-1,1]
+  },
+  {
+    "id": "$K012_ITPTEMP_KRGER01",
+    "type": "template",
+    "template": "$K012ITP_TEMP_GAUGE",
+    "capacity": 40,
+    "flag normal":false,
+    "speed": 4.0,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "v2":[0,2,-2,0,-1,0,-2,0]
+  },
+  {
+    "id": "$K012_ITPTEMP_KRKAB01",
+    "type": "template",
+    "template": "$K012ITP_TEMP_GAUGE",
+    "capacity": 40,
+    "flag normal":false,
+    "speed": 4.0,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "v2":[0,2,-2,0,2,3,-3,-2]
   },
   {
     "id": "$K012_ITPTEMP_LOKO01",
