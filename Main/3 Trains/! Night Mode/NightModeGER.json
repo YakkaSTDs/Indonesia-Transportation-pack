@@ -14,7 +14,7 @@
         "bmp":"GER_EKO_DIA.png",
         "count":4,
         "w":32,
-        "handle y":1
+        "h":18
       }
     ],
     "frames per animation":8,

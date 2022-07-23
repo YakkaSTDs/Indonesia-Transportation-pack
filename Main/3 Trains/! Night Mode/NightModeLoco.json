@@ -11,9 +11,10 @@
         "w": 20
       },
       {
-        "bmp": "BB202_DIA.png", //Diagonal Frames
+        "bmp": "BB200_DIA.png", //Diagonal Frames
         "count": 4,
-        "w": 32
+        "w": 32,
+        "h": 18
       }
     ],
     "frames per animation":8, //Dont forget this.
@@ -140,6 +141,26 @@
     "rotation aware": true
   },
   {
+    "id": "$ITP_ANI_CC202",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "CC205_NOR.png",
+        "count": 4,
+        "w": 22
+      },
+      {
+        "bmp": "CC202_DIA.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
     "id": "$ITP_ANI_CC205",
     "type": "animation",
     "light": true,
@@ -151,7 +172,7 @@
         "w": 22
       },
       {
-        "bmp": "CC201_DIA.png",
+        "bmp": "CC205_DIA.png",
         "count": 4,
         "w": 32
       }

@@ -14,8 +14,7 @@
       {
         "bmp": "KRL_E205_LOK_DIA.png",
         "count": 4,
-        "w": 32,
-        "handle y":1
+        "w": 32
       }
     ],
     "frames per animation":8,
@@ -35,8 +34,7 @@
       {
         "bmp": "KRL_E205_GER_DIA.png",
         "count": 4,
-        "w": 32,
-        "handle y":1
+        "w": 32
       }
     ],
     "frames per animation":8,
@@ -54,10 +52,9 @@
         "w": 20
       },
       {
-        "bmp": "KRL_E205_LOK_DIA.png",
+        "bmp": "KRL_E205_EKR_DIA.png",
         "count": 4,
-        "w": 32,
-        "handle y":1
+        "w": 32
       }
     ],
     "frames per animation":8,
