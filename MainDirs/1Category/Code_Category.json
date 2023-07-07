@@ -1,0 +1,102 @@
+[
+  {
+    "id": "$ITPYK_CAT_ROOT01",
+    "type": "category",
+    "ordinal": 10,
+    "category": "$cat_transport00",
+    "title": "ITP",
+    "frames": [
+      {
+        "bmp": "ITPCATROOT.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_RWDC01",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROOT01",
+    "title": "Railway decoration[in]Dekorasi rel",
+    "frames": [
+      {
+        "bmp": "ITPCATDECO.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_RWDC02",
+    "type": "category",
+    "category": "$ITPYK_CAT_RWDC01",
+    "title": "Rail decoration[in]Deko rel",
+    "frames": [
+      {
+        "bmp": "ITPCATDECORD.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_RWDC03",
+    "type": "category",
+    "category": "$ITPYK_CAT_RWDC01",
+    "title": "Trainyard decoration[in]Deko halaman langsir",
+    "frames": [
+      {
+        "bmp": "ITPCATTRYARD.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_SPW01",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROOT01",
+    "title": "Train category[in]Kategori kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATTRAIN.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_RAIL01",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROOT01",
+    "title": "Railway track[in]Rel kereta",
+    "frames": [
+      {
+        "bmp": "ITPCATRAIL.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_ROAD01",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROOT01",
+    "title": "Roads[in]Jalan raya",
+    "frames": [
+      {
+        "bmp": "ITPCATROAD.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_ROADDECO01",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROAD01",
+    "title": "Road decoration [in]Dekorasi jalan",
+    "frames": [
+      {
+        "bmp": "ITPCATROAD.png"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_CAT_SFX",
+    "type": "category",
+    "category": "$ITPYK_CAT_ROOT01",
+    "title": "Sound effects[in]Efek suara",
+    "frames": [
+      {
+        "bmp": "ITPCATSFX.png"
+      }
+    ]
+  }
+]

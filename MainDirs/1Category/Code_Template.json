@@ -1,0 +1,137 @@
+[
+  {
+    "id": "$ITPYK_TEMP_GAUGE",
+    "type": "template",
+    "flag normal": false,
+    "flag train": true,
+    "required flag normal": false,
+    "required flag train": true,
+    "x flags": {
+      "flag normal": true,
+      "flag train": true
+    }
+  },
+  {
+    "id": "$ITPYK_TEMP_REQ00",
+    "type": "template",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TEMP_TRN01",
+    "type": "template",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "capacity": 20,
+    "moveable": false,
+    "chargeable": false,
+    "v2": [0, 2, -2, 0]
+  },
+  {
+    "id": "$ITPYK_TEMP_Station00",
+    "type": "template",
+    "template": "$ITPYK_TEMP_REQ00",
+    "category": "$ITPYK_CAT_RWDC01",
+    "price factor": 0,
+    "power": 0,
+    "influence culture": 5,
+    "influence passenger train": 25,
+    "price": 2500,
+    "frames per variant": 4,
+    "water": 0,
+    "rotation aware": true,
+    "draw ground": true,
+    "needs road": false
+  },
+  {
+    "id": "$ITPYK_TEMP_Deco00",
+    "type": "template",
+    "category": "$ITPYK_CAT_RWDC01",
+    "template": "$ITPYK_TEMP_REQ00",
+    "price factor": 0,
+    "power": 0,
+    "price": 100,
+    "frames per variant": 4,
+    "water": 0,
+    "rotation aware": true,
+    "draw ground": true,
+    "needs road": false
+  },
+  {
+    "id": "$ITPYK_TEMP_FunPlatform00",
+    "type": "template",
+    "category": "$ITPYK_CAT_SPW01",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "lvl": 3
+      }
+    ],
+    "meta": {
+      "tags": {
+        "railway": {
+          "levels": [0]
+        }
+      }
+    },
+    "price": 2500,
+    "price factor": 0,
+    "build time": 5,
+    "power": 0,
+    "draw ground": true,
+    "needs road": false,
+    "influence culture": 5,
+    "influence passenger train": 25,
+    "influence management": 5,
+    "capacity": 100,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_TEMP_RailDeco00",
+    "type": "template",
+    "category": "$ITPYK_CAT_RWDC02",
+    "template": ["$ITPYK_TEMP_GAUGE"],
+    "price factor": 0,
+    "preview road": "$K012_IRP_RAILM",
+    "price": 100,
+    "rotation aware": true,
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "lvl": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TEMP_SPWN00",
+    "type": "template",
+    "category": "$ITPYK_CAT_SPW01",
+    "template": "$ITPYK_TEMP_REQ00",
+    "price": 500,
+    "price factor": 0,
+    "build time": 5,
+    "power": 0,
+    "water": 0,
+    "draw ground": true,
+    "needs road": false,
+    "influence passenger train": 25,
+    "capacity": 0,
+    "rotation aware": true
+  }
+]
