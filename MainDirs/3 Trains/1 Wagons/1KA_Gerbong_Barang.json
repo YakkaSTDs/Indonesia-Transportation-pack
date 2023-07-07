@@ -1,0 +1,684 @@
+[
+  //Barang
+  //Kontainer
+  {
+    "id": "$ITPYK_TR_DK1",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_1.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK2",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_2.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK3",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_3.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK4",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_4.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK5",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_5.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK6",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_6.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK7",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_7.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  {
+    "id": "$ITPYK_TR_DK8",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "count": 2,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "w": 16,
+
+        "x": 36
+      },
+      {
+        "bmp": "Gerbong_Kontainer_8.png",
+        "w": 5,
+
+        "x": 52,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "v2":[1,2,0,1],
+    "chargeable": false,
+    "capacity": 0
+  },
+  //Gerbong Buka (GB)
+  {
+    "id": "$ITPYK_TR_BBAT",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_KKBW_BBR.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_KKBW_BBR.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_KKBW_BBR.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_KKBW_BBR.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_KKBW_BBR.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$ITPYK_TR_BKRK",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_KKBW_KRI.png",
+        "count": 4,
+
+        "w": 18
+      },
+      {
+        "bmp": "Gerbong_KKBW_KRI.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_KKBW_KRI.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_KKBW_KRI.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_KKBW_KRI.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  //Gerbong Ketel (GK)
+  {
+    "id": "$ITPYK_TR_KMIN",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Ketel.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Ketel.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_Ketel.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Ketel.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_Ketel.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  //Gerbong Tutup (GT)
+  {
+    "id": "$ITPYK_TR_TGW",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_Box_GW.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$ITPYK_TR_TNR",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_Box_NR.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$ITPYK_TR_TDGGW",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_Box_DGGW.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  {
+    "id": "$ITPYK_TR_TSMN",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERBAR01",
+    "frames": [
+      {
+        "bmp": "Gerbong_Box_Semen.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_Box_Semen.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_Box_Semen.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_Box_Semen.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_Box_Semen.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  }
+]

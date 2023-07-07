@@ -1,0 +1,1380 @@
+[
+  //KA Penumpang
+  //Livery Pecut
+  {
+    "id": "$ITPYK_TR_K3L16",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2016_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2016_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2016_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2016_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2016_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL16",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2016_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2016_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2016_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2016_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2016_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Pita
+  {
+    "id": "$ITPYK_TR_K3L20",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2020_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2020_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2020_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2020_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2020_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL20",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2020_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2020_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2020_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2020_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2020_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Stainless
+  {
+    "id": "$ITPYK_TR_K3L22",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2022_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2022_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2022_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2022_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2022_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL22",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2022_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2022_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2022_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2022_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2022_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Nutrisari
+  {
+    "id": "$ITPYK_TR_K3L10",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2010_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2010_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2010_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2010_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2010_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_K3L08",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2008_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL10",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2010_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2010_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2010_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2010_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2010_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery ombak bawah
+  {
+    "id": "$ITPYK_TR_K3L11",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2010_BIS.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2010_BIS.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2010_BIS.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2010_BIS.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2010_BIS.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery ombak full
+  {
+    "id": "$ITPYK_TR_K3L12",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2012_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2012_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2012_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2012_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2012_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery argo aggrek
+  {
+    "id": "$ITPYK_TR_K3L12E",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2012_BIS.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2012_BIS.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2012_BIS.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2012_BIS.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2012_BIS.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery merah biru
+  {
+    "id": "$ITPYK_TR_K3L02",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2002_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2002_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2002_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2002_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2002_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery perumka
+  {
+    "id": "$ITPYK_TR_K3L50",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1950_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1950_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1950_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1950_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1950_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL50",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1950_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1950_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1950_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1950_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1950_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery merahkeorenan putih
+  {
+    "id": "$ITPYK_TR_K3L60",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1960_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1960_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1960_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1960_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1960_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL60",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1960_BAG.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1960_BAG.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1960_BAG.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1960_BAG.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1960_BAG.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery biru hijau
+  {
+    "id": "$ITPYK_TR_K3L90",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1990_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1990_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1990_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1990_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1990_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Panah biru
+  {
+    "id": "$ITPYK_TR_K3L06",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2006_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2006_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2006_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2006_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2006_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery KA bima
+  {
+    "id": "$ITPYK_TR_K3L80",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1980_EKO.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1980_EKO.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1980_EKO.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1980_EKO.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1980_EKO.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL80",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1980_BAG.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1980_BAG.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1980_BAG.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1980_BAG.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1980_BAG.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Ekonomi putih hijau kuning.
+  {
+    "id": "$ITPYK_TR_K3L85",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1985_EKO.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1985_EKO.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1985_EKO.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1985_EKO.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1985_EKO.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_K3L86",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1986_EKO.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1986_EKO.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1986_EKO.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1986_EKO.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1986_EKO.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_K3L87",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1987_EKO.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1987_EKO.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1987_EKO.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1987_EKO.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1987_EKO.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BL85",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L1985_BAG.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L1985_BAG.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L1985_BAG.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L1985_BAG.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L1985_BAG.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PBAG",
+        "x": -14
+      }
+    ]
+  },
+  //Livery Endemik Sumbar
+  {
+    "id": "$ITPYK_TR_K3L14",
+    "type": "train car",
+    "author":"lobby,kiki012",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_L2014_EKO.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_L2014_EKO.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_L2014_EKO.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_L2014_EKO.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_L2014_EKO.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false,
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_PWAG",
+        "x": -14
+      }
+    ]
+  },
+  //Lainnya
+  //Livery Singkarak
+  {
+    "id": "$ITPYK_TR_K3LSKR",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_LSingkarak.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  //Livery Panoramic 
+  {
+    "id": "$ITPYK_TR_K3LPAN",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_LPanoramic.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_LPanoramic.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_LPanoramic.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_LPanoramic.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_LPanoramic.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  },
+  //Livery Priority 
+  {
+    "id": "$ITPYK_TR_K3LPRJ",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_GERPEN01",
+    "frames": [
+      {
+        "bmp": "Gerbong_LPrija.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "Gerbong_LPrija.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "Gerbong_LPrija.png",
+        "w": 5,
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "Gerbong_LPrija.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "Gerbong_LPrija.png",
+        "w": 5,
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "frames per variant": 8,
+    "chargeable": false
+  }
+]
