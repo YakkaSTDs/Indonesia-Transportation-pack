@@ -1,0 +1,583 @@
+[
+    //KRL
+  {
+    "id": "$ITPYK_ANI_KRLH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRL_E205_LOK.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRL_E205_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRL_E205_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRL_E205_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRLM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRL_E205_GER.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRL_E205_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRL_E205_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRL_E205_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRLT",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRL_E205_EKR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRL_E205_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRL_E205_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRL_E205_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  //KRD YIA
+  {
+    "id": "$ITPYK_ANI_KRDYIAH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDYIAM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_YIA_GER.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_YIA_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_YIA_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_YIA_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_YIA_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDYIAT",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_YIA_EKR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_YIA_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_YIA_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_YIA_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_YIA_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  //KRD ANAI
+  {
+    "id": "$ITPYK_ANI_KRDPADH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDPADM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PAD_GER.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_PAD_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PAD_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PAD_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PAD_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDPADT",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PAD_KAB.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_PAD_KAB.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PAD_KAB.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PAD_KAB.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PAD_KAB.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  //KRD Feeder KCIC
+  {
+    "id": "$ITPYK_ANI_KRDFDKCH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDFDKCM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_FED_GER.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_FED_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_FED_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_FED_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_FED_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDFDKCT",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_FED_EKR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "KRD_FED_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_FED_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_FED_EKR.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_FED_EKR.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  //KRD Presiden
+  {
+    "id": "$ITPYK_ANI_KRDPREH",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDPREM",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE_GER.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "KRD_PRE_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PRE_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PRE_GER.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PRE_GER.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_KRDPRET",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "KRD_PRE_KAB.png",
+        "count": 4,
+        "w": 20,
+        "h": 18
+      },
+      {
+        "bmp": "KRD_PRE_KAB.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PRE_KAB.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "KRD_PRE_KAB.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PRE_KAB.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "rotation aware": true
+  }
+]

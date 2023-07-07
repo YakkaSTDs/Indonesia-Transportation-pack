@@ -1,0 +1,119 @@
+[
+  {
+    "id": "$ITPYK_ANI_PWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "GER_EKO_NOR.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_PBAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_BAG.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "GER_BAG.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "GER_BAG.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "GER_BAG.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "GER_BAG.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANI_PMWAG",
+    "type": "animation",
+    "light": true,
+    "light switching": true,
+    "frames": [
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "w": 17,
+        "h": 18,
+        "x": 80
+      },
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "w": 5,
+        "h": 18,
+        "x": 97
+      },
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "w": 17,
+        "h": 18,
+        "x": 102
+      },
+      {
+        "bmp": "GER_MDR_NOR.png",
+        "w": 5,
+        "h": 18,
+        "x": 119
+      }
+    ],
+    "frames per animation":8,
+    "rotation aware": true
+  }
+]
