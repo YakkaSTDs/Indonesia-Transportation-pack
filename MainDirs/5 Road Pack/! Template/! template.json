@@ -1,0 +1,32 @@
+[
+  {
+    "id": "$ITPYK_TEMP_ROAD00",
+    "type": "template",
+    "category": "$ITPYK_CAT_ROAD01",
+    "author": "Kiki012",
+    "pile distant": 2,
+    "price factor": 0,
+    "bridge price": 2500,
+    "traffic lights":[{"bmp":"tf.png","w":32,"count":4}],
+    "bridge frames": [{ "bmp": "Jembatan_1.png", "count": 16, "h": 34, "w": 32 }],
+    "frames per bridge": 16,
+    "tunnel frames": [
+      { "bmp": "tunnel_frames.png", "h": 19, "handle y": 7, "w": 16, "x": 0 },
+      { "bmp": "tunnel_frames.png", "h": 19, "handle x": -16, "handle y": 7, "w": 16, "x": 16 },
+      { "bmp": "tunnel_frames.png", "h": 19, "handle y": 7, "w": 16, "x": 32 },
+      { "bmp": "tunnel_frames.png", "h": 19, "handle x": -16, "handle y": 7, "w": 16, "x": 48 }
+    ],
+    "green phase": 8192,
+    "yellow phase": 2048,
+    "draw ground": true
+  },
+  {
+    "id":"$ITPYK_TEMP_RAMBU00",
+    "type":"template",
+    "category": "$ITPYK_CAT_ROADDECO01",
+    "price": 25,
+    "min dirs": 2,
+    "max dirs": 2,
+    "symmetric dirs": true
+  }
+]
