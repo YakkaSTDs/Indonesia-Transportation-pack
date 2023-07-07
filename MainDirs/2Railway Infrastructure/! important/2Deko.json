@@ -1,0 +1,103 @@
+[
+  {
+    "id": "$ITPYK_INFDEC00",
+    "old id":"$K012ITP_INFDEC00",
+    "type": "decoration",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_Deco00",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "Depo_BalaiYasa_Jogja.png",
+        "w": 64,
+        "count": 4
+      }
+    ],
+    "title": "Jogja Depo[in]Balai Yasa Jogja",
+    "text": "."
+  },
+  {
+    "id": "$ITPYK_INFDEC_PPKA",
+    "old id":"$K012ITP_INFDEC_PPKA",
+    "type": "decoration",
+    "category": "$ITPYK_CAT_RWDC01",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Bangunan_PPKA.png",
+        "w": 32,
+        "h": 24,
+        "count": 4
+      }
+    ],
+    "rotation aware": true,
+    "template": "$ITPYK_TEMP_Deco00",
+    "title": "PPRKA",
+    "text": "Decoration for your indonesian railway crossing[in]Dekorasi Untuk Perlintasan KA anda."
+  },
+  {
+    "id": "$ITPYK_INFDEC_POLE01",
+    "old id":"$K012ITP_INFDEC_PPKA",
+    "type": "fence",
+    "price": 30,
+    "category": "$ITPYK_CAT_RWDC01",
+    "removable": true,
+    "template": "$ITPYK_TEMP_Deco00",
+    "frames": [
+      {
+        "bmp": "Pagar_PPKA_1.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "title": "PPKA Fence[in]Pagar PPKA",
+    "text": "Decoration for your indonesian railway crossing[in]Dekorasi Untuk Perlintasan KA anda."
+  },
+  {
+    "id": "$ITPYK_INFDEC_POLE02",
+    "old id":"$K012ITP_INFDEC_POLE02",
+    "type": "fence",
+    "price": 30,
+    "category": "$ITPYK_CAT_RWDC01",
+    "removable": true,
+    "template": "$ITPYK_TEMP_Deco00",
+    "frames": [
+      {
+        "bmp": "Pagar_PPKA_2.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "title": "PPKA Fence[in]Pagar PPKA",
+    "text": "Decoration for your indonesian railway crossing[in]Dekorasi Untuk Perlintasan KA anda."
+  },
+  {
+    "id": "$ITPYK_INFDEC_KABREL",
+    "old id":"$K012ITP_INFDEC_KABREL",
+    "type": "fence",
+    "price": 50,
+    "category": "$ITPYK_CAT_RWDC01",
+    "removable": true,
+    "template": "$ITPYK_TEMP_Deco00",
+    "frames": [
+      {
+        "bmp": "Kabel_Rel.png",
+        "w": 17,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "title": "CSS[in]SSK",
+    "text": "Classic Signal System (CSS),For Decoration Purpose only![in]Sistem Sinyal Klasik (SSK),Hanya Untuk Dekorasi."
+  }
+]

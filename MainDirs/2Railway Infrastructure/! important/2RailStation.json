@@ -1,0 +1,359 @@
+[
+  {
+    "id": "$ITPYK_STDC_BTG00",
+    "old id":"$K012ITP_STDC_BTG00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Batang_utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Batang Station[in]Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_BTG01",
+    "old id":"$K012ITP_STDC_BTG01",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Batang_Gudang.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Batang Station Warehouse[in]Gudang Stasiun Batang",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_CPD00",
+    "old id":"$K012ITP_STDC_CPD00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Cipendeuy_Utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Cipeundeuy Station[in]Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_CPD01",
+    "old id":"$K012ITP_STDC_CPD00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Cipendeuy_Gudang.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Cipeundeuy Station Warehouse[in]Gudang Stasiun Cipeundeuy",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_GLM00",
+    "old id":"$K012ITP_STDC_GLM00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Glenmore_Utama.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Glenmore Station[in]Stasiun Glenmore",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_KTK00",
+    "old id":"K012ITP_STDC_KTK00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kotok_WIP.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Kotok Station[in]Stasiun Kotok.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MLS00",
+    "old id":"$K012ITP_STDC_MLS00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kotok_WIP.png",
+        "count": 4,
+        "x":128,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Malasan Station[in]Stasiun Malasan.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_SDJ00",
+    "old id":"$K012ITP_STDC_SDJ00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Sidoarjo_WIP.png",
+        "count": 8,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Sidoarjo Station[in]Stasiun Sidoarjo.",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN01",
+    "old id":"$K012ITP_STDC_MDN01",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "MEDAN.png",
+        "w": 64,
+        "handle x": -2,
+        "x": 0
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "rotation aware":false,
+    "hidden": true,
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN02",
+    "old id":"$K012ITP_STDC_MDN02",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "MEDAN.png",
+        "w": 64,
+        "handle x": -2,
+        "x": 64
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "rotation aware":false,
+    "hidden": true,
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN03",
+    "old id":"$K012ITP_STDC_MDN03",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "MEDAN.png",
+        "w": 64,
+        "handle x": -2,
+        "x": 128
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "rotation aware":false,
+    "hidden": true,
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN04",
+    "old id":"$K012ITP_STDC_MDN04",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "MEDAN.png",
+        "w": 64,
+        "handle x": -2,
+        "x": 192
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "rotation aware":false,
+    "hidden": true,
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN05",
+    "old id":"$K012ITP_STDC_MDN05",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "MEDAN.png",
+        "w": 64,
+        "handle x": -2,
+        "x": 256
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "rotation aware":false,
+    "hidden": true,
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_MDN00",
+    "type": "decoration",
+  "width":2,"height":10,
+  "composition":[
+    {"id":"$ITPYK_STDC_MDN01","y":0,"x":0,"frame":0},
+    {"id":"$ITPYK_STDC_MDN02","y":2,"x":0,"frame":0},
+    {"id":"$ITPYK_STDC_MDN03","y":4,"x":0,"frame":0},
+    {"id":"$ITPYK_STDC_MDN04","y":6,"x":0,"frame":0},
+    {"id":"$ITPYK_STDC_MDN05","y":8,"x":0,"frame":0}
+  ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Medan Station[in]Stasiun Medan",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_DPDC_JNG00",
+    "old id":"$K012ITP_DPDC_JNG00",
+    "type": "decoration",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "Depo_Jatinegara.png",
+        "count": 4,
+        "w": 64
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Jatinegara Workshop[in]Dipo Jatinegara",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_GDDC_CONT00",
+    "old id":"$K012ITP_GDDC_CONT00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kontainer.png",
+        "count": 16,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Container Depot[in]Depo Kontainer",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_GDDC_CLF00",
+    "old id":"$K012ITP_GDDC_GLF00",
+    "type": "railway station",
+    "width": 2,
+    "height": 2,
+    "frames": [
+      {
+        "bmp": "CargoLoadingFacility.png",
+        "count": 4,
+        "w": 64
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Cargo Loading Facility [in] Fasilitas Pemuatan Kargo",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_GDDC_GPTW00",
+    "old id":"$K012ITP_GDDC_GPTW00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Gudang Pupuk Tanjungwangi.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Tanjungwangi Fertilizer Warehouse[in]Gudang Pupuk Tanjungwangi",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  },
+  {
+    "id": "$ITPYK_STDC_OLD",
+    "old id":"$K012ITP_STDC_OLD",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "bmp": "Stasiun_Lama_1.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_2.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_3.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_4.png",
+        "count": 4,
+        "w": 32
+      },
+      {
+        "bmp": "Stasiun_Lama_5.png",
+        "count": 4,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_Station00",
+    "title": "Station Building[in]Bangunan Stasiun",
+    "text": "This is for decoration purpose[in]Ini hanya untuk dekorasi."
+  }
+]
