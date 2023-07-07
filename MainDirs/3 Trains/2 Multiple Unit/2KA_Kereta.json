@@ -1,0 +1,335 @@
+[
+  //KRL
+  {
+    "id": "$ITPYK_MU_E205C",
+    "type": "train car",
+    "speed": 2.75,
+    "frames": [
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRL_E205C_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205CP",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205C",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205C",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205C",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205C",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205CP",
+      "$car_null00",
+      "$ITPYK_TR_KRLTA205C"
+    ]
+  },
+  {
+    "id": "$ITPYK_MU_E205N",
+    "type": "train car",
+    "speed": 2.75,
+    "frames": [
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRL_E205N_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRLH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": [
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205NP",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205N",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205N",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205N",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205N",
+      "$car_null00",
+      "$ITPYK_TR_KRLGE205NP",
+      "$car_null00",
+      "$ITPYK_TR_KRLTA205N"
+    ]
+  },
+  //KRD YIA
+  {
+    "id": "$ITPYK_MU_YIAMU",
+    "type": "train car",
+    "speed": 2.75,
+    "frames": [
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRD_YIA_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRDYIAH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$ITPYK_TR_KRGYIA", "$car_null00", "$ITPYK_TR_KRGYIA", "$car_null00", "$ITPYK_TR_KRLYIA"]
+  },
+  //KRD Lembah Anai
+  {
+    "id": "$ITPYK_MU_PADMU",
+    "type": "train car",
+    "speed": 2.75,
+    "frames": [
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PAD_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRDPADH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$ITPYK_TR_KRGPAD", "$car_null00", "$ITPYK_TR_KRLPAD"]
+  },
+  //Feeder KCIC
+  {
+    "id": "$ITPYK_MU_KRDFDK",
+    "speed": 2.75,
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRD_FED_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRDFDKCH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$ITPYK_TR_KRDFDKG", "$car_null00", "$ITPYK_TR_KRDFDKG", "$car_null00", "$ITPYK_TR_KRDFDKG", "$car_null00",  "$ITPYK_TR_KRDFDK"]
+  },
+  //KRD Presiden
+  {
+    "id": "$ITPYK_MU_KRDI_PRE",
+    "type": "train car",
+    "speed": 2.75,
+    "frames": [
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x":-3
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "KRD_PRE_LOK.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x":-3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_KRDPREH",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+
+    "template": "$ITPYK_TEMP_KRGER01",
+    "capacity": 4,
+    "tail": ["$car_null00", "$ITPYK_TR_KRGPRE", "$car_null00", "$ITPYK_TR_KRGPRE", "$car_null00", "$ITPYK_TR_KRGPRE", "$car_null00", "$ITPYK_TR_KRGPRE", "$car_null00", "$ITPYK_TR_KRGPRE", "$car_null00", "$ITPYK_TR_KREPRE"]
+  }
+]
