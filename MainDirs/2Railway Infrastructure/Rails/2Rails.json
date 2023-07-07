@@ -1,0 +1,226 @@
+[
+  {
+    "id": "$ITPYK_TEMPRAIL00",
+    "type": "template",
+    "category": "$ITPYK_CAT_RAIL01",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "allow transfer": false,
+    "allow bus": false,
+    "connectable": true,
+    "auto join": false,
+    "draw ground": true,
+    "monthly price": 30,
+    "bridge price": 180,
+    "speed": 2.8,
+    "overrunnable": false,
+    "flag normal": false,
+    "flag train": true,
+    "x flags": {
+      "flag normal": true,
+      "flag train": true
+    },
+    "price": 450,
+    "level": 10,
+    "pile distant": 2,
+    "map color": { "r": 51, "g": 51, "b": 51 },
+    "frames per bridge": 14,
+    "bridge frames": [
+      {
+        "bmp": "JembatanRel2.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "JembatanRel5.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "JembatanRel1.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "JembatanRel3.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "JembatanRel4.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "My_rails_bridge_Kiki012_0.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "My_rails_bridge_Kiki012_1.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "My_rails_bridge_Kiki012_2.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      },
+      {
+        "bmp": "My_rails_bridge_Kiki012_4.png",
+        "count": 14,
+        "h": 48,
+        "w": 32
+      }
+    ],
+    "tunnel frames": [
+      {
+        "bmp": "Terowongan.png",
+        "h": 19,
+        "handle y": 7,
+        "w": 16,
+        "x": 0
+      },
+      {
+        "bmp": "Terowongan.png",
+        "h": 19,
+        "handle y": 7,
+        "handle x": -16,
+        "w": 16,
+        "x": 16
+      },
+      {
+        "bmp": "Terowongan.png",
+        "h": 19,
+        "handle y": 7,
+        "w": 16,
+        "x": 32
+      },
+      {
+        "bmp": "Terowongan.png",
+        "h": 19,
+        "handle y": 7,
+        "handle x": -16,
+        "w": 16,
+        "x": 48
+      }
+    ],
+    "slope frames": [{ "bmp": "tanjakanrel.png", "w": 32, "h": 30, "count": 4 }],
+    "fun": [
+      {
+        "actions": [{ "type": "play", "id": "$ITPK012_SFX_Bogi" }],
+        "p": 0.001
+      }
+    ],
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "lvl": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RAILDIA",
+    "old id":"$K012ITP_RAILDIA",
+    "type": "road",
+    "author": "Kiki012",
+    "title": "Rail[in]Rel",
+    "text": "Two-lane rail for your city, requires bridge rails to make bridges, the width of this rail (one rail to another) is 1067mm, made specifically for the Indonesia transport pack plugin.[in]Rel dua lajur untuk kota kalian, membutuhkan rel jembatan untuk membuat jembatan,lebar rel (rel yang satu ke lain) ini adalah 1067mm,dibuat khusus untuk plugin Indonesia transport pack.",
+    "frames": [
+      {
+        "bmp": "RelKeretaDIA.png",
+        "count": 16,
+        "h": 16,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMPRAIL00",
+    "allow diagonal": true,
+    "hidden": true
+  },
+  {
+    "id": "$ITPYK_RAIL",
+    "old id":"$K012ITP_RAIL",
+    "type": "road",
+    "author": "Kiki012",
+    "title": "Rail[in]Rel",
+    "text": "Two-way rail for your city, requires bridge rails to make bridges, the width of this rail (one rail to another) is 1067mm, made specifically for the Indonesian transport pack plugin, it is recommended to use another plugin for bridges.[in]Rel dua arah untuk kota kalian, membutuhkan rel jembatan untuk membuat jembatan,lebar rel (rel yang satu ke lain) ini adalah 1067mm,dibuat khusus untuk plugin Indonesia transport pack, direkomendasikan untuk memakai plugin lain untuk jembatan.",
+    "frames": [
+      {
+        "bmp": "RelKeretaBeta.png",
+        "count": 16,
+        "h": 16,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMPRAIL00",
+    "diagonal road": "$ITPYK_RAILDIA"
+  },
+  {
+    "id": "$ITPYK_RAILDIA_ONE",
+    "old id":"$K012ITP_RAILDIA_ONE",
+    "type": "road",
+    "author": "Kiki012",
+    "title": "Rail[in]Rel",
+    "text": "Two-lane rail for your city, requires bridge rails to make bridges, the width of this rail (one rail to another) is 1067mm, made specifically for the Indonesia transport pack plugin.[in]Rel dua lajur untuk kota kalian, membutuhkan rel jembatan untuk membuat jembatan,lebar rel (rel yang satu ke lain) ini adalah 1067mm,dibuat khusus untuk plugin Indonesia transport pack.",
+    "frames": [
+      {
+        "bmp": "RelKeretaDIA.png",
+        "count": 16,
+        "h": 16,
+        "w": 32,
+        "copies": 3
+      }
+    ],
+    "template": "$ITPYK_TEMPRAIL00",
+    "allow diagonal": true,
+    "hidden": true,
+    "one way": true
+  },
+  {
+    "id": "$ITPYK_RAIL_ONE",
+    "old id":"$K012ITP_RAIL_ONE",
+    "type": "road",
+    "title": "Oneway Rail[in]Rel Satu Arah",
+    "text": "Two-way rail for your city, requires bridge rails to make bridges, the width of this rail (one rail to another) is 1067mm, made specifically for the Indonesian transport pack plugin, it is recommended to use another plugin for bridges.[in]Rel dua arah untuk kota kalian, membutuhkan rel jembatan untuk membuat jembatan,lebar rel (rel yang satu ke lain) ini adalah 1067mm,dibuat khusus untuk plugin Indonesia transport pack, direkomendasikan untuk memakai plugin lain untuk jembatan.",
+    "frames": [
+      {
+        "bmp": "RelKeretaBeta.png",
+        "count": 16,
+        "h": 16,
+        "w": 32,
+        "copies": 3
+      }
+    ],
+    "template": "$ITPYK_TEMPRAIL00",
+    "diagonal road": "$ITPYK_RAILDIA_ONE",
+    "one way": true
+  },
+  {
+    "id": "$ITPYK_RAIL_ONELANE",
+    "type": "road",
+    "title": "Single Rail[in]Rel satu lajur",
+    "text": "Two-way rail for your city, requires bridge rails to make bridges, the width of this rail (one rail to another) is 1067mm, made specifically for the Indonesian transport pack plugin, it is recommended to use another plugin for bridges.[in]Rel dua arah untuk kota kalian, membutuhkan rel jembatan untuk membuat jembatan,lebar rel (rel yang satu ke lain) ini adalah 1067mm,dibuat khusus untuk plugin Indonesia transport pack, direkomendasikan untuk memakai plugin lain untuk jembatan.",
+    "frames": [
+      { "bmp": "RailsONE.png", "y":0, "w": 32, "h": 15, "count": 16 },
+      { "bmp": "RailsONE.png", "y":15, "w": 32, "h": 15, "count": 16 },
+      { "bmp": "RailsONE.png", "y":30, "w": 32, "h": 15, "count": 16 },
+      { "bmp": "RailsONE.png", "y":45, "w": 32, "h": 15, "count": 16 }
+    ],
+    "dirs": [0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 3, 3, 8, 8, 8, 8, 2, 0, 1, 1, 6, 3, 6, 3, 3, 5, 2, 5, 0, 8, 1, 8, 10, 10, 9, 1, 6, 6, 6, 6, 10, 10, 9, 3],
+    "template": "$ITPYK_TEMPRAIL00",
+    "one way": true,
+    "hidden":true
+  }
+]
