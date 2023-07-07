@@ -1,0 +1,264 @@
+[
+  {
+    "id": "$ITPYK_RACO_PKO1",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Perlintasan.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_PKO2",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Perlintasan.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  //new crossing
+  //Open
+  {
+    "id": "$ITPYK_RACO_LK01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LK02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 25
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LK03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 22,
+        "handle x": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LK04",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_A.png",
+        "x": 96,
+        "w": 32,
+        "handle y": 24,
+        "handle x": 1
+      }
+    ]
+  },
+  //Close
+  {
+    "id": "$ITPYK_RACO_LKT01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LKT02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 25
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LKT03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 22,
+        "handle x": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_LKT04",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "PPKA_B.png",
+        "x": 96,
+        "w": 32,
+        "handle y": 24,
+        "handle x": 1
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_CROSA",
+    "old id":"$K012ITP_RACO_CROSA",
+    "type": "road decoration",
+    "min dirs": 4,
+    "max dirs": 4,
+    "category": "$ITPYK_CAT_RWDC02",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Railroad crossing[in]Perlintasan kereta api",
+    "text": "A railroad crossing for your townspeople's vehicles to cross the tracks.[in]Sebuah perlintasan kereta api agar kendaraan warga kota anda dapat menyebrang rel.",
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_PKO1"
+      }
+    ],
+    "frame animation indices": [
+      [0], [0], [0], [0], 
+      [0], [0], [0], [0], 
+      [0], ["0"], [0], [0], 
+      [0], [0], [0], [0]
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_CROSB",
+    "old id":"K012ITP_RACO_CROSB",
+    "type": "road decoration",
+    "min dirs": 4,
+    "max dirs": 4,
+    "category": "$ITPYK_CAT_RWDC02",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Railroad crossing[in]Perlintasan kereta api",
+    "text": "A railroad crossing for your townspeople's vehicles to cross the tracks.[in]Sebuah perlintasan kereta api agar kendaraan warga kota anda dapat menyebrang rel.",
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_PKO2"
+      }
+    ],
+    "frame animation indices": [
+      [0], [0], [0], [0], 
+      [0], [0], [0], [0], 
+      [0], ["0"], [0], [0], 
+      [0], [0], [0], [0]
+    ]
+  },
+  //New
+  {
+    "id": "$ITPYK_RACO_PALABUK",
+    "old id":"$K012ITP_RACO_PALABUK",
+    "type": "road decoration",
+    "title": "Railroad crossing pole[in]Palang perlintasan kereta api",
+    "text": ".",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "required flag normal":true,
+    "required flag CapeTR":false,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_PALATUP"
+          },
+          {
+            "type":"remove",
+            "id":"$ITPYK_RACO_PALABUK"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_LK01"
+      },
+      {
+        "id": "$ITPYK_RACO_LK03"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_LK02"
+      },
+      {
+        "id": "$ITPYK_RACO_LK04"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_PALATUP",
+    "old id":"$K012ITP_RACO_PALATUP",
+    "type": "road decoration",
+    "title": "Railroad crossing pole[in]Palang perlintasan kereta api",
+    "text": ".",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "min dirs": 2,
+    "max dirs": 2,
+    "speed":0.005,
+    "hidden":true,
+    "required flag normal":true,
+    "required flag CapeTR":false,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_PALABUK"
+          },
+          {
+            "type":"remove",
+            "id":"$ITPYK_RACO_PALABUK"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_LKT01"
+      },
+      {
+        "id": "$ITPYK_RACO_LKT03"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_LKT02"
+      },
+      {
+        "id": "$ITPYK_RACO_LKT04"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  }
+]

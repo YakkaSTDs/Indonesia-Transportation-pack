@@ -1,0 +1,65 @@
+[
+  //Jatinegara
+  {
+    "id": "$ITPYK_RACO_JNG01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "DP_JNG.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_JNG02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "DP_JNG.png",
+        "x": 32,
+        "w": 16,
+        "handle y": 31//,
+        //"handle x":10
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_JNG03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "DP_JNG.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 31//,
+        //"handle x":-16
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_JNG04",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "DP_JNG.png",
+        "x": 96,
+        "w": 32,
+        "handle y": 31
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_JNG05",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "DP_JNG.png",
+        "x": 128,
+        "w": 32,
+        "handle y": 31
+      }
+    ]
+  }
+]

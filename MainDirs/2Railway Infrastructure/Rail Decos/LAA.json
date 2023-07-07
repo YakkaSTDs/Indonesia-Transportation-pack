@@ -1,0 +1,158 @@
+[
+  //Kabel
+  {
+    "id": "$ITPYK_RACO_TLAA_A00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAAS.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_A01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAAS.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_A02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAAS.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_A03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAAS.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Non Kabel
+  {
+    "id": "$ITPYK_RACO_TLAA_B00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAA.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_B01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAA.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_B02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAA.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA_B03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "LAA.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA00",
+    "old id":"$K012ITP_RACO_TLAA00",
+    "type": "road decoration",
+    "title": "Catenary[in]LAA",
+    "text": "Category or top flow electricity serves as a sender of electricity for electric trains.[in]Kategori atau listrik aliran atas berfungsi sebagai pengirim listrik untuk kereta api listrik.",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_TLAA_A00"
+      },
+      {
+        "id": "$ITPYK_RACO_TLAA_A02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_TLAA_A01"
+      },
+      {
+        "id": "$ITPYK_RACO_TLAA_A03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_TLAA01",
+    "old id":"$K012ITP_RACO_TLAA01",
+    "type": "road decoration",
+    "title": "Catenary[in]LAA",
+    "text": "Category or top flow electricity serves as a sender of electricity for electric trains.[in]Kategori atau listrik aliran atas berfungsi sebagai pengirim listrik untuk kereta api listrik.",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "min dirs": 2,
+    "max dirs": 4,
+    "line tool": true,
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_TLAA_B00"
+      },
+      {
+        "id": "$ITPYK_RACO_TLAA_B02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_TLAA_B01"
+      },
+      {
+        "id": "$ITPYK_RACO_TLAA_B03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [0], [0, 1], [0], [0, 1], [0], [1], [], [1], [], [1], [], [1], []]
+  }
+]

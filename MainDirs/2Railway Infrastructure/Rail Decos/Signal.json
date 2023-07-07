@@ -1,0 +1,421 @@
+[
+  //Sinyal Elektrik Masuk
+  {
+    "id": "$ITPYK_RACO_SEMB",
+    "old id":"$K012ITP_RACO_SEMB",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.2,
+    "speed": 0.1,
+    "exit speed": 0.18,
+    "exclusive": true,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SEMA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_ELEMB00"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEMB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_ELEMB01"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEMB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_SEMA",
+    "old id":"$K012ITP_RACO_SEMA",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Entry Electric Signal[in]Sinyal Masuk Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "exclusive": true,
+    "hidden": true,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SEMB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_ELEMA00"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEMA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_ELEMA01"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEMA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Elektrik Keluar
+  {
+    "id": "$ITPYK_RACO_SEKB",
+    "old id":"$K012ITP_RACO_SEKB",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.2,
+    "speed": 0.1,
+    "exit speed": 0.18,
+    "exclusive": true,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SEKA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_ELEKB00"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEKB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_ELEKB01"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEKB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_SEKA",
+    "old id":"$K012ITP_RACO_SEKA",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Exit Electric Signal[in]Sinyal Keluar Elektrik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "exclusive": true,
+    "hidden": true,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SEKB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_ELEKA00"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEKA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_ELEKA01"
+      },
+      {
+        "id": "$ITPYK_RACO_ELEKA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Keluar
+  {
+    "id": "$ITPYK_RACO_SMKB",
+    "old id":"$K012ITP_RACO_SMKB",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanis",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.2,
+    "speed": 0.1,
+    "exit speed": 0.18,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMKA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKKB00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKKB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKKB01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKKB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_SMKA",
+    "old id":"$K012ITP_RACO_SMKA",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Exit Mechanical Signal[in]Sinyal Keluar Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$ITPYK_CAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMKB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKKA00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKKA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKKA01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKKA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Masuk
+  {
+    "id": "$ITPYK_RACO_SMMB",
+    "old id":"$K012ITP_RACO_SMMB",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Entry Mechanical Signal[in]Sinyal Masuk Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.2,
+    "speed": 0.1,
+    "exit speed": 0.18,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMMA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKMB00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKMB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKMB01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKMB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_SMMA",
+    "old id":"$K012ITP_RACO_SMMA",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Entry Mechanical Signal[in]Sinyal Masuk Mechanical",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$ITPYK_CAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMMB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKMA00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKMA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKMA01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKMA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  //Sinyal Mekanik Muka
+  {
+    "id": "$ITPYK_RACO_SMUB",
+    "old id":"$K012ITP_RACO_SMUB",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "enter speed": 0.2,
+    "speed": 0.1,
+    "exit speed": 0.18,
+    "category": "$ITPYK_CAT_RWDC02",
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMUA"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKUB00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKUB02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKUB01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKUB03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  },
+  {
+    "id": "$ITPYK_RACO_SMUA",
+    "old id":"$K012ITP_RACO_SMUA",
+    "type": "road decoration",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Face Mechanical Signal[in]Sinyal Muka Mekanik",
+    "text": "An decoration for your railway",
+    "min dirs": 2,
+    "max dirs": 2,
+    "category": "$ITPYK_CAT_RWDC02",
+    "hidden": true,
+    "on click fun": [
+      {
+        "actions": [
+          {
+            "type": "build",
+            "id": "$ITPYK_RACO_SMUB"
+          }
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_RACO_MEKUA00"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKUA02"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [], [0], [0], [], [], [0, 1], [], [1], [1], [], [0], [], []],
+    "animation fg": [
+      {
+        "id": "$ITPYK_RACO_MEKUA01"
+      },
+      {
+        "id": "$ITPYK_RACO_MEKUA03"
+      }
+    ],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  }
+]

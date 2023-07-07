@@ -1,0 +1,498 @@
+[
+  //Sinyal(
+  //Sinyal Elektrik Masuk
+  //Bahaya
+  {
+    "id": "$ITPYK_RACO_ELEMB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_B.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Aman
+  {
+    "id": "$ITPYK_RACO_ELEMA00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMA01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMA02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEMA03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEM_A.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Sinyal Elektrik Keluar
+  //Bahaya
+  {
+    "id": "$ITPYK_RACO_ELEKB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_B.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Aman
+  {
+    "id": "$ITPYK_RACO_ELEKA00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKA01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKA02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_ELEKA03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "ELEK_A.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Sinyal Mekanik Keluar
+  //Bahaya
+  {
+    "id": "$ITPYK_RACO_MEKKB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_B.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Aman
+  {
+    "id": "$ITPYK_RACO_MEKKA00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKA01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKA02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKKA03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKK_A.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Sinyal Mekanik Masuk
+  //Bahaya
+  {
+    "id": "$ITPYK_RACO_MEKMB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_B.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Aman
+  {
+    "id": "$ITPYK_RACO_MEKMA00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMA01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMA02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKMA03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKM_A.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Sinyal Mekanik Muka
+  //Bahaya
+  {
+    "id": "$ITPYK_RACO_MEKUB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_B.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUB01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_B.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUB02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_B.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUB03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_B.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  //Aman
+  {
+    "id": "$ITPYK_RACO_MEKUA00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_A.png",
+        "x": 0,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUA01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_A.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUA02",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_A.png",
+        "x": 64,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_RACO_MEKUA03",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "MEKU_A.png",
+        "x": 92,
+        "w": 32,
+        "handle y": 23
+      }
+    ]
+  }
+]
