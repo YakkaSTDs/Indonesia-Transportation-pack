@@ -1,0 +1,24 @@
+[
+  {
+    "id": "$ITPYK_FrameTMP00",
+    "type": "railway station",
+    "category": "$ITPYK_CAT_SPW01",
+    "width": 1,
+    "height": 1,
+    "hidden": true,
+    "frames": [
+      {
+        "bmp": "Peron.png",
+        "copies": 3,
+        "w": 32
+      },
+      {
+        "bmp": "blank.png",
+        "copies": 3,
+        "w": 32
+      }
+    ],
+    "title": "Depo template",
+    "text ": "How TF you see this"
+  }
+]

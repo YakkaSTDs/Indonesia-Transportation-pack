@@ -1,0 +1,48 @@
+[
+  {
+    "id": "$ITPYK_TEMP_GERBAR01",
+    "type": "template",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "capacity": 0,
+    "flag normal":false,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "v2": [0,2,-2,0]
+  },
+  {
+    "id": "$ITPYK_TEMP_GERPEN01",
+    "type": "template",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "capacity": 40,
+    "flag normal":false,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "v2": [0,2,-2,0]
+  },
+  {
+    "id": "$ITPYK_TEMP_KRGER01",
+    "type": "template",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "capacity": 40,
+    "flag normal":false,
+    "speed": 4.0,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "v2":[0,2,-2,0,-1,0,-2,0]
+  },
+  {
+    "id": "$ITPYK_TEMP_LOKO01",
+    "type": "template",
+    "template": "$ITPYK_TEMP_GAUGE",
+    "capacity": 4,
+    "flag normal":false,
+    "flag train":true,
+    "moveable":false,
+    "chargeable": false,
+    "frames per variant": 8,
+    "v2": [0,2,-2,0]
+  }
+]
