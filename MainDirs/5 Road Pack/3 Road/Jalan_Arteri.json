@@ -1,0 +1,246 @@
+[
+  {
+    "id": "$ITPYK_ROAD_PROV_DOUB_DIA",
+    "old id":"$K012ITP_ROAD_PROV_DOUB_DIA",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "width": 2,
+    "speed": 3,
+    "price": 512,
+    "monthly price": 16,
+    "level": 3,
+    "one way": true,
+    "allow diagonal": true,
+    "title": "Diagonal collector road[in]Jalan kolektor diagonal",
+    "text": "Collector roads to connect local roads in your city as well as overcome congestion.[in]Jalan kolektor untuk menghubungkan jalan lokal di kota anda sekaligus mengatasi kemacetan.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "preview frames": [
+      {
+        "bmp": "Ikon/White_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "road_asphalt_dia_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "road_asphalt_dia_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_dia_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_dia_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_PROV_DOUB",
+    "old id":"$K012ITP_ROAD_PROV_DOUB",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_PROV_DOUB_DIA",
+    "width": 2,
+    "speed": 3,
+    "price": 512,
+    "monthly price": 16,
+    "level": 3,
+    "one way": true,
+    "title": "Collector road[in]Jalan kolektor",
+    "text": "Collector roads to connect local roads in your city as well as overcome congestion.[in]Jalan kolektor untuk menghubungkan jalan lokal di kota anda sekaligus mengatasi kemacetan.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "preview frames": [
+      {
+        "bmp": "Ikon/White_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_white_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_NAT_DOUB_DIA",
+    "old id":"$K012ITP_ROAD_NAT_DOUB_DIA",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "width": 2,
+    "speed": 3,
+    "price": 512,
+    "monthly price": 16,
+    "level": 3,
+    "one way": true,
+    "allow diagonal": true,
+    "title": "Diagonal arterial road[in]Jalan arteri diagonal",
+    "text": "Arterial roads to connect collector roads in your city as well as overcome congestion.[in]Jalan arteri untuk menghubungkan jalan kolektor di kota anda sekaligus mengatasi kemacetan.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "preview frames": [
+      {
+        "bmp": "Ikon/Yellow_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "road_asphalt_dia_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "road_asphalt_dia_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_dia_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_dia_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_NAT_DOUB",
+    "old id":"$K012ITP_ROAD_NA%_DOUB",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_NAT_DOUB_DIA",
+    "width": 2,
+    "speed": 3,
+    "price": 512,
+    "monthly price": 16,
+    "level": 3,
+    "one way": true,
+    "title": "Arterial road[in]Jalan arteri",
+    "text": "Arterial roads to connect collector roads in your city as well as overcome congestion.[in]Jalan arteri untuk menghubungkan jalan kolektor di kota anda sekaligus mengatasi kemacetan.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "preview frames": [
+      {
+        "bmp": "Ikon/Yellow_double.png"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      },
+      {
+        "bmp": "road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 16
+      },
+      {
+        "bmp": "road_asphalt_yellow_double.png",
+        "count": 16,
+        "w": 32,
+        "h": 16,
+        "y": 0
+      }
+    ]
+  }
+]

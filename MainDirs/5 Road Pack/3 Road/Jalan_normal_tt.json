@@ -1,0 +1,425 @@
+[
+  {
+    "id": "$ITPYK_ROAD_TT_PROV_DIA",
+    "old id": "$IRP_ROAD00",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Pronvince Road[in]Jalan Pronvinsi",
+    "text": "Your city citizen vehicles go fast.[in]Kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_dia_white.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_PROV",
+    "old id": "$IRP_ROAD00",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "diagonal road": "$ITPYK_ROAD_TT_PROV_DIA",
+    "title": "Pronvince Road[in]Jalan Pronvinsi",
+    "text": "Your city citizen vehicles go fast.[in]Kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_white.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_NAT_DIA",
+    "old id": "$IRP_ROAD01",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "National Road[in]Jalan Nasional",
+    "text": "Your city citizen vehicles go fast.[in]Kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_dia_yellow.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_NAT",
+    "old id": "$IRP_ROAD01",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "diagonal road": "$ITPYK_ROAD_TT_NAT_DIA",
+    "title": "National Road[in]Jalan Nasional",
+    "text": "Your city citizen vehicles go fast.[in]Kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_yellow.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_PROV_ONE_DIA",
+    "old id": "$IRP_ROAD02",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "one way": true,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Oneway Pronvince Road[in]Jalan Pronvinsi Satu Arah",
+    "text": "Oneway Roads built by the provincial government.[in]Jalan satu arah yang membuat kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_dia_white.png",
+        "count": 16,
+        "w": 32,
+        "copies": 4
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_PROV_ONE",
+    "old id": "$IRP_ROAD02",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_TT_PROV_ONE_DIA",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "one way": true,
+    "title": "Oneway Pronvince Road[in]Jalan Pronvinsi Satu Arah",
+    "text": "Oneway Roads built by the provincial government.[in]Jalan satu arah yang membuat kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_white.png",
+        "count": 16,
+        "w": 32,
+        "copies": 4
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_NAT_ONE_DIA",
+    "old id": "$IRP_ROAD03",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "one way": true,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Oneway National Road[in]Jalan Nasional Satu Arah",
+    "text": "Oneway Roads built by the provincial government.[in]Jalan satu arah yang membuat kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_yellow.png",
+        "count": 16,
+        "w": 32,
+        "copies": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_NAT_ONE",
+    "old id": "$IRP_ROAD03",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_TT_NAT_ONE_DIA",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 2,
+    "one way": true,
+    "title": "Oneway National Road[in]Jalan Nasional Satu Arah",
+    "text": "Oneway Roads built by the provincial government.[in]Jalan satu arah yang membuat kendaraan warga kota anda melaju kencang.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_yellow.png",
+        "count": 16,
+        "w": 32,
+        "copies": 3
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_BUSW_DIA",
+    "old id": "$IRP_ROAD00",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.5,
+    "price": 256,
+    "monthly price": 5,
+    "level": 2,
+    "flag normal": false,
+    "flag pkw": false,
+    "flag lkw": false,
+    "flag bus": true,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Bus road[in]Jalan bus",
+    "text": "Your city's bus lines for more efficient bus transportation.[in]Jalur bus kota anda agar transportasi bus lebih efisien.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_bus_dia_white.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_BUSW",
+    "old id": "$IRP_ROAD00",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_TT_BUSW_DIA",
+    "speed": 2.5,
+    "price": 256,
+    "monthly price": 5,
+    "level": 2,
+    "flag normal": false,
+    "flag pkw": false,
+    "flag lkw": false,
+    "flag bus": true,
+    "title": "Bus road[in]Jalan bus",
+    "text": "Your city's bus lines for more efficient bus transportation.[in]Jalur bus kota anda agar transportasi bus lebih efisien.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_bus_dia_white.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_BUSY_DIA",
+    "old id": "$IRP_ROAD01",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.5,
+    "price": 256,
+    "monthly price": 5,
+    "level": 2,
+    "flag normal": false,
+    "flag pkw": false,
+    "flag lkw": false,
+    "flag bus": true,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Bus road[in]Jalan bus",
+    "text": "Your city's bus lines for more efficient bus transportation.[in]Jalur bus kota anda agar transportasi bus lebih efisien.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_bus_dia_yellow.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_BUSY",
+    "old id": "$IRP_ROAD01",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "diagonal road": "$ITPYK_ROAD_TT_BUSY_DIA",
+    "speed": 2.5,
+    "price": 256,
+    "monthly price": 5,
+    "level": 2,
+    "flag normal": false,
+    "flag pkw": false,
+    "flag lkw": false,
+    "flag bus": true,
+    "title": "Bus road[in]Jalan bus",
+    "text": "Your city's bus lines for more efficient bus transportation.[in]Jalur bus kota anda agar transportasi bus lebih efisien.",
+    "requirements": [
+      {
+        "type": "HABITANT_COUNT",
+        "count": 1024
+      },
+      {
+        "type": "RANK",
+        "id": "$rnk_town_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_bus_dia_yellow.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_Blank_dia",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 1,
+    "allow diagonal": true,
+    "hidden": true,
+    "title": "Village Street[in]Jalan Desa",
+    "text": "Village roads that make your city residents' vehicles enjoy the surrounding scenery.[in]Jalan desa yang membuat kendaraan warga kota anda menikmati pemandangan sekitar.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_dia_blank.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROAD_TT_Blank",
+    "type": "road",
+    "author": "Kiki012",
+    "template": "$ITPYK_TEMP_ROAD00",
+    "speed": 2.25,
+    "price": 128,
+    "monthly price": 5,
+    "level": 1,
+    "diagonal road": "$ITPYK_ROAD_TT_Blank_dia",
+    "title": "Village Street[in]Jalan Desa",
+    "text": "Village roads that make your city residents' vehicles enjoy the surrounding scenery.[in]Jalan desa yang membuat kendaraan warga kota anda menikmati pemandangan sekitar.",
+    "requirements": [
+      {
+        "type": "RANK",
+        "id": "$rnk_village_medium"
+      }
+    ],
+    "frames": [
+      {
+        "bmp": "tt/road_asphalt_blank.png",
+        "count": 16,
+        "w": 32
+      }
+    ]
+  }
+]
