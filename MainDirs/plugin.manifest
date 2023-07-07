@@ -1,0 +1,12 @@
+{
+  "id":"dc9d79d4-5d22-4f17-a6ab-c92627b85c25",
+  "version":73,
+  "title":"Indoneisan Tranportation Pack",
+  "text":"This plugin adds content with the theme of transportation in Indonesia, which predominantly contains Indonesian trains and their infrastructure.  \n\n This plugin also contains a road and decoration package, and is still under development.  \n\n To unlock the contents of this plugin, your city must reach a population of 1000 or 1024 and a town or hamlet city level (Level 6).  for the road, it will open at the village level (Level 3).  \n\n This plugin is made by native Indonesians, so the quality is guaranteed.",
+  "author":"Kiki012",
+  "thumbnail":"Thumbnail.png", 
+  "category":true,
+  "url":"https://github.com/Kiki012184/Indonesia-Transportation-pack/releases",
+  "multiplayer":true,
+  "once":true 
+}
