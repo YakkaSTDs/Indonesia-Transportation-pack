@@ -1,0 +1,561 @@
+[
+  {
+    "id": "$ITPYK_ANITY_CC201",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC201",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_CC202",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC202",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_CC203",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC203",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_CC205",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC205",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_CC206",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC206",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_CC200",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_CC200",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB301",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB301",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB302",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB302",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB303",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB303",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB304",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB304",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB200",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB200",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB201",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB201",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB202",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB202",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BB204",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BB204",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L16",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L16",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L20",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L20",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L22",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L22",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L12",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L12",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L12E",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L12E",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L10",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L10",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L11",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L11",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L50",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L50",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_K3L02",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_K3L02",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BL16",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BL16",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BL20",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BL20",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BL22",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BL22",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BL10",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BL10",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BL50",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BL50",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK1",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK1",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK2",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK2",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK3",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK3",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK4",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK4",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK5",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK5",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK6",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK6",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK7",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK7",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_DK8",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_DK8",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BBAT",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BBAT",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_BKRK",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_BKRK",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_KMIN",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_KMIN",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_TGW",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_TGW",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_TNR",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_TNR",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_TDGGW",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_TDGGW",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  },
+  {
+    "id": "$ITPYK_ANITY_TSMN",
+    "type": "animation",
+    "frames": [
+      {
+        "steal": "$ITPYK_TR_TSMN",
+        "count": 4,
+        "w": 20
+      }
+    ],
+    "frames per animation":4,
+    "rotation aware": true
+  }
+]
