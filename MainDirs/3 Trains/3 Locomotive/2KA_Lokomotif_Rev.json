@@ -1,0 +1,176 @@
+[
+  //CC202
+  {
+    "id": "$ITPYK_TR_CC202REV",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC202.png",
+        "count": 2,
+        "w": 22,
+        "x": 44
+      },
+      {
+        "bmp": "CC202.png",
+        "count": 2,
+        "w": 22,
+        "x": 0
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 17,
+        "x": 88
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 5,
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 17,
+        "x": 88
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 5,
+        "x": 105,
+        "handle x": -3
+      }
+    ],
+    "speed": 1.6,
+    "template": "$ITPYK_TEMP_LOKO01",
+    "v2": [-1, 2, -3, 0]
+  },
+  //TEL
+  {
+    "id": "$K012_TR_CC203_KERTASREV",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC203PTTEL.png",
+        "count": 2,
+        "w": 20,
+        "x": 40
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "count": 2,
+        "w": 20,
+        "x": 0
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 5,
+        "x": 119,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 5,
+        "x": 97,
+        "handle x": -3
+      }
+    ],
+    "speed": 2,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //CC204
+  {
+    "id": "$ITPYK_TR_CC204REV",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC204.png",
+        "count": 2,
+        "w": 20,
+        "x": 40
+      },
+      {
+        "bmp": "CC204.png",
+        "count": 2,
+        "w": 20,
+        "x": 0
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 5,
+        "x": 119,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 5,
+        "x": 97,
+        "handle x": -3
+      }
+    ],
+    "frames per variant": 8,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //CC205
+  {
+    "id": "$ITPYK_TR_CC205REV",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC205.png",
+        "count": 2,
+        "w": 22,
+        "x": 44
+      },
+      {
+        "bmp": "CC205.png",
+        "count": 2,
+        "w": 22,
+        "x": 0
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 17,
+        "x": 110
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 5,
+        "x": 127,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 17,
+        "x": 88
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 5,
+        "x": 105,
+        "handle x": -3
+      }
+    ],
+    "speed": 2.2,
+    "template": "$ITPYK_TEMP_LOKO01",
+    "v2": [-2, 1, -2, -1]
+  }
+]

@@ -1,0 +1,1231 @@
+[
+  //BB200
+  {
+    "id": "$ITPYK_TR_BB200",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "BB200.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB200.png",
+        "w": 16,
+        "x": 80
+      },
+      {
+        "bmp": "BB200.png",
+        "w": 5,
+        "x": 96,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB200.png",
+        "w": 16,
+
+        "x": 101
+      },
+      {
+        "bmp": "BB200.png",
+        "w": 5,
+
+        "x": 117,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB200",
+        "x": -15
+      }
+    ]
+  },
+  //BB201
+  {
+    "id": "$ITPYK_TR_BB201",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "BB201.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB201.png",
+        "w": 16,
+
+        "x": 80
+      },
+      {
+        "bmp": "BB201.png",
+        "w": 5,
+
+        "x": 96,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB201.png",
+        "w": 16,
+
+        "x": 101
+      },
+      {
+        "bmp": "BB201.png",
+        "w": 5,
+
+        "x": 117,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB200",
+        "x": -15
+      }
+    ]
+  },
+  //BB202
+  {
+    "id": "$ITPYK_TR_BB202",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.8,
+    "frames": [
+      {
+        "bmp": "BB202.png",
+        "count": 4,
+
+        "w": 18
+      },
+      {
+        "bmp": "BB202.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB202.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB202.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB202.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB202",
+        "x": -15
+      }
+    ]
+  },
+  //BB203
+  {
+    "id": "$ITPYK_TR_BB203",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "BB203.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "BB203.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "BB203.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB203.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "BB203.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC201",
+        "x": -15
+      }
+    ]
+  },
+  //BB204
+  {
+    "id": "$ITPYK_TR_BB204",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "BB204.png",
+        "count": 4,
+
+        "w": 18
+      },
+      {
+        "bmp": "BB204.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB204.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB204.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB204.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "speed": 1.4,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //BB300
+  {
+    "id": "$ITPYK_TR_BB300",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "frames per variant": 8,
+    "speed": 1.7,
+    "v2": [1, 3, -2, 2],
+    "frames": [
+      {
+        "bmp": "BB300.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB300.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB300.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB300.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB300.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB300",
+        "x": -15
+      }
+    ]
+  },
+  //BB301
+  {
+    "id": "$ITPYK_TR_BB301",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "BB301.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB301.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB301.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB301.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB301.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB304",
+        "x": -15
+      }
+    ],
+    "speed": 2,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //BB302
+  {
+    "id": "$ITPYK_TR_BB302",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.8,
+    "frames": [
+      {
+        "bmp": "BB302.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB302.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB302.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB302.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB302.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BB302V",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.8,
+    "frames": [
+      {
+        "bmp": "BB302V.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB302V.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB302V.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB302V.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB302V.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ]
+  },
+  //BB303
+  {
+    "id": "$ITPYK_TR_BB303",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.7,
+    "frames": [
+      {
+        "bmp": "BB303.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB303.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB303.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB303.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB303.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ]
+  },
+  //BB304
+  {
+    "id": "$ITPYK_TR_BB304",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "BB304.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB304.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB304.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB304.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB304.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB304",
+        "x": -15
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_BB304M",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "BB304M.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB304M.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB304M.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB304M.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB304M.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB304",
+        "x": -15
+      }
+    ]
+  },
+  //BB305
+  {
+    "id": "$ITPYK_TR_BB305JR",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "BB305JR.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB305JR.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB305JR.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB305JR.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB305JR.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "speed": 1.3,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  {
+    "id": "$ITPYK_TR_BB305CFD",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "BB305CFD.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB305CFD.png",
+        "w": 17,
+        "x": 72
+      },
+      {
+        "bmp": "BB305CFD.png",
+        "w": 5,
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB305CFD.png",
+        "w": 17,
+        "x": 94
+      },
+      {
+        "bmp": "BB305CFD.png",
+        "w": 5,
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ],
+    "speed": 1.3,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //BB306
+  {
+    "id": "$ITPYK_TR_BB306",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 1.5,
+    "frames": [
+      {
+        "bmp": "BB306.png",
+        "count": 4,
+        "w": 18
+      },
+      {
+        "bmp": "BB306.png",
+        "w": 17,
+
+        "x": 72
+      },
+      {
+        "bmp": "BB306.png",
+        "w": 5,
+
+        "x": 89,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB306.png",
+        "w": 17,
+
+        "x": 94
+      },
+      {
+        "bmp": "BB306.png",
+        "w": 5,
+
+        "x": 111,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_BB302",
+        "x": -15
+      }
+    ]
+  },
+  //CC200
+  {
+    "id": "$ITPYK_TR_CC200",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "CC200.png",
+        "count": 4,
+        "w": 22
+      },
+      {
+        "bmp": "CC200.png",
+        "w": 17,
+
+        "x": 88
+      },
+      {
+        "bmp": "CC200.png",
+        "w": 5,
+
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC200.png",
+        "w": 17,
+
+        "x": 110
+      },
+      {
+        "bmp": "CC200.png",
+        "w": 5,
+
+        "x": 127,
+        "handle x": -3
+      }
+    ],
+    "v2": [-1, 2, -3, 0],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC200",
+        "x": -15
+      }
+    ]
+  },
+  //CC201
+  {
+    "id": "$ITPYK_TR_CC201",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "CC201.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC201.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "CC201.png",
+        "w": 5,
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC201.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "CC201.png",
+        "w": 5,
+        "x": 119,
+        "handle x": -3,
+        "handle y": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC201",
+        "x": -15
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_TR_CC201V",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "CC201V.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC201V.png",
+        "w": 17,
+        "x": 80
+      },
+      {
+        "bmp": "CC201V.png",
+        "w": 5,
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC201V.png",
+        "w": 17,
+        "x": 102
+      },
+      {
+        "bmp": "CC201V.png",
+        "w": 5,
+        "x": 119,
+        "handle x": -3,
+        "handle y": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC201",
+        "x": -15
+      }
+    ]
+  },
+  //CC202
+  {
+    "id": "$ITPYK_TR_CC202",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC202.png",
+        "count": 4,
+
+        "w": 22
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 17,
+
+        "x": 88
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 5,
+
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 17,
+
+        "x": 110
+      },
+      {
+        "bmp": "CC202.png",
+        "w": 5,
+
+        "x": 127,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC202",
+        "x": -15
+      }
+    ],
+    "speed": 1.6,
+    "template": "$ITPYK_TEMP_LOKO01",
+    "v2": [-1, 2, -3, 0]
+  },
+  //CC203
+  {
+    "id": "$ITPYK_TR_CC203",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2,
+    "frames": [
+      {
+        "bmp": "CC203.png",
+        "count": 4,
+        "w": 20
+      },
+      {
+        "bmp": "CC203.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "CC203.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC203.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "CC203.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC203",
+        "x": -15
+      }
+    ]
+  },
+  //TEL
+  {
+    "id": "$K012_TR_CC203_KERTAS",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC203PTTEL.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "CC203PTTEL.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC203",
+        "x": -15
+      }
+    ],
+    "speed": 2,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //CC204
+  {
+    "id": "$ITPYK_TR_CC204",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC204.png",
+        "count": 4,
+
+        "w": 20
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 17,
+
+        "x": 80
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 5,
+
+        "x": 97,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 17,
+
+        "x": 102
+      },
+      {
+        "bmp": "CC204.png",
+        "w": 5,
+
+        "x": 119,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC203",
+        "x": -15
+      }
+    ],
+    "frames per variant": 8,
+    "template": "$ITPYK_TEMP_LOKO01"
+  },
+  //CC205
+  {
+    "id": "$ITPYK_TR_CC205",
+    "type": "train car",
+    "frames": [
+      {
+        "bmp": "CC205.png",
+        "count": 4,
+
+        "w": 22
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 17,
+
+        "x": 88
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 5,
+
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 17,
+
+        "x": 110
+      },
+      {
+        "bmp": "CC205.png",
+        "w": 5,
+
+        "x": 127,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC205",
+        "x": -15
+      }
+    ],
+    "speed": 2.2,
+    "template": "$ITPYK_TEMP_LOKO01",
+    "v2": [-2, 1, -2, -1]
+  },
+  //CC206
+  {
+    "id": "$ITPYK_TR_CC206",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "CC206.png",
+        "count": 4,
+        "w": 21
+      },
+      {
+        "bmp": "CC206.png",
+        "w": 17,
+
+        "x": 84
+      },
+      {
+        "bmp": "CC206.png",
+        "w": 5,
+
+        "x": 101,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC206.png",
+        "w": 17,
+
+        "x": 106
+      },
+      {
+        "bmp": "CC206.png",
+        "w": 5,
+
+        "x": 123,
+        "handle x": -3
+      }
+    ],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC206",
+        "x": -15
+      }
+    ]
+  },
+  //CC300
+  {
+    "id": "$ITPYK_TR_CC300",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "CC300.png",
+        "count": 4,
+        "w": 22
+      },
+      {
+        "bmp": "CC300.png",
+        "w": 17,
+        "x": 88
+      },
+      {
+        "bmp": "CC300.png",
+        "w": 5,
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC300.png",
+        "w": 17,
+        "x": 110
+      },
+      {
+        "bmp": "CC300.png",
+        "w": 5,
+        "x": 127,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC300B.png",
+        "count": 4,
+        "w": 22
+      },
+      {
+        "bmp": "CC300B.png",
+        "w": 17,
+        "x": 88
+      },
+      {
+        "bmp": "CC300B.png",
+        "w": 5,
+        "x": 105,
+        "handle x": -3
+      },
+      {
+        "bmp": "CC300B.png",
+        "w": 17,
+        "x": 110
+      },
+      {
+        "bmp": "CC300B.png",
+        "w": 5,
+        "x": 127,
+        "handle x": -3
+      }
+    ],
+    "v2": [-1, 2, -3, 0],
+    "animation": [
+      {
+        "id": "$ITPYK_ANI_CC300",
+        "x": -15
+      }
+    ]
+  },
+  //ESS 3200
+  {
+    "id": "$ITPYK_TR_ESS3200",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "BB100ESS3200.png",
+        "count": 4,
+        "w": 21
+      },
+      {
+        "bmp": "BB100ESS3200.png",
+        "w": 17,
+
+        "x": 84
+      },
+      {
+        "bmp": "BB100ESS3200.png",
+        "w": 5,
+
+        "x": 101,
+        "handle x": -3
+      },
+      {
+        "bmp": "BB100ESS3200.png",
+        "w": 17,
+
+        "x": 106
+      },
+      {
+        "bmp": "BB100ESS3200.png",
+        "w": 5,
+
+        "x": 123,
+        "handle x": -3
+      }
+    ]
+  },
+  //Fiksi
+  {
+    "id": "$ITPYK_TR_E100",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_LOKO01",
+    "speed": 2.2,
+    "frames": [
+      {
+        "bmp": "E100.png",
+        "count": 4,
+        "w": 21
+      },
+      {
+        "bmp": "E100.png",
+        "w": 17,
+
+        "x": 84
+      },
+      {
+        "bmp": "E100.png",
+        "w": 5,
+
+        "x": 101,
+        "handle x": -3
+      },
+      {
+        "bmp": "E100.png",
+        "w": 17,
+
+        "x": 106
+      },
+      {
+        "bmp": "E100.png",
+        "w": 5,
+
+        "x": 123,
+        "handle x": -3
+      }
+    ]
+  }
+]
