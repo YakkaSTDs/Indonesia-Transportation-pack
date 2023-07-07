@@ -1,0 +1,207 @@
+[
+  {
+    "id": "$ITPYK_SPWKR00",
+    "old id":"$K012ITP_SPWKR00",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/KRL.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames": [
+      {
+        "steal": "$ITPYK_MU_E205C",
+        "frame": 1
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_KRL_E205C",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames": [
+          {
+            "steal": "$ITPYK_MU_E205C",
+            "frame": 1
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_E205C"], 
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "Classic E205 EMU[in]KRL E205 Klasik",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_KRL_E205N",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames": [
+          {
+            "steal": "$ITPYK_MU_E205N",
+            "frame": 1
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_E205N"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "New E205 EMU[in]KRL E205 Baru",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_KRD_YIA",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_MU_YIAMU",
+            "frame":1
+        }
+    ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_YIAMU"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "YIA DMU[in]KRD YIA",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_KRD_FED",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_MU_KRDFDK",
+            "frame":1
+        }
+    ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_KRDFDK"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "KCIC Feeder DMU[in]KRD Feeder KCIC",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_KRD_PRE",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_MU_KRDI_PRE",
+            "frame":1
+        }
+    ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_KRDI_PRE"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "Presidental DMU[in]KRD Presiden.",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_KRD_PAD",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_MU_PADMU",
+            "frame":1
+        }
+    ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPWKR00"],
+            "cars": ["$ITPYK_MU_PADMU"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "Railbus Lembah Anai[in]Anai Valley Railbus",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "EMU and DMU[in]KRL dan KRD",
+    "text id": "draft_Generic_daop_text"
+  }
+]

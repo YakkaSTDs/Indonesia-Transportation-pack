@@ -1,0 +1,12 @@
+[
+  {
+    "id": "$ITPYK_TRCC203_KERTEL",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.85,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$K012_TR_CC203_KERTAS", "$car_null00", "$K012_TR_CC203_KERTASREV", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN", "$car_null00", "$ITPYK_TR_TSMN"]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "$ITPYK_SPWBB301",
+    "old id":"$ITPK012_SPWBB301",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/BB304.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB301",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_BB301_PAS_V1",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_K3L10",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_PASV1"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Passenger Train[in]BB301  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB301_PAS_V2",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_K3L08",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_PASV2"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Passenger Train[in]BB301  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB301_PAS_V3",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB301",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_PASV3"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Passenger Train[in]BB301  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB301_PAS_V4",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB304M",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_PASV4"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Passenger Train[in]BB301  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB301_KBOX_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_TNR",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_KBOX_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Box Train[in]BB301  Ka Box",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB301_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_KMIN",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB301"],
+            "cars": ["$ITPYK_TRBB301_KTL_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB301 Tanker Train[in]BB301  Ka Ketel",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB301[in]BB301",
+    "text id": "draft_Generic_daop_text"
+  }
+]

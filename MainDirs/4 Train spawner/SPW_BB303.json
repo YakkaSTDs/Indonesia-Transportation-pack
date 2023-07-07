@@ -1,0 +1,312 @@
+[
+  {
+    "id": "$ITPYK_SPWBB303",
+    "old id":"$ITPK012_SPWBB303",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/BB303.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB303",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV1",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L06","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV1"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV2",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L08","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV2"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV3",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L10","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV3"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV4",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L11","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV4"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV5",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L12","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV5"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV6",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L12E","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV6"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV7",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L14","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV7"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV8",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L16","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV8"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV9",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L20","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV9"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV10",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L22","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV10"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV11",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV11"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV12",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV12"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV13",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV13"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV14",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPAN","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV14"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_PASV15",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPAN","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_PASV15"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303 Passenger Train [in]BB303  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB303_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_KMIN",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB303"],
+            "cars": ["$ITPYK_TRBB303_KTL_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB303Tanker Train (Short)[in]BB303  Ka Ketel (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB303[in]BB303",
+    "text id": "draft_Generic_daop_text"
+  }
+]

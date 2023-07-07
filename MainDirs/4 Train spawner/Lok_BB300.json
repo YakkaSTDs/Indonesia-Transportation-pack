@@ -1,0 +1,22 @@
+[
+  {
+    "id": "$ITPYK_TRBB300_PASCOM",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.45,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB300", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50"]
+  },
+  {
+    "id": "$ITPYK_TRBB300_PASLOK",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.45,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB300", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_BL50"]
+  }
+]

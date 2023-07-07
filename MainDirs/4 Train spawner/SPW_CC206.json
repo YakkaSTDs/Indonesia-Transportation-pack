@@ -1,0 +1,342 @@
+[
+  {
+    "id": "$ITPYK_SPWCC206",
+    "old id":"$ITPK012_SPWCC206",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/CC206.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_CC206",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV1",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L06","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV1"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV2",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L08","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV2"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV3",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L10","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV3"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV4",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L11","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV4"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV5",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L12","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV5"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV6",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L12E","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV6"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV7",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L14","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV7"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV8",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L16","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV8"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV9",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L20","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV9"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV10",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L22","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV10"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV11",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV11"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV12",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV12"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV13",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPRJ","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV13"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV14",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPAN","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV14"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_PASV15",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3LPAN","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_PASV15"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Passenger Train [in]CC206  Ka penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_KTNR_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_DK1",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PKNT00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_KTNR_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Container Train (Short)[in]CC206  Ka Peti kemas (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC206_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_KMIN",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_CC206"],
+            "cars": ["$ITPYK_TRCC206_KTL_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC206 Tanker Train (short)[in]CC206  Ka Ketel (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "CC206[in]CC206",
+    "text id": "draft_Generic_daop_text"
+  }
+]

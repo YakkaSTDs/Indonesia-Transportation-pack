@@ -1,0 +1,8 @@
+[{
+    "id": "$ITPYK_TRESS3200_PASV1",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [{"x":0,"y":0,"w":0,"h":0,"count":4}],
+    "tail": ["$ITPYK_TR_ESS3200", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_K3L50", "$car_null00", "$ITPYK_TR_BL50"]
+}]

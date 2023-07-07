@@ -1,0 +1,35 @@
+[
+  //Container Train
+  {
+    "id": "$ITPYK_TRCC202_KTNR_LNG",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.6,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC202", "$car_null00", "$ITPYK_TR_CC202REV", "$car_null00", "$ITPYK_TR_DK7", "$car_null00", "$ITPYK_TR_DK2", "$car_null00", "$ITPYK_TR_DK2", "$car_null00", "$ITPYK_TR_DK3", "$car_null00", "$ITPYK_TR_DK5", "$car_null00", "$ITPYK_TR_DK3", "$car_null00", "$ITPYK_TR_DK4", "$car_null00", "$ITPYK_TR_DK8", "$car_null00", "$ITPYK_TR_DK3", "$car_null00", "$ITPYK_TR_DK5", "$car_null00", "$ITPYK_TR_DK6", "$car_null00", "$ITPYK_TR_DK1", "$car_null00", "$ITPYK_TR_DK6", "$car_null00", "$ITPYK_TR_DK8", "$car_null00", "$ITPYK_TR_DK7", "$car_null00", "$ITPYK_TR_DK7"]
+  },
+  // Tanker Train
+  {
+    
+    "id": "$ITPYK_TRCC202_KTL_LNG",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.6,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC202", "$car_null00", "$ITPYK_TR_CC202REV", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN"]
+  },
+  {
+    "id": "$ITPYK_TRCC202_BTB_LNG",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 2.6,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC202", "$car_null00", "$ITPYK_TR_CC202REV", "$car_null00","$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT", "$car_null00", "$ITPYK_TR_BBAT"]
+  }
+]

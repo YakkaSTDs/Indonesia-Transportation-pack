@@ -1,0 +1,129 @@
+[
+  {
+    "id": "$ITPYK_SPWCC200",
+    "old id":"$ITPK012_SPWCC200",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/CC200.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_CC200",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV1",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L50","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV1"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV2",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L60","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV2"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV3",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L80","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV3"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV4",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L85","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV4"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV5",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L90","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV5"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC200_PASV6",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L02","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_CC200"],
+            "cars": ["$ITPYK_TRCC200_PASV6"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "CC200[in]CC200",
+    "text id": "draft_Generic_daop_text"
+  }
+]

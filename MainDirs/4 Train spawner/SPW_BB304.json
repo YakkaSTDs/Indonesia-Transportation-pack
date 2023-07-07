@@ -1,0 +1,189 @@
+[
+  {
+    "id": "$ITPYK_SPWBB304",
+    "old id":"$ITPK012_SPWBB304",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/BB304.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB304",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV1",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L50","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV1"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV2",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L60","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV2"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV3",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L80","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV3"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV4",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L85","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV4"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV5",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L90","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV5"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PASV6",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L02","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV6"],
+            "count": 1,
+            "radius": 4096 
+          }
+        ],
+        "title": "Passenger Train [in] Kereta Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_PAS_V7",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB304M",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_PASV7"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB304 Passenger Train Modern[in]BB304  Ka penumpang Modern",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_BB304_KTL_SHT",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_KMIN",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB304"],
+            "cars": ["$ITPYK_TRBB304_KTL_SHT"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB304 Tanker Train (Short)[in]BB304  Ka Ketel (Pendek)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB304",
+    "text id": "draft_Generic_daop_text"
+  }
+]

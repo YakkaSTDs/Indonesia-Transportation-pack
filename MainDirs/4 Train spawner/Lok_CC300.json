@@ -1,0 +1,82 @@
+[
+  {
+    "id": "$ITPYK_TRCC300_PASV8",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_BL16"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV9",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_BL20"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV10",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_BL22"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV11",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3L16", "$car_null00", "$ITPYK_TR_K3LPRJ", "$car_null00", "$ITPYK_TR_BL16"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV12",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3LPRJ", "$car_null00", "$ITPYK_TR_BL20"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV13",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3LPRJ", "$car_null00", "$ITPYK_TR_BL22"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV14",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3LPAN", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_K3L20", "$car_null00", "$ITPYK_TR_BL20"]
+  },
+  {
+    "id": "$ITPYK_TRCC300_PASV15",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_CC300", "$car_null00", "$ITPYK_TR_K3LPAN", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_K3L22", "$car_null00", "$ITPYK_TR_BL22"]
+  }
+]

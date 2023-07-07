@@ -1,0 +1,87 @@
+[
+  {
+    "id": "$ITPYK_SPWSPC",
+    "old id":"$ITPK012_SPWSPC",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/CC200.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames": [
+      {
+        "steal": "$ITPYK_TR_ESS3200",
+        "frame": 1
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_ESS3200",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames": [
+          {
+            "steal": "$ITPYK_TR_ESS3200",
+            "frame": 1
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_SPC"],
+            "cars": ["$ITPYK_TRESS3200_PASV1"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "ESS3200",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_E100",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames": [
+          {
+            "steal": "$ITPYK_TR_E100",
+            "frame": 1
+          }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_KRLKRD"],
+            "cars": ["$ITPYK_TRE100_PASV1"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "Plugin Easter egg!",
+        "text": "?",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "Electric Locomotive[in]Lokomotif listrik",
+    "text id": "draft_Generic_daop_text"
+  }
+]

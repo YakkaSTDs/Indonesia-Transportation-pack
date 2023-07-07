@@ -1,0 +1,86 @@
+[
+  {
+    "id": "$ITPYK_SPWBB300",
+    "old id":"$ITPK012_SPWBB300",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB300",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_BB300_PAS_COM",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_K3L50",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB300"],
+            "cars": ["$ITPYK_TRBB300_PASCOM"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "BB300 Passenger Train (Commuter)[in]BB300  Ka penumpang (Commuter)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_BB300_PAS_LOK",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_K3L50",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00", "$ITPYK_BB300"],
+            "cars": ["$ITPYK_TRBB300_PASLOK"],
+            "count": 1,
+            "radius": 4096
+          }
+        ],
+        "title": "BB300 Passenger Train (Local)[in]BB300  Ka penumpang (Lokal)",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB300",
+    "text id": "draft_Generic_daop_text"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "$ITPYK_SPWCC205",
+    "old id":"$ITPK012_SPWCC205",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "sound click":{"file":"SFX/CC205.mp3"},
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_CC205",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_CC205_BTB",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BBAT",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_CC205"],
+            "cars": ["$ITPYK_TRCC205_BTB_LNG"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC205 Coal Train[in]CC205  Ka Batubara",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC205_KTNR_LNG",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_DK1",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_PKNT00", "$ITPYK_CC205"],
+            "cars": ["$ITPYK_TRCC205_KTNR_LNG"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC205 Container Train [in]CC205  Ka Peti kemas ",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }, 
+      {
+        "id": "$ITPYK_SPWUPG_CC205_KTL_LNG",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 60,
+            "count": 4
+          }
+        ],
+        "preview frames":[
+        {
+            "steal":"$ITPYK_TR_KMIN",
+            "frame":1
+        }
+        ],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_CC205"],
+            "cars": ["$ITPYK_TRCC205_KTL_LNG"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "CC205 Tanker Train [in]CC205  Ka Ketel ",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "CC205 [in]CC205",
+    "text id": "draft_Generic_daop_text"
+  }
+]

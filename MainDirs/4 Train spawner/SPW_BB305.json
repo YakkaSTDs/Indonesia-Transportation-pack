@@ -1,0 +1,94 @@
+[
+  {
+    "id": "$ITPYK_SPWBB305KER",
+    "old id":"$ITPK012_SPWBB305KER",
+    "type": "railway station",
+    "template": "$ITPYK_TEMP_SPWN00",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      {
+        "steal": "$ITPYK_FrameTMP00",
+        "count": 12
+      }
+    ],
+    "preview frames":[
+        {
+            "steal":"$ITPYK_TR_BB305JR",
+            "frame":1
+        }
+    ],
+    "upgrades": [
+      {
+        "id": "$ITPYK_SPWUPG_BB305JR_PEN",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L02","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB305"],
+            "cars": ["$ITPYK_TRBB305JR_PENV1"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB305 JR Passenger [in]BB305 JR KA Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_BB305CFD_PEN",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_K3L02","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB305"],
+            "cars": ["$ITPYK_TRBB305CFD_PENV1"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB305 CFD Passenger [in]BB305 CFD KA Penumpang",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_BB305JR_BOX",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_TDGGW","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB305"],
+            "cars": ["$ITPYK_TRBB305JR_KER"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB305 JR Boxcar Freight[in]BB305 JR KA Kertas",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      },
+      {
+        "id": "$ITPYK_SPWUPG_BB305CFD_BOX",
+        "frames": [{"x": 0,"y": 0,"w": 0,"h": 60,"count": 4}],
+        "preview frames":[{"steal":"$ITPYK_TR_TDGGW","frame":1}],
+        "car spawner": [
+          {
+            "targets": ["$ITPYK_FPK00", "$ITPYK_BB305"],
+            "cars": ["$ITPYK_TRBB305CFD_KER"],
+            "count": 1,
+            "radius": 4069
+          }
+        ],
+        "title": "BB305 CFD Boxcar Freight[in]BB305 CFD KA Kertas",
+        "text id": "draft_Generic_depot_text",
+        "only one": true,
+        "build time": 0
+      }
+    ],
+    "title": "BB305",
+    "text id": "draft_Generic_daop_text"
+  }
+]

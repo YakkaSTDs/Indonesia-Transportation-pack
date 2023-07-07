@@ -1,0 +1,64 @@
+[
+  {
+    "id": "$ITPYK_TRBB301_PASV1",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_BL10"]
+  },
+  {
+    "id": "$ITPYK_TRBB301_PASV2",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB304M", "$car_null00", "$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_K3L08", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L08", "$car_null00", "$ITPYK_TR_BL10"]
+  },
+  {
+    "id": "$ITPYK_TRBB301_PASV3",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_K3L08", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10"]
+  },
+  {
+    "id": "$ITPYK_TRBB301_PASV4",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB304M", "$car_null00", "$ITPYK_TR_K3L08", "$car_null00", "$ITPYK_TR_K3L10", "$car_null00", "$ITPYK_TR_K3L10"]
+  },
+  //Container Train
+  {
+    "id": "$ITPYK_TRBB301_KBOX_SHT",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR", "$car_null00", "$ITPYK_TR_TNR"]
+  },
+  // Tanker Train
+  {
+    "id": "$ITPYK_TRBB301_KTL_SHT",
+    "type": "train car",
+    "template": "$ITPYK_TEMP_TRN01",
+    "speed": 3,
+    "frames": [
+      {"x":0,"y":0,"w":0,"h":0,"count":4}
+    ],
+    "tail": ["$ITPYK_TR_BB301", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN", "$car_null00", "$ITPYK_TR_KMIN"]
+  }
+]
