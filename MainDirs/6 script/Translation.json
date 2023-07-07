@@ -1,0 +1,10 @@
+[{
+    "id":"$ITPYK_Traslations",
+    "type":"translation",
+    "*": {
+        "draft_K012ITP_Manual_text":"Welcome to Indonesia transport pack.  \n\n This plugin adds content with the theme of transportation in Indonesia, which predominantly contains Indonesian trains and their infrastructure.  \n\n This plugin also contains a road and decoration package, and is still under development.  \n\n To unlock the contents of this plugin, your city must reach a population of 1000 or 1024 and a town or hamlet city level (Level 6).  for the road, it will open at the village level (Level 3).  \n\n This plugin is made by native Indonesians, so the quality is guaranteed."
+    },
+    "in":{
+        "draft_K012ITP_Manual_text":"Selamat datang di Indonesia transport pack. \n\n Plugin ini menambahkan konten yang bertemakan transportasi di Indonesia yang dominan berisi kereta api Indonesia berserta infrastrukturnya. \n\n Plugin ini juga berisi sebuah paket jalan dan dekorasinya,dan masih dalam pengembangan. \n\n Untuk membuka konten plugin ini,kota anda harus mencapai populasi 1000 atau 1024 dan tingkatan kota town atau dusun (Level 6). untuk jalan,akan terbuka di tingkatan desa (Level 3). \n\n Plugin ini dibuat oleh orang asli Indonesia,jadi kualitas telah terjamin."
+    }
+}]

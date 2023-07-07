@@ -1,0 +1,16 @@
+[
+  {
+    "id": "$ITPYK_LUAMAN00",
+    "type": "tool",
+    "category": "$ITPYK_CAT_ROOT01",
+    "preview frames": [
+      {
+        "bmp": "ITPMANUAL.png"
+      }
+    ],
+    "strict lua": true,
+    "title": "Manual",
+    "text": "This is Manual.",
+    "script": "z_dialog.lua"
+  }
+]
