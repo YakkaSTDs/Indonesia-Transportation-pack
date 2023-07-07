@@ -1,0 +1,52 @@
+[
+  {
+    "id": "$ITPYK_ANIROCO_MARKB00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "blank.png",
+        "w": 32
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ANIROCO_MARKLINE00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Lurus.png",
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ANIROCO_MARKLINE01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Lurus.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROCO_LINE00",
+    "old id":"$K012ITP_ROCO_LINE00",
+    "type": "road decoration",
+    "title": "Straight line[in]Garis Lurus",
+    "text": ".",
+    "template": "$ITPYK_TEMP_RAMBU00",
+    "animation": [
+      {
+        "id": "$ITPYK_ANIROCO_MARKLINE00"
+      },
+      {
+        "id": "$ITPYK_ANIROCO_MARKLINE01"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []]
+  }
+]

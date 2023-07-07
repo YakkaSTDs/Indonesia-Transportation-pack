@@ -1,0 +1,306 @@
+[
+  {
+    "id": "$ITPYK_RODECO_BR00",
+    "old id":"$K012_ITPRODECO_BR00",
+    "type": "fence",
+    "price": 30,
+    "title": "Concrete medians[in]Median beton",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "concrete.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR01",
+    "old id":"$K012_ITPRODECO_BR01",
+    "type": "fence",
+    "price": 30,
+    "title": "Grass Median[in]Median Rumput",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "grass.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR02",
+    "old id":"$K012_ITPRODECO_BR02",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with grass[in]Median beton berpola dengan rumput",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "grass1.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR03",
+    "old id":"$K012_ITPRODECO_BR03",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with grass[in]Median beton berpola dengan rumput",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "grass2.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR04",
+    "old id":"$K012_ITPRODECO_BR04",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with grass[in]Median beton berpola dengan rumput",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "grass3.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR05",
+    "old id":"$K012_ITPRODECO_BR05",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median[in]Median beton berpola",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "median1.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR06",
+    "old id":"$K012_ITPRODECO_BR06",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median[in]Median beton berpola",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "median2.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR07",
+    "old id":"$K012_ITPRODECO_BR07",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median[in]Median beton berpola",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "median3.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR08",
+    "old id":"$K012_ITPRODECO_BR08",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Tree1.png",
+        "w": 18,
+        "count": 2,
+        "handle y": 15
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR09",
+    "old id":"$K012_ITPRODECO_BR09",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Tree2.png",
+        "w": 18,
+        "count": 2,
+        "handle y": 15
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR10",
+    "old id":"$K012_ITPRODECO_BR10",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Tree3.png",
+        "w": 18,
+        "count": 2,
+        "handle y": 15
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR11",
+    "old id":"$K012_ITPRODECO_BR11",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Palm1.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 24
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR12",
+    "old id":"$K012_ITPRODECO_BR12",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Palm2.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 24
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR13",
+    "old id":"$K012_ITPRODECO_BR13",
+    "type": "fence",
+    "price": 30,
+    "title": "Patterned concrete median with trees[in]Median beton berpola dengan pohon",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Palm3.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 24
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR14",
+    "old id":"$K012_ITPRODECO_BR14",
+    "type": "fence",
+    "price": 30,
+    "title": "Plastic temporary barrier[in]Pembatas sementara plastik",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "SemPlastik.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  },
+  {
+    "id": "$ITPYK_RODECO_BR15",
+    "old id":"$K012_ITPRODECO_BR15",
+    "type": "fence",
+    "price": 30,
+    "title": "Concrete temporary barrier[in]Pembatas sementara beton",
+    "removable": true,
+    "frames": [
+      {
+        "bmp": "Sembeton.png",
+        "w": 16,
+        "count": 2,
+        "handle y": 8
+      }
+    ],
+    "width": 1,
+    "height": 1,
+    "category": "$ITPYK_CAT_ROADDECO01"
+  }
+]

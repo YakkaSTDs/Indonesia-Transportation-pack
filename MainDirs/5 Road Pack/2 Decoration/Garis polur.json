@@ -1,0 +1,42 @@
+[
+  {
+    "id": "$ITPYK_ANIROCO_MARKPOLUR00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Polur.png",
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ANIROCO_MARKPOLUR01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Polur.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROCO_POLUR00",
+    "old id":"$K012ITP_ROCO_POLUR00",
+    "type": "road decoration",
+    "title": "speed bumb line[in]Garis polisi tidur",
+    "text": ".",
+    "template": "$ITPYK_TEMP_RAMBU00",
+    "animation": [
+      {
+        "id": "$ITPYK_ANIROCO_MARKPOLUR00"
+      },
+      {
+        "id": "$ITPYK_ANIROCO_MARKPOLUR01"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []]
+  }
+]

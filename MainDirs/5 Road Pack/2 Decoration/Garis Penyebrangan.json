@@ -1,0 +1,43 @@
+[
+  {
+    "id": "$ITPYK_ANIROCO_MARKCROS00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Penyebrangan.png",
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ANIROCO_MARKCROS01",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "Garis Penyebrangan.png",
+        "x": 32,
+        "w": 32,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$ITPYK_ROCO_CROS00",
+    "old id":"$K012ITP_ROCO_CROS00",
+    "type": "road decoration",
+    "title": "Crossing line[in]Garis Penyebrangan",
+    "text": ".",
+    "allow road crossing":true,
+    "template": "$ITPYK_TEMP_RAMBU00",
+    "animation": [
+      {
+        "id": "$ITPYK_ANIROCO_MARKCROS00"
+      },
+      {
+        "id": "$ITPYK_ANIROCO_MARKCROS01"
+      }
+    ],
+    "frame animation indices": [[0, 1], [0, 1], [1], [1], [0], [0], [], [], [0, 1], [0, 1], [1], [1], [0], [0], [], []]
+  }
+]
