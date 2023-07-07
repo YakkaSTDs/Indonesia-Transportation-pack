@@ -1,0 +1,97 @@
+[
+ 
+  {
+    "id": "$ITPYK_PLDECO00",
+    "old id":"$ITPK012_PLDECO00",
+    "type": "decoration",
+    "width": 1,
+    "height": 1,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "Peron.png",
+        "copies": 15,
+        "w":32
+      }
+    ],
+    "template": "$ITPYK_TEMP_FunPlatform00",
+    "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00"],
+    "title": "Station Platform[in]Peron stasiun",
+    "text": "Decorative station platform, you can add people on the platform using other plugins.[in]Peron stasiun dekoratif,anda bisa menambahkan orang-orang di peron menggunakan plugin lain."
+  },
+  
+  {
+    "id": "$ITPYK_PKNT00",
+    "old id":"$ITPK012_PKNT00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "Stasiun_Kontainer.png",
+        "count": 16,
+        "w": 32
+      }
+    ],
+    "template": "$ITPYK_TEMP_FunPlatform00",
+    "targets": ["$ITPYK_PKNT00"],
+    "title": "Cargo Platform[in]Platform Kargo",
+    "text": "Train will cross this platform.[in]Kereta akan melewati platform ini.\n hanya gunakan satu platform tengah atau tepi satiap stasiun! "
+  },
+  {
+    "id": "$ITPYK_FPK00",
+    "old id":"$ITPK012_FPK00",
+    "type": "railway station",
+    "width": 2,
+    "height": 2,
+    "ordinal":999,
+    "frames": [
+      {
+        "bmp": "CargoLoadingFacility.png",
+        "count": 4,
+        "w": 64
+      },
+      {
+        "bmp": "Depo_Jatinegara.png",
+        "count": 4,
+        "w": 64
+      }
+    ],
+    "template": "$ITPYK_TEMP_FunPlatform00",
+    "targets": ["$ITPYK_FPK00"],
+    "title": "Cargo Loading Facility[in]Fasilitas Pemuatan Kargo",
+    "text": "Train will cross this platform.[in]Kereta akan melewati platform ini.\n hanya gunakan satu platform tengah atau tepi satiap stasiun! "
+  },
+  {
+    "id": "$ITPYK_PLS00",
+    "old id":"$ITPK012_PLS00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      { "bmp": "Peron A.png", "w": 32, "h":27, "count": "4" },
+      { "bmp": "Peron B.png", "w": 32, "h":27, "count": "4" },
+      { "bmp": "Peron C.png", "w": 32, "h":19, "count": "4" },
+      { "bmp": "Peron D.png", "w": 32, "h":25, "count": "4" }
+    ],
+    "template":"$ITPYK_TEMP_FunPlatform00",
+    "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00"],
+    "title": "Platform[in]Peroni",
+    "text": ""
+  },
+  {
+    "id": "$ITPYK_PLC00",
+    "old id":"$ITPK012_PLC00",
+    "type": "railway station",
+    "width": 1,
+    "height": 1,
+    "frames": [
+      { "bmp": "ATPE.png", "w": 32, "h":27, "count": "4" }
+    ],
+    "template":"$ITPYK_TEMP_FunPlatform00",
+    "targets": ["$ITPYK_PLS00","$ITPYK_PLS01","$ITPYK_PLC00"],
+    "title": "Platform[in]Peron",
+    "text": ""
+  }
+]

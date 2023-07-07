@@ -1,0 +1,16 @@
+[
+  
+  { "id": "$railani_K012_Roof2", "type": "animation", "frames": [{ "bmp": "ATST.png", "x": 0, "w": 37, "handle y": 24,"handle x": 2 }] },
+  { "id": "$railani_K012_Roof4", "type": "animation", "frames": [{ "bmp": "ATST.png", "x": 37, "w": 35, "handle y": 23 }] },
+  {
+    "id": "$ITPYK_RADE_ROOF00",
+    "type": "road decoration",
+    "category": "$ITPYK_CAT_SPW01",
+    "template": "$ITPYK_TEMP_RailDeco00",
+    "title": "Atap Stasiun",
+    "text": "Kamu Nanya?",
+    "line tool": true,
+    "animation fg": [{ "id": "$railani_K012_Roof2" }, { "id": "$railani_K012_Roof4" }],
+    "frame animation fg indices": [[0, 1], [0], [0, 1], [], [0, 1], [0], [], [0], [1], [], [1], [], [], [], [1], []]
+  }
+]
